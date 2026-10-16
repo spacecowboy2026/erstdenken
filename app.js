@@ -48,7 +48,7 @@ themeBtn.onclick = () => {
 
 // ---------- Chat-Bausteine ----------
 let hurry = false;                           // Tippen in den Chat überspringt Wartezeiten
-chat.addEventListener('click', e => { if (!e.target.closest('a, .selectable')) hurry = true; });
+chat.addEventListener('click', e => { if (!e.target.closest('a, .selectable, .single-image img')) hurry = true; });
 function wait(ms) {
 	return new Promise(r => {
 		const t0 = Date.now();
@@ -61,7 +61,19 @@ const people = {
 	malia: { name: 'Malia, 12', icon: '🧒' }
 };
 let lastLeft = null;
-const scrollDown = () => window.scrollTo({ top: document.body.scrollHeight, behavior: hurry ? 'auto' : 'smooth' });
+// Kein automatisches Mitscrollen: Wer liest, bleibt, wo er ist.
+// Liegt Neues unterhalb des sichtbaren Bereichs, erscheint ein Hinweis zum Runterspringen.
+const pill = document.getElementById('newPill');
+const unterKante = () => {
+	const last = chat.lastElementChild;
+	return last ? last.getBoundingClientRect().bottom : 0;
+};
+const sichtbarBis = () => window.innerHeight - (dock.offsetHeight + 40);
+function scrollDown() { pill.classList.toggle('show', unterKante() > sichtbarBis() + 4); }
+function zumEnde() { window.scrollBy({ top: unterKante() - sichtbarBis() + 16, behavior: 'smooth' }); }
+pill.onclick = zumEnde;
+window.addEventListener('scroll', scrollDown, { passive: true });
+window.addEventListener('resize', scrollDown);
 function reveal(el) { void el.offsetWidth; el.classList.add('visible'); }
 function avatar(who) {
 	const p = people[who];
@@ -206,6 +218,22 @@ function ask(placeholder, hintText = '', skipLabel = '') {
 		ta.focus({ preventScroll: true });
 	});
 }
+// Bilder groß ansehen
+const lightbox = document.getElementById('lightbox');
+function zeigeGross(img) {
+	lightbox.querySelector('img').src = img.src;
+	lightbox.querySelector('img').alt = img.alt;
+	lightbox.querySelector('p').textContent = img.alt;
+	lightbox.classList.add('open');
+}
+const schliesseGross = () => lightbox.classList.remove('open');
+lightbox.onclick = schliesseGross;
+document.addEventListener('keydown', e => { if (e.key === 'Escape') schliesseGross(); });
+chat.addEventListener('click', e => {
+	const img = e.target.closest('.single-image img');
+	if (img) { e.stopPropagation(); zeigeGross(img); }
+}, true);
+
 const pick = arr => arr[Math.floor(Math.random() * arr.length)];
 const NUM = ['①', '②', '③', '④', '⑤', '⑥'];
 

@@ -14,25 +14,25 @@
 /* Dunkel: folgt dem System, außer man hat oben rechts umgeschaltet */
 @media (prefers-color-scheme: dark) {
 :root:not([data-theme="light"]) {
-	--text-primary: rgba(255, 255, 255, 1);
-	--text-secondary: rgba(255, 255, 255, .5);
-	--bg-primary: #161616;
-	--bg-secondary: #262626;
-	--bubble-right: #f2f2f2;
-	--bubble-right-text: #111111;
-	--border: rgba(255, 255, 255, 0.14);
-	--accent: #4da3ff;
+	--text-primary: #ffffff;
+	--text-secondary: rgba(235, 235, 245, .6);
+	--bg-primary: #000000;
+	--bg-secondary: #262628;
+	--bubble-right: #0a84ff;
+	--bubble-right-text: #ffffff;
+	--border: rgba(255, 255, 255, 0.16);
+	--accent: #0a84ff;
 }
 }
 :root[data-theme="dark"] {
---text-primary: rgba(255, 255, 255, 1);
---text-secondary: rgba(255, 255, 255, .5);
---bg-primary: #161616;
---bg-secondary: #262626;
---bubble-right: #f2f2f2;
---bubble-right-text: #111111;
---border: rgba(255, 255, 255, 0.14);
---accent: #4da3ff;
+--text-primary: #ffffff;
+--text-secondary: rgba(235, 235, 245, .6);
+--bg-primary: #000000;
+--bg-secondary: #262628;
+--bubble-right: #0a84ff;
+--bubble-right-text: #ffffff;
+--border: rgba(255, 255, 255, 0.16);
+--accent: #0a84ff;
 }
 body { transition: background .3s ease, color .3s ease; }
 
@@ -354,3 +354,67 @@ margin-top: 40px;
 .stat span { font-size: 12px; color: var(--text-secondary); }
 
 .container { margin-top: 76px; }
+
+/* Hinweis auf neue Nachrichten unten (kein automatisches Mitscrollen) */
+.new-pill {
+	position: fixed;
+	left: 50%;
+	bottom: 120px;
+	transform: translateX(-50%) translateY(8px);
+	opacity: 0;
+	pointer-events: none;
+	z-index: 15;
+	font: inherit;
+	font-size: var(--font-size-small);
+	letter-spacing: inherit;
+	color: var(--bubble-right-text);
+	background: var(--bubble-right);
+	border: none;
+	border-radius: 20px;
+	padding: 8px 14px;
+	cursor: pointer;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, .18);
+	transition: opacity .25s ease, transform .25s ease;
+}
+.new-pill.show { opacity: 1; transform: translateX(-50%); pointer-events: auto; }
+
+/* Bilder groß ansehen */
+.single-image img { cursor: zoom-in; }
+.lightbox {
+	position: fixed;
+	inset: 0;
+	z-index: 50;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
+	padding: 24px 16px;
+	background: rgba(0, 0, 0, .97);
+	cursor: zoom-out;
+}
+.lightbox.open { display: flex; }
+.lightbox img {
+	max-width: 100%;
+	max-height: 80vh;
+	object-fit: contain;
+	border-radius: 12px;
+}
+.lightbox p {
+	margin: 0;
+	max-width: 560px;
+	color: rgba(255, 255, 255, .75);
+	font-size: var(--font-size-small);
+	text-align: center;
+}
+.lightbox__close {
+	position: absolute;
+	top: 14px; right: 14px;
+	height: 40px; width: 40px;
+	border-radius: 40px;
+	border: 1px solid rgba(255, 255, 255, .25);
+	background: transparent;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}

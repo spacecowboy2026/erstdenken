@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
 	<meta name="description" content="Jeden Tag ein Fall aus Geschichte und Alltag. Erst du, dann die Auflösung.">
 	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="#161616" media="(prefers-color-scheme: dark)">
+	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗂️</text></svg>">
 	<link rel="stylesheet" href="style.css">
 	<script>
@@ -26,10 +26,17 @@
 
 <main class="container">
 	<div class="chat" id="chat"></div>
-	<div class="footer" id="footer">erstdenken · Testversion · Bilder: Wikimedia Commons, Lizenz jeweils unter dem Bild</div>
 </main>
 
+<button class="new-pill" id="newPill" type="button">↓ Neue Nachricht</button>
+
 <div class="dock"><div class="dock__inner" id="dock"></div></div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Bild groß">
+	<button class="lightbox__close" type="button" aria-label="Schließen">✕</button>
+	<img alt="">
+	<p></p>
+</div>
 
 <section class="sheet" id="sheet" aria-label="Alle Tage">
 	<div class="sheet__inner" id="sheetInner"></div>
