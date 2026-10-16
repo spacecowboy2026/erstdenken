@@ -57,7 +57,7 @@ function wait(ms) {
 	});
 }
 const people = {
-	ki: { name: 'Akte · deine Mitdetektivin', icon: '🗂️' },
+	ki: { name: 'Fall des Tages', icon: '🔍' },
 	malia: { name: 'Malia, 12', icon: '🧒' }
 };
 let lastLeft = null;
@@ -278,10 +278,10 @@ async function spieleFall(k, tag, zaehlt) {
 
 	if (zaehlt) r.abrufe = await abruf(tag);
 	if (tag === 1 && !r.abrufe.length) {
-		await say('Hallo! Ich bin die Akte, deine Mitdetektivin. 🗂️');
-		await say('So geht’s: Ich zeige dir einen Fall. Du rätst zuerst. Hinweise gibt’s, aber sie kosten Punkte. Erst dann öffne ich die Akte.');
+		await say('Hallo! Hier ist dein Fall des Tages. 🔍');
+		await say('So geht’s: Ich zeige dir einen Fall. Du rätst zuerst. Hinweise gibt’s, aber sie kosten Punkte. Erst dann löse ich auf. Und jeden Tag lernst du was Neues.');
 	} else if (!r.abrufe.length) {
-		await say(pick(['Moin! Neuer Fall. 👋', 'Da bist du ja. Neue Akte.', 'Hallo! Heute wird’s spannend.']));
+		await say(pick(['Moin! Neuer Fall. 👋', 'Da bist du ja. Neuer Fall.', 'Hallo! Heute wird’s spannend.']));
 	}
 
 	await note('— Fall des Tages —', 800);
@@ -308,7 +308,7 @@ async function spieleFall(k, tag, zaehlt) {
 	r.tipp = tipp;
 	r.richtig = tipp === k.richtig;
 
-	await note('— die Akte wird geöffnet —', 1500);
+	await note('— Auflösung —', 1500);
 	if (r.richtig) {
 		await say(r.hinweise === 0 ? 'Richtig. Ganz ohne Hinweis. 🔥' : `Richtig. Mit ${r.hinweise} Hinweis${r.hinweise > 1 ? 'en' : ''}.`);
 		if (r.sicherheit === 50) await say('Und du warst nur 50 % sicher. Du weißt mehr, als du dir zutraust.');
@@ -453,7 +453,7 @@ async function abschluss(k, tag, r, zaehlt) {
 		r.share = text;
 		state.gespielt[tag] = r;
 		save();
-		if (tag < TOTAL) await say(k.typ === 'fall' ? 'Morgen frag ich dich nach diesem Fall. Bis dann!' : 'Bis morgen, neue Akte!');
+		if (tag < TOTAL) await say(k.typ === 'fall' ? 'Morgen frag ich dich nach diesem Fall. Bis dann!' : 'Bis morgen, neuer Fall!');
 		else await say('Das war der letzte Tag. Danke fürs Mitdenken! Unter „Tage“ siehst du deine Bilanz.');
 	} else {
 		await say('Das war eine Probe, sie zählt nicht.');
@@ -563,9 +563,9 @@ async function schonGespielt(tag) {
 }
 async function vorDemStart() {
 	label.textContent = 'erstdenken';
-	await say('Hallo! Ich bin die Akte, deine Mitdetektivin. 🗂️');
+	await say('Hallo! Hier ist dein Fall des Tages. 🔍');
 	await say(`Ab ${fmt(START)} bekommst du jeden Tag einen Fall aus Geschichte und Alltag. ${TOTAL} Tage lang.`);
-	await say('Die Regel ist einfach: Erst denkst du, dann öffne ich die Akte.');
+	await say('Die Regel ist einfach: Erst denkst du, dann löse ich auf. Und jeden Tag lernst du was Neues.');
 	const w = await choose(['Probe spielen', 'Bis dann!'], { quiet: ['Bis dann!'] });
 	if (w === 'Probe spielen') { chat.innerHTML = ''; lastLeft = null; await spiele(1, false); }
 	else await say(`Bis ${fmt(START)}! 👋`);

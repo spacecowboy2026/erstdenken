@@ -887,7 +887,7 @@ window.ERSTDENKEN = {
    "typ": "fehlerjagd",
    "titel": "Fehlerjagd 1",
    "einstieg": [
-    "Tag 7. Heute keine neue Akte.",
+    "Tag 7. Heute kein neuer Fall.",
     "Hier ist meine Zusammenfassung deiner ersten sechs Fälle. Drei Sätze stimmen nicht.",
     "Tipp die falschen an. Du kannst eine Markierung wieder lösen. Wenn du sicher bist: „Fertig“."
    ],
@@ -1790,7 +1790,7 @@ window.ERSTDENKEN = {
    "typ": "fehlerjagd",
    "titel": "Fehlerjagd 2",
    "einstieg": [
-    "Tag 14. Heute keine neue Akte.",
+    "Tag 14. Heute kein neuer Fall.",
     "Hier ist meine Zusammenfassung deiner letzten sechs Fälle. Drei Sätze stimmen nicht.",
     "Tipp die falschen an. Du kannst eine Markierung wieder lösen. Wenn du sicher bist: „Fertig“."
    ],
@@ -1829,7 +1829,7 @@ window.ERSTDENKEN = {
      "fall": "erste-ampel"
     }
    ],
-   "schluss": "Zwei Wochen, zwölf Akten. Und du hast der KI widersprochen, wo es nötig war.",
+   "schluss": "Zwei Wochen, zwölf Fälle. Und du hast der KI widersprochen, wo es nötig war.",
    "tag": 14,
    "id": "fehlerjagd-2"
   }

@@ -1,6 +1,6 @@
 # erstdenken · Fall des Tages
 
-Jeden Tag ein Fall aus Geschichte und Alltag, im Chat. Erst denkst du, dann öffnet die Akte die Auflösung.
+Jeden Tag ein Fall aus Geschichte und Alltag, im Chat. Erst denkst du, dann kommt die Auflösung. Jeden Tag lernst du was Neues.
 
 Spielen: https://spacecowboy2026.github.io/erstdenken/
 
