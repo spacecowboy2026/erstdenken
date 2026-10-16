@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<title>erstdenken · Fall des Tages</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+	<meta name="description" content="Jeden Tag ein Fall aus Geschichte und Alltag. Erst du, dann die Auflösung.">
+	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="#161616" media="(prefers-color-scheme: dark)">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗂️</text></svg>">
+	<link rel="stylesheet" href="style.css">
+	<script>
+		// Hell/Dunkel vor dem ersten Zeichnen setzen, damit nichts flackert
+		try { const t = localStorage.getItem('erstdenken.theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
+	</script>
+</head>
+<body>
+
+<header class="topbar">
+	<div class="topbar__label" id="label">erstdenken</div>
+	<div class="topbar__actions">
+		<button class="round-btn" id="daysBtn" aria-label="Alle Tage">Tage</button>
+		<button class="round-btn" id="themeBtn" aria-label="Hell oder dunkel">☾</button>
+	</div>
+</header>
+
+<main class="container">
+	<div class="chat" id="chat"></div>
+	<div class="footer" id="footer">erstdenken · Testversion · Bilder: Wikimedia Commons, Lizenz jeweils unter dem Bild</div>
+</main>
+
+<div class="dock"><div class="dock__inner" id="dock"></div></div>
+
+<section class="sheet" id="sheet" aria-label="Alle Tage">
+	<div class="sheet__inner" id="sheetInner"></div>
+</section>
+
+<script src="daten/karten.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
