@@ -221,8 +221,10 @@ function ask(placeholder, hintText = '', skipLabel = '') {
 // Bilder groß ansehen
 const lightbox = document.getElementById('lightbox');
 function zeigeGross(img) {
-	lightbox.querySelector('img').src = img.src;
-	lightbox.querySelector('img').alt = img.alt;
+	let gross = lightbox.querySelector('img');
+	if (!gross) { gross = document.createElement('img'); lightbox.insertBefore(gross, lightbox.querySelector('p')); }
+	gross.src = img.src;
+	gross.alt = img.alt;
 	lightbox.querySelector('p').textContent = img.alt;
 	lightbox.classList.add('open');
 }
