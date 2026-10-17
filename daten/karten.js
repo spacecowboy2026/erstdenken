@@ -7257,6 +7257,887 @@ window.ERSTDENKEN = {
     }
    ],
    "id": "nazca"
+  },
+  {
+   "typ": "fall",
+   "titel": "Mona-Lisa-Diebstahl",
+   "einstieg": [
+    "Paris, 1907. Der Reiseführer Baedeker widmet der Mona Lisa im Louvre ganze zwei Sätze. Für die Venus von Milo hat er mehr übrig.",
+    "Heute stehen jedes Jahr rund acht Millionen Menschen vor ihr.",
+    "Irgendwann dazwischen wurde aus einem Bild unter vielen das wohl berühmteste Gemälde der Welt."
+   ],
+   "frage": "Was hat die Mona Lisa so berühmt gemacht?",
+   "chips": [
+    "Ihr rätselhaftes Lächeln",
+    "Eine Reise nach Amerika",
+    "Eine Werbeaktion des Louvre",
+    "Ein Diebstahl"
+   ],
+   "richtig": "Ein Diebstahl",
+   "hinweise": [
+    "Das Lächeln hatte sie 1907 auch schon, als der Baedeker ihr nur zwei Sätze gönnte. Am Bild selbst hat sich nichts geändert.",
+    "Die Reise nach Amerika kam erst 1963. Schon 1914 standen in Paris in nur zwei Tagen über 100.000 Menschen vor ihr.",
+    "Werbung machte der Louvre keine. Im August 1911 merkte er über einen Tag lang nicht einmal, dass etwas fehlte. Danach kamen Tausende, um eine leere Wand anzustarren."
+   ],
+   "aufloesung": [
+    "Ein Diebstahl. Am Montag, dem 21. August 1911, war der Louvre geschlossen. Der Handwerker Vincenzo Peruggia nahm die Mona Lisa von der Wand und trug sie unter seinem Arbeitskittel hinaus.",
+    "Er kannte sich aus: Ein Jahr zuvor hatte er geholfen, Gemälde im Louvre hinter Glas zu setzen, auch die Mona Lisa. Erst nach 26 Stunden fiel auf, dass sie fehlte.",
+    "Dann ging es los: Schlagzeilen auf der ganzen Welt, Fahndungsplakate, Spottpostkarten, Lieder. Sogar Pablo Picasso wurde als Verdächtiger festgenommen und bald wieder freigelassen.",
+    "Als der Louvre nach einer Woche wieder öffnete, starrten Tausende auf die leere Wand mit den vier Eisenhaken. Unter ihnen: Franz Kafka.",
+    "Über zwei Jahre blieb das Bild verschwunden. Im Dezember 1913 wollte Peruggia es in Florenz einem Kunsthändler verkaufen. Der rief die Polizei."
+   ],
+   "dreh": "Nicht ihr Lächeln machte die Mona Lisa weltberühmt, sondern die Lücke, die sie hinterließ.",
+   "warum": {
+    "frage": "1907 bekam die Mona Lisa zwei Sätze im Reiseführer, 1914 drängten sich Massen vor ihr. Wie konnte ausgerechnet ein Diebstahl das schaffen?",
+    "nachfrage": "Und warum war das Thema nicht nach ein paar Tagen wieder vergessen?",
+    "gruende": [
+     {
+      "text": "Zeitungen auf der ganzen Welt brachten Schlagzeilen, dazu kamen Fahndungsplakate, Postkarten und Lieder. Plötzlich kannte jeder die Mona Lisa.",
+      "worte": [
+       "zeitung",
+       "schlagzeil",
+       "presse",
+       "plakat",
+       "postkart",
+       "lieder",
+       "weltweit",
+       "bericht"
+      ]
+     },
+     {
+      "text": "Das Bild blieb über zwei Jahre verschwunden, und sogar Berühmtheiten wie Picasso gerieten unter Verdacht. Das Rätsel hielt die Spannung hoch.",
+      "worte": [
+       "jahre",
+       "verschwund",
+       "rätsel",
+       "spannung",
+       "picasso",
+       "verdacht",
+       "gesucht",
+       "krimi"
+      ]
+     },
+     {
+      "text": "Schon die leere Wand wurde zur Attraktion. Als das Bild zurückkam, strömten die Massen: über 100.000 Menschen in zwei Tagen.",
+      "worte": [
+       "leer",
+       "wand",
+       "haken",
+       "tausend",
+       "besucher",
+       "massen",
+       "zurück",
+       "kafka"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Der Dieb Vincenzo Peruggia hatte vorher im Louvre gearbeitet und Gemälde hinter Glas gesetzt.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Mona Lisa blieb nach dem Diebstahl rund drei Monate verschwunden.",
+     "falsch": true,
+     "korrektur": "Über zwei Jahre. Gestohlen im August 1911, wiedergefunden im Dezember 1913 in Florenz."
+    },
+    {
+     "satz": "Nach der Wiedereröffnung kamen Tausende, nur um die leere Wand anzusehen.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wieso wird ein Bild berühmter, wenn es weg ist? Man kann es doch gar nicht mehr anschauen! 🤔",
+    "punkte": [
+     {
+      "name": "alle haben davon gehört, die Zeitungen waren voll davon",
+      "worte": [
+       "zeitung",
+       "nachricht",
+       "schlagzeil",
+       "presse",
+       "überall",
+       "weltweit",
+       "gehört"
+      ],
+      "nachfrage": "Aber woher wussten die ganzen Leute überhaupt, dass es weg war?"
+     },
+     {
+      "name": "es war ein spannendes Rätsel, über zwei Jahre lang",
+      "worte": [
+       "rätsel",
+       "spannend",
+       "verschwund",
+       "gesucht",
+       "jahre",
+       "krimi",
+       "dieb"
+      ],
+      "nachfrage": "Und warum haben die das nicht nach einer Woche wieder vergessen?"
+     },
+     {
+      "name": "die Leute kamen sogar, um die leere Wand zu sehen",
+      "worte": [
+       "wand",
+       "leer",
+       "lücke",
+       "haken",
+       "tausend",
+       "besucher",
+       "angucken",
+       "anschauen"
+      ],
+      "nachfrage": "Und was haben die Leute dann im Museum gemacht, wenn da gar nichts hing?"
+     }
+    ],
+    "allesDrin": "Und hat der Dieb wenigstens was davon gehabt?",
+    "verstanden": "Ahh, das Bild ist quasi durchs Verschwinden berühmt geworden. Voll verrückt. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "In welcher Stadt tauchte die gestohlene Mona Lisa 1913 wieder auf?",
+    "chips": [
+     "Rom",
+     "Florenz",
+     "London",
+     "New York"
+    ],
+    "richtig": "Florenz"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 3,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mona_Lisa_stolen-1911.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Mona_Lisa_stolen-1911.jpg",
+     "text": "Der leere Platz der Mona Lisa im Salon Carré des Louvre, 1911. Ringsum hängen die anderen Gemälde weiter.",
+     "credit": "unbekannt · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "James Zug: Stolen: How the Mona Lisa Became the World's Most Famous Painting – Smithsonian Magazine",
+     "url": "https://www.smithsonianmag.com/arts-culture/stolen-how-the-mona-lisa-became-the-worlds-most-famous-painting-16406234/"
+    },
+    {
+     "name": "Mona Lisa (painting) – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Mona-Lisa-painting"
+    },
+    {
+     "name": "Marcel Niedermann: Der Diebstahl der Gioconda – der Raub, der die Mona Lisa weltberühmt machte, 23.11.2025 – SRF",
+     "url": "https://www.srf.ch/news/international/der-diebstahl-der-gioconda-der-raub-der-die-mona-lisa-weltberuehmt-machte"
+    }
+   ],
+   "id": "mona-lisa-diebstahl"
+  },
+  {
+   "typ": "fall",
+   "titel": "Gardner-Museum",
+   "einstieg": [
+    "Boston, 18. März 1990, mitten in der Nacht. Die Stadt hat gerade den St. Patrick's Day gefeiert.",
+    "Aus dem Isabella Stewart Gardner Museum verschwinden 13 Kunstwerke. Darunter Vermeers „Das Konzert“ und Rembrandts einziges bekanntes Seestück.",
+    "Heute schätzt man die Beute auf über 500 Millionen Dollar. Es gilt als größter Kunstraub der Geschichte."
+   ],
+   "frage": "Wie kamen die Diebe ins Museum?",
+   "chips": [
+    "Durch ein Dachfenster",
+    "Mit einem nachgemachten Schlüssel",
+    "Sie versteckten sich vorher drin",
+    "Der Wachmann ließ sie rein"
+   ],
+   "richtig": "Der Wachmann ließ sie rein",
+   "hinweise": [
+    "Kein Fenster ging zu Bruch. Die Männer kamen durch eine ganz normale Tür: den Personaleingang.",
+    "Sie kamen von draußen und klingelten mitten in der Nacht an der Gegensprechanlage. Wer einen Schlüssel hat, muss nicht klingeln.",
+    "Die beiden trugen Polizeiuniformen. Über die Sprechanlage sagten sie, sie kämen wegen einer Ruhestörung."
+   ],
+   "aufloesung": [
+    "Der Wachmann ließ sie rein. Gegen die Vorschrift öffnete er den beiden „Polizisten“ den Personaleingang.",
+    "Auf ihre Anweisung trat er vom Wachpult weg. Dann brachten sie ihn und einen zweiten Wachmann in den Keller und fesselten sie mit Handschellen.",
+    "In Ruhe schnitten die Diebe zwei Rembrandts aus den Rahmen. Um 2:45 Uhr fuhren sie davon. Die Wachleute blieben gefesselt, bis um 8:15 Uhr die Polizei kam.",
+    "Gelöst ist der Fall bis heute nicht. Das Museum bietet 10 Millionen Dollar Belohnung, und die leeren Rahmen hängen noch immer an der Wand."
+   ],
+   "dreh": "Die Diebe mussten nichts aufbrechen. Eine Uniform und eine Ausrede reichten, damit man ihnen die Tür aufmachte.",
+   "warum": {
+    "frage": "Ein Museum voller Schätze, mit Wachleuten und Vorschriften. Wie konnten zwei Männer trotzdem einfach hineinspazieren?",
+    "nachfrage": "Und warum hatten die Diebe danach so viel Zeit, ohne dass jemand Hilfe holte?",
+    "gruende": [
+     {
+      "text": "Sie trugen Polizeiuniformen und hatten eine glaubwürdige Ausrede: eine Ruhestörung.",
+      "worte": [
+       "polizei",
+       "uniform",
+       "verkleid",
+       "ausrede",
+       "ruhestörung",
+       "vertrau",
+       "glaubwürd",
+       "kostüm"
+      ]
+     },
+     {
+      "text": "Der Wachmann brach die Vorschrift und öffnete ihnen den Personaleingang, statt sie draußen zu lassen.",
+      "worte": [
+       "wachmann",
+       "vorschrift",
+       "regel",
+       "tür",
+       "aufgemacht",
+       "reingelassen",
+       "öffn",
+       "eingang"
+      ]
+     },
+     {
+      "text": "Auf ihre Anweisung verließ er das Wachpult. Danach lagen beide Wachleute gefesselt im Keller, und niemand konnte Hilfe holen.",
+      "worte": [
+       "pult",
+       "verließ",
+       "gefesselt",
+       "keller",
+       "handschell",
+       "alarm",
+       "niemand",
+       "wachleute"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Die Diebe trugen Polizeiuniformen.",
+     "falsch": false
+    },
+    {
+     "satz": "Der Fall wurde wenige Jahre später aufgeklärt, die Bilder kamen zurück ins Museum.",
+     "falsch": true,
+     "korrektur": "Der Fall ist bis heute ungelöst, die 13 Werke fehlen noch immer. Die leeren Rahmen hängen weiter im Museum."
+    },
+    {
+     "satz": "Unter der Beute war ein Gemälde von Vermeer.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum macht ein Wachmann denn Dieben die Tür auf?? Genau das soll er doch nicht! 😳",
+    "punkte": [
+     {
+      "name": "die sahen aus wie echte Polizisten",
+      "worte": [
+       "polizei",
+       "polizist",
+       "uniform",
+       "verkleid",
+       "kostüm",
+       "echt"
+      ],
+      "nachfrage": "Aber wieso hat er ausgerechnet denen vertraut?"
+     },
+     {
+      "name": "sie hatten eine Ausrede (Ruhestörung)",
+      "worte": [
+       "ausrede",
+       "ruhestörung",
+       "lärm",
+       "gelogen",
+       "lüge",
+       "behauptet",
+       "notfall"
+      ],
+      "nachfrage": "Und was haben die gesagt, warum sie mitten in der Nacht reinwollen?"
+     },
+     {
+      "name": "er hat gegen die Regel verstoßen",
+      "worte": [
+       "regel",
+       "vorschrift",
+       "verboten",
+       "eigentlich",
+       "durfte",
+       "fehler",
+       "verstoß"
+      ],
+      "nachfrage": "Durfte er denn überhaupt jemanden reinlassen?"
+     }
+    ],
+    "allesDrin": "Und hat man die Bilder jemals wiedergefunden?",
+    "verstanden": "Ahh, die haben sich als die Guten verkleidet. Fies, aber schlau. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Als was verkleideten sich die Diebe im Gardner Museum?",
+    "chips": [
+     "Als Feuerwehrleute",
+     "Als Putzkräfte",
+     "Als Polizisten",
+     "Als Museumsführer"
+    ],
+    "richtig": "Als Polizisten"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Empty_Frames_at_Isabella_Stewart_Gardner_Museum.jpg/960px-Empty_Frames_at_Isabella_Stewart_Gardner_Museum.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Empty_Frames_at_Isabella_Stewart_Gardner_Museum.jpg",
+     "text": "Ein leerer Rahmen im Gardner Museum. Hier hing Rembrandts Sturm auf dem See Genezareth.",
+     "credit": "Federal Bureau of Investigation (FBI), 2013 · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "The Theft – Isabella Stewart Gardner Museum",
+     "url": "https://www.gardnermuseum.org/about/theft"
+    },
+    {
+     "name": "Inside the world's largest art heist when over $500M of paintings were stolen from a Boston museum, 26.04.2026 – Associated Press (hier über NY1)",
+     "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/04/26/inside-the-worlds-largest-art-heist-when-over-500m-of-paintings-were-stolen-from-a-boston-museum"
+    },
+    {
+     "name": "FBI confident they know who carried out famed 23-year-old $500-million art heist, offers reward, 2013 – NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/fbi-confident-they-know-who-carried-out-famed-23-year-flna1C8929972"
+    },
+    {
+     "name": "The Storm on the Sea of Galilee – Wikipedia (englisch)",
+     "url": "https://en.wikipedia.org/wiki/The_Storm_on_the_Sea_of_Galilee"
+    }
+   ],
+   "id": "gardner-museum"
+  },
+  {
+   "typ": "fall",
+   "titel": "Grünes Gewölbe",
+   "einstieg": [
+    "Dresden, Montag, 25. November 2019, frühmorgens. Im Residenzschloss liegt das Historische Grüne Gewölbe. Hier wird ein Teil des sächsischen Staatsschatzes gezeigt.",
+    "Kurz darauf fehlen 21 Schmuckstücke mit über 4.300 Diamanten und Brillanten. Versicherungswert: mindestens 113,8 Millionen Euro.",
+    "Die Täter sind nur wenige Minuten im Gebäude."
+   ],
+   "frage": "Wie kamen die Täter an die Juwelen?",
+   "chips": [
+    "Ein Hacker legte den Alarm lahm",
+    "Durch einen Tunnel",
+    "Mit einem Schlüssel von innen",
+    "Durch ein Fenster, mit Äxten"
+   ],
+   "richtig": "Durch ein Fenster, mit Äxten",
+   "hinweise": [
+    "Der Alarm funktionierte. Zwei Wachleute sahen die Täter live auf ihren Monitoren und riefen die Polizei.",
+    "Ein Gitter vor einem Fenster des Schlosses hatten die Täter schon vorher durchtrennt und wieder hingeklebt. Niemand bemerkte es.",
+    "Die Vitrine knackten sie nicht, sie zertrümmerten sie. Mit einem Werkzeug, das man sonst zum Holzhacken nimmt."
+   ],
+   "aufloesung": [
+    "Durch ein Fenster, mit Äxten. Kurz vorher legten Komplizen Feuer an einem Stromverteiler an der Augustusbrücke. Draußen am Schloss gingen die Straßenlaternen aus.",
+    "Das Gitter vor dem Fenster war schon vorher präpariert. Zwei Täter stiegen ein und zertrümmerten eine Vitrine mit Äxten.",
+    "Die Wachleute sahen alles auf den Monitoren. Eingreifen durften sie nicht, sie riefen die Polizei. Die Täter entkamen wenige Sekunden, bevor sie eintraf.",
+    "2023 verurteilte das Landgericht Dresden fünf Männer aus der Berliner Großfamilie Remmo zu mehrjährigen Haftstrafen. Der sechste Angeklagte wurde freigesprochen.",
+    "Nach einer Absprache vor Gericht kam ein Großteil der Beute zurück, teils beschädigt. Einige Stücke fehlen bis heute."
+   ],
+   "dreh": "Kein Hacker, kein Tunnel. Ein Feuer, ein vorbereitetes Gitter und Äxte reichten, um den Staatsschatz auszurauben.",
+   "warum": {
+    "frage": "Alarm, Kameras, Wachleute – und trotzdem waren die Täter weg, bevor die Polizei kam. Wie konnte so ein einfacher Plan klappen?",
+    "nachfrage": "Und warum hielten die Wachleute die Täter nicht auf, obwohl sie alles sahen?",
+    "gruende": [
+     {
+      "text": "Das Gitter war schon vorher präpariert, und niemand hatte es bemerkt. So ging der Einstieg blitzschnell.",
+      "worte": [
+       "gitter",
+       "vorher",
+       "präpar",
+       "durchtrennt",
+       "geklebt",
+       "bemerkt",
+       "vorbereit",
+       "fenster"
+      ]
+     },
+     {
+      "text": "Das Feuer am Stromverteiler ließ draußen die Straßenlaternen ausgehen. Die Täter arbeiteten im Dunkeln.",
+      "worte": [
+       "feuer",
+       "brand",
+       "strom",
+       "laterne",
+       "dunkel",
+       "licht",
+       "verteiler",
+       "brücke"
+      ]
+     },
+     {
+      "text": "Die Wachleute durften nicht eingreifen und mussten auf die Polizei warten. Die Täter waren schneller, nur wenige Minuten im Gebäude.",
+      "worte": [
+       "wachleute",
+       "eingreif",
+       "durft",
+       "polizei",
+       "warten",
+       "schnell",
+       "minuten",
+       "sekunden"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Vor dem Einbruch zündeten Komplizen einen Stromverteiler an.",
+     "falsch": false
+    },
+    {
+     "satz": "2023 wurden alle sechs Angeklagten verurteilt.",
+     "falsch": true,
+     "korrektur": "Verurteilt wurden fünf Männer, der sechste Angeklagte wurde freigesprochen."
+    },
+    {
+     "satz": "Die Täter zertrümmerten eine Vitrine mit Äxten.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wie kann man denn mit einer Axt eine Schatzkammer ausrauben? Die haben doch bestimmt Laser und so! 🤔",
+    "punkte": [
+     {
+      "name": "das Gitter war vorher schon kaputt gemacht",
+      "worte": [
+       "gitter",
+       "vorher",
+       "präpar",
+       "durchgesägt",
+       "durchtrennt",
+       "fenster",
+       "geklebt"
+      ],
+      "nachfrage": "Aber vor den Fenstern sind doch Gitter. Wie sind die da durchgekommen?"
+     },
+     {
+      "name": "Stromkasten angezündet, draußen war es dunkel",
+      "worte": [
+       "strom",
+       "feuer",
+       "brand",
+       "licht",
+       "laterne",
+       "dunkel",
+       "angezündet"
+      ],
+      "nachfrage": "Und hat die draußen keiner gesehen?"
+     },
+     {
+      "name": "die Wachleute durften nicht eingreifen, die Polizei kam zu spät",
+      "worte": [
+       "wachleute",
+       "wächter",
+       "polizei",
+       "spät",
+       "eingreif",
+       "durft",
+       "schnell"
+      ],
+      "nachfrage": "Aber die Wachleute haben das doch gesehen! Warum haben die nichts gemacht?"
+     }
+    ],
+    "allesDrin": "Und haben die alles wieder zurückgegeben?",
+    "verstanden": "Ahh, also gar kein Hightech, nur gut vorbereitet und schnell. Krass. 😮",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was zündeten Komplizen vor dem Einbruch ins Grüne Gewölbe an?",
+    "chips": [
+     "Ein Polizeiauto",
+     "Einen Stromverteiler",
+     "Das Museumsdach",
+     "Eine Tankstelle"
+    ],
+    "richtig": "Einen Stromverteiler"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/B%C3%B3veda_verde_Dresden_Ventana_de_entrada_del_robo_2019.jpg/960px-B%C3%B3veda_verde_Dresden_Ventana_de_entrada_del_robo_2019.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:B%C3%B3veda_verde_Dresden_Ventana_de_entrada_del_robo_2019.jpg",
+     "text": "Das Fenster am Dresdner Residenzschloss, durch das die Täter einstiegen. Aufgenommen drei Wochen nach dem Einbruch.",
+     "credit": "Bambizoe (Flickr-Nutzerin aus Dresden), 18.12.2019 · CC0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Einbruch in das Historische Grüne Gewölbe – Staatsanwaltschaft Dresden erhebt Anklage, Medieninformation vom 02.09.2021 – Staatsanwaltschaft Dresden",
+     "url": "https://www.justiz.sachsen.de/stadd/download/Medieninformation_Anklage_Jugendkammer_02.09.2021.pdf"
+    },
+    {
+     "name": "Einbruch in Grünes Gewölbe in Dresden: Urteil ist rechtskräftig (nach Mitteilung des BGH) – t-online",
+     "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100384222/dresden-einbruch-in-gruenes-gewoelbe-in-dresden-urteil-ist-rechtskraeftig.html"
+    },
+    {
+     "name": "Jo Lawson-Tancred: A German Court Has Convicted Five Men Over Their Involvement in the Shocking $119 Million Dresden Jewel Heist, 16.05.2023 – artnet News",
+     "url": "https://news.artnet.com/art-world-archives/a-german-court-has-convicted-five-men-over-their-involvement-in-the-shocking-119-million-dresden-jewel-heist-2302549"
+    },
+    {
+     "name": "Einbruch in Dresdens Schatzkammer Grünes Gewölbe (mit dpa), 25.11.2019 – Berliner Zeitung",
+     "url": "https://www.berliner-zeitung.de/article/einbruch-in-dresdens-schatzkammer-gruenes-gewoelbe-2009"
+    }
+   ],
+   "id": "gruenes-gewoelbe"
+  },
+  {
+   "typ": "fall",
+   "titel": "Schrei-Diebstahl",
+   "einstieg": [
+    "Oslo, Samstag, 12. Februar 1994, frühmorgens. Am selben Tag werden in Lillehammer die Olympischen Winterspiele eröffnet.",
+    "Zwei Männer lehnen eine Leiter an die Nationalgalerie, schlagen ein Fenster ein und nehmen Edvard Munchs „Der Schrei“ von der Wand.",
+    "Dauer: 50 Sekunden. Zurück bleibt eine Karte: „Tausend Dank für die schlechte Sicherung!“"
+   ],
+   "frage": "Wie kam der Schrei zurück ins Museum?",
+   "chips": [
+    "Das Museum zahlte Lösegeld",
+    "Er tauchte bei einer Auktion auf",
+    "Die Diebe brachten ihn zurück",
+    "Ein Polizist spielte den Käufer"
+   ],
+   "richtig": "Ein Polizist spielte den Käufer",
+   "hinweise": [
+    "Einen Monat später kam eine Lösegeldforderung über eine Million Dollar. Bezahlt wurde sie nicht.",
+    "Offen verkaufen ließ sich das Bild nicht. Der Museumsdirektor sagte gleich: Jeder kennt es, man kann es unmöglich verkaufen.",
+    "Scotland Yard schickte einen Kunstfahnder nach Norwegen. Er nannte sich „Christopher Roberts“ und gab sich als Mann des Getty-Museums aus, der viel Geld bot."
+   ],
+   "aufloesung": [
+    "Ein Polizist spielte den Käufer. Charles Hill von der Kunst-Einheit von Scotland Yard trat als Einkäufer des Getty-Museums auf. Das Museum spielte mit.",
+    "Über einen Kunsthändler kam Hill an die Diebe heran und vereinbarte einen Preis.",
+    "Am 7. Mai 1994 hielt er den Schrei in Åsgårdstrand, einem Badeort südlich von Oslo, in den Händen. Unbeschädigt.",
+    "Vier Männer wurden verurteilt. Drei kamen in der Berufung wieder frei: Die britischen Fahnder hatten mit falschen Namen gearbeitet."
+   ],
+   "dreh": "Gerade weil jeder den Schrei kennt, war er für die Diebe fast wertlos. Darum fielen sie auf einen falschen Käufer herein.",
+   "warum": {
+    "frage": "Die Diebe hatten das berühmteste Bild Norwegens. Warum fielen sie ausgerechnet auf einen falschen Käufer herein?",
+    "nachfrage": "Und warum kamen sie mit ihrer Lösegeldforderung nicht weiter?",
+    "gruende": [
+     {
+      "text": "Das Bild war so berühmt, dass es niemand offen kaufen konnte. Jeder hätte es sofort erkannt.",
+      "worte": [
+       "berühmt",
+       "bekannt",
+       "erkannt",
+       "verkauf",
+       "unmöglich",
+       "jeder",
+       "käufer",
+       "markt"
+      ]
+     },
+     {
+      "text": "Lösegeld wurde nicht bezahlt. Wer Geld wollte, brauchte also einen anderen, der zahlt.",
+      "worte": [
+       "lösegeld",
+       "million",
+       "zahlte",
+       "bezahlt",
+       "forderung",
+       "geld",
+       "erpress",
+       "museum"
+      ]
+     },
+     {
+      "text": "Ein reiches Museum als Käufer klang glaubwürdig, und das Getty-Museum spielte die Rolle mit.",
+      "worte": [
+       "getty",
+       "museum",
+       "reich",
+       "glaubwürd",
+       "tarn",
+       "falsch",
+       "polizist",
+       "fahnder"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Im Museum brauchten die Diebe nur 50 Sekunden.",
+     "falsch": false
+    },
+    {
+     "satz": "Der Schrei wurde 1994 aus dem Munch-Museum in Oslo gestohlen.",
+     "falsch": true,
+     "korrektur": "Aus der Nationalgalerie. Aus dem Munch-Museum wurde erst 2004 eine andere Fassung des Schreis gestohlen."
+    },
+    {
+     "satz": "Am selben Tag wurden in Lillehammer die Olympischen Winterspiele eröffnet.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wieso klauen die ein Bild, das sie gar nicht verkaufen können? Und wie hat die Polizei es dann zurückgeholt? 🤔",
+    "punkte": [
+     {
+      "name": "zu berühmt zum Verkaufen",
+      "worte": [
+       "berühmt",
+       "bekannt",
+       "erkannt",
+       "verkauf",
+       "niemand",
+       "kaufen"
+      ],
+      "nachfrage": "Warum haben die das nicht einfach an irgendeinen reichen Typen verkauft?"
+     },
+     {
+      "name": "ein Polizist hat so getan, als wäre er ein Käufer",
+      "worte": [
+       "polizist",
+       "käufer",
+       "getan",
+       "verkleid",
+       "falsch",
+       "getty",
+       "tarn",
+       "fahnder"
+      ],
+      "nachfrage": "Und wie hat die Polizei die Diebe dann erwischt?"
+     },
+     {
+      "name": "das Lösegeld wurde nicht bezahlt",
+      "worte": [
+       "lösegeld",
+       "bezahlt",
+       "gezahlt",
+       "million",
+       "geld",
+       "forderung"
+      ],
+      "nachfrage": "Hätte das Museum nicht einfach bezahlen können?"
+     }
+    ],
+    "allesDrin": "Und mussten die Diebe dann wenigstens ins Gefängnis?",
+    "verstanden": "Ahh, die Diebe wurden selbst reingelegt. Das ist ja fast lustig. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Als wer gab sich der Fahnder aus, der den Schrei 1994 zurückholte?",
+    "chips": [
+     "Als Versicherungsvertreter",
+     "Als Kunststudent",
+     "Als Käufer des Getty-Museums",
+     "Als Olympia-Reporter"
+    ],
+    "richtig": "Als Käufer des Getty-Museums"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/960px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+     "text": "Edvard Munch, „Der Schrei“, 1893, gemalt auf Karton. Diese Fassung hing 1994 in der Nationalgalerie in Oslo.",
+     "credit": "Edvard Munch · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Charles Hill, detective who found ‘The Scream,’ dies at 73, 11.03.2021 (New York Times, nachgedruckt) – The Boston Globe",
+     "url": "https://www.bostonglobe.com/2021/03/11/metro/charles-hill-detective-who-found-scream-dies-73/"
+    },
+    {
+     "name": "“The Scream” is recovered (This Day in History, 7. Mai) – HISTORY.com",
+     "url": "https://www.history.com/this-day-in-history/may-7/the-scream-recovered"
+    },
+    {
+     "name": "Painted by a madman, beloved by thieves: Munch’s The Scream still captivates, 22.02.2021 – ArtReview",
+     "url": "https://artreview.com/painted-by-a-madman-beloved-by-thieves-munch-the-scream-still-captivates/"
+    },
+    {
+     "name": "Edward Dolnick: The Rescue Artist (Leseprobe, Kapitel 1), 2005 – Website des Autors",
+     "url": "https://edwarddolnick.net/?page_id=184"
+    },
+    {
+     "name": "“Thanks for the poor security” (Kurs „Art Crime“) – FutureLearn",
+     "url": "https://www.futurelearn.com/info/courses/art-crime/0/steps/11878"
+    }
+   ],
+   "id": "schrei-diebstahl"
+  },
+  {
+   "typ": "fall",
+   "titel": "Hitler-Tagebücher",
+   "einstieg": [
+    "Hamburg, Montag, 25. April 1983. Der „Stern“ titelt: „Hitlers Tagebücher entdeckt“.",
+    "60 Bände soll Reporter Gerd Heidemann aufgespürt haben. Der Verlag Gruner + Jahr hat dafür 9,34 Millionen D-Mark gezahlt.",
+    "Elf Tage später, am 6. Mai, erklärt das Bundesarchiv: Diesen Unterlagen kann keine Echtheit zugesprochen werden."
+   ],
+   "frage": "Was hat die Fälschung so schnell entlarvt?",
+   "chips": [
+    "Ein Vergleich der Handschrift",
+    "Ein Geständnis des Fälschers",
+    "Ein berühmter Historiker",
+    "Papier, Fäden und Tinte"
+   ],
+   "richtig": "Papier, Fäden und Tinte",
+   "hinweise": [
+    "Die Handschrift war gut nachgemacht. Drei Schriftgutachten hatten sie sogar für echt erklärt.",
+    "Der berühmte britische Historiker Hugh Trevor-Roper hatte die Bände kurz vorher für echt gehalten. Und den Fälscher kannte nur Heidemann, der selbst an die Echtheit glaubte.",
+    "Trevor-Roper war sicher, das Papier sei längst chemisch getestet worden. Das stimmte nicht. Als man es dann tat, ging alles ganz schnell."
+   ],
+   "aufloesung": [
+    "Das Material. Drei Bände gingen an das Bundesarchiv, das Bundeskriminalamt und die Bundesanstalt für Materialprüfung. Nach einer Woche waren sich alle drei einig.",
+    "Einbände, Heftfäden, Papier und Tinten konnten großteils nicht aus der Zeit des Zweiten Weltkriegs stammen. Der Inhalt war meist aus einer Sammlung von Hitlers Reden abgeschrieben, samt deren Fehlern.",
+    "Auf den Einbänden prangten verschnörkelte Initialen: „FH“ statt „AH“. Der Fälscher hatte die alten Buchstaben offenbar verwechselt.",
+    "Er hieß Konrad Kujau, ein Stuttgarter Händler und Fälscher von NS-Andenken. 1985 bekam er vier Jahre und sechs Monate Haft, Heidemann vier Jahre und acht Monate."
+   ],
+   "dreh": "Schriftexperten und ein Star-Historiker fielen herein. Entlarvt hat die plumpe Fälschung das Labor, in wenigen Tagen.",
+   "warum": {
+    "frage": "Das Bundesarchiv nannte die Tagebücher eine „plumpe Fälschung“. Wie konnten Fachleute und ein großer Verlag trotzdem darauf hereinfallen?",
+    "nachfrage": "Und warum hat niemand früher ganze Bände ins Labor gegeben?",
+    "gruende": [
+     {
+      "text": "Die Handschrift war gut nachgeahmt, und drei Schriftgutachten sagten: echt.",
+      "worte": [
+       "handschrift",
+       "schrift",
+       "gutacht",
+       "nachgeahmt",
+       "nachgemacht",
+       "experten",
+       "gutachter",
+       "schreib"
+      ]
+     },
+     {
+      "text": "Das Papier war nie richtig getestet worden. Trevor-Roper glaubte das nur.",
+      "worte": [
+       "papier",
+       "geprüft",
+       "getestet",
+       "labor",
+       "chemisch",
+       "material",
+       "geglaubt",
+       "niemand"
+      ]
+     },
+     {
+      "text": "Alle wollten die Sensation: Der Verlag hatte Millionen bezahlt, der Reporter war überzeugt, und die Menge der Bände beeindruckte.",
+      "worte": [
+       "sensation",
+       "millionen",
+       "bezahlt",
+       "überzeugt",
+       "glauben",
+       "wollten",
+       "menge",
+       "bände"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Der Fälscher der Tagebücher hieß Konrad Kujau.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Fälschung flog erst ein Jahr nach der Veröffentlichung auf.",
+     "falsch": true,
+     "korrektur": "Nach elf Tagen. Der „Stern“ erschien am 25. April 1983, am 6. Mai erklärte das Bundesarchiv die Bände für gefälscht."
+    },
+    {
+     "satz": "Auf den Einbänden standen die Initialen „FH“ statt „AH“.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wie merkt man denn, dass ein Tagebuch gefälscht ist, wenn die Schrift genau gleich aussieht? 🤔",
+    "punkte": [
+     {
+      "name": "Papier, Fäden und Tinte waren aus der Zeit nach dem Krieg",
+      "worte": [
+       "papier",
+       "tinte",
+       "faden",
+       "fäden",
+       "material",
+       "nachkrieg",
+       "später",
+       "labor"
+      ],
+      "nachfrage": "Aber woran sieht man denn am Papier, wie alt es ist?"
+     },
+     {
+      "name": "der Inhalt war aus einem Buch abgeschrieben, mit dessen Fehlern",
+      "worte": [
+       "abgeschrieben",
+       "buch",
+       "reden",
+       "fehler",
+       "inhalt",
+       "kopiert",
+       "falsch"
+      ],
+      "nachfrage": "Und was stand da überhaupt drin? Hat der sich das alles ausgedacht?"
+     },
+     {
+      "name": "auf dem Deckel standen die falschen Buchstaben",
+      "worte": [
+       "fh",
+       "buchstab",
+       "initial",
+       "verwechselt",
+       "einband",
+       "deckel"
+      ],
+      "nachfrage": "Gab es nicht auch einen richtig peinlichen Fehler, den jeder sehen konnte?"
+     }
+    ],
+    "allesDrin": "Und warum hat der Verlag nicht einfach vorher nachgeguckt?",
+    "verstanden": "Ahh, die Schrift war gut, aber das Papier hat ihn verraten. Wie bei einem Krimi! 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Welche Initialen standen auf den Einbänden der gefälschten Hitler-Tagebücher?",
+    "chips": [
+     "AH",
+     "KK",
+     "FH",
+     "HT"
+    ],
+    "richtig": "FH"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/FH_AH_Hitlers_Diaries_01.svg/960px-FH_AH_Hitlers_Diaries_01.svg.png",
+     "seite": "https://commons.wikimedia.org/wiki/File:FH_AH_Hitlers_Diaries_01.svg",
+     "text": "Die Buchstaben „AH“ und „FH“ in der verschnörkelten Schriftart, die Kujau für die Einbände benutzte. Nachgezeichnet, nicht vom Original.",
+     "credit": "Armin Kübelbeck (Commons-Nutzer Kuebi), 2013 · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Tobias Herrmann, Manuela Lange: Pressekonferenz des Bundesarchivs zu „Hitler-Tagebüchern“ – Bundesarchiv",
+     "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/geschichtsgalerien/pressekonferenz-des-bundesarchivs-zu-hitler-tagebuechern/"
+    },
+    {
+     "name": "Auftakt des Prozesses um die gefälschten Hitler-Tagebücher – Bundesarchiv",
+     "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/dokumente-zur-zeitgeschichte/auftakt-des-prozesses-um-die-gefaelschten-hitler-tagebuecher/"
+    },
+    {
+     "name": "Sebastian Barth: Kujau, Konrad, 01.04.2025 – NDB-online (Deutsche Biographie)",
+     "url": "https://www.deutsche-biographie.de/gnd118725289.html"
+    },
+    {
+     "name": "Hitler Diaries – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Hitler-Diaries"
+    }
+   ],
+   "id": "hitler-tagebuecher"
   }
  ]
 };
