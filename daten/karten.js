@@ -8138,6 +8138,891 @@ window.ERSTDENKEN = {
     }
    ],
    "id": "hitler-tagebuecher"
+  },
+  {
+   "typ": "fall",
+   "titel": "Van Meegeren",
+   "einstieg": [
+    "Amsterdam, 1945. Der Krieg ist vorbei. Die Polizei verhaftet den Maler Han van Meegeren.",
+    "In der Sammlung von Hermann Göring hat man einen unbekannten Vermeer gefunden: „Christus und die Ehebrecherin“. Die Spur führt zu van Meegeren.",
+    "Der Vorwurf: Kollaboration mit den Nazis. Er soll einen niederländischen Schatz an den Feind verkauft haben. Eine sehr schwere Anklage."
+   ],
+   "frage": "Womit entkam van Meegeren dem Vorwurf, ein Verräter zu sein?",
+   "chips": [
+    "Mit Zeugen aus dem Widerstand",
+    "Mit einem Gutachten von Experten",
+    "Er zahlte das Geld zurück",
+    "Er bewies: Das Bild ist falsch"
+   ],
+   "richtig": "Er bewies: Das Bild ist falsch",
+   "hinweise": [
+    "Kunstexperten konnten ihm nicht helfen. Sie hatten Bilder aus seiner Werkstatt als echte Vermeers gefeiert, eines sogar als Meisterwerk.",
+    "Am Geld hing der Vorwurf nicht. Verrat war es nur, wenn Göring wirklich einen niederländischen Schatz bekommen hatte.",
+    "Damit man ihm glaubte, griff er 1945 zum Pinsel. Unter Aufsicht, vor Zeugen, im Stil Vermeers."
+   ],
+   "aufloesung": [
+    "Er gestand: Der „Vermeer“ bei Göring war gar keiner. Er hatte ihn selbst gemalt.",
+    "Wer Göring eine Fälschung andreht, hat ihm keinen Schatz verkauft. Van Meegeren tauschte die schwere Anklage gegen eine leichtere: Fälschung.",
+    "Um es zu beweisen, malte er unter Aufsicht einen neuen „Vermeer“: „Jesus unter den Schriftgelehrten“. Reporter und vom Gericht bestellte Zeugen sahen zu.",
+    "Von 14 bekannten Fälschungen waren 9 schon vor dem Krieg verkauft. Darunter die „Emmausjünger“, die das Museum Boijmans in Rotterdam 1937 als Vermeer kaufte.",
+    "1947 bekam er ein Jahr Gefängnis, wegen Fälschung und Betrug. Kurz danach starb er an einem Herzinfarkt. Die Strafe trat er nie an."
+   ],
+   "dreh": "Er rettete sich, indem er ein anderes Verbrechen gestand: lieber Fälscher als Verräter.",
+   "warum": {
+    "frage": "Ausgerechnet das Geständnis „Ich bin ein Fälscher“ rettete ihn. Wie konnte das funktionieren?",
+    "nachfrage": "Und warum reichte es nicht, das einfach zu behaupten?",
+    "gruende": [
+     {
+      "text": "Kollaboration war viel schwerer als Fälschung. Er tauschte eine sehr schwere Anklage gegen eine leichtere.",
+      "worte": [
+       "schwer",
+       "leichter",
+       "kleiner",
+       "strafe",
+       "gefängnis",
+       "kollabor",
+       "verrat",
+       "ein jahr"
+      ]
+     },
+     {
+      "text": "Ein gefälschtes Bild ist kein Schatz: Er hatte Göring nichts Wertvolles verkauft, sondern ihn betrogen.",
+      "worte": [
+       "kein schatz",
+       "betrog",
+       "reingelegt",
+       "gefälscht",
+       "wertlos",
+       "göring",
+       "kein echt",
+       "selbst gemalt"
+      ]
+     },
+     {
+      "text": "Experten hatten seine Bilder für echte Vermeers gehalten, also brauchte er einen Beweis. Er malte vor Zeugen einen neuen „Vermeer“.",
+      "worte": [
+       "zeugen",
+       "aufsicht",
+       "beweis",
+       "vorgemalt",
+       "neues bild",
+       "malte",
+       "experten",
+       "glaubte"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "1947 wurde van Meegeren wegen Kollaboration zu einem Jahr Gefängnis verurteilt.",
+     "falsch": true,
+     "korrektur": "Verurteilt wurde er wegen Fälschung und Betrug. Den Vorwurf der Kollaboration wurde er gerade durch sein Geständnis los."
+    },
+    {
+     "satz": "Um sein Geständnis zu beweisen, malte er unter Aufsicht einen neuen „Vermeer“.",
+     "falsch": false
+    },
+    {
+     "satz": "Fachleute hatten seine Fälschungen vorher für echte Vermeers gehalten.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum gibt der zu, dass er ein Fälscher ist? Das ist doch auch verboten! 🤔",
+    "punkte": [
+     {
+      "name": "Verrat wäre viel schlimmer bestraft worden",
+      "worte": [
+       "schlimmer",
+       "schwerer",
+       "verrat",
+       "kollabor",
+       "nazi",
+       "strafe",
+       "härter"
+      ],
+      "nachfrage": "Aber Fälschen ist doch auch verboten. Warum war das besser für ihn?"
+     },
+     {
+      "name": "das Bild war kein echter Vermeer, also hat Göring keinen Schatz bekommen",
+      "worte": [
+       "kein echt",
+       "falsch",
+       "gefälscht",
+       "selbst gemalt",
+       "betrog",
+       "reingelegt",
+       "kein schatz"
+      ],
+      "nachfrage": "Und was hat das Fälschen mit Göring zu tun?"
+     },
+     {
+      "name": "er hat es vor Zeugen bewiesen",
+      "worte": [
+       "zeugen",
+       "bewies",
+       "beweis",
+       "vorgemalt",
+       "aufsicht",
+       "neues bild"
+      ],
+      "nachfrage": "Hätte er das nicht einfach behaupten können? Lügen kann ja jeder."
+     }
+    ],
+    "allesDrin": "Und hat er Göring dann eigentlich mit Absicht reingelegt?",
+    "verstanden": "Ahh, er hat lieber was Kleineres zugegeben. Ganz schön schlau! 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wie bewies Han van Meegeren 1945, dass der „Vermeer“ bei Göring gefälscht war?",
+    "chips": [
+     "Mit einer Röntgenaufnahme",
+     "Er malte vor Zeugen einen neuen „Vermeer“",
+     "Mit einem Brief an Göring",
+     "Mit alten Kaufbelegen"
+    ],
+    "richtig": "Er malte vor Zeugen einen neuen „Vermeer“"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Han_van_Meegeren_in_zijn_atelier_werkend_aan_het_schilderij_%27Jezus_en_de_Schrift%2C_Bestanddeelnr_133-1154.jpg/960px-Han_van_Meegeren_in_zijn_atelier_werkend_aan_het_schilderij_%27Jezus_en_de_Schrift%2C_Bestanddeelnr_133-1154.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Han_van_Meegeren_in_zijn_atelier_werkend_aan_het_schilderij_%27Jezus_en_de_Schrift,_Bestanddeelnr_133-1154.jpg",
+     "text": "Oktober 1945: Van Meegeren malt in seinem Atelier „Jesus unter den Schriftgelehrten“, den Beweis für seine Fälschungen.",
+     "credit": "Koos Raucamp / Anefo · CC0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Han van Meegeren – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Han-van-Meegeren"
+    },
+    {
+     "name": "Christ and the Adulteress – Tweede Wereldoorlog in 100 voorwerpen",
+     "url": "https://www.tweedewereldoorlog.nl/100voorwerpen/en/voorwerp/christ-and-the-adulteress/"
+    },
+    {
+     "name": "Han van Meegeren: The Men at Emmaus – Museum Boijmans Van Beuningen, Rotterdam",
+     "url": "https://www.boijmans.nl/en/collection/artworks/101464/the-men-at-emmaus"
+    },
+    {
+     "name": "Han van Meegeren – Wikipedia (englisch)",
+     "url": "https://en.wikipedia.org/wiki/Han_van_Meegeren"
+    }
+   ],
+   "id": "van-meegeren"
+  },
+  {
+   "typ": "fall",
+   "titel": "Fontäne",
+   "einstieg": [
+    "New York, April 1917. Eine neue Kunstausstellung verspricht: keine Jury, keine Preise. Wer sechs Dollar zahlt, ist dabei.",
+    "Ein gewisser „R. Mutt“ zahlt und reicht ein: ein gekauftes Pissoir, um 90 Grad gedreht, signiert „R. Mutt 1917“. Titel: „Fountain“, also Brunnen.",
+    "Hinter R. Mutt steckt der Künstler Marcel Duchamp. Er sitzt selbst im Vorstand der Ausstellung. Das wissen dort aber die wenigsten."
+   ],
+   "frage": "Jeder, der zahlt, darf ausstellen. Was wurde aus Mr. Mutts Pissoir?",
+   "chips": [
+    "Es gewann den ersten Preis",
+    "Es wurde gezeigt und ausgelacht",
+    "Duchamp zog es selbst zurück",
+    "Es wurde nicht gezeigt"
+   ],
+   "richtig": "Es wurde nicht gezeigt",
+   "hinweise": [
+    "Einen Preis konnte es gar nicht gewinnen: Die Ausstellung hatte ausdrücklich keine Preise.",
+    "Duchamp war empört. Aus Protest trat er aus dem Vorstand aus, zusammen mit seinem Freund Walter Arensberg.",
+    "Eine Mehrheit des Vorstands fand, das Ding sei „nach keiner Definition ein Kunstwerk“. Fotografiert wurde es später in einer Galerie, nicht in der Ausstellung."
+   ],
+   "aufloesung": [
+    "Es wurde nicht gezeigt. Der Vorstand hielt es aus der Schau heraus, obwohl die Regeln jeden zahlenden Künstler zuließen.",
+    "Der Fotograf Alfred Stieglitz fotografierte es in seiner Galerie. Das Foto erschien in der Zeitschrift „The Blind Man“.",
+    "Dort stand: Ob Mr. Mutt den Brunnen mit eigenen Händen gemacht habe, sei unwichtig. „Er hat ihn AUSGEWÄHLT.“",
+    "Das Original ging verloren. In Museen stehen heute Nachbildungen, die Duchamp ab 1950 anfertigen ließ.",
+    "2004 wählten 500 Künstler, Kuratoren, Kritiker und Kunsthändler „Fountain“ zum einflussreichsten Werk der modernen Kunst."
+   ],
+   "dreh": "Ein Pissoir, das er nicht gemacht hatte und das 1917 kaum jemand sah, veränderte, was als Kunst gilt: Die Idee zählt, nicht das Handwerk.",
+   "warum": {
+    "frage": "Kaum jemand hat das Pissoir 1917 gesehen. Wie konnte es trotzdem das einflussreichste Werk der modernen Kunst werden?",
+    "nachfrage": "Und was war an der Idee so neu, dass der Vorstand es „nach keiner Definition“ für Kunst hielt?",
+    "gruende": [
+     {
+      "text": "Die Ausstellung versprach, alles zu zeigen, und hielt es trotzdem heraus. Das gab Streit, Duchamp trat aus Protest aus.",
+      "worte": [
+       "skandal",
+       "versprech",
+       "versteckt",
+       "abgelehnt",
+       "protest",
+       "ausgetreten",
+       "streit",
+       "empör"
+      ]
+     },
+     {
+      "text": "Stieglitz' Foto und die Zeitschrift „The Blind Man“ machten es bekannt, auch ohne Ausstellung.",
+      "worte": [
+       "foto",
+       "stieglitz",
+       "zeitschrift",
+       "blind man",
+       "gedruckt",
+       "veröffentl",
+       "artikel",
+       "bekannt"
+      ]
+     },
+     {
+      "text": "Die Idee: Kunst ist, was ein Künstler auswählt, nicht nur, was er mit eigenen Händen macht.",
+      "worte": [
+       "ausgewählt",
+       "auswahl",
+       "idee",
+       "gewählt",
+       "nicht selbst",
+       "händen",
+       "handwerk",
+       "gekauft"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Duchamp reichte das Pissoir unter dem Namen „R. Mutt“ ein.",
+     "falsch": false
+    },
+    {
+     "satz": "Eine strenge Jury lehnte das Pissoir ab.",
+     "falsch": true,
+     "korrektur": "Die Ausstellung versprach „keine Jury“. Der Vorstand hielt das Pissoir heraus, weil er es nicht für Kunst hielt."
+    },
+    {
+     "satz": "Das Original ist verschollen; Museen zeigen Nachbildungen.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Aber das ist doch nur ein Klo! Wieso soll das Kunst sein? 🤔",
+    "punkte": [
+     {
+      "name": "er hat es ausgewählt, nicht selbst gemacht",
+      "worte": [
+       "ausgewählt",
+       "ausgesucht",
+       "gewählt",
+       "nicht selbst",
+       "gekauft",
+       "fabrik",
+       "idee"
+      ],
+      "nachfrage": "Aber er hat das Klo doch nicht mal selbst gebaut?"
+     },
+     {
+      "name": "er hat es gedreht, signiert und ihm einen Titel gegeben",
+      "worte": [
+       "gedreht",
+       "signiert",
+       "unterschrieben",
+       "name",
+       "titel",
+       "brunnen",
+       "mutt"
+      ],
+      "nachfrage": "Und was hat er dann überhaupt damit gemacht?"
+     },
+     {
+      "name": "es bringt Leute zum Streiten darüber, was Kunst ist",
+      "worte": [
+       "streit",
+       "nachdenk",
+       "was kunst",
+       "provoz",
+       "ärger",
+       "regel",
+       "definition"
+      ],
+      "nachfrage": "Und wozu soll das gut sein, so ein Klo in einer Ausstellung?"
+     }
+    ],
+    "allesDrin": "Okay. Und ist mein Turnschuh dann auch Kunst, wenn ich ihn unterschreibe?",
+    "verstanden": "Ahh, es geht nicht ums Basteln, sondern um die Idee. Krass. 😄",
+    "halb": "Hm, so halb. Ich guck mir morgen mal unser Klo genauer an. 🙂"
+   },
+   "abruf": {
+    "frage": "Unter welchem Namen reichte Marcel Duchamp 1917 sein Pissoir ein?",
+    "chips": [
+     "Walter Arensberg",
+     "R. Mutt",
+     "Marcel D.",
+     "Alfred Stieglitz"
+    ],
+    "richtig": "R. Mutt"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/960px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
+     "text": "„Fountain“, 1917 fotografiert von Alfred Stieglitz. Das Original ist verschollen.",
+     "credit": "Alfred Stieglitz (Foto), Marcel Duchamp (Objekt) · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "A Fascinating „Fountain“ and „The Blind Man“ (nos. 1 and 2) Enter the BCMA Collection – Bowdoin College Museum of Art",
+     "url": "https://www.bowdoin.edu/art-museum/news/2020/blind-man-duchamp.html"
+    },
+    {
+     "name": "Marcel Duchamp: Fountain (1917/1950) – Philadelphia Museum of Art",
+     "url": "https://www.philamuseum.org/objects/92488"
+    },
+    {
+     "name": "The most influential piece of modern art – Charlotte Higgins (The Guardian), bei Salon, 02.12.2004",
+     "url": "https://salon.com/2004/12/02/top_10_artworks"
+    },
+    {
+     "name": "Fountain (Duchamp) – Wikipedia (englisch)",
+     "url": "https://en.wikipedia.org/wiki/Fountain_(Duchamp"
+    }
+   ],
+   "id": "duchamp-fontaene"
+  },
+  {
+   "typ": "fall",
+   "titel": "Terrakotta-Armee",
+   "einstieg": [
+    "März 1974, nahe Xi'an in China. Bauern graben einen Brunnen.",
+    "Sie stoßen auf Tonscherben und einen Kopf aus Ton. Darunter wartet eine ganze Armee.",
+    "Rund 8.000 lebensgroße Soldaten aus Ton, über 2.200 Jahre alt. Sie bewachen das Grab von Qin Shi Huang, dem ersten Kaiser Chinas.",
+    "Wer sie heute im Museum besucht, sieht eine graue Armee."
+   ],
+   "frage": "Warum sind die Tonkrieger heute grau?",
+   "chips": [
+    "Sie waren nie bemalt",
+    "Ein Brand hat sie verrußt",
+    "2.200 Jahre Erde bleichten sie aus",
+    "Die Farbe zerfiel beim Ausgraben"
+   ],
+   "richtig": "Die Farbe zerfiel beim Ausgraben",
+   "hinweise": [
+    "Bemalt waren sie sehr wohl: Archäologen fanden Krieger mit schwarzem Haar, rosa Gesichtern und schwarzen oder braunen Augen.",
+    "Die am besten erhaltenen Farben lagen ganz unten in der Grube. Dort hatte eine Schicht Schlamm die Krieger über 2.000 Jahre geschützt.",
+    "Die Farbe saß auf einer Lackschicht. In der trockenen Luft von Xi'an beginnt dieser Lack sich nach 15 Sekunden zu wellen."
+   ],
+   "aufloesung": [
+    "Die Farbe zerfiel beim Ausgraben. Ursprünglich war die Armee bunt: Rot und Grün, Lila und Gelb.",
+    "Unter der Farbe lag Lack. In der feuchten Erde hielt er. An der Luft wellt er sich nach 15 Sekunden und blättert nach vier Minuten ab. Mit der Farbe.",
+    "Bei frühen Grabungen sahen Archäologen hilflos zu. Heute besprühen sie jedes Stück Farbe sofort mit einem Schutzmittel und wickeln es in Folie.",
+    "Das Grab des Kaisers selbst ist bis heute nicht ausgegraben. Als ein Grund gilt die Sorge, man könne das Gefundene nicht erhalten."
+   ],
+   "dreh": "Nicht 2.200 Jahre unter der Erde haben die Farben zerstört, sondern ein paar Minuten an der Luft.",
+   "warum": {
+    "frage": "2.200 Jahre lang hielt die Farbe, dann war sie in Minuten weg. Wie konnte ausgerechnet das Ausgraben sie zerstören?",
+    "nachfrage": "Und warum blieb die Farbe ausgerechnet ganz unten in der Grube am besten erhalten?",
+    "gruende": [
+     {
+      "text": "Die Farbe saß nicht direkt auf dem Ton, sondern auf einer Lackschicht. Löst sich der Lack, geht die Farbe mit.",
+      "worte": [
+       "lack",
+       "schicht",
+       "darunter",
+       "haftet",
+       "löst",
+       "abblätter",
+       "mitgenommen",
+       "untergrund"
+      ]
+     },
+     {
+      "text": "In der Erde blieb der Lack feucht. In der trockenen Luft von Xi'an trocknete er in Sekunden und wellte sich.",
+      "worte": [
+       "trocken",
+       "luft",
+       "feucht",
+       "austrock",
+       "sekunden",
+       "minuten",
+       "wellt",
+       "sauerstoff"
+      ]
+     },
+     {
+      "text": "Ganz unten lag Schlamm. Er hielt die Krieger feucht, deshalb blieben dort die Farben am besten erhalten.",
+      "worte": [
+       "schlamm",
+       "unten",
+       "nass",
+       "wasser",
+       "matsch",
+       "feucht gehalten",
+       "grube",
+       "boden"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Die Krieger wurden 1974 von Bauern beim Brunnengraben entdeckt.",
+     "falsch": false
+    },
+    {
+     "satz": "Ursprünglich waren die Tonkrieger bunt bemalt.",
+     "falsch": false
+    },
+    {
+     "satz": "Das Grab des Kaisers selbst wurde 1974 gleich mit geöffnet.",
+     "falsch": true,
+     "korrektur": "Gefunden wurde 1974 die Armee, die das Grab bewacht. Das Grab des Kaisers ist bis heute nicht ausgegraben."
+    }
+   ],
+   "malia": {
+    "frage": "Wenn die Farbe sofort kaputtgeht, warum graben die die Krieger dann überhaupt aus? 🤔",
+    "punkte": [
+     {
+      "name": "am Anfang wusste keiner, wie schnell die Farbe zerfällt",
+      "worte": [
+       "wusste",
+       "keiner",
+       "hilflos",
+       "früher",
+       "anfang",
+       "überrasch",
+       "nicht gewusst"
+      ],
+      "nachfrage": "Haben die das denn nicht vorher gewusst?"
+     },
+     {
+      "name": "heute retten sie die Farbe mit Schutzmittel und Folie",
+      "worte": [
+       "sprüh",
+       "schutz",
+       "mittel",
+       "folie",
+       "einwickel",
+       "feucht halten",
+       "chemie"
+      ],
+      "nachfrage": "Und machen die das heute immer noch so?"
+     },
+     {
+      "name": "beim Grab des Kaisers warten sie lieber noch",
+      "worte": [
+       "kaiser",
+       "grab",
+       "warten",
+       "nicht öffnen",
+       "später",
+       "vorsicht",
+       "zu lassen"
+      ],
+      "nachfrage": "Und das Grab vom Kaiser? Machen die das auch einfach auf?"
+     }
+    ],
+    "allesDrin": "Und wie sahen die dann aus, so in bunt?",
+    "verstanden": "Ahh, die mussten erst lernen, wie man Farbe rettet. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wie wurde die Terrakotta-Armee 1974 entdeckt?",
+    "chips": [
+     "Bei einer Grabung von Archäologen",
+     "Bauern gruben einen Brunnen",
+     "Ein Erdbeben legte sie frei",
+     "Durch Luftbilder"
+    ],
+    "richtig": "Bauern gruben einen Brunnen"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Terracotta_army_xian_embedded_warrior.jpg/960px-Terracotta_army_xian_embedded_warrior.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Terracotta_army_xian_embedded_warrior.jpg",
+     "text": "Ein Tonkrieger in der Grabungsstätte bei Xi'an, noch halb in der Erde, zwischen Bruchstücken (2004)",
+     "credit": "Richard Chambers (Richardelainechambers, englische Wikipedia) · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Qin tomb – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Qin-tomb"
+    },
+    {
+     "name": "Terra-Cotta Warriors in Color – Brook Larmer, National Geographic, Juni 2012",
+     "url": "https://www.nationalgeographic.com/magazine/article/terra-cotta-warriors"
+    },
+    {
+     "name": "Mausoleum of the First Qin Emperor – UNESCO-Welterbezentrum",
+     "url": "https://whc.unesco.org/en/list/441/"
+    },
+    {
+     "name": "Terracotta Army – Wikipedia (englisch)",
+     "url": "https://en.wikipedia.org/wiki/Terracotta_Army"
+    }
+   ],
+   "id": "terrakotta-armee"
+  },
+  {
+   "typ": "fall",
+   "titel": "Banksy-Schredder",
+   "einstieg": [
+    "London, 5. Oktober 2018, Auktionshaus Sotheby's. Versteigert wird „Girl with Balloon“ von Banksy: ein Mädchen und ein roter Herzballon.",
+    "Eine Käuferin bekommt den Zuschlag. Mit Gebühren kostet das Bild sie 1,04 Millionen Pfund.",
+    "Dann piept ein Alarm im Bild. Ein Schredder, versteckt im Rahmen, zieht die Leinwand nach unten und zerschneidet sie in Streifen. Etwa bis zur Hälfte."
+   ],
+   "frage": "Drei Jahre später kommt das halb geschredderte Bild wieder unter den Hammer, im selben Saal. Was bringt es?",
+   "chips": [
+    "Kaum noch etwas",
+    "Wieder rund 1 Million Pfund",
+    "Rund 3 Millionen Pfund",
+    "Über 18 Millionen Pfund"
+   ],
+   "richtig": "Über 18 Millionen Pfund",
+   "hinweise": [
+    "Wertlos war es nicht: Die Käuferin von 2018 behielt das zerschnittene Bild und zahlte den vollen Preis.",
+    "Banksys eigene Echtheitsstelle stellte ein Zertifikat aus und gab dem Bild einen neuen Titel. Sotheby's sprach vom ersten Kunstwerk, das live bei einer Auktion entstanden ist.",
+    "Sotheby's schätzte 2021 vorher 4 bis 6 Millionen Pfund. Am Ende lag der Preis beim Dreifachen der oberen Schätzung."
+   ],
+   "aufloesung": [
+    "Über 18 Millionen Pfund. Am 14. Oktober 2021 ging das Bild bei Sotheby's für 18.582.000 Pfund weg, Gebühren eingerechnet.",
+    "Es heißt jetzt „Love is in the Bin“: Die Liebe ist im Müll. Das war ein Rekord für Banksy und rund 18-mal so viel wie 2018.",
+    "Banksys Preise stiegen ohnehin: Im März 2021 hatte ein anderes Werk von ihm 16,8 Millionen Pfund gebracht.",
+    "Banksy schrieb, das Bild sei wirklich geschreddert worden und Sotheby's sei nicht eingeweiht gewesen. In einem Video von ihm heißt es: Bei den Proben habe es jedes Mal funktioniert."
+   ],
+   "dreh": "Banksy zerstörte sein eigenes Bild und machte es damit viel wertvoller.",
+   "warum": {
+    "frage": "Ein halb zerstörtes Bild ist plötzlich 18-mal so viel wert. Wie konnte ausgerechnet die Zerstörung den Preis so in die Höhe treiben?",
+    "nachfrage": "Und warum war es wichtig, dass Banksys Echtheitsstelle ein Zertifikat ausgestellt hat?",
+    "gruende": [
+     {
+      "text": "Die Zerstörung geschah live im Auktionssaal, vor Publikum. Die Geschichte machte das Bild weltberühmt.",
+      "worte": [
+       "live",
+       "publikum",
+       "schlagzeil",
+       "berühmt",
+       "welt",
+       "nachricht",
+       "video",
+       "aufsehen"
+      ]
+     },
+     {
+      "text": "Banksys Echtheitsstelle bestätigte es als echtes neues Werk mit neuem Titel. Es ist einmalig: das erste Kunstwerk, das während einer Auktion entstand.",
+      "worte": [
+       "zertifikat",
+       "echt",
+       "neues werk",
+       "titel",
+       "einmalig",
+       "einzig",
+       "love is in the bin",
+       "bestätig"
+      ]
+     },
+     {
+      "text": "Banksy war ohnehin sehr gefragt: Seine Preise stiegen, ein anderes Werk hatte kurz vorher 16,8 Millionen Pfund gebracht.",
+      "worte": [
+       "gefragt",
+       "preise",
+       "stiegen",
+       "sammler",
+       "beliebt",
+       "rekord",
+       "gestiegen",
+       "teurer"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Das Bild wurde 2018 bei Sotheby's in London versteigert.",
+     "falsch": false
+    },
+    {
+     "satz": "Der Schredder war im Rahmen des Bildes versteckt.",
+     "falsch": false
+    },
+    {
+     "satz": "Sotheby's hatte den Schredder zusammen mit Banksy eingebaut.",
+     "falsch": true,
+     "korrektur": "Laut Banksy war Sotheby's nicht eingeweiht. Den Schredder hatte er selbst versteckt."
+    }
+   ],
+   "malia": {
+    "frage": "Wieso zahlt jemand 18 Millionen für ein kaputtes Bild? Mein kaputtes Handy will keiner! 🤔",
+    "punkte": [
+     {
+      "name": "die ganze Welt hat die Geschichte mitbekommen",
+      "worte": [
+       "welt",
+       "berühmt",
+       "geschichte",
+       "live",
+       "video",
+       "nachricht",
+       "weltweit",
+       "zeitung"
+      ],
+      "nachfrage": "Aber woher wussten die Leute überhaupt davon?"
+     },
+     {
+      "name": "so ein Bild gibt es nur einmal",
+      "worte": [
+       "einmalig",
+       "einzig",
+       "nur einmal",
+       "besonder",
+       "selten",
+       "erstes"
+      ],
+      "nachfrage": "Es gibt doch bestimmt ganz viele kaputte Bilder, oder?"
+     },
+     {
+      "name": "Banksy hat bestätigt, dass es ein echtes neues Kunstwerk ist",
+      "worte": [
+       "banksy",
+       "echt",
+       "bestätig",
+       "zertifikat",
+       "kunstwerk",
+       "titel"
+      ],
+      "nachfrage": "Und woher weiß man, dass das nicht irgendwer kaputtgemacht hat?"
+     }
+    ],
+    "allesDrin": "Okay. Und wenn ich mein Handy live kaputtmache und ein Video drehe?",
+    "verstanden": "Ahh, nicht das Bild ist so teuer, sondern die Geschichte dazu! 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wie heißt Banksys Bild, seit es 2018 bei der Auktion halb geschreddert wurde?",
+    "chips": [
+     "Girl with Balloon",
+     "Love is in the Bin",
+     "Shred the Love",
+     "Balloon in the Bin"
+    ],
+    "richtig": "Love is in the Bin"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sotheby%27s_New_Bond_Street_London_Christmas_2016.jpg/960px-Sotheby%27s_New_Bond_Street_London_Christmas_2016.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Sotheby%27s_New_Bond_Street_London_Christmas_2016.jpg",
+     "text": "Das Auktionshaus Sotheby's in der New Bond Street in London",
+     "credit": "Loco Steve (Flickr), über Wikimedia Commons · CC BY-SA 2.0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Banksy's £1m self-destructing painting goes back to auction – The Art Newspaper, 03.09.2021",
+     "url": "https://www.theartnewspaper.com/2021/09/03/banksys-pound1m-self-destructing-painting-goes-back-to-auctionand-could-sell-for-six-times-the-price"
+    },
+    {
+     "name": "Banksy declares shredded piece new work of art (Pressemitteilung Sotheby's, 12.10.2018) – Art & Object",
+     "url": "https://www.artandobject.com/press-release/banksy-declares-shredded-piece-new-work-art"
+    },
+    {
+     "name": "Partially shredded Banksy painting sells for £18,582,000 – LBC, 14.10.2021",
+     "url": "https://www.lbc.co.uk/article/partially-shredded-banksy-painting-sells-for-18-582-000-DWz5KP_2/"
+    },
+    {
+     "name": "Banksy artwork that self-shredded sells for record $25.4 million at auction – CBS News / AP, 14.10.2021",
+     "url": "https://www.cbsnews.com/news/banksy-love-is-in-the-bin-shredded-artwork-sells-record-25-4-million-auction/"
+    },
+    {
+     "name": "Half-shredded Banksy piece auctioned for $25.4 million, a record for the artist – NPR, über GPB, 14.10.2021",
+     "url": "https://www.gpb.org/news/2021/10/14/half-shredded-banksy-piece-auctioned-for-254-million-record-for-the-artist"
+    }
+   ],
+   "id": "banksy-schredder"
+  },
+  {
+   "typ": "fall",
+   "titel": "Tutanchamun",
+   "einstieg": [
+    "Tal der Könige, Ägypten. Hier liegen die Gräber vieler Pharaonen. Schon im Altertum wurden sie immer wieder geplündert.",
+    "Der Archäologe Howard Carter sucht trotzdem weiter. Bezahlt wird er vom englischen Grafen Lord Carnarvon.",
+    "4. November 1922: Carters Leute stoßen auf eine Stufe im Fels. Dahinter liegt das Grab von Tutanchamun. Mit über 5.000 Gegenständen."
+   ],
+   "frage": "Warum blieb ausgerechnet dieses Grab fast unberührt?",
+   "chips": [
+    "Fallen schreckten Räuber ab",
+    "Ein Fluch hielt sie fern",
+    "Wachen schützten es streng",
+    "Man hatte es vergessen"
+   ],
+   "richtig": "Man hatte es vergessen",
+   "hinweise": [
+    "Ganz unberührt war es nicht: Räuber waren mindestens zweimal drin, bald nach der Beerdigung. Weder Fallen noch ein Fluch hielten sie auf.",
+    "Tutanchamun starb jung und unerwartet. Er bekam ein kleines, schnell umgebautes Grab. Spätere Könige strichen seinen Namen aus den Königslisten.",
+    "Später bauten Arbeiter ihre Hütten direkt über dem Eingang. Sie ahnten nicht, was darunter lag."
+   ],
+   "aufloesung": [
+    "Man hatte es vergessen. Tutanchamun war ein eher unbedeutender König und starb, bevor er 20 war.",
+    "Nach den Einbrüchen versiegelten Beamte das Grab wieder. Danach verschwand der Eingang unter Schutt vom Bau späterer Gräber und unter Arbeiterhütten.",
+    "Bis zum König kamen die Räuber nicht. Die versiegelten Türen der Schreine um seinen Sarkophag blieben zu. Darin: drei Särge, der innerste aus massivem Gold.",
+    "Lord Carnarvon starb am 5. April 1923 in Kairo. Ein Mückenstich hatte sich entzündet, es folgten Blutvergiftung und Lungenentzündung. Aus seinem Tod entstand die Legende vom „Fluch des Pharao“."
+   ],
+   "dreh": "Gerade weil Tutanchamun so unwichtig war, blieb sein Schatz erhalten. Heute ist er berühmter als fast jeder andere Pharao.",
+   "warum": {
+    "frage": "Ein unwichtiger Pharao hinterlässt ein fast volles Grab. Wie konnte ausgerechnet seine Unwichtigkeit den Schatz retten?",
+    "nachfrage": "Räuber waren ja trotzdem zweimal drin. Was hat den Schatz danach geschützt?",
+    "gruende": [
+     {
+      "text": "Er starb jung, bekam ein kleines, schnell umgebautes Grab, und spätere Könige strichen seinen Namen. So geriet er in Vergessenheit.",
+      "worte": [
+       "klein",
+       "jung",
+       "unwichtig",
+       "gestrichen",
+       "name",
+       "listen",
+       "vergessen",
+       "unbedeutend"
+      ]
+     },
+     {
+      "text": "Schutt vom Bau späterer Gräber und Arbeiterhütten lagen direkt über dem Eingang und versteckten ihn.",
+      "worte": [
+       "hütte",
+       "schutt",
+       "geröll",
+       "eingang",
+       "versteckt",
+       "verschüttet",
+       "arbeiter",
+       "überbaut"
+      ]
+     },
+     {
+      "text": "Nach den Einbrüchen versiegelten Beamte das Grab wieder, und die Schreine um den Sarg blieben zu.",
+      "worte": [
+       "versiegel",
+       "wieder zu",
+       "beamte",
+       "schrein",
+       "sarg",
+       "verschlossen",
+       "siegel",
+       "zugemacht"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Howard Carter fand das Grab 1922 im Tal der Könige.",
+     "falsch": false
+    },
+    {
+     "satz": "Tutanchamun war einer der mächtigsten Pharaonen und regierte über 60 Jahre.",
+     "falsch": true,
+     "korrektur": "Er war ein eher unbedeutender König, regierte nur rund neun Jahre und starb, bevor er 20 war."
+    },
+    {
+     "satz": "Lord Carnarvon starb 1923 an den Folgen eines entzündeten Mückenstichs.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Gibt's den Fluch vom Pharao jetzt wirklich oder nicht? 🤔",
+    "punkte": [
+     {
+      "name": "Carnarvon starb an einem entzündeten Mückenstich",
+      "worte": [
+       "mücke",
+       "stich",
+       "entzünd",
+       "blutvergift",
+       "krank",
+       "lungen",
+       "infekt"
+      ],
+      "nachfrage": "Aber woran ist der Lord dann gestorben?"
+     },
+     {
+      "name": "die Geschichte vom Fluch entstand erst nach seinem Tod",
+      "worte": [
+       "nachträglich",
+       "erfunden",
+       "zeitung",
+       "legende",
+       "gerücht",
+       "erzählt",
+       "ausgedacht"
+      ],
+      "nachfrage": "Und warum erzählen dann alle von einem Fluch?"
+     },
+     {
+      "name": "den Schatz hat das Vergessen geschützt, nicht ein Fluch",
+      "worte": [
+       "vergessen",
+       "versteckt",
+       "hütte",
+       "schutt",
+       "unwichtig",
+       "versiegel",
+       "räuber"
+      ],
+      "nachfrage": "Aber irgendwas muss die Räuber doch abgehalten haben?"
+     }
+    ],
+    "allesDrin": "Okay. Und Howard Carter, ist der auch gleich gestorben?",
+    "verstanden": "Ahh, kein Fluch, nur eine Mücke. Und ein ziemlich vergessener König. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Woran starb Lord Carnarvon 1923 wirklich?",
+    "chips": [
+     "An einem Fluch des Pharao",
+     "An einem entzündeten Mückenstich",
+     "Bei einem Autounfall",
+     "An einem Schlangenbiss"
+    ],
+    "richtig": "An einem entzündeten Mückenstich"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/The_Moment_Carter_Opens_the_Shrine.jpg/960px-The_Moment_Carter_Opens_the_Shrine.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:The_Moment_Carter_Opens_the_Shrine.jpg",
+     "text": "Januar 1924: Howard Carter (kniend) öffnet mit Arthur Callender und einem ägyptischen Arbeiter die Türen der Schreine. Bis hierher waren die Räuber nicht gekommen.",
+     "credit": "Harry Burton (1879–1940) · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Tutankhamun – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Tutankhamun"
+    },
+    {
+     "name": "Lord Carnarvon – Tutankhamun: Anatomy of an Excavation, Griffith Institute, University of Oxford",
+     "url": "https://tutankhamun.griffith.ox.ac.uk/people/lord-carnarvon"
+    },
+    {
+     "name": "KV 62 (Tutankhamen) – Theban Mapping Project (American Research Center in Egypt)",
+     "url": "https://thebanmappingproject.com/tombs/kv-62-tutankhamen"
+    },
+    {
+     "name": "Tomb of Tutankhamun – Wikipedia (englisch)",
+     "url": "https://en.wikipedia.org/wiki/Tomb_of_Tutankhamun"
+    }
+   ],
+   "id": "tutanchamun"
   }
  ]
 };
