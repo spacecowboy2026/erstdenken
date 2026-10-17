@@ -30,44 +30,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Die Grenze fiel durch eine Panne, nicht durch eine Entscheidung.",
    "warum": {
-    "frage": "Warum hat an diesem Abend niemand geschossen?",
-    "nachfrage": "Was hätte ein einzelner Offizier riskiert, wenn er ohne Befehl hätte schießen lassen?",
+    "frage": "Ein einziger Satz bei einer Pressekonferenz – und Stunden später ist die Grenze offen. Wie konnte ein Versprecher so viel auslösen?",
+    "nachfrage": "Und warum haben die Grenzer am Ende nachgegeben, statt die Leute zurückzuschicken?",
     "gruende": [
      {
-      "text": "Die SED-Führung hatte Anfang November verboten, bei Demonstrationen zu schießen. Schon seit April sollten Grenzer nicht mehr auf Flüchtende feuern.",
+      "text": "Der Satz lief live im Fernsehen, Agenturen und Tagesschau meldeten ihn: Alle hörten „sofort“.",
       "worte": [
-       "schieß",
-       "verbot",
-       "befehl",
-       "waffe",
-       "feuer",
-       "anweisung",
-       "schuss"
+       "fernseh",
+       "radio",
+       "live",
+       "tagesschau",
+       "nachricht",
+       "gemeldet",
+       "alle gehört",
+       "medien"
       ]
      },
      {
-      "text": "Die Menge war riesig. Gewalt hätte ein Blutbad bedeutet.",
+      "text": "Tausende zogen noch am Abend gleichzeitig zu den Grenzübergängen.",
       "worte": [
+       "tausend",
        "menge",
        "viele",
-       "tausend",
+       "leute",
        "menschen",
-       "masse",
-       "blutbad",
-       "gewalt"
+       "ansturm",
+       "massen",
+       "gleichzeitig"
       ]
      },
      {
-      "text": "Die Sowjetunion griff nicht ein. Auch am Tag danach blieben ihre Truppen in der DDR in den Kasernen.",
+      "text": "Die Grenzer hatten keine brauchbare Anweisung von oben und waren der drängenden Menge nicht gewachsen.",
       "worte": [
-       "sowjet",
-       "russ",
-       "moskau",
-       "truppen",
-       "kaserne",
-       "gorbatschow",
-       "panzer",
-       "eingreif"
+       "befehl",
+       "anweisung",
+       "überfordert",
+       "keiner",
+       "niemand",
+       "offizier",
+       "jäger",
+       "kontroll"
       ]
      }
     ]
@@ -228,11 +230,11 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Die runde Form ist keine Geschmacksfrage, sondern eine Sicherung. Ein Kreis passt nicht durch sein eigenes Loch.",
    "warum": {
-    "frage": "Warum fällt ein runder Deckel nie in seinen Schacht, ein quadratischer aber schon?",
-    "nachfrage": "Wo genau liegt der Deckel eigentlich auf, und wie breit ist ein Quadrat, wenn du es über die Ecken misst?",
+    "frage": "Ein runder Deckel passt nicht durch sein eigenes Loch, ein eckiger schon. Wie kommt das? Was genau macht den Kreis so sicher?",
+    "nachfrage": "Und worauf liegt so ein Deckel eigentlich, wenn er im Boden sitzt?",
     "gruende": [
      {
-      "text": "Der Deckel liegt auf einem Rand. Die Öffnung darunter ist kleiner als der Deckel.",
+      "text": "Der Deckel liegt auf einem Rand. Die Öffnung darunter ist etwas kleiner als der Deckel.",
       "worte": [
        "rand",
        "auflieg",
@@ -240,11 +242,12 @@ window.ERSTDENKEN = {
        "kleiner",
        "öffnung",
        "loch",
-       "absatz"
+       "absatz",
+       "kante"
       ]
      },
      {
-      "text": "Ein Kreis hat überall denselben Durchmesser. In jeder Lage bleibt er breiter als die Öffnung.",
+      "text": "Ein Kreis ist in jeder Richtung gleich breit. Egal, wie man ihn kippt oder dreht, er bleibt breiter als die Öffnung.",
       "worte": [
        "durchmesser",
        "gleich breit",
@@ -257,7 +260,7 @@ window.ERSTDENKEN = {
       ]
      },
      {
-      "text": "Beim Quadrat ist die Diagonale länger als die Seite. Schräg gestellt, passt es durch die kürzere Richtung der Öffnung.",
+      "text": "Ein eckiger Deckel ist über die Diagonale breiter als über die Seite. Hochkant und schräg gestellt, rutscht er durch.",
       "worte": [
        "diagonal",
        "ecke",
@@ -409,43 +412,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Entdeckt hat es ein Zufall. Brauchbar gemacht hat es erst ein Team, über zehn Jahre später.",
    "warum": {
-    "frage": "Warum kennt fast jeder Fleming, aber kaum jemand Florey, Chain oder Heatley?",
-    "nachfrage": "Was erzählt sich leichter: ein Pilz, der zufällig auf einer Schale wächst, oder Jahre voller Laborarbeit?",
+    "frage": "Fleming sah 1928, dass der Pilz Bakterien tötet. Warum dauerte es trotzdem über zehn Jahre und brauchte ein ganzes Team, bis daraus ein Medikament wurde?",
+    "nachfrage": "Und als es beim ersten Patienten endlich wirkte: Woran scheiterte es dann trotzdem noch?",
     "gruende": [
      {
-      "text": "Die Zufallsentdeckung ist eine romantische Geschichte. Die Presse stellte deshalb Fleming in den Vordergrund.",
+      "text": "Der Stoff war instabil. Fleming und seine Helfer bekamen ihn nicht rein und kamen nicht weiter.",
       "worte": [
-       "zufall",
-       "romant",
-       "geschicht",
-       "presse",
-       "zeitung",
-       "medien",
-       "story"
+       "instabil",
+       "sauber",
+       "reinheit",
+       "zerfall",
+       "haltbar",
+       "nicht weiter",
+       "isolier",
+       "fleming"
       ]
      },
      {
-      "text": "Fleming sprach bereitwilliger mit Journalisten als die Oxforder.",
+      "text": "Den Wirkstoff aus der Pilzbrühe zu holen, war schwer. Heatley musste dafür erst eine eigene Technik bauen.",
       "worte": [
-       "journalist",
-       "interview",
-       "reden",
-       "sprach",
-       "presse",
-       "öffentlich",
-       "bereit"
+       "technik",
+       "heatley",
+       "brühe",
+       "herausholen",
+       "gewinn",
+       "extrah",
+       "verfahren",
+       "method"
       ]
      },
      {
-      "text": "Teamarbeit ist schwer zu erzählen. Den Nobelpreis 1945 bekamen Fleming, Florey und Chain; Heatley ging leer aus.",
+      "text": "Man brauchte riesige Mengen: bis zu 500 Liter Brühe pro Woche. Beim ersten Patienten ging der Vorrat trotzdem aus.",
       "worte": [
-       "team",
-       "gruppe",
-       "zusammen",
-       "viele",
-       "nobelpreis",
-       "preis",
-       "heatley"
+       "menge",
+       "liter",
+       "500",
+       "badewann",
+       "milchkann",
+       "vorrat",
+       "ausging",
+       "zu wenig"
       ]
      }
     ]
@@ -585,43 +591,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Die Erfindung war fertig. Was fehlte, waren Vorbilder.",
    "warum": {
-    "frage": "Warum wollte 1937 niemand einen Wagen schieben, der doch so praktisch war?",
-    "nachfrage": "Was dachten die Leute wohl, wie sie mit so einem Ding im Laden aussehen?",
+    "frage": "Goldman bezahlte Leute, die nur mit Wagen durch den Laden liefen. Warum hat ausgerechnet das die echten Kunden zum Schieben gebracht?",
+    "nachfrage": "Und was hatte die Leute vorher eigentlich abgehalten? An den Rädern lag es ja nicht.",
     "gruende": [
      {
-      "text": "Männer fanden das Schieben unmännlich, „Frauenarbeit“. Einen kleinen Korb trugen sie lieber selbst.",
+      "text": "Das Problem war Scham: Männer fanden Schieben unmännlich, Frauen erinnerte der Wagen an Kinderwagen.",
       "worte": [
-       "männ",
+       "schäm",
+       "scham",
+       "peinlich",
        "unmänn",
-       "frauenarbeit",
-       "mann",
-       "korb",
-       "trag",
-       "stolz"
-      ]
-     },
-     {
-      "text": "Frauen verbanden den Wagen mit Kinderwagen. Davon hatten sie genug.",
-      "worte": [
+       "männ",
        "kinderwagen",
        "frau",
-       "mütter",
-       "baby",
-       "kind",
-       "schieb"
+       "aussehen"
       ]
      },
      {
-      "text": "Etwas Neues ist peinlich, solange es niemand anders tut. Erst die bezahlten „Kunden“ machten es normal.",
+      "text": "Was andere schon sichtbar tun, wirkt normal. Die bezahlten Schieber waren Vorbilder, die Kunden machten es nach.",
       "worte": [
-       "peinlich",
-       "neu",
-       "niemand",
-       "normal",
-       "nachmach",
        "vorbild",
-       "schäm",
-       "andere"
+       "normal",
+       "andere",
+       "sehen",
+       "gesehen",
+       "sichtbar",
+       "nachmach",
+       "nachahm"
+      ]
+     },
+     {
+      "text": "Praktisch war der Wagen ja schon: Wer schiebt, muss nicht nur so viel kaufen, wie er tragen kann.",
+      "worte": [
+       "trag",
+       "praktisch",
+       "mehr kaufen",
+       "mehr",
+       "schwer",
+       "nutzen",
+       "bequem",
+       "leichter"
       ]
      }
     ]
@@ -752,45 +761,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Nicht Kolumbus lag richtig, sondern seine Kritiker. Er hatte Glück, dass Amerika im Weg lag.",
    "warum": {
-    "frage": "Warum glauben bis heute so viele, Kolumbus habe bewiesen, dass die Erde rund ist?",
-    "nachfrage": "Wer kommt in der Scheiben-Geschichte besser weg: Kolumbus oder die Gelehrten? Und welche Version erzählt man lieber?",
+    "frage": "Wie brachte ausgerechnet ein Rechenfehler Kolumbus dazu, loszusegeln? Und warum ging die Fahrt trotzdem gut, obwohl die Gelehrten recht hatten?",
+    "nachfrage": "Und wo genau steckte der Fehler in seiner Rechnung? An der Kugelform lag es ja nicht.",
     "gruende": [
      {
-      "text": "Es ist die bessere Geschichte: Ein mutiger Einzelner widerlegt sture Experten. So etwas hört man gern.",
+      "text": "Er hielt eine arabische Meile für so lang wie eine römische. Dadurch wurde seine Erde ein Viertel zu klein.",
       "worte": [
-       "geschicht",
-       "held",
-       "mutig",
-       "einzel",
-       "experte",
-       "gern",
-       "spannend",
-       "story"
+       "meile",
+       "arabisch",
+       "römisch",
+       "verwechsel",
+       "umrechn",
+       "zu klein",
+       "viertel",
+       "kleiner"
       ]
      },
      {
-      "text": "Die jungen USA suchten nach der Revolution Helden, die nicht britisch waren. Irvings vielgelesene Kolumbus-Biografie lieferte einen.",
+      "text": "So schien Asien nah: Japan lag für ihn rund 2.700 Meilen westlich der Kanaren statt etwa 10.000.",
       "worte": [
-       "usa",
+       "nah",
+       "kurz",
+       "japan",
+       "asien",
+       "entfern",
+       "strecke",
+       "2700",
+       "2.700"
+      ]
+     },
+     {
+      "text": "Dazwischen lag ein Kontinent, den in Europa keiner kannte. Amerika war im Weg.",
+      "worte": [
        "amerika",
-       "held",
-       "brit",
-       "revolution",
-       "irving",
-       "biograf",
-       "buch"
-      ]
-     },
-     {
-      "text": "Die Legende wurde weitererzählt, lange auch in Schulbüchern.",
-      "worte": [
-       "schul",
-       "buch",
-       "weitererzähl",
-       "erzählt",
-       "unterricht",
-       "lehrer",
-       "legende"
+       "kontinent",
+       "dazwischen",
+       "unbekannt",
+       "im weg",
+       "land",
+       "glück",
+       "neue welt"
       ]
      }
     ]
@@ -939,8 +949,8 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Der Bleistift trägt seit über 450 Jahren einen Irrtum im Namen.",
    "warum": {
-    "frage": "Warum hielten die Leute damals Graphit für Blei?",
-    "nachfrage": "Und warum hat man den Namen nach 1779 nicht einfach geändert?",
+    "frage": "Was musste zusammenkommen, damit ein Irrtum über 450 Jahre im Namen eines Stifts überlebt?",
+    "nachfrage": "1779 war der Irrtum doch aufgeklärt. Warum hat das am Namen nichts geändert?",
     "gruende": [
      {
       "text": "Der Stoff glänzte metallisch grau und färbte ab, ganz ähnlich wie Blei.",
@@ -956,27 +966,29 @@ window.ERSTDENKEN = {
       ]
      },
      {
-      "text": "Im 16. Jahrhundert konnte niemand Stoffe chemisch sicher bestimmen. Dass Graphit Kohlenstoff ist, zeigte erst Scheele 1779.",
+      "text": "Chemisch bestimmen konnte ihn im 16. Jahrhundert niemand. Also nannte man ihn gleich „black lead“, schwarzes Blei.",
       "worte": [
        "chemi",
        "bestimm",
-       "wissen",
        "niemand",
-       "scheele",
-       "1779",
+       "wusste",
+       "black lead",
+       "schwarz",
+       "plumbago",
        "untersuch"
       ]
      },
      {
-      "text": "Da war „Blei“ längst der Name im Handel und im Alltag. Gewohnheit schlug Chemie.",
+      "text": "Als Scheele 1779 zeigte, dass es Kohlenstoff ist, war der Name längst da. Er blieb einfach hängen.",
       "worte": [
-       "gewohn",
-       "name",
-       "handel",
-       "alltag",
-       "geblieben",
+       "scheele",
+       "1779",
+       "kohlenstoff",
        "hängen",
-       "tradition"
+       "geblieben",
+       "gewohn",
+       "längst",
+       "schon"
       ]
      }
     ]
@@ -1116,46 +1128,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Der geplante Anschlag scheiterte. Den tödlichen machte erst eine falsch gefahrene Kurve möglich.",
    "warum": {
-    "frage": "Warum war der Thronfolger nach dem ersten Anschlag immer noch so ungeschützt?",
-    "nachfrage": "Was wussten die Attentäter vorher über die Fahrt? Und wie saß das Paar im Auto?",
+    "frage": "Der Bombenanschlag war gescheitert. Wie konnte eine Stunde später doch noch ein einzelner Schütze aus nächster Nähe treffen?",
+    "nachfrage": "Und warum wartete der Schütze ausgerechnet an dieser Ecke?",
     "gruende": [
      {
-      "text": "Die Strecke und die Stationen waren vorher bekannt. Mehrere Attentäter konnten sich einfach an den Weg stellen.",
-      "worte": [
-       "strecke",
-       "route",
-       "bekannt",
-       "vorher",
-       "weg",
-       "öffentlich",
-       "mehrere",
-       "plan"
-      ]
-     },
-     {
-      "text": "Franz Ferdinand nahm Warnungen nicht ernst und fuhr im offenen Wagen.",
-      "worte": [
-       "warn",
-       "offen",
-       "cabrio",
-       "dach",
-       "leichtsinn",
-       "ernst",
-       "sorglos",
-       "schutz"
-      ]
-     },
-     {
-      "text": "Die Planänderung kam kurzfristig und wurde nicht klar weitergegeben. Daraus entstand das tödliche Missverständnis.",
+      "text": "Nach der Bombe wurde die Route kurzfristig geändert, aber nicht alle in der Kolonne wussten Bescheid.",
       "worte": [
        "änder",
        "kurzfristig",
-       "missverständ",
-       "fahrer",
        "bescheid",
+       "wusste",
+       "info",
+       "neue route",
        "kommunik",
-       "durcheinander",
-       "info"
+       "missverständ"
+      ]
+     },
+     {
+      "text": "Das erste Auto bog in eine Seitenstraße ab, der Wagen des Thronfolgers folgte und hielt, um zu wenden.",
+      "worte": [
+       "abgebog",
+       "abbieg",
+       "falsch",
+       "seitenstraße",
+       "wenden",
+       "hielt",
+       "anhalt",
+       "stehen"
+      ]
+     },
+     {
+      "text": "Genau dort stand Princip, an der ursprünglich geplanten Strecke. Und das Paar saß im offenen Wagen.",
+      "worte": [
+       "ursprünglich",
+       "alte strecke",
+       "geplant",
+       "ecke",
+       "zufall",
+       "princip",
+       "offen",
+       "dort"
       ]
      }
     ]
@@ -1212,7 +1224,6 @@ window.ERSTDENKEN = {
        "alt",
        "strecke",
        "route",
-       "weg",
        "ecke",
        "stand",
        "wartet",
@@ -1297,44 +1308,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Das Gesetz kam vom Reich. Den Takt hatte vorher der Fahrplan vorgegeben.",
    "warum": {
-    "frage": "Warum hat ausgerechnet die Eisenbahn das Uhren-Durcheinander nicht mehr ausgehalten, die Postkutsche aber schon?",
-    "nachfrage": "Stell dir vor, du steigst in Konstanz in einen Zug nach Lindau. Nach welcher Uhr richtest du dich?",
+    "frage": "Warum wurde ausgerechnet für die Eisenbahn das Uhren-Durcheinander so zum Problem, dass sie selbst eine gemeinsame Zeit einführte?",
+    "nachfrage": "Stell dir vor, du fährst von Bregenz nach Konstanz und steigst unterwegs um. Was musst du dann alles im Kopf haben?",
     "gruende": [
      {
-      "text": "Tempo: Mit der Postkutsche kam es auf eine Stunde nicht an. Erst die schnelle Bahn machte die Minuten-Unterschiede zwischen Orten spürbar.",
+      "text": "Jeder Ort hatte seine eigene Uhrzeit, am Bodensee fast eine halbe Stunde auseinander. Die schnelle Bahn fuhr ständig von einer zur nächsten.",
       "worte": [
-       "tempo",
-       "schnell",
-       "geschwind",
-       "kutsche",
+       "ortszeit",
+       "jeder ort",
+       "eigene",
+       "unterschied",
        "minute",
-       "spürbar",
-       "zug"
+       "verschieden",
+       "andere zeit",
+       "schnell"
       ]
      },
      {
-      "text": "Netz: Bahnlinien kreuzten sich und liefen über Ländergrenzen. Ein gemeinsamer Fahrplan brauchte eine gemeinsame Zeit.",
+      "text": "Jeder Fahrplan musste Abfahrt und Ankunft in der Ortszeit des jeweiligen Bahnhofs angeben.",
       "worte": [
-       "netz",
-       "kreuz",
-       "grenze",
        "fahrplan",
-       "gemeinsam",
-       "umsteig",
-       "strecke",
-       "verbind"
+       "abfahrt",
+       "ankunft",
+       "bahnhof",
+       "plan",
+       "gedruckt",
+       "angeben",
+       "jeweil"
       ]
      },
      {
-      "text": "Doppelte Uhr: Bahnbeamte mussten doppelt rechnen. Ihre Taschenuhr zeigte eine andere Zeit als die Bahnhofsuhren an der Strecke.",
+      "text": "Mit jedem Umstieg und jeder Ländergrenze wurde das zum Rechenrätsel. Selbst Berliner, Karlsruher und Stuttgarter Zeit passten nicht zusammen.",
       "worte": [
-       "taschenuhr",
-       "doppelt",
-       "uhr",
+       "umsteig",
+       "umstieg",
+       "grenze",
+       "länder",
+       "land",
        "rechn",
-       "beamte",
-       "bahnhofsuhr",
-       "umrechn"
+       "umrechn",
+       "hauptstadt"
       ]
      }
     ]
@@ -1473,45 +1486,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Nicht das Wetter versenkte die Vasa, sondern ein Test, auf den keiner hören wollte.",
    "warum": {
-    "frage": "Warum ließ man ein Schiff auslaufen, von dem man wusste, dass es gefährlich schwankt?",
-    "nachfrage": "Wer hätte dem König sagen sollen, dass sein Prunkschiff nicht taugt?",
+    "frage": "Nur eine leichte Brise, und die Vasa sinkt nach 1.300 Metern. Wie konnte das passieren, obwohl man die Gefahr vorher kannte?",
+    "nachfrage": "Und auf welchem Weg kam das Wasser eigentlich ins Schiff? Ein Leck war es ja nicht.",
     "gruende": [
      {
-      "text": "Druck von oben: Der König drängte, das Schiff sollte schnell auf See. Er hatte den Entwurf selbst gutgeheißen.",
+      "text": "Sie war kopflastig: oben zwei Decks voller schwerer Kanonen und hohe Aufbauten, unten zu wenig Rumpf im Wasser.",
       "worte": [
+       "kopflastig",
+       "oben",
+       "schwer",
+       "kanone",
+       "aufbau",
+       "rumpf",
+       "unten",
+       "schwerpunkt"
+      ]
+     },
+     {
+      "text": "Eine Böe kippte sie zur Seite, und das Wasser schoss durch die offenen Kanonenluken.",
+      "worte": [
+       "luke",
+       "offen",
+       "wasser",
+       "kipp",
+       "seite",
+       "böe",
+       "schräg",
+       "reinlauf"
+      ]
+     },
+     {
+      "text": "Beim Test schwankte sie schon gefährlich. Trotzdem ließ der Admiral sie auslaufen, weil der König sein Schiff endlich auf See wollte.",
+      "worte": [
+       "test",
+       "wusste",
+       "schwank",
        "könig",
+       "admiral",
+       "trotzdem",
        "druck",
-       "drängt",
-       "befehl",
-       "eile",
-       "schnell",
-       "angst",
-       "chef"
-      ]
-     },
-     {
-      "text": "Niemand konnte es ausrechnen: Stabilität berechnete man damals nicht, man baute nach Erfahrung. Und der Baumeister hatte noch nie ein Schiff mit zwei Kanonendecks gebaut.",
-      "worte": [
-       "rechn",
-       "berechn",
-       "erfahrung",
-       "wissen",
-       "formel",
-       "baumeister",
-       "neu",
-       "unerfahr"
-      ]
-     },
-     {
-      "text": "Keiner war zuständig: Der Baumeister war schon 1627 gestorben. Die Untersuchung danach bestrafte niemanden.",
-      "worte": [
-       "zuständig",
-       "verantwort",
-       "gestorben",
-       "tot",
-       "bestraf",
-       "schuld",
-       "niemand"
+       "gewarnt"
       ]
      }
     ]
@@ -1656,11 +1670,11 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Die Nieten sind keine Deko, sondern eine Reparatur für reißende Taschen. Und die Idee hatte ein Schneider, nicht Levi Strauss.",
    "warum": {
-    "frage": "Warum hat Davis seine Idee mit seinem Stofflieferanten geteilt, statt sie für sich zu behalten?",
-    "nachfrage": "Was braucht man außer einer guten Idee, damit sie einem nicht gleich jemand nachmacht?",
+    "frage": "Die Nieten-Idee hatte der Schneider Davis. Wie kam es, dass am Ende auch Levi Strauss' Firma auf dem Patent stand?",
+    "nachfrage": "Und warum ausgerechnet Levi Strauss? Woher kannten sich die beiden überhaupt?",
     "gruende": [
      {
-      "text": "Geld fürs Patent: Davis konnte die Anmeldung nicht bezahlen. Er lud die Firma ein, das Patent gemeinsam anzumelden.",
+      "text": "Davis fehlte das Geld, um die Idee allein zum Patent anzumelden.",
       "worte": [
        "geld",
        "patent",
@@ -1668,32 +1682,34 @@ window.ERSTDENKEN = {
        "bezahl",
        "gebühr",
        "kost",
-       "anmeld",
-       "pleite"
+       "pleite",
+       "arm"
       ]
      },
      {
-      "text": "Stoff und Handel: Levi Strauss lieferte ohnehin den Stoff, aus seinem Geschäft in San Francisco.",
+      "text": "Levi Strauss war sein Stofflieferant, Davis kaufte bei ihm ein. Also schrieb er ihm 1872.",
       "worte": [
        "stoff",
        "liefer",
-       "handel",
-       "geschäft",
-       "verkauf",
-       "laden",
-       "kunde"
+       "kunde",
+       "kauft",
+       "brief",
+       "schrieb",
+       "händler",
+       "kannte"
       ]
      },
      {
-      "text": "Herstellung: Davis blieb bei Levi Strauss & Co. und leitete bis an sein Lebensende die Fabrik.",
+      "text": "1873 bekamen Davis und Levi Strauss & Co. das Patent gemeinsam.",
       "worte": [
-       "fabrik",
-       "herstell",
-       "produz",
-       "leit",
-       "firma",
-       "job",
-       "chef"
+       "gemeinsam",
+       "zusammen",
+       "partner",
+       "beide",
+       "teil",
+       "anmeld",
+       "1873",
+       "firma"
       ]
      }
     ]
@@ -1829,42 +1845,45 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Keine Maschine hat versagt. Zwei Teams rechneten in verschiedenen Einheiten, und niemand hat es gemerkt.",
    "warum": {
-    "frage": "Warum hat bei der NASA monatelang niemand den Fehler bemerkt?",
-    "nachfrage": "Wenn eine Zahl pünktlich und im richtigen Format ankommt: Würdest du nachfragen, in welcher Einheit sie ist?",
+    "frage": "An der Sonde war nichts kaputt, und trotzdem ging sie verloren. Wie konnte eine falsche Maßeinheit eine ganze Mars-Mission zerstören?",
+    "nachfrage": "Jede einzelne Kurskorrektur war nur ein bisschen zu schwach. Warum wurde daraus trotzdem kein kleiner Schlenker, sondern ein Absturz?",
     "gruende": [
      {
-      "text": "Die Einheit war schriftlich festgelegt: Newton-Sekunden. Geprüft hat aber niemand, ob die Software auf der Erde sich daran hält.",
+      "text": "Ein Team lieferte Schubdaten in Pfund-Sekunden, das andere las sie als Newton-Sekunden. So wurde jede Kurskorrektur um den Faktor 4,45 unterschätzt.",
       "worte": [
-       "einheit",
+       "pfund",
        "newton",
-       "vorgab",
-       "vereinbar",
+       "einheit",
+       "metri",
+       "faktor",
+       "verwechs",
+       "unterschätz"
+      ]
+     },
+     {
+      "text": "Niemand hat umgerechnet, und niemand hat den Unterschied bemerkt.",
+      "worte": [
+       "niemand",
+       "umgerechn",
+       "umrechn",
+       "gemerkt",
+       "bemerkt",
+       "aufgefall",
        "geprüft",
-       "kontroll",
-       "regel"
+       "kontroll"
       ]
      },
      {
-      "text": "Die Teams redeten zu wenig miteinander. Auffällige Abweichungen wurden nur nebenbei gemeldet, etwa per E-Mail, und nie geklärt.",
+      "text": "Über neun Monate summierten sich die kleinen Fehler. Statt 226 Kilometer über dem Mars kam die Sonde bei etwa 57 an, viel zu tief.",
       "worte": [
-       "kommuni",
-       "redeten",
-       "gespräch",
-       "mail",
-       "gemeldet",
-       "abweich",
-       "informell"
-      ]
-     },
-     {
-      "text": "Das Navigationsteam war zu klein und kannte die Sonde kaum. Eine letzte mögliche Kurskorrektur wurde nicht mehr geflogen.",
-      "worte": [
-       "klein",
-       "wenig leute",
-       "personal",
-       "unerfahr",
-       "kannte",
-       "kurskorrektur"
+       "summ",
+       "addier",
+       "monate",
+       "nach und nach",
+       "zu tief",
+       "tiefer",
+       "abstand",
+       "kilometer"
       ]
      }
     ]
@@ -1997,43 +2016,33 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Die erste Ampel ist älter als das Auto. Sie kam von der Eisenbahn und regelte Kutschen.",
    "warum": {
-    "frage": "Warum regelte man den Verkehr ausgerechnet mit einem Eisenbahnsignal?",
-    "nachfrage": "Was hatte die Eisenbahn schon, was auf der Straße noch fehlte?",
+    "frage": "Die erste Ampel der Welt ist älter als das Auto. Wie passt das zusammen, und warum sah sie aus wie ein Signal von der Bahn?",
+    "nachfrage": "Wenn noch kein einziges Auto fuhr: Wozu brauchte diese Kreuzung am Parlament dann überhaupt eine Ampel?",
     "gruende": [
      {
-      "text": "Die Kreuzung am Parlament war verstopft und gefährlich für Fußgänger. Ein Polizist mit Handzeichen reichte nicht mehr.",
+      "text": "Verkehr gab es schon vor dem Auto: Auf der Kreuzung am Parlament drängten sich Pferdekutschen und Fußgänger.",
       "worte": [
-       "verstopf",
-       "stau",
-       "gefähr",
+       "kutsche",
+       "pferd",
        "fußgänger",
-       "chaos",
-       "polizist",
-       "handzeich"
+       "gedräng",
+       "drängt",
+       "verkehr",
+       "voll",
+       "chaos"
       ]
      },
      {
-      "text": "Die Bahn hatte ein erprobtes System: Arme für Halt und Fahrt, nachts farbige Lampen. Knight kannte es aus seinem Beruf.",
+      "text": "Der Erfinder John Peake Knight war Eisenbahn-Manager. Er übernahm das Bahnsignal: tagsüber Arme für „Halt“, nachts rote und grüne Lampen.",
       "worte": [
        "bahn",
        "eisenbahn",
        "signal",
        "arme",
-       "lampe",
-       "beruf",
-       "kannte",
-       "erprobt"
-      ]
-     },
-     {
-      "text": "Eine sechs Meter hohe Säule sieht man von Weitem, einen Polizisten zwischen Kutschen kaum.",
-      "worte": [
-       "hoch",
-       "säule",
-       "sichtbar",
-       "sehen",
-       "weitem",
-       "auffäll"
+       "knight",
+       "übernomm",
+       "kopiert",
+       "manager"
       ]
      }
     ]
@@ -2175,42 +2184,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Am Golf ist der Falke kein Haustier, sondern ein Reisender mit Papieren.",
    "warum": {
-    "frage": "Warum sind Falken am Golf so wertvoll?",
-    "nachfrage": "Was hätte eine Familie in der Wüste, ohne Laden weit und breit, mit einem Jagdvogel anfangen können?",
+    "frage": "Ein Vogel mit eigenem Pass, der in der Economy mitfliegt. Wie kommt es, dass Falken vom Golf reisen wie Menschen?",
+    "nachfrage": "Und was haben die Behörden davon, wenn jeder einzelne Falke eigene Papiere hat?",
     "gruende": [
      {
-      "text": "Früher halfen Falken Beduinenfamilien beim Überleben. Sie jagten Wild wie die Kragentrappe (Houbara) und brachten so Fleisch in eine karge Wüste.",
+      "text": "Falken sind geschützt. Die Behörden wollen deshalb jeden einzelnen Vogel kennen, also bekommt jeder einen eigenen Pass.",
       "worte": [
-       "jagd",
-       "jag",
-       "fleisch",
-       "essen",
-       "überleb",
-       "beduin",
-       "wüste",
-       "nahrung"
+       "geschützt",
+       "schutz",
+       "behörde",
+       "kontroll",
+       "kennen",
+       "papier",
+       "dokument"
       ]
      },
      {
-      "text": "Falknerei ist heute Nationalstolz und Kulturerbe. Seit 2010 steht sie auf der UNESCO-Liste, inzwischen mit 24 Ländern, darunter Deutschland.",
+      "text": "Ring am Bein und Pass tragen dieselbe Nummer. So gehört jeder Pass zu genau einem Vogel. Grenzbeamte stempeln ihn ab wie bei Menschen.",
       "worte": [
-       "stolz",
-       "kultur",
-       "tradition",
-       "unesco",
-       "erbe",
-       "national"
+       "ring",
+       "nummer",
+       "stempel",
+       "grenze",
+       "genau einem",
+       "zuordn",
+       "bein"
       ]
      },
      {
-      "text": "Spitzenfalken sind selten und teuer. Das lockt Schmuggler, und genau deshalb gibt es die Pässe.",
+      "text": "Am Golf sind Falken echte Schätze, einer ging für rund 134.000 Dollar weg. Entsprechend werden sie behandelt: Kabine statt Frachtraum.",
       "worte": [
-       "selten",
-       "teuer",
        "wert",
+       "teuer",
+       "schatz",
        "geld",
-       "schmugg",
-       "preis"
+       "dollar",
+       "kostbar",
+       "preis",
+       "kabine"
       ]
      }
     ]
@@ -2375,42 +2386,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Ketchup war eine Fischsoße, lange bevor es eine Tomatensoße wurde.",
    "warum": {
-    "frage": "Warum kamen die Tomaten erst so spät ins Ketchup?",
-    "nachfrage": "Was hielten die Engländer um 1700 wohl von Tomaten?",
+    "frage": "Aus einer Fischsoße in Asien wurde eine Tomatensoße in Amerika. Wie konnte sich ein Rezept unterwegs so stark verändern?",
+    "nachfrage": "Zwischen Asien und Amerika fehlt noch eine Station. Was ist mit der Soße dort passiert?",
     "gruende": [
      {
-      "text": "Die Tomate stammt aus Amerika. Viele Briten misstrauten ihr, manche hielten sie sogar für giftig.",
+      "text": "Britische und niederländische Seeleute lernten die Fischsoße in Südostasien kennen und brachten sie mit. Den Namen behielt man, das Rezept nicht.",
       "worte": [
-       "amerika",
-       "giftig",
-       "misstrau",
-       "fremd",
-       "neu",
-       "unbekannt"
+       "seeleute",
+       "seefahr",
+       "schiff",
+       "mitgebracht",
+       "asien",
+       "name",
+       "wort"
       ]
      },
      {
-      "text": "In England gab es Ketchup schon längst: als Nachahmung des Fisch-Originals, mit Pilzen oder Walnüssen. Niemand vermisste eine Tomate.",
+      "text": "In England kochte man sie nach, mit Pilzen, Walnüssen oder Austern statt mit vergorenem Fisch.",
       "worte": [
+       "england",
+       "nachkoch",
+       "nachgekocht",
+       "nachahm",
        "pilz",
        "walnuss",
-       "nuss",
-       "gab schon",
-       "vermisst",
-       "nachahm",
+       "auster",
        "ersatz"
       ]
      },
      {
-      "text": "Tomatenketchup hielt sich schlechter als die vergorenen Soßen. Erst mit viel Essig, Salz und Zucker wurde es haltbar.",
+      "text": "Erst in Amerika kamen Tomaten dazu, ein Rezept gibt es ab 1812. Heinz verkaufte die rote Soße ab 1876 in Flaschen.",
       "worte": [
-       "haltbar",
-       "verdarb",
-       "schlecht",
-       "essig",
-       "zucker",
-       "salz",
-       "hielt"
+       "amerika",
+       "usa",
+       "tomat",
+       "heinz",
+       "flasche",
+       "mease",
+       "1812"
       ]
      }
     ]
@@ -2544,41 +2557,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Halloween ist ein irischer Brauch, der auf dem Umweg über Amerika zu uns kam, mit Kürbis statt Rübe.",
    "warum": {
-    "frage": "Warum schnitzen wir heute Kürbisse und keine Rüben?",
-    "nachfrage": "Was fanden die irischen Auswanderer in Amerika, das es zu Hause kaum gab?",
+    "frage": "Ein irisches Fest mit Rübenlaternen kommt bei uns als amerikanisches Kürbisfest an. Wie ist das passiert?",
+    "nachfrage": "Und wer hatte in Deutschland ab den 1990ern ein Interesse daran, dass wir Halloween feiern?",
     "gruende": [
      {
-      "text": "Kürbisse stammen aus Amerika. Europäer lernten sie dort von den Ureinwohnern kennen. In Irland nahm man, was wuchs: Rüben und Kartoffeln.",
+      "text": "In den 1840ern flohen viele Iren vor einer großen Hungersnot nach Amerika und nahmen ihren Brauch mit.",
       "worte": [
-       "amerika",
-       "ureinwohner",
-       "wuchs",
-       "gab",
-       "rübe",
-       "kartoffel",
+       "auswander",
+       "hunger",
+       "flucht",
+       "flohen",
+       "mitgenommen",
+       "mitgebracht",
+       "iren",
        "irland"
       ]
      },
      {
-      "text": "Kürbisse sind größer und lassen sich leichter aushöhlen und schnitzen als eine harte Rübe.",
+      "text": "In Amerika fanden sie Kürbisse: größer und leichter zu schnitzen als Rüben.",
       "worte": [
+       "kürbis",
        "größer",
        "leichter",
-       "weich",
-       "aushöhl",
        "schnitz",
+       "rübe",
        "einfacher"
       ]
      },
      {
-      "text": "Halloween kam in seiner amerikanischen Form zu uns, und damit kam der Kürbis, nicht die alte Rübe.",
+      "text": "In den USA wurde Halloween ein großes Kinderfest. In dieser Form kam es ab den 1990ern zu uns, wohl kräftig beworben von Händlern.",
       "worte": [
-       "amerikan",
        "usa",
-       "mitgebracht",
-       "übernommen",
-       "film",
-       "form"
+       "amerikan",
+       "händler",
+       "werb",
+       "kinder",
+       "1990",
+       "karneval",
+       "golfkrieg"
       ]
      }
     ]
@@ -2727,42 +2743,43 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Gerade weil der Kleber so schlecht hielt, wurde er ein Welterfolg.",
    "warum": {
-    "frage": "Warum hätte 3M die Zettel fast aufgegeben, obwohl sie heute überall kleben?",
-    "nachfrage": "Würdest du Geld für etwas ausgeben, das du noch nie in der Hand hattest?",
+    "frage": "Ein Kleber, der kaum hält, wird ein Welterfolg. Wie konnte ausgerechnet seine Schwäche zum Vorteil werden?",
+    "nachfrage": "Fast hätte 3M aufgegeben. Was hat die Leute am Ende doch überzeugt?",
     "gruende": [
      {
-      "text": "Bei den ersten Markttests 1977 verkauften sie sich nur mäßig. So etwas kannte man noch nicht.",
+      "text": "Weil der Kleber so schwach hält, lässt sich Papier abziehen und wieder ankleben. Genau das brauchte Art Fry für seine Lesezeichen im Gesangbuch.",
       "worte": [
-       "test",
-       "verkauf",
-       "mäßig",
-       "kannte",
-       "neu",
-       "ungewohnt",
-       "flop"
+       "abzieh",
+       "wieder ankleb",
+       "ablös",
+       "lesezeichen",
+       "gesangbuch",
+       "chor",
+       "rutsch"
       ]
      },
      {
-      "text": "Die Chefs fürchteten anfangs, die Zettel könnten wie Verschwendung wirken.",
+      "text": "Fry schrieb seinem Chef Nachrichten auf die Streifen. Da merkten beide: Das sind Notizzettel, die von selbst haften.",
       "worte": [
-       "verschwend",
+       "notiz",
+       "nachricht",
+       "zettel",
+       "schrieb",
        "chef",
-       "management",
-       "sorge",
-       "angst",
-       "wegwerf"
+       "haften",
+       "haftet"
       ]
      },
      {
-      "text": "Man musste sie selbst ausprobieren. Fry nannte sie ein Produkt, das für sich selbst wirbt: Wer einen Zettel auf einem Brief fand, wollte bald eigene.",
+      "text": "Der erste Markttest 1977 lief mäßig. Erst als 3M 1978 in Boise Proben verschenkte, wollten rund 90 Prozent der Tester sie kaufen.",
       "worte": [
-       "ausprobier",
        "probe",
+       "verschenk",
        "gratis",
-       "wirbt",
-       "sehen",
-       "brief",
-       "selbst"
+       "ausprobier",
+       "test",
+       "boise",
+       "90 prozent"
       ]
      }
     ]
@@ -2817,8 +2834,7 @@ window.ERSTDENKEN = {
        "heil",
        "kaputt",
        "mehrmals",
-       "nochmal",
-       "oft"
+       "nochmal"
       ],
       "nachfrage": "Aber warum kann man den Zettel dann noch ein zweites Mal hinkleben?"
      }
@@ -2902,42 +2918,42 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Das berühmte Reinheitsgebot war nicht nur ein Bier-Gesetz, sondern auch ein Brot-Gesetz.",
    "warum": {
-    "frage": "Warum war Brotgetreide 1516 so wichtig, dass ein Bier-Gesetz es schützen sollte?",
-    "nachfrage": "Was passiert mit dem Brotpreis, wenn Brauer und Bäcker um denselben Weizen bieten?",
+    "frage": "Das Reinheitsgebot war auch ein Brot-Gesetz. Wie kann ein Gesetz über Bier das Brot schützen?",
+    "nachfrage": "Was wäre in einem schlechten Jahr mit dem Brot passiert, wenn die Brauer das Getreide aufgekauft hätten?",
     "gruende": [
      {
-      "text": "Brot war Grundnahrungsmittel. Wurde Getreide knapp oder teuer, drohte Hunger.",
-      "worte": [
-       "brot",
-       "grundnahrung",
-       "hunger",
-       "knapp",
-       "teuer",
-       "essen",
-       "ernähr"
-      ]
-     },
-     {
-      "text": "Brauer und Bäcker konkurrierten um Weizen und Roggen. Mit Gerste als einzigem Braugetreide blieb mehr für das Brot.",
+      "text": "Brauer und Bäcker kauften damals dasselbe Getreide. Was ins Bier wanderte, fehlte beim Brot.",
       "worte": [
        "bäcker",
+       "brauer",
+       "dasselbe",
+       "gleiche",
        "konkurr",
-       "roggen",
-       "gerste",
-       "weniger",
-       "mehr übrig",
-       "teilen"
+       "fehlt",
+       "weniger"
       ]
      },
      {
-      "text": "Die Herzöge wollten auch das Bier bezahlbar halten. Deshalb setzten sie Höchstpreise fest.",
+      "text": "Brot war für die meisten das wichtigste Essen. Wurde Getreide knapp, drohte Hunger.",
       "worte": [
-       "preis",
-       "bezahlbar",
-       "billig",
-       "kosten",
-       "pfennig",
-       "höchst"
+       "brot",
+       "essen",
+       "hunger",
+       "knapp",
+       "nahrung",
+       "ernähr",
+       "wichtigste"
+      ]
+     },
+     {
+      "text": "Zum Brauen blieb nur Gerste erlaubt. So konnten die Brauer weiterbrauen, und der Weizen blieb den Bäckern.",
+      "worte": [
+       "gerste",
+       "erlaubt",
+       "nur gerste",
+       "stattdessen",
+       "blieb",
+       "übrig"
       ]
      }
     ]
@@ -2993,7 +3009,6 @@ window.ERSTDENKEN = {
       "worte": [
        "gerste",
        "brauer",
-       "nur",
        "erlaubt",
        "stattdessen",
        "anderes"
@@ -3092,42 +3107,43 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Sushi begann als Vorratshaltung, bei der man den Reis wegwarf, und wurde zum Fast Food.",
    "warum": {
-    "frage": "Warum legte man Fisch überhaupt monatelang in Reis?",
-    "nachfrage": "Was passiert mit frischem Fisch, wenn es keinen Kühlschrank gibt?",
+    "frage": "Erst warf man den Reis weg, heute gehört er fest zum Sushi. Wie wurde aus einer Vorratsmethode ein schnelles Essen mit Reis?",
+    "nachfrage": "Und was hat am Ende das lange Warten auf die Säure ersetzt?",
     "gruende": [
      {
-      "text": "Frischer Fisch verdirbt schnell. Ohne Kühlung brauchte man einen Weg, ihn lange aufzubewahren.",
+      "text": "Anfangs ging es nur darum, Fisch haltbar zu machen. Der Reis gärte monatelang mit und zerfiel dabei zu einer sauren Flüssigkeit.",
       "worte": [
-       "verdirb",
-       "verderb",
-       "schlecht",
-       "kühl",
-       "kühlschrank",
        "haltbar",
-       "frisch",
-       "aufbewahr"
-      ]
-     },
-     {
-      "text": "Der gekochte Reis gärt und wird sauer. Das säuert den gesalzenen Fisch und hält ihn monatelang.",
-      "worte": [
        "gär",
        "sauer",
-       "säure",
-       "reis",
+       "flüssig",
+       "zerfall",
        "konserv",
-       "salz"
+       "vorrat"
       ]
      },
      {
-      "text": "In schneereichen Gegenden, etwa im Norden von Shiga, musste man Vorräte für den ganzen Winter anlegen.",
+      "text": "Ab dem 15. Jahrhundert ließ man kürzer gären. Dann aß man den Reis mit.",
       "worte": [
-       "winter",
-       "schnee",
-       "vorrat",
-       "kalt",
-       "monate",
-       "lager"
+       "kürzer",
+       "kurz",
+       "weniger lang",
+       "mitgegessen",
+       "mitess",
+       "mit gegessen"
+      ]
+     },
+     {
+      "text": "Später sorgte Essig für die Säure, das Gären fiel weg. So wurde Nigiri in Edo schnell von Hand geformt und am Straßenstand verkauft.",
+      "worte": [
+       "essig",
+       "ohne gär",
+       "schnell",
+       "straße",
+       "nigiri",
+       "hand",
+       "edo",
+       "fast food"
       ]
      }
     ]
@@ -3261,42 +3277,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Die berühmteste Geschichte über eine Zeitungspanne ist selbst halb Panne: Die Verwechslung war echt, die Schlagzeile ist nicht belegt.",
    "warum": {
-    "frage": "Warum erzählen so viele die Schlagzeilen-Geschichte, obwohl sie nicht belegt ist?",
-    "nachfrage": "Was merkst du dir leichter: „Er las seinen eigenen Nachruf und schämte sich“ oder „Seine Gründe sind unbekannt“?",
+    "frage": "Belegt ist nur die Verwechslung, trotzdem steht die ganze Geschichte in vielen Büchern. Wie konnte sich diese halbe Legende so lange halten?",
+    "nachfrage": "Hat Nobel selbst eigentlich je gesagt, warum er die Preise gestiftet hat?",
     "gruende": [
      {
-      "text": "Sie ist eine perfekte Geschichte: Ein Mann sieht, wie die Welt über ihn urteilen wird, und ändert sein Leben.",
-      "worte": [
-       "geschichte",
-       "story",
-       "spannend",
-       "drama",
-       "perfekt",
-       "merk",
-       "schön"
-      ]
-     },
-     {
-      "text": "Ein Kern stimmt: Die Verwechslung von 1888 gab es wirklich. Das macht den Rest glaubwürdig.",
+      "text": "Ein echter Kern macht sie glaubwürdig: Die Verwechslung von 1888 gab es wirklich.",
       "worte": [
        "kern",
        "wahr",
        "stimmt",
        "verwechsl",
        "echt",
-       "glaubwürd"
+       "glaubwürd",
+       "teilweise"
       ]
      },
      {
-      "text": "Auch große Nachschlagewerke wie die Encyclopaedia Britannica geben die Schlagzeile weiter. So sieht eine Erzählung bald aus wie ein Fakt.",
+      "text": "Nobel hat nie erklärt, warum er die Preise stiftete. Diese Lücke füllte später eine Vermutung: die Scham.",
       "worte": [
-       "britannica",
-       "lexikon",
+       "erklärt",
+       "unbekannt",
+       "lücke",
+       "vermut",
+       "nie gesagt",
+       "scham",
+       "grund"
+      ]
+     },
+     {
+      "text": "Sie ist eine packende Geschichte mit Schlagzeile, Schreck und Wende, und sie steht in vielen Büchern. So wird sie immer weitererzählt.",
+      "worte": [
+       "geschichte",
+       "spannend",
+       "drama",
        "bücher",
-       "nachschlag",
-       "quelle",
+       "weitererzähl",
        "abgeschrieben",
-       "weitergeg"
+       "story",
+       "merk"
       ]
      }
     ]
@@ -3439,43 +3457,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Ein Brauch, der uralt wirkt, ist keine 150 Jahre alt und begann wohl als Spott oder Werbung.",
    "warum": {
-    "frage": "Warum hat sich ausgerechnet dieser Brauch so schnell verbreitet?",
-    "nachfrage": "Was hilft einem Brauch mehr: ein Platz, auf den alle schauen, oder Leute, die damit Geld verdienen?",
+    "frage": "Spott und Werbung als Anfang: Wie konnte daraus ein Brauch werden, den heute ganz Spanien feiert und der uralt wirkt?",
+    "nachfrage": "Und was haben die Leute selbst davon, wenn sie um Mitternacht hastig zwölf Trauben essen?",
     "gruende": [
      {
-      "text": "Er war billig und lustig. Trauben kosteten wenig, mitmachen konnte jeder.",
+      "text": "Reiche Madrider aßen an Silvester Trauben zum Champagner. Einfache Leute machten es ihnen spöttisch nach, auf der Puerta del Sol zu den Glockenschlägen.",
       "worte": [
-       "billig",
-       "günstig",
+       "reich",
+       "spott",
        "lustig",
-       "spaß",
-       "jeder",
-       "einfach",
-       "wenig geld"
+       "nachgeahmt",
+       "nachmach",
+       "champagner",
+       "vornehm",
+       "glocke"
       ]
      },
      {
-      "text": "Traubenbauern und Händler hatten etwas davon. Mit dem Namen „Glückstrauben“ ließ sich gut verkaufen.",
+      "text": "1909 hatten Traubenbauern zu viele Trauben. Als „Glückstrauben“ ließen sie sich gut unter die Leute bringen.",
       "worte": [
        "bauern",
-       "händler",
+       "übrig",
+       "zu viele",
+       "überschuss",
        "verkauf",
-       "geld",
-       "glück",
        "werbung",
-       "geschäft"
+       "geschäft",
+       "händler"
       ]
      },
      {
-      "text": "Die Puerta del Sol war das Zentrum des Landes. Schon ein Jahrzehnt später schrieben Zeitungen, der Brauch verbreite sich in ganz Spanien.",
+      "text": "Der Brauch verspricht etwas: Wer alle zwölf rechtzeitig schafft, hat Glück im neuen Jahr. Da macht man gern mit.",
       "worte": [
-       "puerta",
-       "platz",
-       "zentrum",
-       "mitte",
-       "zeitung",
-       "ganz spanien",
-       "fernseh"
+       "glück",
+       "neues jahr",
+       "versprech",
+       "aberglaub",
+       "schafft",
+       "alle zwölf"
       ]
      }
     ]
@@ -3618,41 +3637,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Der freie Samstag war für Ford kein Geschenk, sondern ein Geschäft: Wer frei hat, kauft ein.",
    "warum": {
-    "frage": "Warum zog ausgerechnet der Spruch „Samstags gehört Vati mir“ so gut?",
-    "nachfrage": "Wen spricht der Satz eigentlich an: nur den Arbeiter oder auch seine Familie?",
+    "frage": "Fünf Tage Arbeit, voller Lohn – und Ford verdiente trotzdem daran. Wie kann weniger Arbeit für einen Fabrikchef ein gutes Geschäft sein?",
+    "nachfrage": "Und in der Fabrik selbst: Ging Ford durch den freien Tag eigentlich Arbeit verloren?",
     "gruende": [
      {
-      "text": "Er machte aus Arbeitszeit ein Familienthema. Der Spruch betonte die Rolle des Vaters, ein neues Männerbild der jungen Bundesrepublik.",
+      "text": "Wer frei hat, braucht mehr: Kleidung, Essen, Transport. Und ein Auto lohnt sich erst, wenn man Zeit zum Fahren hat.",
       "worte": [
-       "familie",
-       "vater",
-       "vati",
-       "papa",
-       "kinder",
-       "männerbild",
-       "rolle"
+       "kauf",
+       "kunde",
+       "konsum",
+       "brauch",
+       "auto",
+       "ausflug",
+       "kleidung",
+       "freizeit"
       ]
      },
      {
-      "text": "Er traf, was viele wollten: In Umfragen zogen Industriearbeiter einen freien Samstag einer kürzeren täglichen Arbeitszeit vor.",
+      "text": "In fünf Tagen schafften seine Leute mindestens so viel wie in sechs. Nach zwei freien Tagen kamen sie frisch zurück.",
       "worte": [
-       "wollten",
-       "wunsch",
-       "umfrage",
-       "lieber",
-       "mehrheit",
-       "arbeiter"
+       "frisch",
+       "erhol",
+       "ausgeruht",
+       "so viel",
+       "schaff",
+       "produktiv",
+       "fleißig",
+       "motiv"
       ]
      },
      {
-      "text": "Er passte in die Zeit: Mit dem Wohlstand ging es nicht mehr nur um Lohn, sondern um bessere Lebensbedingungen.",
+      "text": "Der Lohn blieb gleich. So hatten die Arbeiter in ihrer Freizeit auch Geld zum Ausgeben.",
       "worte": [
-       "wohlstand",
-       "lebensbedingung",
-       "lebensqualität",
-       "wirtschaftswunder",
-       "zeitgeist",
-       "nicht nur lohn"
+       "lohn",
+       "geld",
+       "gehalt",
+       "verdien",
+       "ausgeb",
+       "bezahl"
       ]
      }
     ]
@@ -3797,42 +3819,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Bei den Azteken wuchs das Geld an Bäumen, und man konnte es trinken.",
    "warum": {
-    "frage": "Warum taugten ausgerechnet Kakaobohnen als Geld?",
-    "nachfrage": "Was muss ein gutes Geld eigentlich können?",
+    "frage": "Bohnen so wertvoll, dass man sie sogar fälschte. Was machte Kakaobohnen auf dem Markt zu einem so guten Zahlungsmittel?",
+    "nachfrage": "Denk an den Markt: Wie bezahlst du mit Kakao eine Avocado, und wie einen Truthahn?",
     "gruende": [
      {
-      "text": "Sie waren klein, leicht und hielten lange. Man konnte sie gut tragen, zählen und über weite Strecken handeln.",
+      "text": "Sie waren knapp: Kakao wuchs nicht überall, die Azteken ließen ihn sich aus dem Süden als Abgabe liefern.",
       "worte": [
-       "klein",
-       "leicht",
-       "halt",
-       "trag",
-       "zähl",
-       "handel",
-       "transport"
-      ]
-     },
-     {
-      "text": "Sie waren begehrt und knapp. Kakao wuchs nicht überall; die Azteken ließen ihn sich aus Anbaugebieten wie Soconusco als Tribut liefern.",
-      "worte": [
-       "begehrt",
        "knapp",
        "selten",
-       "wertvoll",
-       "tribut",
-       "überall",
-       "süden"
+       "nicht überall",
+       "süden",
+       "abgabe",
+       "geliefert",
+       "wertvoll"
       ]
      },
      {
-      "text": "Sie hatten einen Wert an sich: Man konnte sie ausgeben, den Göttern opfern oder als edles Getränk trinken.",
+      "text": "Alle wollten sie haben, denn man konnte sie trinken. Wer reich war, trank sein Geld.",
       "worte": [
-       "wert",
        "trink",
        "getränk",
-       "götter",
-       "opfer",
-       "nützlich"
+       "schokolade",
+       "begehrt",
+       "beliebt",
+       "reich",
+       "wollten"
+      ]
+     },
+     {
+      "text": "Man konnte sie abzählen: eine Bohne für die Avocado, drei fürs Ei, hundert für den Truthahn. So ging jeder Preis.",
+      "worte": [
+       "zähl",
+       "stück",
+       "einzeln",
+       "klein",
+       "kleingeld",
+       "preis",
+       "hundert",
+       "teil"
       ]
      }
     ]
@@ -3970,40 +3994,45 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Weltberühmt wurde der deutsche Baum durch ein britisches Königsbild und dessen retuschierte amerikanische Kopie.",
    "warum": {
-    "frage": "Warum ließ das amerikanische Magazin Krone und Schnurrbart weg?",
-    "nachfrage": "Wem wollten Leserinnen in Amerika 1850 eher nacheifern: einer fremden Königin oder einer Familie wie ihrer eigenen?",
+    "frage": "Lange blieb der Baum ein deutscher Brauch, dann reichte ein Bild in der Zeitung. Warum steckte dieses eine Bild so viele Familien an?",
+    "nachfrage": "Schau noch mal auf die amerikanische Fassung des Bildes: Wen zeigte sie da eigentlich?",
     "gruende": [
      {
-      "text": "Das Bild sollte amerikanisch wirken, nicht britisch-königlich.",
+      "text": "Es zeigte die Königsfamilie. Was Victoria und Albert taten, machten bald viele britische Familien nach.",
       "worte": [
-       "amerikan",
-       "usa",
-       "britisch",
-       "königlich",
-       "fremd",
-       "eigen"
-      ]
-     },
-     {
-      "text": "Eine ganz normale Familie lädt zum Nachmachen ein. Das Bild gab Hausfrauen im ganzen Land den Anstoß, selbst einen Baum aufzustellen.",
-      "worte": [
-       "normal",
-       "familie",
-       "nachmach",
+       "königin",
+       "könig",
+       "royal",
+       "victoria",
+       "albert",
        "vorbild",
-       "hausfrau",
-       "alltag"
+       "nachmach",
+       "berühmt"
       ]
      },
      {
-      "text": "Es wurde die 1850er hindurch immer wieder nachgedruckt. So sahen es sehr viele Menschen.",
+      "text": "Es stand in der Zeitung und wurde die 1850er hindurch immer wieder gedruckt, auch in den USA. So sahen es sehr viele.",
       "worte": [
+       "zeitung",
+       "magazin",
+       "gedruckt",
        "nachgedruckt",
-       "wieder",
-       "oft",
+       "immer wieder",
        "viele",
-       "verbreit",
-       "gesehen"
+       "verbreit"
+      ]
+     },
+     {
+      "text": "Die US-Kopie ließ Krone und Schnurrbart weg. Aus den Royals wurde eine amerikanische Familie, eine wie die eigene.",
+      "worte": [
+       "krone",
+       "schnurrbart",
+       "retusch",
+       "amerikan",
+       "normal",
+       "eigene",
+       "wie wir",
+       "weggelassen"
       ]
      }
     ]
@@ -4157,42 +4186,45 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Der Mönch, der als Erfinder der Champagnerbläschen gilt, wollte sie loswerden.",
    "warum": {
-    "frage": "Warum galten Bläschen im Wein damals als Fehler?",
-    "nachfrage": "Was passiert mit einer Flasche, in der sich immer mehr Gas staut?",
+    "frage": "Heute knallen zum Feiern die Korken. Warum war Sprudeln im Wein für einen Kellermeister wie Pérignon damals eher ein Ärgernis?",
+    "nachfrage": "Und warum machte man das Sprudeln nicht einfach gezielt? Was fehlte in Frankreich dafür noch?",
     "gruende": [
      {
-      "text": "Die Bläschen kamen ungeplant. Kälte stoppte die Gärung im Herbst, im Frühjahr ging sie in der Flasche weiter.",
+      "text": "Es passierte ungewollt: Im Frühjahr gärte der Wein in der Flasche einfach weiter. Bläschen galten deshalb als Weinfehler.",
       "worte": [
+       "ungewollt",
+       "von selbst",
        "ungeplant",
-       "zufall",
-       "kälte",
-       "gärung",
-       "gärt",
+       "gär",
        "frühjahr",
-       "von selbst"
+       "weiter",
+       "fehler",
+       "zufall"
       ]
      },
      {
-      "text": "Das Gas drückte Korken heraus oder sprengte Flaschen. Das war gefährlich und kostete einen Teil der Ernte.",
+      "text": "Das Gas machte Druck: Korken flogen, Flaschen platzten.",
       "worte": [
        "korken",
        "platz",
-       "explod",
-       "gefährlich",
+       "flasche",
        "druck",
+       "explod",
        "kaputt",
-       "verlust"
+       "gas",
+       "knall"
       ]
      },
      {
-      "text": "Kenner fanden, Prickeln überdecke das Beste an gutem Wein. Und schlechten Wein mache es besser, als er ist.",
+      "text": "Gezieltes Sprudeln brauchte Zucker und dickes Glas. Das war eine englische Methode, Frankreich übernahm sie erst später.",
       "worte": [
-       "geschmack",
-       "überdeck",
-       "verdeck",
-       "kenner",
-       "schlecht",
-       "qualität"
+       "england",
+       "englisch",
+       "glas",
+       "dick",
+       "zucker",
+       "merret",
+       "methode"
       ]
      }
     ]
@@ -4234,7 +4266,6 @@ window.ERSTDENKEN = {
      {
       "name": "Er war wirklich berühmt für sehr guten Wein",
       "worte": [
-       "gut",
        "berühmt",
        "beste",
        "qualität",
@@ -4350,41 +4381,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Der berühmteste Philosoph schrieb kein Wort und gab kaum fertige Antworten. Er stellte Fragen. Das Gegenteil von: Frage eintippen, Antwort übernehmen.",
    "warum": {
-    "frage": "Warum wurden die Athener so wütend auf einen Mann, der nur Fragen stellte?",
-    "nachfrage": "Wie fühlt es sich an, wenn dich jemand vor Publikum so lange fragt, bis du zugeben musst, dass du es nicht weißt?",
+    "frage": "Sokrates gab kaum fertige Antworten und war am Ende doch ein Stück weiser als die Berühmten. Wie konnte ausgerechnet Nachfragen ihm das zeigen?",
+    "nachfrage": "Sokrates wusste ja selbst keine fertigen Antworten. Worin genau war er den anderen dann voraus?",
     "gruende": [
      {
-      "text": "Er blamierte angesehene Leute, oft vor Zuschauern. Junge Leute machten es ihm nach und befragten selbst andere.",
+      "text": "Wer lange genug nachhakt, findet heraus, was jemand wirklich weiß, und nicht nur, was er zu wissen glaubt.",
       "worte": [
-       "blamier",
-       "peinlich",
-       "bloßgestellt",
-       "vorgeführt",
-       "zuschauer",
-       "nachmach",
-       "jugend"
+       "nachfrag",
+       "nachhak",
+       "frag",
+       "prüf",
+       "wirklich",
+       "bohr",
+       "immer weiter"
       ]
      },
      {
-      "text": "Er galt als Kritiker der Demokratie und war mit Männern bekannt, die 404 v. Chr. kurz eine Gewaltherrschaft errichteten.",
+      "text": "Die Befragten hielten sich für weise und waren es nicht. Die Handwerker konnten ihr Fach, meinten aber, auch große Fragen zu beherrschen.",
       "worte": [
-       "demokratie",
-       "tyrann",
-       "gewaltherrschaft",
-       "politik",
-       "kritik",
-       "gefährlich"
+       "überschätz",
+       "hielten sich",
+       "dachten",
+       "meinten",
+       "ruf",
+       "berühmt",
+       "angeb",
+       "fach"
       ]
      },
      {
-      "text": "Die Anklage warf ihm vor, die Götter der Stadt nicht anzuerkennen, neue Gottheiten einzuführen und die Jugend zu verderben.",
+      "text": "Sokrates bildete sich nicht ein, etwas zu wissen, was er nicht wusste. Er kannte seine Grenzen.",
       "worte": [
-       "götter",
-       "gott",
-       "anklage",
-       "verderb",
-       "religion",
-       "glaub"
+       "einbild",
+       "zugeb",
+       "grenze",
+       "ehrlich",
+       "nichts weiß",
+       "bewusst",
+       "eingesteh"
       ]
      }
     ]
@@ -4535,40 +4569,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Unendlich viele Schritte können in endlicher Zeit fertig sein. Ob das Zenon ganz widerlegt, darüber streiten Philosophen bis heute.",
    "warum": {
-    "frage": "Warum wirkt Zenons Argument so überzeugend, obwohl jeder sieht, dass Läufer sich überholen?",
-    "nachfrage": "Wie lange brauchst du für unendlich viele Dinge, wenn jedes nur halb so lange dauert wie das davor?",
+    "frage": "Zenons Gedankengang klingt wasserdicht, obwohl jeder Läufer eine Schildkröte überholt. Warum fällt man so leicht darauf herein?",
+    "nachfrage": "Was passiert mit der Länge der Etappen, und was heißt das für die Zeit, die alle zusammen dauern?",
     "gruende": [
      {
       "text": "Jeder einzelne Schritt stimmt: Achilles muss wirklich erst dorthin, wo die Schildkröte gerade war.",
       "worte": [
        "stimmt",
        "logisch",
-       "schritt",
        "richtig",
+       "schritt",
        "dorthin",
+       "einleucht",
        "nachvollzieh"
       ]
      },
      {
-      "text": "„Unendlich viele“ klingt nach „unendlich lange“. Dass das nicht dasselbe ist, geht gegen das Bauchgefühl.",
+      "text": "„Unendlich viele Etappen“ klingt nach „nie fertig“. Dabei werden sie immer kürzer und dauern zusammen nur 20 Sekunden.",
       "worte": [
        "unendlich",
-       "bauchgefühl",
-       "gefühl",
-       "lange",
+       "nie fertig",
        "ewig",
-       "intuition"
+       "kürzer",
+       "schrumpf",
+       "20",
+       "sekunden",
+       "summe"
       ]
      },
      {
-      "text": "Die Mathematik für unendliche Summen war damals noch nicht ausgearbeitet.",
+      "text": "Mit solchen unendlichen Summen richtig rechnen konnte man erst viel später, mit Newton, Leibniz und dem Grenzwert.",
       "worte": [
-       "mathe",
-       "rechn",
-       "summe",
        "damals",
+       "später",
+       "newton",
+       "leibniz",
        "grenzwert",
-       "wissen"
+       "mathe",
+       "rechn"
       ]
      }
     ]
@@ -4694,41 +4732,43 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Wer mehr gesehen hat, wirkt in der Höhle erst einmal dümmer. Genau deshalb ist Bildung so unbequem.",
    "warum": {
-    "frage": "Warum wollen die Gefangenen gar nicht befreit werden?",
-    "nachfrage": "Würdest du jemandem glauben, der sagt, alles, was du je gesehen hast, seien nur Schatten?",
+    "frage": "Der Rückkehrer hat die echte Welt gesehen und wirkt trotzdem wie der Dümmste. Warum glauben ihm die anderen nicht und bleiben lieber unten?",
+    "nachfrage": "Und was hätten die besten Schattenrater zu verlieren, wenn sie mit nach oben gingen?",
     "gruende": [
      {
-      "text": "Die Schatten sind alles, was sie kennen. Für sie sind sie die Wirklichkeit.",
+      "text": "Die Schatten sind alles, was sie seit ihrer Kindheit kennen. Für sie sind sie die Wirklichkeit.",
       "worte": [
        "kennen",
        "gewohnt",
        "wirklichkeit",
        "schatten",
        "normal",
-       "nichts anderes"
+       "nichts anderes",
+       "kindheit"
       ]
      },
      {
-      "text": "Der Weg nach oben tut weh: Das Licht blendet, man sieht zuerst schlechter als vorher.",
+      "text": "Seine Augen sind noch ans Licht gewöhnt, beim Schattenraten ist er der Schlechteste. Für sie heißt das: Oben verdirbt man sich die Augen.",
       "worte": [
-       "weh",
-       "blend",
-       "licht",
-       "schmerz",
        "augen",
-       "anstreng",
-       "schlechter"
+       "licht",
+       "blend",
+       "dunkel",
+       "schlecht",
+       "verdorb",
+       "sieht nichts"
       ]
      },
      {
-      "text": "In der Höhle sind sie Experten, die Lob bekommen. Draußen wären sie Anfänger.",
+      "text": "In der Höhle bekommt Lob, wer die Schatten am besten erkennt. Draußen wären sie blutige Anfänger.",
       "worte": [
        "lob",
        "experte",
        "anfänger",
        "stolz",
        "ansehen",
-       "status"
+       "bester",
+       "verlier"
       ]
      }
     ]
@@ -4871,40 +4911,43 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Du bist auch so ein Schiff: Täglich ersetzt dein Körper rund 330 Milliarden Zellen. Doch viele Nervenzellen deiner Großhirnrinde sind so alt wie du.",
    "warum": {
-    "frage": "Warum ist so eine einfache Frage so schwer zu beantworten?",
-    "nachfrage": "Was macht dich zu dir: dein Material, deine Form oder deine Geschichte?",
+    "frage": "Ein Brett nach dem anderen wird ersetzt. Warum lässt sich so schwer sagen, ab wann es nicht mehr dasselbe Schiff ist?",
+    "nachfrage": "Und was wäre, wenn jemand die alten Bretter nicht wegwirft?",
     "gruende": [
      {
-      "text": "Zwei gute Gründe ziehen in verschiedene Richtungen: Das Schiff war nie weg, aber kein Brett ist mehr dasselbe.",
+      "text": "Zwei gute Gründe ziehen in verschiedene Richtungen: Das Schiff war nie weg und hieß immer so, aber das Material ist komplett neu.",
       "worte": [
        "beide",
        "beides",
-       "richtung",
-       "gründe",
        "nie weg",
+       "name",
+       "material",
        "widerspr"
       ]
      },
      {
-      "text": "Es gibt keine klare Grenze. Ein Brett macht keinen Unterschied, alle zusammen aber schon.",
+      "text": "Es gibt keine klare Grenze: Kein einzelnes Brett macht den Unterschied, und jede Prozentzahl wäre willkürlich.",
       "worte": [
        "grenze",
        "ab wann",
-       "schleichend",
-       "einzeln",
        "brett",
-       "allmählich"
+       "einzeln",
+       "prozent",
+       "hälfte",
+       "willkür",
+       "schleichend"
       ]
      },
      {
-      "text": "„Dasselbe“ kann Verschiedenes meinen: dasselbe Material oder dasselbe Ding mit derselben Geschichte.",
+      "text": "Baut jemand aus den alten Planken wieder ein Schiff, hätten plötzlich zwei Schiffe gute Gründe, das Original zu sein.",
       "worte": [
-       "bedeut",
-       "material",
-       "geschichte",
-       "meint",
-       "wort",
-       "verschieden"
+       "zwei schiffe",
+       "zweites",
+       "alte planken",
+       "alten bretter",
+       "wieder zusammen",
+       "hobbes",
+       "original"
       ]
      }
     ]
@@ -4934,7 +4977,6 @@ window.ERSTDENKEN = {
        "ausgetauscht",
        "erneuert",
        "ersetzt",
-       "neu",
        "tausch"
       ],
       "nachfrage": "Aber was hat ein Schiff denn mit mir zu tun?"
@@ -5063,41 +5105,45 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Mit einem Schatten, einer Strecke und Nachdenken maß er die ganze Erde, ohne Ägypten zu verlassen.",
    "warum": {
-    "frage": "Warum reicht ein einziger Schattenwinkel, um die ganze Erde auszurechnen?",
-    "nachfrage": "Wie sähen die Schatten in beiden Städten aus, wenn die Erde flach wäre?",
+    "frage": "Ein Schatten hier, keiner dort, dazu eine Strecke. Wie konnte Eratosthenes daraus den Umfang der ganzen Erde ausrechnen?",
+    "nachfrage": "Was muss für das Sonnenlicht gelten, damit der Trick mit dem Fünfzigstel funktioniert?",
     "gruende": [
      {
-      "text": "Die Sonne ist so weit weg, dass ihre Strahlen praktisch parallel ankommen. Auf einer flachen Erde wären die Schatten überall gleich.",
+      "text": "In Syene stand die Sonne mittags senkrecht, kein Schatten. In Alexandria warf ein Zeiger zur selben Zeit einen Schatten: ein Fünfzigstel Kreis.",
+      "worte": [
+       "syene",
+       "assuan",
+       "kein schatten",
+       "senkrecht",
+       "brunnen",
+       "zwei städte",
+       "unterschied",
+       "selben zeit"
+      ]
+     },
+     {
+      "text": "Die Sonnenstrahlen kommen fast parallel an. Darum ist der Weg zwischen den Städten derselbe Anteil der Erde wie der Schatten am Kreis.",
       "worte": [
        "parallel",
-       "weit weg",
-       "entfern",
        "strahlen",
-       "flach",
-       "gleich"
-      ]
-     },
-     {
-      "text": "Auf einer Kugel neigt sich der Boden. Der Schattenwinkel in Alexandria ist genau der Winkel zwischen beiden Städten, vom Erdmittelpunkt aus gesehen.",
-      "worte": [
-       "kugel",
-       "rund",
-       "krümm",
-       "neig",
-       "winkel",
-       "mittelpunkt"
-      ]
-     },
-     {
-      "text": "Ist dieser Winkel ein Fünfzigstel des Kreises, ist auch die Strecke ein Fünfzigstel des Umfangs. Man muss nur mal 50 rechnen.",
-      "worte": [
-       "fünfzigstel",
-       "50",
-       "mal",
-       "umfang",
-       "verhältnis",
        "anteil",
-       "rechn"
+       "fünfzigstel",
+       "1/50",
+       "kreis",
+       "winkel"
+      ]
+     },
+     {
+      "text": "Die Entfernung war bekannt: 5.000 Stadien. Mal 50 ergibt das den ganzen Umfang, 250.000 Stadien.",
+      "worte": [
+       "entfern",
+       "strecke",
+       "5000",
+       "5.000",
+       "mal 50",
+       "stadien",
+       "multipl",
+       "umfang"
       ]
      }
     ]
@@ -5143,7 +5189,6 @@ window.ERSTDENKEN = {
        "abstand",
        "stadien",
        "kilometer",
-       "weg",
        "distanz",
        "weit"
       ],
@@ -5157,7 +5202,6 @@ window.ERSTDENKEN = {
        "fünfzig",
        "50",
        "teil",
-       "mal",
        "hochrechn",
        "kreis",
        "umfang",
@@ -5246,42 +5290,45 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Das Rasiermesser schneidet Überflüssiges weg, und ausgerechnet sein berühmtester Satz stammt gar nicht von Ockham.",
    "warum": {
-    "frage": "Warum soll man mit der Erklärung mit weniger Annahmen anfangen, wenn sie doch falsch sein kann?",
-    "nachfrage": "Wie viele Dinge müssen bei Erklärung B alle gleichzeitig stimmen?",
+    "frage": "Erklärung B könnte ja stimmen. Warum ist es trotzdem klug, zuerst in der anderen Jacke nachzusehen?",
+    "nachfrage": "Und wenn in der Jacke nichts ist, du aber ein aufgebrochenes Schloss findest: Was dann?",
     "gruende": [
      {
-      "text": "Jede zusätzliche Annahme ist eine weitere Stelle, an der man sich irren kann.",
+      "text": "Bei B muss vieles gleichzeitig stimmen: Einbruch, nur der Schlüssel weg, wieder abgeschlossen. Jede Annahme mehr kann falsch sein.",
       "worte": [
-       "irr",
-       "fehler",
-       "falsch",
-       "risiko",
+       "viele",
+       "gleichzeitig",
+       "annahm",
+       "mehr",
+       "unwahrscheinlich",
        "schiefgeh",
-       "stelle"
+       "irr",
+       "kompliziert"
       ]
      },
      {
-      "text": "Annahmen ohne Grund lassen sich beliebig erfinden: Einbrecher, Geist, Kobold. Das Rasiermesser verlangt für jede einen Grund.",
+      "text": "Für den Einbrecher gibt es keinen Grund, keine Spuren. Ohne Grund nimmt man nichts zusätzlich an.",
       "worte": [
-       "erfind",
-       "beliebig",
        "grund",
-       "kobold",
-       "geist",
-       "ausdenk",
-       "beweis"
+       "spur",
+       "beweis",
+       "hinweis",
+       "anzeichen",
+       "nötig",
+       "überflüssig"
       ]
      },
      {
-      "text": "Es ist eine Arbeitsregel, kein Naturgesetz: Sie sagt, womit man anfängt. Ob es stimmt, zeigen erst Belege.",
+      "text": "Es ist eine Startregel, keine Garantie: Gibt es gute Gründe, etwa Einbruchsspuren, darf die Erklärung wachsen.",
       "worte": [
-       "regel",
        "anfang",
        "start",
-       "beleg",
-       "prüf",
-       "naturgesetz",
-       "werkzeug"
+       "zuerst",
+       "garantie",
+       "wachs",
+       "später",
+       "ändern",
+       "nicht sicher"
       ]
      }
     ]
@@ -5422,44 +5469,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Wer einmal und nur für sich rechnet, landet schlechter. Wer sich immer wieder begegnet, fährt mit Freundlichkeit plus Konsequenz am besten.",
    "warum": {
-    "frage": "Warum gewinnt „Wie du mir, so ich dir“, wenn man immer wieder spielt?",
-    "nachfrage": "Was ändert sich, wenn ihr euch morgen wieder gegenübersteht?",
+    "frage": "Beide rechnen klug für sich und sitzen am Ende je 15 Jahre statt ein paar Monate. Wie kann vernünftiges Rechnen zu so einem schlechten Ergebnis führen?",
+    "nachfrage": "Und was wäre anders, wenn die beiden sich danach immer wieder begegnen würden?",
     "gruende": [
      {
-      "text": "Es ist freundlich: Es verrät nie als Erstes. Im ersten Turnier belegten die acht freundlichen Programme die ersten acht Plätze.",
+      "text": "Für jeden allein ist Gestehen besser, egal was der andere tut. Also gestehen beide.",
       "worte": [
-       "freundlich",
-       "nett",
-       "nie zuerst",
-       "erst",
-       "kooperier",
+       "egal",
+       "besser",
+       "lohnt",
+       "für sich",
+       "allein",
+       "einzeln",
+       "eigen",
+       "gesteh"
+      ]
+     },
+     {
+      "text": "Sie sitzen getrennt und können sich nicht absprechen. Jeder entscheidet allein, keiner kann sich auf den anderen verlassen.",
+      "worte": [
+       "absprech",
+       "getrennt",
+       "zelle",
+       "reden",
        "vertrau",
-       "anfang"
+       "verlass",
+       "wissen nicht",
+       "unsicher"
       ]
      },
      {
-      "text": "Es wehrt sich: Wer verrät, wird in der nächsten Runde selbst verraten. Ausnutzen lohnt sich kaum.",
+      "text": "Sie spielen nur ein einziges Mal. Wer sich immer wieder begegnet, kann Freundlichkeit belohnen und Verrat beim nächsten Mal erwidern.",
       "worte": [
-       "wehr",
-       "rache",
-       "zurück",
-       "bestraf",
-       "verrat",
-       "ausnutz",
-       "konsequen",
-       "nächste runde"
-      ]
-     },
-     {
-      "text": "Es verzeiht und ist leicht zu durchschauen: Wer wieder kooperiert, bekommt sofort Kooperation zurück.",
-      "worte": [
-       "verzeih",
-       "vergeb",
-       "nachtrag",
-       "durchschau",
-       "einfach",
-       "klar",
-       "versöhn"
+       "einmal",
+       "immer wieder",
+       "nächst",
+       "wiederhol",
+       "wie du mir",
+       "tit for tat",
+       "belohn",
+       "freundlich"
       ]
      }
     ]
@@ -5592,46 +5641,45 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Vom mächtigsten Mann seiner Zeit wollte er nur Sonnenlicht. Und seine berühmte „Tonne“ war ein zerbrechlicher Tonkrug.",
    "warum": {
-    "frage": "Warum lebte Diogenes freiwillig so arm?",
-    "nachfrage": "Was kann man einem Menschen wegnehmen, der nichts besitzt?",
+    "frage": "Alexander bietet ihm jeden Wunsch, und Diogenes will nur Sonne. Warum konnte ausgerechnet der mächtigste Mann seiner Zeit ihm nichts bieten?",
+    "nachfrage": "Und schau mal genau hin: Wo stand Alexander eigentlich, als er ihm sein Angebot machte?",
     "gruende": [
      {
-      "text": "Er hielt Selbstgenügsamkeit für den Schlüssel zum Glück: alles in sich selbst haben, was man braucht.",
+      "text": "Diogenes meinte: Glücklich ist, wer fast nichts braucht. Deshalb besaß er mit Absicht fast nichts und warf sogar seinen Becher weg.",
       "worte": [
-       "selbstgenüg",
-       "genüg",
-       "glück",
        "nichts brauch",
        "wenig",
+       "glück",
        "zufrieden",
+       "besitz",
+       "becher",
+       "arm",
+       "verzicht"
+      ]
+     },
+     {
+      "text": "Wer nichts braucht, dem kann auch ein König nichts geben. Jedes Geschenk von Alexander war für ihn wertlos.",
+      "worte": [
+       "könig",
+       "alexander",
+       "angebot",
+       "geschenk",
+       "wertlos",
        "unabhängig",
-       "frei"
+       "mächtig",
+       "reich"
       ]
      },
      {
-      "text": "Er trainierte Härte: Im Sommer wälzte er sich in heißem Sand, im Winter umarmte er Statuen voller Schnee.",
+      "text": "Alexander stand ihm wirklich im Weg: Er machte ihm Schatten, als Diogenes gerade in der Sonne lag.",
       "worte": [
-       "hart",
-       "abhärt",
-       "trainier",
-       "kälte",
-       "hitze",
-       "schnee",
-       "sand",
-       "aushalt"
-      ]
-     },
-     {
-      "text": "Er wollte zeigen, wie viele Regeln und Wünsche überflüssig sind, und die Leute zu einem einfachen, natürlichen Leben zurückrufen.",
-      "worte": [
-       "regel",
-       "überflüssig",
-       "einfach",
-       "natürlich",
-       "zeigen",
-       "vorbild",
-       "wünsche",
-       "konsum"
+       "sonne",
+       "schatten",
+       "licht",
+       "im weg",
+       "vor ihm",
+       "wärme",
+       "zur seite"
       ]
      }
     ]
@@ -5780,46 +5828,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Ein analoger Computer aus der Antike. Und aus mindestens tausend Jahren danach kennt man kein technisch komplexeres Gerät.",
    "warum": {
-    "frage": "Wozu brauchte jemand vor über 2.000 Jahren einen Rechner für den Himmel?",
-    "nachfrage": "Was hätte ein Bauer oder ein Priester davon, zu wissen, wann der Mond wo steht?",
+    "frage": "Aus einem unscheinbaren Bronzeklumpen wurde ein Himmelsrechner. Woran haben die Forscher erkannt, wofür das Gerät gebaut war?",
+    "nachfrage": "Und warum hat es eigentlich über hundert Jahre gedauert, bis man das so genau wusste?",
     "gruende": [
      {
-      "text": "Kalender waren wichtig: für die Arbeit auf dem Feld und für die Termine religiöser Feste.",
+      "text": "Auf den Bruchstücken stehen winzige Inschriften mit Monatsnamen und Tierkreiszeichen. Es ging also um Kalender und Sterne.",
       "worte": [
+       "schrift",
+       "buchstab",
+       "monat",
+       "tierkreis",
+       "sternzeich",
        "kalender",
-       "feld",
-       "ernte",
-       "bauer",
-       "aussaat",
-       "fest",
-       "termin",
-       "religi"
+       "stern",
+       "text"
       ]
      },
      {
-      "text": "Finsternisse und Planetenbewegungen galten oft als Vorzeichen. Es war wertvoll, sie im Voraus zu kennen.",
+      "text": "Eine Kurbel bewegt Zeiger für Sonne und Mond, eine Spirale mit 223 Mondmonaten markiert Finsternisse. Es misst nichts, es rechnet voraus.",
       "worte": [
-       "vorzeichen",
-       "omen",
+       "zahnr",
+       "zeiger",
+       "kurbel",
+       "spirale",
+       "mond",
+       "sonne",
        "finstern",
-       "zeichen",
-       "götter",
-       "zukunft",
-       "vorhersag",
-       "aberglaub"
+       "223"
       ]
      },
      {
-      "text": "Die Regelmäßigkeit des Himmels faszinierte. In einer unsicheren, gewaltsamen Welt waren die ruhigen Kreisläufe auch philosophisch anziehend.",
+      "text": "Vieles sah man erst 2005: Röntgen-Computertomografie durchleuchtete die Bruchstücke und machte viel mehr Inschriften lesbar.",
       "worte": [
-       "fasziniert",
-       "regelmäß",
-       "ordnung",
-       "ruhe",
-       "philosoph",
-       "neugier",
-       "kreislauf",
-       "wissen"
+       "röntgen",
+       "tomograf",
+       "durchleucht",
+       "scan",
+       "2005",
+       "innere",
+       "sichtbar",
+       "technik"
       ]
      }
     ]
@@ -5965,45 +6013,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Erst kamen die Monumente, dann die Bauern. Nicht umgekehrt.",
    "warum": {
-    "frage": "Warum hat man Jägern und Sammlern so einen Bau lange nicht zugetraut?",
-    "nachfrage": "Wer versorgt die Leute, die monatelang Steine schlagen, statt zu jagen?",
+    "frage": "Göbekli Tepe stellt die alte Regel „erst Ackerbau, dann große Bauten“ auf den Kopf. Woran erkennt man, dass hier keine Bauern am Werk waren?",
+    "nachfrage": "Und was spricht dagegen, dass dort eine große Stadtgesellschaft lebte?",
     "gruende": [
      {
-      "text": "Die gängige Lehre war: Erst Ackerbau bringt Nahrung im Überschuss. Erst dann können sich Menschen auf ein Handwerk spezialisieren.",
+      "text": "Es gibt keine Spuren von angebautem Getreide oder Haustieren, nicht einmal Töpfe aus gebranntem Ton.",
       "worte": [
+       "getreide",
+       "korn",
+       "haustier",
+       "töpfe",
+       "keramik",
        "acker",
-       "überschuss",
-       "vorrat",
-       "essen",
-       "nahrung",
-       "bauer",
-       "spezialis",
-       "handwerk"
+       "spuren",
+       "angebaut"
       ]
      },
      {
-      "text": "Für so eine Großbaustelle braucht es Organisation. Die nötigen festen Strukturen traute man nur sesshaften Bauern zu.",
+      "text": "Alles zum Essen holten sich die Leute aus der wilden Natur ringsum, der damals feuchteren Landschaft.",
       "worte": [
-       "organis",
-       "plan",
-       "anführer",
-       "chef",
+       "wild",
+       "natur",
+       "jag",
+       "sammel",
+       "fleisch",
+       "pflanzen",
+       "feucht",
+       "landschaft"
+      ]
+     },
+     {
+      "text": "Dort lebten wohl nur etwa 100 Menschen gleichzeitig. Für eine Stadt mit Herrschern und Handwerkern ist das viel zu wenig.",
+      "worte": [
+       "100",
+       "hundert",
+       "wenig",
+       "wenige",
+       "stadt",
        "herrsch",
-       "hierarch",
-       "sesshaft",
-       "struktur"
-      ]
-     },
-     {
-      "text": "Jäger und Sammler galten als ständig unterwegs. Riesige Bauten aus Stein passten nicht ins Bild.",
-      "worte": [
-       "unterwegs",
-       "wander",
-       "nomad",
-       "herumzieh",
-       "umherzieh",
-       "mobil",
-       "primitiv"
+       "handwerk",
+       "leute"
       ]
      }
     ]
@@ -6141,44 +6190,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Das berühmte Weltwunder von Babylon stand vielleicht gar nicht in Babylon. Ob es die Gärten überhaupt gab, weiß niemand sicher.",
    "warum": {
-    "frage": "Warum glauben Menschen seit über 2.000 Jahren an Gärten, die nie jemand gefunden hat?",
-    "nachfrage": "Wie viele der antiken Autoren hatten die Gärten wohl mit eigenen Augen gesehen?",
+    "frage": "Antike Autoren beschreiben die Gärten genau, trotzdem fand man in Babylon nichts Sicheres. Warum ist bis heute so unklar, ob sie dort standen?",
+    "nachfrage": "Und was haben eigentlich die Babylonier selbst über ihre Stadt aufgeschrieben?",
     "gruende": [
      {
-      "text": "Mehrere antike Autoren beschreiben sie ausführlich, mit Terrassen und Bewässerung. Das klingt nach Augenzeugen. Vieles geht aber wohl auf wenige ältere Texte zurück, die heute verloren sind.",
+      "text": "In den Tausenden Keilschrifttafeln aus Babylon kommen die Gärten nicht vor, nicht einmal in der Liste aller Bauwerke.",
       "worte": [
-       "autor",
-       "beschreib",
-       "augenzeug",
-       "erzähl",
-       "schrift",
-       "text",
-       "abgeschrieben",
-       "quelle"
-      ]
-     },
-     {
-      "text": "Die Gärten stehen auf der Liste der sieben Weltwunder. Was auf so einer Liste steht, wird immer weitererzählt.",
-      "worte": [
-       "weltwunder",
+       "keilschrift",
+       "tafel",
        "liste",
-       "sieben",
-       "berühmt",
-       "weitererzählt",
-       "legende",
-       "mythos"
+       "erwähn",
+       "kommen nicht vor",
+       "babylonier",
+       "aufgeschrieben",
+       "bauwerk"
       ]
      },
      {
-      "text": "Fehlende Funde beweisen wenig: Babylon ist riesig, und der Euphrat hat seinen Lauf verändert. Mögliche Reste könnten heute unter Wasser liegen.",
+      "text": "Koldewey fand in 18 Jahren nur ein paar Gewölbe mit Brunnen. Dass sie zu den Gärten gehörten, ist unbewiesen.",
       "worte": [
-       "riesig",
-       "euphrat",
-       "fluss",
-       "wasser",
-       "verschwund",
-       "zerstört",
-       "nicht gegraben"
+       "koldewey",
+       "grab",
+       "gewölbe",
+       "brunnen",
+       "gefunden",
+       "reste",
+       "beweis",
+       "archäolog"
+      ]
+     },
+     {
+      "text": "Die Berichte stammen von Griechen, die Babylon und Assyrien öfter verwechselten. Vielleicht standen die Gärten in Ninive, oder sie sind übertrieben.",
+      "worte": [
+       "griech",
+       "verwechsel",
+       "assyr",
+       "ninive",
+       "sanherib",
+       "übertrieb",
+       "erfund",
+       "andere stadt"
       ]
      }
     ]
@@ -6326,24 +6377,24 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Das „rätselhafteste Buch der Welt“ ist echt und rund 600 Jahre alt. Trotzdem kann es bis heute niemand lesen.",
    "warum": {
-    "frage": "Warum lässt sich diese Schrift nicht knacken, obwohl so viele kluge Leute und Computer es versuchen?",
-    "nachfrage": "Woran würdest du merken, dass deine Übersetzung stimmt?",
+    "frage": "Codeknacker, Statistik, Computer, maschinelles Lernen: Alle sind an diesem Buch gescheitert. Was macht diese Schrift so schwer zu knacken?",
+    "nachfrage": "Und warum helfen nicht einmal die vielen Bilder im Buch weiter?",
     "gruende": [
      {
-      "text": "Es gibt keinen zweiten Text in dieser Schrift. Nichts zum Vergleichen, kein Schlüssel.",
+      "text": "Die Schrift gibt es nirgends sonst. Es gibt keinen zweiten Text, mit dem man vergleichen könnte.",
       "worte": [
+       "nirgends",
+       "einzig",
        "zweit",
        "vergleich",
        "schlüssel",
-       "einzig",
-       "kein anderer",
-       "nirgends",
-       "rosetta",
-       "wörterbuch"
+       "anderer text",
+       "sonst",
+       "einmalig"
       ]
      },
      {
-      "text": "Man weiß nicht, was man vor sich hat: eine Sprache, einen Code oder sinnlose Zeichenketten. Studien kommen zu gegensätzlichen Ergebnissen.",
+      "text": "Man weiß nicht einmal, ob es eine Sprache, ein Code oder sinnlose Zeichen sind. Studien kommen zu gegensätzlichen Ergebnissen.",
       "worte": [
        "sprache",
        "code",
@@ -6352,20 +6403,19 @@ window.ERSTDENKEN = {
        "unsinn",
        "zufall",
        "kauderwelsch",
-       "unklar"
+       "muster"
       ]
      },
      {
-      "text": "Wer das Buch schrieb und woher es kommt, ist unbekannt. Deshalb lässt sich keine „Lösung“ an anderen Quellen überprüfen.",
+      "text": "Auch die Bilder verraten wenig: Die Pflanzen darin kann niemand sicher bestimmen.",
       "worte": [
-       "autor",
-       "schreiber",
-       "herkunft",
-       "woher",
-       "unbekannt",
-       "überprüf",
-       "beweis",
-       "prüfen"
+       "bild",
+       "pflanze",
+       "bestimm",
+       "zeichnung",
+       "abbildung",
+       "erkenn",
+       "unbekannt"
       ]
      }
     ]
@@ -6510,45 +6560,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Der größte bekannte Treffer aus dem All hat keinen Krater hinterlassen. Der Brocken kam nie am Boden an.",
    "warum": {
-    "frage": "Warum gibt es keinen Krater, obwohl etwas so Großes aus dem All kam?",
-    "nachfrage": "Was passiert, wenn du mit voller Wucht flach auf Wasser springst, statt hineinzutauchen?",
+    "frage": "Ein riesiger Brocken aus dem All, aber kein Krater, und mitten im Zentrum stehen sogar noch Bäume. Wie passt das zusammen?",
+    "nachfrage": "Und warum ist der Brocken überhaupt schon in der Luft zerplatzt?",
     "gruende": [
      {
-      "text": "Der Brocken raste mit vielen Kilometern pro Sekunde in die Atmosphäre. Die Luft vor ihm wurde immer dichter und wirkte wie eine Wand.",
+      "text": "Die immer dichtere Luft presste den Brocken zusammen, bis er mehrere Kilometer über dem Wald zerplatzte.",
       "worte": [
-       "schnell",
-       "geschwindig",
        "luft",
-       "atmosphär",
        "dicht",
-       "wand",
-       "widerstand",
-       "bremse"
-      ]
-     },
-     {
-      "text": "Der Druck presste ihn zusammen, bis er zerbrach. Die Bruchstücke wurden heiß und gaben ihre Energie fast auf einmal ab, mehrere Kilometer über dem Boden.",
-      "worte": [
-       "zerbr",
+       "press",
        "zerplatz",
        "explod",
-       "druck",
-       "heiß",
-       "hitze",
-       "energie",
-       "in der luft"
+       "zerbr",
+       "in der luft",
+       "hoch"
       ]
      },
      {
-      "text": "Am Boden kam deshalb nur die Druckwelle an, kein großer Gesteinsbrocken. Ohne Brocken kein Krater, und auch kaum Stücke zum Finden.",
+      "text": "Am Boden kam kein Brocken an, nur eine riesige Druckwelle. Darum gibt es keinen Krater und keine Bruchstücke.",
       "worte": [
        "druckwelle",
        "welle",
        "kein brocken",
-       "nicht angekommen",
-       "stücke",
-       "übrig",
-       "kein krater"
+       "nie angekommen",
+       "boden",
+       "kein krater",
+       "bruchstück",
+       "stücke"
+      ]
+     },
+     {
+      "text": "In der Mitte traf die Druckwelle senkrecht von oben: Äste brachen ab, Stämme blieben stehen. Weiter außen kam sie schräg und warf Bäume um.",
+      "worte": [
+       "senkrecht",
+       "von oben",
+       "äste",
+       "stämme",
+       "aufrecht",
+       "schräg",
+       "außen",
+       "mitte"
       ]
      }
     ]
@@ -6697,44 +6748,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Das berühmteste mögliche Alien-Signal heißt nach einem Wort, das jemand mit Rotstift an den Rand schrieb. Und es ist bis heute ungeklärt.",
    "warum": {
-    "frage": "Warum dachten so viele sofort an Außerirdische?",
-    "nachfrage": "Wenn du Fremden eine Nachricht schicken willst, die deine Sprache nicht kennen: Welchen Kanal würdest du wählen, damit sie ihn sicher finden?",
+    "frage": "Satellit und Teleskopfehler gelten als unwahrscheinlich, Außerirdische sind nicht bewiesen. Was spricht dafür, dass das Signal von draußen kam, und warum ist es trotzdem ungeklärt?",
+    "nachfrage": "Und was verrät eigentlich die Dauer von 72 Sekunden?",
     "gruende": [
      {
-      "text": "Wasserstoff ist das häufigste Element im All. Forschende vermuteten, dass andere Zivilisationen genau auf dieser Frequenz funken oder lauschen würden.",
-      "worte": [
-       "wasserstoff",
-       "häufig",
-       "frequenz",
-       "element",
-       "funk",
-       "kanal",
-       "1420",
-       "lausch"
-      ]
-     },
-     {
-      "text": "Das Signal war sehr schmal, also auf eine ganz bestimmte Frequenz begrenzt. So etwas kennt man vor allem von Sendern.",
-      "worte": [
-       "schmal",
-       "bestimmte frequenz",
-       "sender",
-       "künstlich",
-       "radio",
-       "technisch",
-       "gezielt"
-      ]
-     },
-     {
-      "text": "Die üblichen Störquellen schienen ausgeschlossen: Auf dieser Frequenz ist Senden verboten, und kein bekannter Satellit war im Blickfeld.",
+      "text": "Kein bekannter Satellit war im Blickfeld, und auf 1420 Megahertz darf auf der Erde niemand senden.",
       "worte": [
        "satellit",
-       "störung",
        "verboten",
-       "ausgeschlossen",
-       "keine erklärung",
-       "nichts anderes",
-       "erde"
+       "senden",
+       "darf",
+       "frequenz",
+       "wasserstoff",
+       "1420",
+       "irdisch"
+      ]
+     },
+     {
+      "text": "Es dauerte etwa 72 Sekunden, genau so lange, wie die Erddrehung den Blick des Teleskops über einen Punkt schiebt. Die Quelle lag also draußen.",
+      "worte": [
+       "72",
+       "sekunden",
+       "dauer",
+       "erddreh",
+       "drehung",
+       "himmel",
+       "draußen",
+       "weltall"
+      ]
+     },
+     {
+      "text": "Es kam nie wieder, obwohl man dieselbe Stelle jahrzehntelang abhörte. So ließ sich nichts nachprüfen.",
+      "worte": [
+       "nie wieder",
+       "einmal",
+       "wiederhol",
+       "abgehört",
+       "jahrzehnt",
+       "nachprüf",
+       "überprüf",
+       "verschwund"
       ]
      }
     ]
@@ -6767,7 +6820,6 @@ window.ERSTDENKEN = {
        "nochmal",
        "72",
        "sekunden",
-       "weg",
        "verschwunden"
       ],
       "nachfrage": "Und warum gucken die dann nicht einfach nochmal an dieselbe Stelle?"
@@ -6877,44 +6929,44 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Ein Architekt knackte Linear B. Die ältere Schrift, aus der sie entstand, kann bis heute niemand verstehen.",
    "warum": {
-    "frage": "Warum klappte bei Linear B, was bei Linear A bis heute scheitert?",
-    "nachfrage": "Stell dir vor, du kannst einen finnischen Text laut vorlesen, sprichst aber kein Finnisch. Weißt du dann, was drinsteht?",
+    "frage": "Viele Zeichen sehen in Linear A und Linear B gleich aus. Warum ließ sich trotzdem nur Linear B verstehen?",
+    "nachfrage": "Und selbst wenn du die Laute hast: Womit könntest du prüfen, was ein Wort bedeutet?",
     "gruende": [
      {
-      "text": "Hinter Linear B steckte eine bekannte Sprache: Griechisch. Als Ventris die Laute hatte, erkannte er Wörter wieder.",
+      "text": "Hinter Linear B steckte Griechisch, eine bekannte Sprache. Mit den Lauten erkannte man die Wörter wieder.",
       "worte": [
        "griech",
-       "bekannt",
-       "sprache",
        "wörter",
-       "erkannt",
-       "wiedererkannt",
-       "verstand"
+       "erkann",
+       "wieder",
+       "verstand",
+       "ventris",
+       "bekannte sprache"
       ]
      },
      {
-      "text": "Die Sprache der Minoer scheint mit keiner bekannten Sprache verwandt, weder mit den indogermanischen noch mit den semitischen Nachbarsprachen.",
+      "text": "Liest man Linear A mit den Lauten aus Linear B vor, passt das zu keiner bekannten Sprache. Die Sprache der Minoer ist unbekannt.",
       "worte": [
-       "verwandt",
-       "unbekannt",
        "keine bekannte",
+       "unbekannt",
        "fremd",
-       "einzigartig",
-       "isoliert",
+       "minoer",
        "minoisch",
-       "minoer"
+       "andere sprache",
+       "keiner sprache",
+       "kein griech"
       ]
      },
      {
-      "text": "Es gibt wenig Text, meist kurze Einträge, und keine zweisprachige Inschrift, mit der man vergleichen könnte.",
+      "text": "Es gibt keinen zweisprachigen Text, keinen „Stein von Rosette“. Darum kann niemand sagen, was die Wörter bedeuten.",
       "worte": [
-       "wenig",
-       "kurz",
        "zweisprach",
-       "rosetta",
+       "rosett",
        "vergleich",
        "übersetz",
-       "mehr text"
+       "bedeut",
+       "wörterbuch",
+       "kein text"
       ]
      }
     ]
@@ -7058,45 +7110,46 @@ window.ERSTDENKEN = {
    ],
    "dreh": "Wir finden immer noch neue Nazca-Bilder, jetzt mit KI. Warum die Menschen sie anlegten, weiß bis heute niemand sicher.",
    "warum": {
-    "frage": "Warum brauchte man für die Suche überhaupt eine KI?",
-    "nachfrage": "Wie lange bräuchtest du, um auf Tausenden Fotos ein verblasstes Bild von der Größe eines Klassenzimmers zu finden?",
+    "frage": "In fast 100 Jahren fand man 430 Figuren, dann in sechs Monaten 303 neue. Warum blieben so viele so lange unentdeckt, und wie half die KI?",
+    "nachfrage": "Und hat die KI die Figuren am Ende ganz allein gefunden?",
     "gruende": [
      {
-      "text": "Die kleinen Bilder sind nach 2.000 Jahren stark verblasst. Auf Luftbildern heben sie sich kaum vom Boden ab.",
+      "text": "Die neuen Figuren sind klein, im Schnitt nur 9 Meter, und stark verblasst. Mit bloßem Auge sind sie kaum zu entdecken.",
       "worte": [
+       "klein",
        "verblass",
        "blass",
-       "kaum zu sehen",
        "unsichtbar",
-       "alt",
-       "wetter",
-       "wind",
-       "erkennen"
+       "schwer zu sehen",
+       "erkenn",
+       "bloße",
+       "9 meter"
       ]
      },
      {
-      "text": "Das Gebiet ist riesig, über 600 Quadratkilometer. Alles mit bloßem Auge abzusuchen, ist kaum zu schaffen.",
+      "text": "Die Ebene ist riesig, über 600 Quadratkilometer. Alle Luftbilder davon von Hand durchzugehen, dauert ewig.",
       "worte": [
        "riesig",
        "groß",
        "fläche",
        "gebiet",
-       "viel",
-       "lange",
-       "auge",
-       "mühsam"
+       "600",
+       "ewig",
+       "viele bilder",
+       "luftbild"
       ]
      },
      {
-      "text": "Die KI schlägt nur Verdachtsstellen vor, Menschen prüfen nach. Zusammen fand das Team neue Figuren rund 16-mal schneller als vorher.",
+      "text": "Die KI meldete über 47.000 Verdachtsstellen. Fachleute sortierten nach und prüften vor Ort. Erst beide zusammen fanden die Figuren.",
       "worte": [
-       "schneller",
-       "zeit",
-       "vorschlag",
        "verdacht",
+       "vorschlag",
+       "47",
+       "sortier",
        "prüf",
-       "zusammen",
-       "sortier"
+       "vor ort",
+       "fachleute",
+       "archäolog"
       ]
      }
     ]
@@ -7138,7 +7191,6 @@ window.ERSTDENKEN = {
       "name": "Die Bedeutung kann man nur aus Lage und Motiv erschließen",
       "worte": [
        "pfad",
-       "weg",
        "lage",
        "liegt",
        "linie",

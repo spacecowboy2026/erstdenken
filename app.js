@@ -378,7 +378,13 @@ async function abruf() {
 }
 
 // ---------- Ein Fall ----------
-const grundTreffer = (k, text) => k.warum.gruende.map(g => g.worte.length > 0 && g.worte.some(w => text.toLowerCase().includes(w)));
+// Stichwort-Erkennung: kurze Wörter (unter 5 Buchstaben) zählen nur am Wortanfang, damit „weg“ nicht in „wegen“ anspringt
+const kommtVor = (text, w) => {
+	const t = text.toLowerCase();
+	if (w.length >= 5) return t.includes(w);
+	return new RegExp('(^|[^a-zäöüß0-9])' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).test(t);
+};
+const grundTreffer = (k, text) => k.warum.gruende.map(g => g.worte.length > 0 && g.worte.some(w => kommtVor(text, w)));
 
 async function spieleFall(k, zaehlt = true) {
 	const r = { typ: 'fall', id: k.id, titel: k.titel, hinweise: 0 };
@@ -471,7 +477,7 @@ async function spieleFall(k, zaehlt = true) {
 	if (m1 === null) {
 		await say('Schade. Dann frag ich nächstes Mal. 🙂', 'malia');
 	} else {
-		const tm = txt => k.malia.punkte.map(p => p.worte.some(w => txt.toLowerCase().includes(w)));
+		const tm = txt => k.malia.punkte.map(p => p.worte.some(w => kommtVor(txt, w)));
 		let h = tm(m1);
 		const fehlt = h.indexOf(false);
 		await say(fehlt >= 0 ? k.malia.punkte[fehlt].nachfrage : k.malia.allesDrin, 'malia');
