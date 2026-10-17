@@ -2,13 +2,16 @@
 <html lang="de">
 <head>
 	<meta charset="utf-8">
-	<title>erstdenken · Fall des Tages</title>
+	<title>erstdenken · Knack den Fall selbst</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
-	<meta name="description" content="Jeden Tag ein Fall aus Geschichte und Alltag. Erst du, dann die Auflösung.">
+	<meta name="description" content="Knifflige Fälle aus Geschichte, Alltag, Wissenschaft und Philosophie, die du selbst knackst. Denken trainieren statt KI fragen. 5 Minuten pro Fall.">
+	<meta property="og:title" content="erstdenken · Knack den Fall selbst">
+	<meta property="og:description" content="KI nimmt uns viel Denken ab. Hier trainierst du es wieder: kurze Fälle aus Geschichte, Alltag und Philosophie, die du selbst löst. 5 Minuten, kein Vorwissen nötig.">
+	<meta property="og:type" content="website">
 	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
-	<link rel="stylesheet" href="style.css?v=bbe970e3">
+	<link rel="stylesheet" href="style.css?v=00e28308">
 	<script>
 		// Hell/Dunkel vor dem ersten Zeichnen setzen, damit nichts flackert
 		try { const t = localStorage.getItem('erstdenken.theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
@@ -19,7 +22,8 @@
 <header class="topbar">
 	<div class="topbar__label" id="label">erstdenken</div>
 	<div class="topbar__actions">
-		<button class="round-btn" id="daysBtn" aria-label="Alle Tage">Tage</button>
+		<button class="round-btn" id="helpBtn" aria-label="So funktioniert’s">?</button>
+		<button class="round-btn" id="daysBtn" aria-label="Meine Fälle">Fälle</button>
 		<button class="round-btn" id="themeBtn" aria-label="Hell oder dunkel">☾</button>
 	</div>
 </header>
@@ -41,7 +45,7 @@
 	<div class="sheet__inner" id="sheetInner"></div>
 </section>
 
-<script src="daten/karten.js?v=bbe970e3"></script>
-<script src="app.js?v=bbe970e3"></script>
+<script src="daten/karten.js?v=00e28308"></script>
+<script src="app.js?v=00e28308"></script>
 </body>
 </html>

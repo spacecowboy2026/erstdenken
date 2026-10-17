@@ -1,13 +1,12 @@
 'use strict';
 // erstdenken – Spielablauf. Die Inhalte kommen aus daten/karten.js (erzeugt aus karten/).
+// Seit 17.10.2026: kein Tagesplan mehr, sondern ein Topf mit Fällen, aus dem zufällig gezogen wird.
 
-const DATA = window.ERSTDENKEN;
-const TOTAL = DATA.tage.length;
-const BONUS = DATA.bonus || [];
-const karteVon = id => DATA.tage.find(t => t.id === id) || BONUS.find(b => b.id === id);
+const FAELLE = window.ERSTDENKEN.faelle;
+const karteVon = id => FAELLE.find(k => k.id === id);
 const params = new URLSearchParams(location.search);
-const TEST = params.has('test');             // ?test → alle Tage offen, eigener Spielstand
-const KEY = TEST ? 'erstdenken.test.v1' : 'erstdenken.v1';
+const TEST = params.has('test');             // ?test → eigener Spielstand zum Ausprobieren
+const KEY = TEST ? 'erstdenken.test.v2' : 'erstdenken.v2';
 
 const chat = document.getElementById('chat');
 const dock = document.getElementById('dock');
@@ -16,30 +15,54 @@ const sheet = document.getElementById('sheet');
 const sheetInner = document.getElementById('sheetInner');
 
 // ---------- Spielstand (bleibt auf diesem Gerät) ----------
+function leer() { return { gespielt: {}, fehlerjagden: [] }; }
 function load() {
-	try { return JSON.parse(localStorage.getItem(KEY)) || { gespielt: {} }; }
-	catch { return { gespielt: {} }; }
+	try {
+		const s = JSON.parse(localStorage.getItem(KEY));
+		if (s) return s;
+		return uebernehmeAlt(JSON.parse(localStorage.getItem(TEST ? 'erstdenken.test.v1' : 'erstdenken.v1')));
+	} catch { return leer(); }
+}
+// Spielstand aus der ersten Version (mit Tagesplan) übernehmen
+function uebernehmeAlt(alt) {
+	const neu = leer();
+	if (!alt) return neu;
+	const alterPlan = ['mauer-nacht', 'runde-kanaldeckel', 'penicillin', 'einkaufswagen', 'kolumbus-rechenfehler', 'bleistift-ohne-blei', null,
+		'sarajevo-1914', 'einheitszeit', 'vasa', 'jeans-nieten', 'mars-climate-orbiter', 'erste-ampel', null];
+	const alle = [...Object.entries(alt.gespielt || {}).map(([t, r]) => ({ ...r, id: r.id || alterPlan[t - 1] })), ...Object.values(alt.bonus || {})];
+	alle.filter(r => r.typ === 'fall' && r.id && karteVon(r.id)).forEach(r => {
+		r.punkte = r.punkte ?? punkteFuer(r);
+		neu.gespielt[r.id] = r;
+	});
+	neu.intro = alle.length > 0;
+	return neu;
 }
 let state = load();
-state.bonus = state.bonus || {};
-// Ältere Spielstände kennen die Fall-ID noch nicht
-Object.entries(state.gespielt).forEach(([t, r]) => { if (!r.id && DATA.tage[t - 1]) r.id = DATA.tage[t - 1].id; });
-const alleErgebnisse = () => [...Object.values(state.gespielt), ...Object.values(state.bonus)];
-const offeneBonus = () => BONUS.filter(b => !state.bonus[b.id]);
-// Zufallsfall: ein noch nicht gespielter Bonusfall, zufällig ausgewählt
-const naechsterBonus = () => { const o = offeneBonus(); return o.length ? o[Math.floor(Math.random() * o.length)] : null; };
+state.gespielt = state.gespielt || {};
+state.fehlerjagden = state.fehlerjagden || [];
 function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} }
 
-// ---------- Datum und Tag ----------
-const DAY = 86400000;
-const [sy, sm, sd] = DATA.start.split('-').map(Number);
-const START = new Date(sy, sm - 1, sd);
+// ---------- Datum ----------
 const today = () => { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); };
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-const dateOfDay = n => new Date(sy, sm - 1, sd + n - 1);
-const fmt = d => d.toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'long' });
-const dayIndex = () => Math.round((today() - START) / DAY) + 1;
-const offenBis = () => TEST ? TOTAL : Math.max(0, Math.min(dayIndex(), TOTAL));
+const vorTagen = n => { const d = today(); return iso(new Date(d.getFullYear(), d.getMonth(), d.getDate() - n)); };
+
+// ---------- Punkte ----------
+// Lösung ohne Hinweis 3, mit einem 2, mit zwei 1, mit drei 0 · Warum: +1 · KI-Fehler beim ersten Versuch: +1 · Malia: +1
+function punkteFuer(r) {
+	return (r.richtig ? Math.max(0, 3 - (r.hinweise || 0)) : 0)
+		+ (r.gruendeSelbst > 0 ? 1 : 0)
+		+ (r.fehlerGefunden && r.fehlerVersuch === 1 ? 1 : 0)
+		+ (r.malia >= 2 ? 1 : 0);
+}
+const gespielteListe = () => Object.values(state.gespielt).sort((a, b) => (a.zeit || 0) - (b.zeit || 0));
+function gesamtPunkte() {
+	return gespielteListe().reduce((s, r) => s + (r.punkte || 0) + (r.abrufe || []).filter(a => a.richtig).length, 0)
+		+ state.fehlerjagden.reduce((s, f) => s + (f.gefunden || 0), 0);
+}
+function zeigePunkte() { label.textContent = `erstdenken · ${gesamtPunkte()} Punkte`; }
+const offeneFaelle = () => FAELLE.filter(k => !state.gespielt[k.id]);
+const zufallsFall = () => { const o = offeneFaelle(); return o.length ? o[Math.floor(Math.random() * o.length)] : null; };
 
 // ---------- Hell/Dunkel ----------
 const themeBtn = document.getElementById('themeBtn');
@@ -66,7 +89,7 @@ function wait(ms) {
 	});
 }
 const people = {
-	ki: { name: 'Fall des Tages', icon: '🔍' },
+	ki: { name: 'erstdenken', icon: '🔍' },
 	malia: { name: 'Malia, 12', icon: '🧒' }
 };
 let lastLeft = null;
@@ -311,71 +334,85 @@ async function ton(a) {
 	await wait(600);
 }
 
-// ---------- Abruf früherer Fälle ----------
-// Gefragt wird nach Fällen, die man vor 7 Tagen und gestern gespielt hat – höchstens einmal pro Tag.
-const vorTagen = n => { const d = today(); return iso(new Date(d.getFullYear(), d.getMonth(), d.getDate() - n)); };
-async function abruf(aktuelleId) {
-	if (!TEST && state.abrufAm === iso(today())) return [];
-	const faelle = alleErgebnisse().filter(r => r.typ === 'fall' && r.id && r.id !== aktuelleId);
-	let ziele;
-	if (TEST) ziele = faelle.slice(-2);
-	else ziele = [7, 1].map(n => faelle.filter(r => r.datum === vorTagen(n)).pop()).filter(Boolean);
-	const res = [];
-	if (!ziele.length) return res;
-	await say(ziele.length > 1 ? 'Moin! Erst zwei kurze Fragen von früher. 👋' : 'Moin! Erst eine kurze Frage zu einem früheren Fall. 👋');
+
+// ---------- Einstieg: ganz einfach erklärt ----------
+async function intro() {
+	await say('Hallo! 👋 Kurz erklärt, worum es hier geht:');
+	await say('KI beantwortet uns heute fast jede Frage. Praktisch. Aber wer nur noch fragt, verlernt das Selbst-Denken.');
+	await say('Hier ist es umgekehrt: Ich gebe dir einen kniffligen Fall aus Geschichte, Alltag, Wissenschaft oder Philosophie. Und du knackst ihn selbst.');
+	await say('Das Schöne daran: Was man selbst herausfindet, vergisst man kaum. Genau dafür ist jeder Schritt hier gebaut.');
+	await say('Ein Fall dauert etwa 5 Minuten. Du brauchst kein Vorwissen.');
+	let w = await choose(['Los geht’s', 'Wie läuft ein Fall ab?'], { quiet: ['Wie läuft ein Fall ab?'] });
+	if (w !== 'Los geht’s') {
+		await say('So läuft ein Fall ab:');
+		await say('1 · Ich erzähle dir eine kurze Geschichte und stelle eine Frage.\n2 · Du tippst eine Antwort an. Wenn du hängst, hol dir einen Hinweis.\n3 · Ich löse auf und erkläre, was dahintersteckt.');
+		await say('Danach noch drei kurze Extras: Du überlegst, warum es so kam. Du suchst einen Fehler, den eine KI eingebaut hat. Und du erklärst alles Malia, 12, in deinen eigenen Worten.');
+		await say('Punkte gibt’s fürs Selbst-Denken: Ohne Hinweis 3 für die Lösung, mit jedem Hinweis einer weniger. Plus je einen fürs Warum, den KI-Fehler und Malia.');
+		await say('Und in ein paar Tagen frag ich dich nochmal kurz nach dem Fall. Mal sehen, ob es hängen geblieben ist. 😉');
+		await choose(['Los geht’s']);
+	}
+	state.intro = true;
+	save();
+}
+
+// ---------- Abruf früherer Fälle (nach 1 und 7 Tagen, höchstens einmal pro Tag) ----------
+async function abruf() {
+	if (!TEST && state.abrufAm === iso(today())) return;
+	const liste = gespielteListe();
+	const ziele = TEST ? liste.slice(-2) : [7, 1].map(n => liste.filter(r => r.datum === vorTagen(n)).pop()).filter(Boolean);
+	if (!ziele.length) return;
+	await say(ziele.length > 1 ? 'Erst zwei kurze Fragen zu früheren Fällen. Mal sehen, was hängen geblieben ist. 👀' : 'Erst eine kurze Frage zu einem früheren Fall. Mal sehen, was hängen geblieben ist. 👀');
 	for (const z of ziele) {
 		const k = karteVon(z.id);
 		if (!k) continue;
 		await say(k.abruf.frage);
 		const a = await choose(shuffle(k.abruf.chips, k.id + 'abruf'));
 		const ok = a === k.abruf.richtig;
-		await say(ok ? pick(['Sitzt. 👌', 'Genau so.', 'Richtig, gut gemerkt.']) : `Es war: ${k.abruf.richtig}.`);
-		res.push({ fall: k.id, richtig: ok });
+		await say(ok ? pick(['Sitzt. +1 Punkt 👌', 'Genau so. +1 Punkt', 'Richtig, gut gemerkt. +1 Punkt']) : `Es war: ${k.abruf.richtig}. Jetzt sitzt es bestimmt.`);
+		z.abrufe = z.abrufe || [];
+		z.abrufe.push({ datum: iso(today()), richtig: ok });
 	}
 	state.abrufAm = iso(today());
 	save();
-	return res;
+	zeigePunkte();
 }
 
 // ---------- Ein Fall ----------
-async function spieleFall(k, tag, zaehlt) {
-	const r = { typ: 'fall', id: k.id, titel: k.titel, hinweise: 0, abrufe: [] };
+const grundTreffer = (k, text) => k.warum.gruende.map(g => g.worte.length > 0 && g.worte.some(w => text.toLowerCase().includes(w)));
 
-	if (zaehlt) r.abrufe = await abruf(k.id);
-	if (tag === 1 && !r.abrufe.length) {
-		await say('Hallo! Hier ist dein Fall des Tages. 🔍');
-		await say('So geht’s: Ich zeige dir einen Fall. Du rätst zuerst. Hinweise gibt’s, aber sie kosten Punkte. Erst dann löse ich auf. Und jeden Tag lernst du was Neues.');
-	} else if (!r.abrufe.length) {
-		await say(pick(['Moin! Neuer Fall. 👋', 'Da bist du ja. Neuer Fall.', 'Hallo! Heute wird’s spannend.']));
-	}
+async function spieleFall(k, zaehlt = true) {
+	const r = { typ: 'fall', id: k.id, titel: k.titel, hinweise: 0 };
+	const neuling = gespielteListe().length < 3;
 
-	await note(tag ? '— Fall des Tages —' : '— Zufallsfall —', 800);
+	await note('— Neuer Fall —', 700);
 	await bubblesWithImages(k.einstieg, k.bilder, 'einstieg', k.audio);
 	await say(k.frage);
+	await say(neuling
+		? 'Tipp deine Antwort an. Wenn du hängst, hol dir einen Hinweis. Ohne Hinweis gibt’s 3 Punkte, jeder Hinweis kostet einen.'
+		: 'Deine Antwort? Oder erst ein Hinweis?');
 
 	const optionen = shuffle(k.chips, k.id);
-	let tipp = await choose(optionen);
-	r.ersterTipp = tipp;
-	await say('Notiert. Bevor du dich festlegst: Ich habe drei Hinweise. Jeder kostet dich einen Punkt.');
-
-	while (r.hinweise < k.hinweise.length) {
-		const next = await choose(['Hinweis bitte', 'Ich lege mich fest'], { quiet: ['Ich lege mich fest'] });
-		if (next === 'Ich lege mich fest') break;
-		r.hinweise++;
-		await note(`— Hinweis ${r.hinweise} von ${k.hinweise.length} —`);
-		await say(k.hinweise[r.hinweise - 1]);
-		await say(`Dein Tipp bisher: „${tipp}“. Bleibst du dabei?`);
-		tipp = await choose(optionen.map(o => o === tipp ? o + ' ✓' : o));
+	let tipp;
+	while (!tipp) {
+		const hinweisChip = r.hinweise < k.hinweise.length ? [`Hinweis ${r.hinweise + 1} 🔍`] : [];
+		const w = await choose([...optionen, ...hinweisChip], { quiet: hinweisChip });
+		if (w.startsWith('Hinweis ')) {
+			r.hinweise++;
+			await note(`— Hinweis ${r.hinweise} von ${k.hinweise.length} —`);
+			await say(k.hinweise[r.hinweise - 1]);
+			await say(r.hinweise < k.hinweise.length ? 'Und, weißt du’s jetzt?' : 'Das war der letzte Hinweis. Jetzt du!');
+		} else tipp = w;
 	}
-
-	await say(`Final: „${tipp}“. Wie sicher bist du?`);
-	r.sicherheit = parseInt(await choose(['50 %', '70 %', '90 %']), 10);
 	r.tipp = tipp;
 	r.richtig = tipp === k.richtig;
+	await say(neuling ? 'Wie sicher bist du dir? Das hilft dir später zu sehen, wie gut dein Bauchgefühl ist.' : 'Wie sicher bist du?');
+	r.sicherheit = parseInt(await choose(['50 %', '70 %', '90 %']), 10);
 
-	await note('— Auflösung —', 1500);
+	// Auflösung
+	await note('— Auflösung —', 1300);
 	if (r.richtig) {
-		await say(r.hinweise === 0 ? 'Richtig. Ganz ohne Hinweis. 🔥' : `Richtig. Mit ${r.hinweise} Hinweis${r.hinweise > 1 ? 'en' : ''}.`);
+		const p = Math.max(0, 3 - r.hinweise);
+		await say(r.hinweise === 0 ? `Richtig! Ganz ohne Hinweis. +${p} Punkte 🔥` : `Richtig! +${p} Punkt${p === 1 ? '' : 'e'}`);
 		if (r.sicherheit === 50) await say('Und du warst nur 50 % sicher. Du weißt mehr, als du dir zutraust.');
 	} else {
 		await say(`Nicht ganz. Richtig ist: „${k.richtig}“.`);
@@ -384,23 +421,30 @@ async function spieleFall(k, tag, zaehlt) {
 	await bubblesWithImages(k.aufloesung, k.bilder, 'aufloesung', k.audio);
 	await say('Der Dreh: ' + k.dreh);
 
-	// Warum?
+	// Warum? – erkennt grob, welche Gründe man schon selbst genannt hat
 	await note('— Warum? —');
 	await say('Jetzt du: ' + k.warum.frage);
-	await ask('Deine Vermutung …', 'Ein, zwei Sätze reichen');
-	await say('Noch ein Gedanke: ' + k.warum.nachfrage);
-	await ask('Deine Antwort …');
+	const a1 = await ask('Deine Vermutung …', 'Ein, zwei Sätze reichen', 'Überspringen');
+	let text = a1 || '';
+	if (a1 !== null) {
+		const t1 = grundTreffer(k, a1).filter(Boolean).length;
+		if (t1 >= Math.ceil(k.warum.gruende.length / 2)) {
+			await say('Stark, genau darauf kommt es an! 💡');
+		} else {
+			await say((t1 ? 'Guter Punkt, da ist was dran. ' : 'Spannender Gedanke. ') + k.warum.nachfrage);
+			const a2 = await ask('Deine Antwort …', '', 'Überspringen');
+			text += ' ' + (a2 || '');
+		}
+	}
+	const treffer = grundTreffer(k, text);
+	r.gruendeSelbst = a1 === null ? 0 : treffer.filter(Boolean).length;
 	await say('Die wichtigsten Gründe:');
-	for (let i = 0; i < k.warum.gruende.length; i++) await say(`${i + 1} · ${k.warum.gruende[i]}`);
-	await say('Wie viele davon hattest du schon selbst?');
-	const anz = k.warum.gruende.length === 2 ? ['Keinen', 'Einen', 'Beide'] : ['Keinen', 'Einen', 'Zwei', 'Alle drei'];
-	const own = await choose(anz);
-	r.eigeneGruende = anz.indexOf(own);
-	await say(own === 'Keinen' ? 'Macht nichts. Jetzt hast du sie. 😉' : 'Stark. Selbst gefunden hält besser als vorgelesen.');
+	for (let i = 0; i < k.warum.gruende.length; i++) await say(`${treffer[i] && a1 !== null ? '✓' : '·'} ${k.warum.gruende[i].text}`);
+	if (a1 !== null) await say(r.gruendeSelbst ? `Davon hattest du ${r.gruendeSelbst} selbst. +1 Punkt 💪` : 'Jetzt kennst du sie. Beim nächsten Mal bist du schneller.');
 
 	// Prüf-Runde
-	await note('— Prüf-Runde —');
-	await say('Hier ist meine Zusammenfassung. Ein Satz stimmt nicht. Findest du ihn?');
+	await note('— KI-Check —');
+	await say('Eine KI hat den Fall zusammengefasst. Ein Satz stimmt nicht. Findest du ihn?');
 	for (let i = 0; i < k.pruef.length; i++) await say(`${NUM[i]} ${k.pruef[i].satz}`);
 	const falschIdx = k.pruef.findIndex(p => p.falsch);
 	r.fehlerGefunden = false;
@@ -409,7 +453,7 @@ async function spieleFall(k, tag, zaehlt) {
 		if (NUM.indexOf(p) === falschIdx) {
 			r.fehlerGefunden = true;
 			r.fehlerVersuch = versuch + 1;
-			await say('Erwischt. ' + k.pruef[falschIdx].korrektur);
+			await say((versuch === 0 ? 'Erwischt! +1 Punkt. ' : 'Jetzt hast du ihn. ') + k.pruef[falschIdx].korrektur);
 			await say('Genau so klingen KI-Fehler: fast richtig und sehr selbstbewusst.');
 		} else if (versuch === 0) {
 			await say('Der Satz stimmt. Schau dir die anderen noch mal genau an …');
@@ -422,33 +466,63 @@ async function spieleFall(k, tag, zaehlt) {
 	// Malia, 12
 	await note('— Malia, 12, hat eine Frage —', 800);
 	await say(k.malia.frage, 'malia');
-	const a1 = await ask('Erklär’s Malia …', 'Zwei, drei Sätze. Keine Fachwörter.', 'Heute überspringen');
+	const m1 = await ask('Erklär’s Malia …', 'Zwei, drei Sätze. Keine Fachwörter.', 'Heute überspringen');
 	r.malia = null;
-	if (a1 === null) {
+	if (m1 === null) {
 		await say('Schade. Dann frag ich nächstes Mal. 🙂', 'malia');
 	} else {
-		const treffer = text => k.malia.punkte.map(p => p.worte.some(w => text.toLowerCase().includes(w)));
-		let h = treffer(a1);
-		const fehltIdx = h.indexOf(false);
-		await say(fehltIdx >= 0 ? k.malia.punkte[fehltIdx].nachfrage : k.malia.allesDrin, 'malia');
-		const a2 = await ask('Antwort an Malia …', '', 'Überspringen');
-		h = treffer(a1 + ' ' + (a2 || ''));
+		const tm = txt => k.malia.punkte.map(p => p.worte.some(w => txt.toLowerCase().includes(w)));
+		let h = tm(m1);
+		const fehlt = h.indexOf(false);
+		await say(fehlt >= 0 ? k.malia.punkte[fehlt].nachfrage : k.malia.allesDrin, 'malia');
+		const m2 = await ask('Antwort an Malia …', '', 'Überspringen');
+		h = tm(m1 + ' ' + (m2 || ''));
 		r.malia = h.filter(Boolean).length;
-		await say(r.malia >= Math.min(2, h.length) ? k.malia.verstanden : k.malia.halb, 'malia');
-		await say('Kurzer Check deiner Erklärung:\n' + k.malia.punkte.map((p, i) => (h[i] ? '✓ ' : '○ ') + p.name).join('\n'));
+		const verstanden = r.malia >= Math.min(2, h.length);
+		await say(verstanden ? k.malia.verstanden : k.malia.halb, 'malia');
+		await say('Kurzer Check deiner Erklärung:\n' + k.malia.punkte.map((p, i) => (h[i] ? '✓ ' : '○ ') + p.name).join('\n') + (verstanden ? '\n+1 Punkt' : ''));
 	}
 
-	await abschluss(k, tag, r, zaehlt);
+	// Ergebnis
+	r.punkte = punkteFuer(r);
+	await note('— Ergebnis —', 700);
+	const text2 = shareText(r);
+	await say(text2, 'ki', 'card');
+	if (zaehlt) {
+		r.datum = iso(today());
+		r.zeit = Date.now();
+		r.share = text2;
+		state.gespielt[k.id] = r;
+		save();
+		zeigePunkte();
+		await say('In ein paar Tagen frag ich dich nochmal kurz danach. Mal sehen, ob’s hängen bleibt. 😉');
+	} else {
+		await say('Das war eine Wiederholung, sie zählt nicht.');
+	}
+	await nachRunde(k);
 }
 
-// ---------- Fehlerjagd ----------
-async function spieleFehlerjagd(k, tag, zaehlt) {
-	const r = { typ: 'fehlerjagd', titel: k.titel };
+// ---------- Fehlerjagd aus den letzten sechs Fällen ----------
+function faelligeFehlerjagd() {
+	const schon = new Set(state.fehlerjagden.flatMap(f => f.ids));
+	const neu = gespielteListe().filter(r => !schon.has(r.id) && karteVon(r.id));
+	return neu.length >= 6 ? neu.slice(0, 6).map(r => karteVon(r.id)) : null;
+}
+async function spieleFehlerjagd(karten) {
 	await note('— Fehlerjagd —', 800);
-	for (const e of k.einstieg) await say(e);
+	await say('Zwischendurch eine Fehlerjagd! 🔍 Ich fasse deine letzten sechs Fälle zusammen.');
+	await say('Drei Sätze stimmen nicht. Tipp sie an, du kannst eine Markierung auch wieder lösen. Wenn du sicher bist: „Fertig“.');
+	const falschBei = new Set(shuffle(karten.map(k => k.id), 'fj' + Date.now()).slice(0, 3));
+	const aussagen = shuffle(karten.map(k => {
+		const f = k.pruef.find(p => p.falsch);
+		const w = k.pruef.filter(p => !p.falsch);
+		return falschBei.has(k.id)
+			? { satz: f.satz, falsch: true, korrektur: f.korrektur, titel: k.titel }
+			: { satz: w[Math.floor(Math.random() * w.length)].satz, falsch: false, titel: k.titel };
+	}), 'reihe' + Date.now());
 	const blasen = [];
-	for (let i = 0; i < k.aussagen.length; i++) {
-		const b = await say(`${NUM[i]} ${k.aussagen[i].satz}`, 'ki', 'selectable');
+	for (let i = 0; i < aussagen.length; i++) {
+		const b = await say(`${NUM[i]} ${aussagen[i].satz}`, 'ki', 'selectable');
 		b.onclick = () => { if (b.classList.contains('selectable')) { b.classList.toggle('selected'); paintDone(); } };
 		blasen.push(b);
 	}
@@ -472,31 +546,30 @@ async function spieleFehlerjagd(k, tag, zaehlt) {
 		scrollDown();
 	});
 	blasen.forEach(b => b.classList.remove('selectable'));
-
-	await note('— Auflösung —', 1200);
-	r.gefunden = 0; r.falschVerdacht = 0;
-	const titelVon = id => (DATA.tage.find(t => t.id === id) || {}).titel || '';
-	for (let i = 0; i < k.aussagen.length; i++) {
-		const a = k.aussagen[i];
+	await note('— Auflösung —', 1100);
+	let gefunden = 0, falschVerdacht = 0;
+	for (let i = 0; i < aussagen.length; i++) {
+		const a = aussagen[i];
 		const sel = blasen[i].classList.contains('selected');
-		if (a.falsch && sel) { r.gefunden++; await say(`${NUM[i]} Gefunden. ${a.korrektur} (${titelVon(a.fall)})`); }
-		else if (a.falsch) await say(`${NUM[i]} Übersehen. ${a.korrektur} (${titelVon(a.fall)})`);
-		else if (sel) { r.falschVerdacht++; await say(`${NUM[i]} stimmt. Fast-richtig fühlt sich manchmal falsch an.`); }
+		if (a.falsch && sel) { gefunden++; await say(`${NUM[i]} Gefunden! ${a.korrektur} (${a.titel})`); }
+		else if (a.falsch) await say(`${NUM[i]} Übersehen. ${a.korrektur} (${a.titel})`);
+		else if (sel) { falschVerdacht++; await say(`${NUM[i]} stimmt. Fast-richtig fühlt sich manchmal falsch an.`); }
 	}
-	await say(k.schluss);
-	await abschluss(k, tag, r, zaehlt);
+	await say(`${gefunden} von 3 Fehlern gefunden. +${gefunden} Punkt${gefunden === 1 ? '' : 'e'}. Genau so klingen KI-Zusammenfassungen: flüssig, selbstbewusst und hier und da falsch.`);
+	state.fehlerjagden.push({ datum: iso(today()), ids: karten.map(k => k.id), gefunden, falschVerdacht });
+	save();
+	zeigePunkte();
 }
 
-// ---------- Ergebnis ----------
-function shareText(tag, r) {
-	const kopf = tag ? `erstdenken · Tag ${tag}/${TOTAL}` : 'erstdenken · Zufallsfall';
+// ---------- Ergebnis und Teilen ----------
+function shareText(r) {
 	const link = TEST ? '' : '\n' + location.origin + location.pathname;
-	if (r.typ === 'fehlerjagd') return `${kopf} · Fehlerjagd\n🔍 ${r.gefunden}/3 gefunden · ${r.falschVerdacht} falsch verdächtigt` + link;
-	return [kopf,
+	return ['erstdenken · Fall gelöst',
 		`Hinweise ${'●'.repeat(r.hinweise)}${'○'.repeat(3 - r.hinweise)}`,
-		`Tipp ${r.richtig ? '✓' : '✗'} · ${r.sicherheit} % sicher`,
-		`KI-Fehler ${r.fehlerGefunden ? 'gefunden ✓' : 'übersehen ✗'}`,
-		r.malia === null ? null : `Malia ${r.malia}/${3}`
+		`${r.richtig ? '✓ richtig' : '✗ daneben'} · ${r.sicherheit} % sicher`,
+		`${r.fehlerGefunden ? '✓' : '✗'} KI-Fehler`,
+		r.malia === null ? null : `${r.malia >= 2 ? '✓' : '○'} Malia erklärt`,
+		`+${r.punkte} Punkte`
 	].filter(Boolean).join('\n') + link;
 }
 async function teilen(text) {
@@ -509,195 +582,137 @@ async function teilen(text) {
 		await say('Kopieren ging hier nicht. Markier den Kasten oben einfach von Hand.');
 	}
 }
-async function abschluss(k, tag, r, zaehlt) {
-	await note('— Ergebnis —', 800);
-	const text = shareText(tag, r);
-	await say(text, 'ki', 'card');
-	if (zaehlt && !tag) {
-		r.datum = iso(today());
-		r.share = text;
-		state.bonus[k.id] = r;
-		save();
-		await say('Gut gemacht. Den merk ich mir und frag dich bald danach.' + (offeneBonus().length ? ` Noch ${offeneBonus().length} Zufallsfälle im Topf.` : ''));
-	} else if (zaehlt) {
-		r.datum = iso(today());
-		r.nachgeholt = !TEST && r.datum !== iso(dateOfDay(tag));
-		r.share = text;
-		state.gespielt[tag] = r;
-		save();
-		if (tag < TOTAL) await say(k.typ === 'fall' ? 'Morgen frag ich dich nach diesem Fall. Bis dann!' : 'Bis morgen, neuer Fall!');
-		else await say('Das war der letzte Tag. Danke fürs Mitdenken! Unter „Tage“ siehst du deine Bilanz.');
-	} else {
-		await say('Das war eine Probe, sie zählt nicht.');
-	}
-	await nachRunde(k, tag);
-}
-async function nachRunde(k, tag) {
-	const offen = offeneTage();
+async function nachRunde(k) {
 	while (true) {
-		const opts = ['Ergebnis teilen'];
+		const opts = [];
+		if (offeneFaelle().length) opts.push('Nächster Fall 🎲');
+		opts.push('Ergebnis teilen');
 		if (k.quellen && k.quellen.length) opts.push('Quellen');
-		if (offen.length) opts.push('Verpasstes nachholen');
-		if (naechsterBonus()) opts.push('Zufallsfall 🎲');
-		opts.push('Alle Tage');
-		const w = await choose(opts, { quiet: ['Alle Tage'] });
-		if (w === 'Zufallsfall 🎲') { goBonus(naechsterBonus().id); return; }
-		if (w === 'Ergebnis teilen') await teilen(((tag ? state.gespielt[tag] : state.bonus[k.id]) || {}).share || [...chat.querySelectorAll('.card')].pop()?.textContent || '');
+		opts.push('Meine Fälle');
+		const w = await choose(opts, { primary: ['Nächster Fall 🎲'], quiet: ['Meine Fälle'] });
+		if (w === 'Nächster Fall 🎲') return neueRunde();
+		if (w === 'Ergebnis teilen') await teilen((state.gespielt[k.id] || {}).share || [...chat.querySelectorAll('.card')].pop()?.textContent || '');
 		if (w === 'Quellen') await sayLinks('Woher ich das weiß:', k.quellen);
-		if (w === 'Verpasstes nachholen') { go(offen[0]); return; }
-		if (w === 'Alle Tage') openSheet();
+		if (w === 'Meine Fälle') openSheet();
 	}
 }
 
-// ---------- Navigation ----------
-function offeneTage() {
-	const bis = offenBis();
-	const out = [];
-	for (let t = 1; t <= bis; t++) if (!state.gespielt[t]) out.push(t);
-	return out;
-}
-function goBonus(id) {
-	const p = new URLSearchParams();
-	if (TEST) p.set('test', '');
-	p.set('bonus', id);
-	location.search = p.toString().replace(/=(&|$)/g, '$1');
-}
-function go(tag, extra = '') {
-	const p = new URLSearchParams();
-	if (TEST) p.set('test', '');
-	if (tag) p.set('tag', tag);
-	if (extra) p.set(extra, '');
-	location.search = p.toString().replace(/=(&|$)/g, '$1');
-}
-
+// ---------- Übersicht „Meine Fälle“ und Hilfe ----------
 function statistik() {
-	const g = Object.values(state.gespielt);
-	const faelle = alleErgebnisse().filter(r => r.typ === 'fall');
-	const abrufe = faelle.flatMap(r => r.abrufe || []);
+	const g = gespielteListe();
+	const abrufe = g.flatMap(r => r.abrufe || []);
 	const kal = {};
-	faelle.forEach(r => { kal[r.sicherheit] = kal[r.sicherheit] || [0, 0]; kal[r.sicherheit][1]++; if (r.richtig) kal[r.sicherheit][0]++; });
+	g.forEach(r => { kal[r.sicherheit] = kal[r.sicherheit] || [0, 0]; kal[r.sicherheit][1]++; if (r.richtig) kal[r.sicherheit][0]++; });
 	return {
 		gespielt: g.length,
-		richtig: faelle.filter(r => r.richtig).length,
-		faelle: faelle.length,
+		richtig: g.filter(r => r.richtig).length,
 		abrufRichtig: abrufe.filter(a => a.richtig).length,
 		abrufe: abrufe.length,
-		fehler: faelle.filter(r => r.fehlerGefunden).length + g.filter(r => r.typ === 'fehlerjagd').reduce((s, r) => s + r.gefunden, 0),
-		fehlerMoeglich: faelle.length + g.filter(r => r.typ === 'fehlerjagd').length * 3,
+		fehler: g.filter(r => r.fehlerGefunden).length + state.fehlerjagden.reduce((s, f) => s + f.gefunden, 0),
+		fehlerMoeglich: g.length + state.fehlerjagden.length * 3,
 		kal
 	};
 }
-function openSheet() {
-	const s = statistik();
-	const bis = offenBis();
-	let html = `<h2>Deine ${TOTAL} Tage</h2><p>Start ${fmt(START)}${TEST ? ' · Testmodus, alles offen' : ''}</p>`;
-	html += '<div class="stats">'
-		+ `<div class="stat"><b>${s.gespielt}/${TOTAL}</b><span>Tage gespielt</span></div>`
-		+ `<div class="stat"><b>${s.abrufe ? s.abrufRichtig + '/' + s.abrufe : '–'}</b><span>später noch gewusst</span></div>`
-		+ `<div class="stat"><b>${s.faelle ? s.richtig + '/' + s.faelle : '–'}</b><span>Fälle richtig gelöst</span></div>`
-		+ `<div class="stat"><b>${s.fehlerMoeglich ? s.fehler + '/' + s.fehlerMoeglich : '–'}</b><span>KI-Fehler gefunden</span></div>`
-		+ '</div>';
-	const kalText = [50, 70, 90].filter(p => s.kal[p]).map(p => `bei ${p} % sicher: ${s.kal[p][0]} von ${s.kal[p][1]} richtig`).join(' · ');
-	if (kalText) html += `<p>Wie gut passt deine Sicherheit? ${kalText}</p>`;
-	DATA.tage.forEach(k => {
-		const r = state.gespielt[k.tag];
-		const frei = k.tag <= bis;
-		const titel = r ? k.titel : (k.typ === 'fehlerjagd' ? 'Fehlerjagd' : 'Fall');
-		const zustand = r ? (r.nachgeholt ? '✓ nachgeholt' : '✓') : frei ? 'offen' : 'ab ' + dateOfDay(k.tag).toLocaleDateString('de-DE', { day: 'numeric', month: 'numeric' });
-		html += `<button class="day" data-tag="${k.tag}" ${frei ? '' : 'disabled'}><span class="day__nr">Tag ${k.tag}</span><span class="day__title">${titel}</span><span class="day__state">${zustand}</span></button>`;
-	});
-	if (BONUS.length) {
-		const fertig = BONUS.filter(b => state.bonus[b.id]).length;
-		html += `<h2 style="margin-top:32px">Zufallsfälle</h2><p>Für Tage, an denen du mehr willst: ${fertig} von ${BONUS.length} gespielt.</p>`;
-		if (offeneBonus().length) html += '<button class="chip primary" id="zufallBtn" style="margin:0 0 12px">Zufallsfall 🎲</button>';
-		BONUS.forEach(b => {
-			const r = state.bonus[b.id];
-			html += `<button class="day" data-bonus="${b.id}"><span class="day__nr">${r ? '✓' : '○'}</span><span class="day__title">${r ? b.titel : 'Unbekannter Fall'}</span><span class="day__state">${r ? '' : 'offen'}</span></button>`;
+const HILFE = `<h2>So funktioniert’s</h2>
+<p><b>Worum geht’s?</b> KI nimmt uns viel Denken ab. Hier trainierst du es wieder: Du knackst kurze Fälle aus Geschichte, Alltag, Wissenschaft und Philosophie selbst, statt dir die Antwort sagen zu lassen.</p>
+<p><b>Warum bleibt das hängen?</b> Erst raten, dann die Auflösung; selbst begründen; es jemandem erklären; Tage später noch einmal erinnern. Das sind die Dinge, die laut Lernforschung am besten wirken. Jeder Fall nutzt sie alle.</p>
+<p><b>Punkte:</b> Lösung ohne Hinweis 3, mit jedem Hinweis einer weniger. Je 1 Punkt fürs Warum, für den gefundenen KI-Fehler und wenn Malia es verstanden hat. Spätere Erinnerungsfragen und Fehlerjagden bringen Extrapunkte.</p>
+<p><b>Dein Spielstand</b> bleibt auf diesem Gerät. Es gibt kein Konto und keine Werbung.</p>`;
+function openSheet(nurHilfe = false) {
+	let html = '';
+	if (!nurHilfe) {
+		const s = statistik();
+		html += `<h2>Deine Bilanz</h2><p>${s.gespielt} von ${FAELLE.length} Fällen gespielt</p>`;
+		html += '<div class="stats">'
+			+ `<div class="stat"><b>${gesamtPunkte()}</b><span>Punkte</span></div>`
+			+ `<div class="stat"><b>${s.gespielt ? s.richtig + '/' + s.gespielt : '–'}</b><span>Fälle richtig gelöst</span></div>`
+			+ `<div class="stat"><b>${s.abrufe ? s.abrufRichtig + '/' + s.abrufe : '–'}</b><span>später noch gewusst</span></div>`
+			+ `<div class="stat"><b>${s.fehlerMoeglich ? s.fehler + '/' + s.fehlerMoeglich : '–'}</b><span>KI-Fehler gefunden</span></div>`
+			+ '</div>';
+		const kalText = [50, 70, 90].filter(p => s.kal[p]).map(p => `bei ${p} % sicher: ${s.kal[p][0]} von ${s.kal[p][1]} richtig`).join(' · ');
+		if (kalText) html += `<p>Wie gut passt dein Bauchgefühl? ${kalText}</p>`;
+		if (offeneFaelle().length) html += '<button class="chip primary" id="zufallBtn" style="margin:0 0 12px">Nächster Fall 🎲</button>';
+		html += '<h2 style="margin-top:20px">Alle Fälle</h2><p>Gelöste Fälle kannst du nochmal ansehen, offene bleiben eine Überraschung.</p>';
+		gespielteListe().forEach(r => {
+			html += `<button class="day" data-fall="${r.id}"><span class="day__nr">✓</span><span class="day__title">${r.titel}</span><span class="day__state">+${r.punkte || 0}</span></button>`;
 		});
+		const offen = offeneFaelle().length;
+		if (offen) html += `<div class="day" style="cursor:default"><span class="day__nr">○</span><span class="day__title">${offen} Fälle warten noch</span><span class="day__state"></span></div>`;
+		html += '<div style="margin-top:32px"></div>';
 	}
-	html += '<p style="margin-top:24px">Dein Spielstand bleibt auf diesem Gerät. <button class="skip" id="closeSheet" style="display:inline;margin:0">Zurück zum Chat</button></p>';
+	html += HILFE + '<p style="margin-top:24px"><button class="skip" id="closeSheet" style="display:inline;margin:0">Zurück zum Chat</button></p>';
 	sheetInner.innerHTML = html;
-	sheetInner.querySelectorAll('.day:not([disabled])').forEach(b => b.onclick = () => b.dataset.bonus ? goBonus(b.dataset.bonus) : go(+b.dataset.tag));
+	sheetInner.querySelectorAll('[data-fall]').forEach(b => b.onclick = () => goFall(b.dataset.fall));
 	document.getElementById('closeSheet').onclick = closeSheet;
 	const zb = document.getElementById('zufallBtn');
-	if (zb) zb.onclick = () => goBonus(naechsterBonus().id);
+	if (zb) zb.onclick = () => { closeSheet(); neueRunde(); };
 	sheet.classList.add('open');
+	sheet.scrollTop = 0;
 	document.getElementById('daysBtn').textContent = 'Chat';
 }
-function closeSheet() { sheet.classList.remove('open'); document.getElementById('daysBtn').textContent = 'Tage'; }
+function closeSheet() { sheet.classList.remove('open'); document.getElementById('daysBtn').textContent = 'Fälle'; }
 document.getElementById('daysBtn').onclick = () => sheet.classList.contains('open') ? closeSheet() : openSheet();
+document.getElementById('helpBtn').onclick = () => sheet.classList.contains('open') ? closeSheet() : openSheet(true);
+function goFall(id) {
+	const p = new URLSearchParams();
+	if (TEST) p.set('test', '');
+	p.set('fall', id);
+	location.search = p.toString().replace(/=(&|$)/g, '$1');
+}
 
-// ---------- Start ----------
-async function spiele(tag, zaehlt) {
-	const k = DATA.tage[tag - 1];
-	label.textContent = `erstdenken · Tag ${tag} von ${TOTAL}${zaehlt ? '' : ' · Probe'}`;
-	if (k.typ === 'fall') await spieleFall(k, tag, zaehlt);
-	else await spieleFehlerjagd(k, tag, zaehlt);
-}
-async function spieleBonus(id) {
-	const k = BONUS.find(b => b.id === id);
-	const nr = BONUS.indexOf(k) + 1;
-	label.textContent = `erstdenken · Zufallsfall`;
-	if (state.bonus[id]) {
-		await say('Diesen Fall hast du schon gespielt. ✓');
-		await say(state.bonus[id].share, 'ki', 'card');
-		const w = await choose(['Nochmal spielen (zählt nicht)', 'Alle Tage'], { quiet: ['Alle Tage'] });
-		if (w === 'Alle Tage') { openSheet(); return; }
-		chat.innerHTML = ''; lastLeft = null;
-		return spieleFall(k, null, false);
+// ---------- Ablauf ----------
+let laeuft = false;
+async function neueRunde() {
+	if (laeuft) { chat.innerHTML = ''; lastLeft = null; window.scrollTo(0, 0); }
+	laeuft = true;
+	const fj = faelligeFehlerjagd();
+	if (fj) {
+		await say('Bevor’s weitergeht: Zeit für eine Fehlerjagd über deine letzten sechs Fälle. Bringt bis zu 3 Extrapunkte.');
+		const w = await choose(['Los geht’s', 'Lieber gleich ein neuer Fall'], { quiet: ['Lieber gleich ein neuer Fall'] });
+		if (w === 'Los geht’s') {
+			await spieleFehlerjagd(fj);
+			if (!offeneFaelle().length) return alleGeloest();
+			await choose(['Nächster Fall 🎲'], { primary: ['Nächster Fall 🎲'] });
+			chat.innerHTML = ''; lastLeft = null; window.scrollTo(0, 0);
+		}
 	}
-	await spieleFall(k, null, true);
+	const k = zufallsFall();
+	if (!k) return alleGeloest();
+	await spieleFall(k, true);
 }
-async function schonGespielt(tag) {
-	const k = DATA.tage[tag - 1];
-	const r = state.gespielt[tag];
-	label.textContent = `erstdenken · Tag ${tag} von ${TOTAL}`;
-	await say(tag === dayIndex() ? 'Der heutige Fall ist erledigt. ✓' : `Tag ${tag} hast du schon gespielt. ✓`);
-	await say(r.share, 'ki', 'card');
-	const offen = offeneTage();
-	if (offen.length) await say(`Du hast noch ${offen.length === 1 ? 'einen Tag' : offen.length + ' Tage'} offen.`);
-	else if (dayIndex() < TOTAL && !TEST) await say(`Der nächste Fall des Tages kommt ${fmt(dateOfDay(dayIndex() + 1))}.${offeneBonus().length ? ' Lust auf einen Zufallsfall?' : ''}`);
-	const opts = [];
-	if (offen.length) opts.push('Verpasstes nachholen');
-	if (naechsterBonus()) opts.push('Zufallsfall 🎲');
-	opts.push('Nochmal spielen (zählt nicht)', 'Alle Tage');
-	const w = await choose(opts, { quiet: ['Alle Tage'] });
-	if (w === 'Verpasstes nachholen') return go(offen[0]);
-	if (w === 'Zufallsfall 🎲') return goBonus(naechsterBonus().id);
-	if (w === 'Alle Tage') { openSheet(); return schonGespielt(tag); }
-	chat.innerHTML = ''; lastLeft = null;
-	await spiele(tag, false);
-}
-async function vorDemStart() {
-	label.textContent = 'erstdenken';
-	await say('Hallo! Hier ist dein Fall des Tages. 🔍');
-	await say(`Ab ${fmt(START)} bekommst du jeden Tag einen Fall aus Geschichte und Alltag. ${TOTAL} Tage lang.`);
-	await say('Die Regel ist einfach: Erst denkst du, dann löse ich auf. Und jeden Tag lernst du was Neues.');
-	const w = await choose(['Probe spielen', 'Bis dann!'], { quiet: ['Bis dann!'] });
-	if (w === 'Probe spielen') { chat.innerHTML = ''; lastLeft = null; await spiele(1, false); }
-	else await say(`Bis ${fmt(START)}! 👋`);
-}
-async function nachDemEnde() {
-	label.textContent = 'erstdenken';
-	const s = statistik();
-	await say(`Die ${TOTAL} Tage sind vorbei. Danke fürs Mitdenken! 🙌`);
-	await say(`Du hast ${s.gespielt} von ${TOTAL} Tagen gespielt und ${s.abrufe ? s.abrufRichtig + ' von ' + s.abrufe : 'keine'} Abruf-Fragen richtig beantwortet.`);
-	await choose(['Alle Tage ansehen']);
+async function alleGeloest() {
+	await say(`Wow: Du hast alle ${FAELLE.length} Fälle gelöst! 🙌 Neue sind in Arbeit.`);
+	await say('Bis dahin kannst du unter „Fälle“ jeden nochmal ansehen.');
+	await choose(['Meine Fälle']);
 	openSheet();
+}
+async function zeigeGespielt(k) {
+	const r = state.gespielt[k.id];
+	await say(`„${k.titel}“ hast du schon gelöst. ✓`);
+	await say(r.share, 'ki', 'card');
+	const w = await choose(['Nochmal spielen (zählt nicht)', 'Nächster Fall 🎲', 'Meine Fälle'], { quiet: ['Meine Fälle'] });
+	if (w === 'Meine Fälle') { openSheet(); return zeigeGespielt(k); }
+	chat.innerHTML = ''; lastLeft = null;
+	if (w === 'Nächster Fall 🎲') return neueRunde();
+	laeuft = true;
+	await spieleFall(k, false);
 }
 
 (async function main() {
-	const n = dayIndex();
-	const bonusId = params.get('bonus');
-	if (bonusId && BONUS.some(b => b.id === bonusId)) return spieleBonus(bonusId);
-	const wunsch = parseInt(params.get('tag'), 10);
-	if (wunsch >= 1 && wunsch <= offenBis()) {
-		if (state.gespielt[wunsch]) return schonGespielt(wunsch);
-		return spiele(wunsch, true);
+	zeigePunkte();
+	const wunsch = karteVon(params.get('fall') || '');
+	if (wunsch) {
+		laeuft = true;
+		if (state.gespielt[wunsch.id]) return zeigeGespielt(wunsch);
+		return spieleFall(wunsch, true);
 	}
-	if (!TEST && n < 1) return vorDemStart();
-	if (!TEST && n > TOTAL && !offeneTage().length) return nachDemEnde();
-	const heute = TEST ? (offeneTage()[0] || TOTAL) : Math.min(n, TOTAL);
-	if (state.gespielt[heute]) return schonGespielt(heute);
-	return spiele(heute, true);
+	if (!state.intro) {
+		await intro();
+		chat.innerHTML = ''; lastLeft = null;
+	} else {
+		await say(gespielteListe().length ? pick(['Schön, dass du wieder da bist! 👋', 'Da bist du ja wieder. 👋', 'Willkommen zurück! 👋']) : 'Hallo! 👋');
+		await abruf();
+	}
+	laeuft = true;
+	await neueRunde();
 })();
