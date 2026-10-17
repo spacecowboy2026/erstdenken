@@ -1833,5 +1833,1788 @@ window.ERSTDENKEN = {
    "tag": 14,
    "id": "fehlerjagd-2"
   }
+ ],
+ "bonus": [
+  {
+   "typ": "fall",
+   "titel": "Falken am Golf",
+   "einstieg": [
+    "In der Netflix-Serie „The Gentlemen“ jagen alle einem weißen Sakerfalken hinterher. Wert laut Serie: eine Million Pfund.",
+    "Er soll ein Geschenk für einen Scheich werden. Übertrieben? Nur ein bisschen.",
+    "Am Golf sind Falken echte Schätze. 2023 ging in Saudi-Arabien ein Sakerfalke für 500.000 Riyal weg, rund 134.000 Dollar."
+   ],
+   "frage": "Wie reist ein Jagdfalke aus Abu Dhabi ins Ausland?",
+   "chips": [
+    "In einer Kiste im Frachtraum",
+    "Gar nicht, Ausfuhr verboten",
+    "Nur im Privatjet",
+    "Mit eigenem Pass in der Kabine"
+   ],
+   "richtig": "Mit eigenem Pass in der Kabine",
+   "hinweise": [
+    "Falken sind am Golf so begehrt, dass die Behörden jeden einzelnen Vogel genau kennen wollen.",
+    "Jeder Falke trägt einen Ring mit Nummer am Bein. Dieselbe Nummer steht in einem Dokument, das an der Grenze gestempelt wird.",
+    "Bei einigen Golf-Airlines sitzen Falken mit Lederhaube dort, wo sonst nur Passagiere sitzen."
+   ],
+   "aufloesung": [
+    "Mit eigenem Pass, oft sogar in der Kabine. Die Emirate gaben als erstes Land der Welt Falkenpässe aus.",
+    "Jeder Pass gehört zu genau einem Vogel mit nummeriertem Fußring. Grenzbeamte stempeln ihn ab, wie bei Menschen.",
+    "Etihad und Qatar Airways lassen Falken in die Kabine. Bei Qatar Airways dürfen bis zu sechs in einer Economy-Kabine mitfliegen.",
+    "Abu Dhabi hat sogar ein eigenes Falkenkrankenhaus, eröffnet 1999. Es nimmt rund 11.200 Falken im Jahr auf."
+   ],
+   "dreh": "Am Golf ist der Falke kein Haustier, sondern ein Reisender mit Papieren.",
+   "warum": {
+    "frage": "Warum sind Falken am Golf so wertvoll?",
+    "nachfrage": "Was hätte eine Familie in der Wüste, ohne Laden weit und breit, mit einem Jagdvogel anfangen können?",
+    "gruende": [
+     "Früher halfen Falken Beduinenfamilien beim Überleben. Sie jagten Wild wie die Kragentrappe (Houbara) und brachten so Fleisch in eine karge Wüste.",
+     "Falknerei ist heute Nationalstolz und Kulturerbe. Seit 2010 steht sie auf der UNESCO-Liste, inzwischen mit 24 Ländern, darunter Deutschland.",
+     "Spitzenfalken sind selten und teuer. Das lockt Schmuggler, und genau deshalb gibt es die Pässe."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Falknerei steht seit 2010 auf der UNESCO-Liste des immateriellen Kulturerbes.",
+     "falsch": false
+    },
+    {
+     "satz": "Früher behielten Beduinen ihre Falken ein Leben lang; heute lässt man sie jedes Jahr vor dem Sommer frei.",
+     "falsch": true,
+     "korrektur": "Genau umgekehrt. Früher ließ man die Falken jedes Jahr vor dem Sommer frei, heute leben sie viele Jahre beim Falkner."
+    },
+    {
+     "satz": "Jeder Falkenpass gehört zu einem Vogel mit nummeriertem Fußring.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum braucht ein Vogel einen Pass? Der kann doch einfach fliegen! 😄",
+    "punkte": [
+     {
+      "name": "Falken sind sehr wertvoll und werden geschmuggelt",
+      "worte": [
+       "wertvoll",
+       "teuer",
+       "schmugg",
+       "geld",
+       "million",
+       "klau",
+       "stehl",
+       "dieb"
+      ],
+      "nachfrage": "Ist so ein Falke denn so viel wert, dass ihn jemand klauen würde?"
+     },
+     {
+      "name": "Der Pass zeigt, welcher Vogel es ist und dass er legal ist",
+      "worte": [
+       "ring",
+       "nummer",
+       "welcher",
+       "erkenn",
+       "legal",
+       "erlaubt",
+       "kontroll",
+       "grenz",
+       "stempel"
+      ],
+      "nachfrage": "Und woher weiß man an der Grenze, dass es wirklich derselbe Falke ist?"
+     },
+     {
+      "name": "Falkner reisen mit ihren Vögeln zur Jagd und zu Wettbewerben",
+      "worte": [
+       "jagd",
+       "jag",
+       "reis",
+       "wettbewerb",
+       "festival",
+       "tradition",
+       "mitnehm",
+       "beduin"
+      ],
+      "nachfrage": "Aber warum nimmt man einen Falken überhaupt mit auf Reisen?"
+     }
+    ],
+    "allesDrin": "Kriegt der Falke dann auch Stempel in seinen Pass, so wie ich?",
+    "verstanden": "Ahh, also ein Ausweis gegen Falken-Diebe. Cool! 🦅",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was dürfen Falken bei manchen Golf-Airlines, was die meisten Tiere nicht dürfen?",
+    "chips": [
+     "Im Cockpit sitzen",
+     "In der Kabine mitfliegen",
+     "Umsonst fliegen",
+     "Ohne Halter fliegen"
+    ],
+    "richtig": "In der Kabine mitfliegen"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Falco_cherrug_Qatar.jpg/960px-Falco_cherrug_Qatar.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Falco_cherrug_Qatar.jpg",
+     "text": "Ein Sakerfalke mit Lederhaube, gehalten von einem Falkner in Doha (Katar)",
+     "credit": "Flickr-Nutzer „Qatari“ (2006) · CC BY 2.0"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "Object of Intrigue: A Passport for Falcons – Ella Morton, Atlas Obscura, 4.8.2015",
+     "url": "https://www.atlasobscura.com/articles/object-of-intrigue-falcon-passport"
+    },
+    {
+     "name": "Falconry, a living human heritage – UNESCO, Intangible Cultural Heritage",
+     "url": "https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708"
+    },
+    {
+     "name": "UNESCO & Falconry – International Association for Falconry and Conservation of Birds of Prey (IAF)",
+     "url": "https://iaf.org/?p=225"
+    },
+    {
+     "name": "Desert Falconry – International Association for Falconry and Conservation of Birds of Prey (IAF)",
+     "url": "https://iaf.org/?p=1478"
+    },
+    {
+     "name": "Falconry – Abu Dhabi Culture (Department of Culture and Tourism Abu Dhabi)",
+     "url": "https://abudhabiculture.ae/en/heritage-carousel/falconry"
+    },
+    {
+     "name": "Abu Dhabi Falcon Hospital (Startseite: Eröffnung, Patientenzahlen) – Abu Dhabi Falcon Hospital",
+     "url": "https://www.falconhospital.com/"
+    },
+    {
+     "name": "Saudi-bred falcon fetches record $134,000 at Riyadh auction – Arab News, 19.8.2023",
+     "url": "https://www.arabnews.com/node/2357756"
+    },
+    {
+     "name": "80 falcons photographed travelling in Economy – Gulf News, aktualisiert 1.11.2018",
+     "url": "https://gulfnews.com/uae/80-falcons-photographed-travelling-in-economy-1.1971558"
+    },
+    {
+     "name": "The Gentlemen, Staffel 2, Folge 4 „The Bigger Picture“ (Recap) – RecapLab",
+     "url": "https://www.recaplab.com/post/the-gentlemen-recap-season-2-episode-4"
+    },
+    {
+     "name": "The Gentlemen S02E04 „The Bigger Picture“ (Transkript) – Scraps from the Loft",
+     "url": "https://scrapsfromtheloft.com/tv-series/the-gentlemen-s02e04-bigger-picture-transcript/"
+    }
+   ],
+   "id": "falken-golf"
+  },
+  {
+   "typ": "fall",
+   "titel": "Ketchup",
+   "einstieg": [
+    "Pittsburgh, 1876. Henry J. Heinz bringt eine rote Soße in Flaschen auf den Markt.",
+    "Ketchup. Heute steht es in fast jeder Küche.",
+    "Aber das Wort ist viel älter als diese Flasche. Und das Rezept war mal ein ganz anderes."
+   ],
+   "frage": "Woraus war das ursprüngliche Ketchup gemacht?",
+   "chips": [
+    "Aus Tomaten",
+    "Aus Sojabohnen",
+    "Aus Pilzen",
+    "Aus Fisch"
+   ],
+   "richtig": "Aus Fisch",
+   "hinweise": [
+    "Das Original war dünn, dunkel und salzig. Rot war es nicht.",
+    "Seeleute mochten es, weil es sich monatelang ohne Kühlung hielt. Das Wort stammt aus dem Hokkien, einer Sprache aus Südchina.",
+    "Seine Verwandten gibt es bis heute: Nuoc Mam in Vietnam, Nam Pla in Thailand."
+   ],
+   "aufloesung": [
+    "Aus Fisch. „Kê-tsiap“ hieß in Hokkien eine Soße aus eingelegtem, vergorenem Fisch.",
+    "Britische und niederländische Seeleute lernten sie in Südostasien kennen. 1699 steht „catchup“ in einem englischen Wörterbuch: eine kräftige Soße aus Ostindien.",
+    "In England kochte man sie nach. Mit Pilzen, Walnüssen oder Austern.",
+    "Tomaten kamen erst in Amerika dazu. Das erste bekannte Rezept druckte James Mease aus Philadelphia im Jahr 1812."
+   ],
+   "dreh": "Ketchup war eine Fischsoße, lange bevor es eine Tomatensoße wurde.",
+   "warum": {
+    "frage": "Warum kamen die Tomaten erst so spät ins Ketchup?",
+    "nachfrage": "Was hielten die Engländer um 1700 wohl von Tomaten?",
+    "gruende": [
+     "Die Tomate stammt aus Amerika. Viele Briten misstrauten ihr, manche hielten sie sogar für giftig.",
+     "In England gab es Ketchup schon längst: als Nachahmung des Fisch-Originals, mit Pilzen oder Walnüssen. Niemand vermisste eine Tomate.",
+     "Tomatenketchup hielt sich schlechter als die vergorenen Soßen. Erst mit viel Essig, Salz und Zucker wurde es haltbar."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Das Wort Ketchup stammt aus dem Hokkien, einer chinesischen Sprache.",
+     "falsch": false
+    },
+    {
+     "satz": "Das erste bekannte Rezept für Tomatenketchup veröffentlichte Henry J. Heinz im Jahr 1876.",
+     "falsch": true,
+     "korrektur": "Es stammt von James Mease aus Philadelphia, 1812. Heinz brachte 1876 sein Flaschenketchup auf den Markt."
+    },
+    {
+     "satz": "Im England des 18. Jahrhunderts machte man Ketchup auch aus Pilzen oder Walnüssen.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wieso steht da Tomatenketchup drauf? Ketchup ist doch sowieso aus Tomaten! 🤔",
+    "punkte": [
+     {
+      "name": "Früher gab es Ketchup ohne Tomaten",
+      "worte": [
+       "pilz",
+       "walnuss",
+       "nuss",
+       "auster",
+       "früher",
+       "ohne",
+       "andere"
+      ],
+      "nachfrage": "Gab es denn mal Ketchup ganz ohne Tomaten?"
+     },
+     {
+      "name": "Das Original war eine Fischsoße aus Asien",
+      "worte": [
+       "fisch",
+       "asien",
+       "china",
+       "hokkien",
+       "vietnam",
+       "original",
+       "ursprung"
+      ],
+      "nachfrage": "Und woher kommt dann das Wort Ketchup?"
+     },
+     {
+      "name": "Die Tomaten kamen erst später in Amerika dazu",
+      "worte": [
+       "amerika",
+       "usa",
+       "später",
+       "1812",
+       "mease",
+       "heinz",
+       "dazugekommen"
+      ],
+      "nachfrage": "Und wann sind die Tomaten reingekommen?"
+     }
+    ],
+    "allesDrin": "Gibt es die Fischsoße eigentlich heute noch?",
+    "verstanden": "Okay, dann ist Tomatenketchup gar nicht doppelt gemoppelt! 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was war das Ur-Ketchup aus Südchina und Südostasien?",
+    "chips": [
+     "Eine Tomatensoße",
+     "Eine Fischsoße",
+     "Eine Sojasoße",
+     "Eine Pilzsoße"
+    ],
+    "richtig": "Eine Fischsoße"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Vats_at_a_Fish_Sauce_Factory_on_Phu_Quoc_Island_in_Vietnam_01.jpg/960px-Vats_at_a_Fish_Sauce_Factory_on_Phu_Quoc_Island_in_Vietnam_01.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Vats_at_a_Fish_Sauce_Factory_on_Phu_Quoc_Island_in_Vietnam_01.jpg",
+     "text": "Gärbottiche einer Fischsoßen-Fabrik auf der Insel Phú Quốc in Vietnam. Hier reift Fischsoße aus gesalzenen Sardellen.",
+     "credit": "Frank Fox (eigenes Werk, 2015) · CC BY-SA 4.0"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "There's Something Fishy About the Ketchup You Put On Your Burgers – Kat Eschner, Smithsonian Magazine",
+     "url": "https://www.smithsonianmag.com/smart-news/ketchup-fishy-origins-180963511/"
+    },
+    {
+     "name": "Ketchup: The All-American Condiment That Comes From Asia – Lakshmi Gandhi, NPR Code Switch, 2. Dezember 2013",
+     "url": "https://www.npr.org/sections/codeswitch/2013/12/02/248195661/ketchup-the-all-american-condiment-that-comes-from-asia"
+    },
+    {
+     "name": "Ketchup – Dan Jurafsky (Linguist, Stanford University), The Language of Food, September 2009",
+     "url": "http://languageoffood.blogspot.com/2009/09/ketchup.html"
+    }
+   ],
+   "id": "ketchup"
+  },
+  {
+   "typ": "fall",
+   "titel": "Halloween",
+   "einstieg": [
+    "31. Oktober. Kürbisfratzen, Hexenhüte, Kinder an der Haustür: „Süßes oder Saures!“",
+    "Für viele ist Halloween typisch amerikanisch. In Deutschland feiern es die meisten erst seit den 1990ern.",
+    "Aber woher kommt das Fest eigentlich?"
+   ],
+   "frage": "Wo liegen die Wurzeln von Halloween?",
+   "chips": [
+    "In den USA",
+    "In Mexiko",
+    "Bei der Süßwarenindustrie",
+    "In Irland"
+   ],
+   "richtig": "In Irland",
+   "hinweise": [
+    "Der Name ist eine englische Abkürzung: „All Hallows' Eve“, der Abend vor Allerheiligen.",
+    "Schon vor dem Christentum feierte ein altes Volk um den 1. November das Ende des Sommers. In dieser Nacht sollten Geister unterwegs sein.",
+    "In den 1840er-Jahren flohen sehr viele Menschen vor einer Kartoffel-Hungersnot über den Atlantik. Ihre Bräuche nahmen sie mit."
+   ],
+   "aufloesung": [
+    "Aus Irland. Halloween geht wohl auf Samhain zurück, ein Fest der Kelten im alten Irland. Am Vorabend sollten die Toten umgehen.",
+    "Laternen schnitzte man dort aus Rüben, manchmal aus Kartoffeln. Metall-Laternen waren teuer.",
+    "In den 1840ern flohen viele Iren vor der großen Hungersnot nach Amerika. Dort fanden sie Kürbisse: größer und leichter zu schnitzen.",
+    "Im 20. Jahrhundert wurde Halloween eines der großen Feste der USA, vor allem für Kinder.",
+    "Ab den 1990ern kam es nach Deutschland. Oft erzählt: Händler warben dafür, nachdem 1991 wegen des Golfkriegs viele Karnevalsumzüge ausgefallen waren."
+   ],
+   "dreh": "Halloween ist ein irischer Brauch, der auf dem Umweg über Amerika zu uns kam, mit Kürbis statt Rübe.",
+   "warum": {
+    "frage": "Warum schnitzen wir heute Kürbisse und keine Rüben?",
+    "nachfrage": "Was fanden die irischen Auswanderer in Amerika, das es zu Hause kaum gab?",
+    "gruende": [
+     "Kürbisse stammen aus Amerika. Europäer lernten sie dort von den Ureinwohnern kennen. In Irland nahm man, was wuchs: Rüben und Kartoffeln.",
+     "Kürbisse sind größer und lassen sich leichter aushöhlen und schnitzen als eine harte Rübe.",
+     "Halloween kam in seiner amerikanischen Form zu uns, und damit kam der Kürbis, nicht die alte Rübe."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "In Irland schnitzte man die Laternen aus Kürbissen, in Amerika nahm man dann Rüben.",
+     "falsch": true,
+     "korrektur": "Umgekehrt. In Irland nahm man Rüben (manchmal Kartoffeln), in Amerika Kürbisse."
+    },
+    {
+     "satz": "Der Name Halloween kommt von „All Hallows' Eve“, dem Abend vor Allerheiligen.",
+     "falsch": false
+    },
+    {
+     "satz": "In den 1840er-Jahren wanderten viele Iren wegen einer Hungersnot nach Amerika aus.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wie kommt denn ein Fest aus Irland bis zu uns nach Deutschland?",
+    "punkte": [
+     {
+      "name": "Irische Auswanderer haben es nach Amerika mitgenommen",
+      "worte": [
+       "auswander",
+       "ausgewandert",
+       "iren",
+       "irland",
+       "hunger",
+       "mitgenommen",
+       "mitgebracht",
+       "geflohen",
+       "flucht"
+      ],
+      "nachfrage": "Aber wie kam das Fest überhaupt von Irland nach Amerika?"
+     },
+     {
+      "name": "Aus der Rübe wurde in Amerika der Kürbis",
+      "worte": [
+       "rübe",
+       "rüben",
+       "kürbis",
+       "gemüse",
+       "geschnitzt",
+       "schnitz"
+      ],
+      "nachfrage": "Und warum haben die in Irland keine Kürbisse genommen?"
+     },
+     {
+      "name": "Von Amerika kam es zurück nach Europa, hier half auch Werbung",
+      "worte": [
+       "zurück",
+       "werbung",
+       "händler",
+       "geschäft",
+       "verkauf",
+       "karneval",
+       "fasching",
+       "trend",
+       "mode",
+       "film"
+      ],
+      "nachfrage": "Und warum ist es dann ausgerechnet bei uns gelandet?"
+     }
+    ],
+    "allesDrin": "Dann ist Halloween ja eigentlich irisch und nicht amerikanisch, oder?",
+    "verstanden": "Ahh, Halloween ist quasi einmal über den Atlantik und zurück gereist. 🎃",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Woraus schnitzte man in Irland die ersten Halloween-Laternen?",
+    "chips": [
+     "Kürbissen",
+     "Rüben",
+     "Melonen",
+     "Äpfeln"
+    ],
+    "richtig": "Rüben"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Traditional_Irish_halloween_Jack-o%27-lantern.jpg/960px-Traditional_Irish_halloween_Jack-o%27-lantern.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Traditional_Irish_halloween_Jack-o%27-lantern.jpg",
+     "text": "Eine irische Rübenlaterne aus dem frühen 20. Jahrhundert, fotografiert im Museum of Country Life (National Museum of Ireland)",
+     "credit": "rannṗáirtí anaiṫnid (Wikimedia-Nutzer) · CC BY-SA 3.0"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "Halloween – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Halloween"
+    },
+    {
+     "name": "When People Carved Turnips Instead of Pumpkins for Halloween – Jennifer Nalewicki, Smithsonian Magazine",
+     "url": "https://www.smithsonianmag.com/smart-news/when-people-carved-turnips-instead-of-pumpkins-for-halloween-180978922/"
+    },
+    {
+     "name": "The Jack-O'-Lantern's Origins – Andrew Huntley, Carnegie Museum of Natural History",
+     "url": "https://carnegiemnh.org/the-jack-o-lanterns-origins/"
+    },
+    {
+     "name": "How The Great Irish Famine brought Halloween to America – The Irish Post",
+     "url": "https://www.irishpost.com/news/irish-great-famine-brought-halloween-to-america-161376"
+    },
+    {
+     "name": "Halloween in Germany: Events, costumes and traditions – deutschland.de, 18.5.2018",
+     "url": "https://deutschland.de/en/topic/culture/halloween-in-germany"
+    },
+    {
+     "name": "Kölner Festkomitee sagt Rosenmontagszug ab – evangelisch.de, 24.2.2022",
+     "url": "https://www.evangelisch.de/inhalte/197580/24-02-2022/koelner-festkomitee-sagt-rosenmontagszug-ab"
+    }
+   ],
+   "id": "halloween"
+  },
+  {
+   "typ": "fall",
+   "titel": "Post-it",
+   "einstieg": [
+    "Minnesota, 1968. Spencer Silver, Chemiker bei der Firma 3M, soll einen starken Klebstoff entwickeln.",
+    "Heraus kommt das Gegenteil: ein Kleber, der kaum hält. Papier lässt sich einfach wieder abziehen. Und wieder ankleben.",
+    "Silver findet ihn trotzdem genial. Fünf Jahre lang zeigt er ihn Kollegen. Keiner weiß, wofür man so etwas braucht."
+   ],
+   "frage": "Wofür wollte ein Kollege den schwachen Kleber zuerst benutzen?",
+   "chips": [
+    "Als Pinnwand-Beschichtung",
+    "Als Pflaster-Kleber",
+    "Als Bastelkleber",
+    "Als Lesezeichen im Gesangbuch"
+   ],
+   "richtig": "Als Lesezeichen im Gesangbuch",
+   "hinweise": [
+    "Der Kollege, Art Fry, hatte das Problem nicht im Labor, sondern in seiner Freizeit.",
+    "Er sang im Kirchenchor. Beim Aufstehen rutschten ihm immer wieder kleine Papierzettel aus dem Buch.",
+    "Er brauchte etwas, das an einer Seite haftet, sie beim Abziehen aber nicht zerreißt. Damit er die Lieder schneller findet."
+   ],
+   "aufloesung": [
+    "Als Lesezeichen. Art Fry bestrich Papierstreifen mit Silvers Kleber, damit sie in seinem Gesangbuch hielten.",
+    "Dann schrieb er seinem Chef Nachrichten darauf. Da merkten beide: Das sind nicht nur Lesezeichen, das sind Notizzettel, die von selbst haften.",
+    "Der Weg war lang. 1977 testete 3M die Zettel als „Press 'n Peel“ in vier Städten, mit mäßigem Erfolg. Fast hätte die Firma aufgegeben.",
+    "1978 verschenkte 3M Proben in Boise, Idaho. Rund 90 Prozent der Tester wollten sie kaufen. 1980 kamen die Post-it Notes in die Läden der ganzen USA."
+   ],
+   "dreh": "Gerade weil der Kleber so schlecht hielt, wurde er ein Welterfolg.",
+   "warum": {
+    "frage": "Warum hätte 3M die Zettel fast aufgegeben, obwohl sie heute überall kleben?",
+    "nachfrage": "Würdest du Geld für etwas ausgeben, das du noch nie in der Hand hattest?",
+    "gruende": [
+     "Bei den ersten Markttests 1977 verkauften sie sich nur mäßig. So etwas kannte man noch nicht.",
+     "Die Chefs fürchteten anfangs, die Zettel könnten wie Verschwendung wirken.",
+     "Man musste sie selbst ausprobieren. Fry nannte sie ein Produkt, das für sich selbst wirbt: Wer einen Zettel auf einem Brief fand, wollte bald eigene."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Spencer Silver wollte eigentlich einen starken Kleber entwickeln.",
+     "falsch": false
+    },
+    {
+     "satz": "Art Fry kam auf die Idee, weil ihm Zettel aus seinem Gesangbuch rutschten.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Haftzettel kamen schon 1968 als „Post-it Notes“ in die Läden.",
+     "falsch": true,
+     "korrektur": "1968 entstand nur der Kleber. In den ganzen USA verkauft wurden die Post-it Notes erst ab 1980."
+    }
+   ],
+   "malia": {
+    "frage": "Wie kann ein Kleber denn kleben und trotzdem wieder abgehen? 🤔",
+    "punkte": [
+     {
+      "name": "der Kleber besteht aus winzigen Kügelchen",
+      "worte": [
+       "kügel",
+       "kugel",
+       "ball",
+       "bäll",
+       "perl",
+       "winzig",
+       "mikro"
+      ],
+      "nachfrage": "Aber woraus besteht so ein Kleber denn? Ist das wie normaler Flüssigkleber?"
+     },
+     {
+      "name": "die Kügelchen berühren das Papier nur an wenigen Stellen",
+      "worte": [
+       "stelle",
+       "punkt",
+       "berühr",
+       "wenig",
+       "nicht flach",
+       "nur teil"
+      ],
+      "nachfrage": "Und warum hält der dann nicht so fest wie Sekundenkleber?"
+     },
+     {
+      "name": "sie bleiben heil, darum klebt der Zettel wieder",
+      "worte": [
+       "wieder",
+       "heil",
+       "kaputt",
+       "mehrmals",
+       "nochmal",
+       "oft"
+      ],
+      "nachfrage": "Aber warum kann man den Zettel dann noch ein zweites Mal hinkleben?"
+     }
+    ],
+    "allesDrin": "Und warum sind die eigentlich gelb?",
+    "verstanden": "Ah, also kleben nur ganz viele winzige Punkte. Deshalb geht's wieder ab! 😄",
+    "halb": "Hm, so halb. Ich kleb mir einen Zettel dran und frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wofür nutzte Art Fry den schwachen Kleber von Spencer Silver zuerst?",
+    "chips": [
+     "Als Pinnwand-Beschichtung",
+     "Als Lesezeichen im Gesangbuch",
+     "Als Pflaster-Kleber",
+     "Als Tapetenkleister"
+    ],
+    "richtig": "Als Lesezeichen im Gesangbuch"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Post-it_note_adhesive.jpg/960px-Post-it_note_adhesive.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Post-it_note_adhesive.jpg",
+     "text": "Ein Kleber dieser Art unter dem Elektronenmikroskop, 555-fach vergrößert: lauter winzige Kügelchen",
+     "credit": "Margalob (Wikimedia Commons), Aufnahme von 2015 · CC BY-SA 4.0"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "Post-it Notes – Julia Lavanger, MNopedia, Minnesota Historical Society",
+     "url": "https://www.mnhs.org/mnopedia/search/index/thing/post-it-notes"
+    },
+    {
+     "name": "Arthur L. Fry – National Inventors Hall of Fame",
+     "url": "https://invent.org/inductees/arthur-l-fry"
+    },
+    {
+     "name": "Spencer Silver – National Inventors Hall of Fame",
+     "url": "https://invent.org/inductees/spencer-silver"
+    },
+    {
+     "name": "Art Fry & Spencer Silver – Lemelson-MIT Program, Massachusetts Institute of Technology",
+     "url": "https://lemelson.mit.edu/resources/art-fry-spencer-silver"
+    },
+    {
+     "name": "An Idea That Stuck: How A Hymnal Bookmark Helped Inspire The Post-It Note – NPR, 26.07.2014 (hier über WGLT)",
+     "url": "https://www.wglt.org/2014-07-26/an-idea-that-stuck-how-a-hymnal-bookmark-helped-inspire-the-post-it-note"
+    }
+   ],
+   "id": "post-it"
+  },
+  {
+   "typ": "fall",
+   "titel": "Reinheitsgebot",
+   "einstieg": [
+    "Ingolstadt, 23. April 1516. Die bayerischen Herzöge Wilhelm IV. und sein Bruder Ludwig X. erlassen eine Ordnung für ihr Land.",
+    "Darin steht ein Satz, den man heute „Reinheitsgebot“ nennt: Ins Bier dürfen nur Gerste, Hopfen und Wasser.",
+    "Weizen? Bleibt draußen. Ausgerechnet in Bayern, dem Land des Weißbiers."
+   ],
+   "frage": "Warum durfte 1516 kein Weizen ins bayerische Bier?",
+   "chips": [
+    "Weizenbier galt als ungesund",
+    "Weizen verdarb zu schnell",
+    "Gerstenbier schmeckte den Herzögen besser",
+    "Weizen sollte ins Brot"
+   ],
+   "richtig": "Weizen sollte ins Brot",
+   "hinweise": [
+    "Das Wort „Reinheitsgebot“ ist viel jünger als die Regel. Und der Text beginnt gar nicht mit Zutaten, sondern mit Geld.",
+    "Er legt fest, was eine Maß Bier höchstens kosten darf. Und der Herzog behält sich vor einzugreifen, wenn Gerste knapp und teuer wird.",
+    "Brauer und Bäcker brauchten damals dasselbe Getreide. Und Brot war für die meisten Menschen das wichtigste Essen."
+   ],
+   "aufloesung": [
+    "Weizen sollte den Bäckern bleiben. Der Deutsche Brauer-Bund nennt als ein Ziel, das „Brotgetreide Weizen“ vom Brauen fernzuhalten.",
+    "Es ging auch um Preise: Eine Maß durfte im Winterhalbjahr höchstens einen Pfennig kosten, im Sommerhalbjahr zwei.",
+    "Dazu sollten schädliche Zusätze aus dem Bier verschwinden, etwa Stechapfel oder Tollkirsche.",
+    "Hefe steht übrigens gar nicht drin. Wie sie wirkt, verstand man damals noch nicht.",
+    "Und das Weißbier? Wurde später ein Sonderrecht, das den bayerischen Herrschern viel Geld einbrachte."
+   ],
+   "dreh": "Das berühmte Reinheitsgebot war nicht nur ein Bier-Gesetz, sondern auch ein Brot-Gesetz.",
+   "warum": {
+    "frage": "Warum war Brotgetreide 1516 so wichtig, dass ein Bier-Gesetz es schützen sollte?",
+    "nachfrage": "Was passiert mit dem Brotpreis, wenn Brauer und Bäcker um denselben Weizen bieten?",
+    "gruende": [
+     "Brot war Grundnahrungsmittel. Wurde Getreide knapp oder teuer, drohte Hunger.",
+     "Brauer und Bäcker konkurrierten um Weizen und Roggen. Mit Gerste als einzigem Braugetreide blieb mehr für das Brot.",
+     "Die Herzöge wollten auch das Bier bezahlbar halten. Deshalb setzten sie Höchstpreise fest."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Das Reinheitsgebot von 1516 erlaubte genau vier Zutaten: Wasser, Malz, Hopfen und Hefe.",
+     "falsch": true,
+     "korrektur": "Hefe steht gar nicht drin, und statt Malz nennt der Text Gerste. Erlaubt waren Gerste, Hopfen und Wasser."
+    },
+    {
+     "satz": "Der Text legte auch fest, wie viel eine Maß Bier höchstens kosten durfte.",
+     "falsch": false
+    },
+    {
+     "satz": "Das Wort „Reinheitsgebot“ kam erst im 20. Jahrhundert auf.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum steht in einem Bier-Gesetz was über Brot? Das ist doch was ganz anderes! 🤔",
+    "punkte": [
+     {
+      "name": "Weizen und Roggen brauchte man fürs Brot",
+      "worte": [
+       "brot",
+       "bäck",
+       "back",
+       "weizen",
+       "roggen",
+       "getreide",
+       "korn",
+       "mehl"
+      ],
+      "nachfrage": "Und wofür brauchte man den Weizen sonst?"
+     },
+     {
+      "name": "Sonst wird Getreide knapp oder teuer, und Leute hungern",
+      "worte": [
+       "knapp",
+       "teuer",
+       "preis",
+       "hunger",
+       "satt",
+       "essen",
+       "genug",
+       "wenig"
+      ],
+      "nachfrage": "Aber es gab doch bestimmt genug Weizen für beides, oder?"
+     },
+     {
+      "name": "Die Brauer sollten nur Gerste nehmen",
+      "worte": [
+       "gerste",
+       "brauer",
+       "nur",
+       "erlaubt",
+       "stattdessen",
+       "anderes"
+      ],
+      "nachfrage": "Und woraus durften die Brauer dann ihr Bier machen?"
+     }
+    ],
+    "allesDrin": "Und warum gibt's heute trotzdem Weizenbier?",
+    "verstanden": "Ahh, also erst das Brot, dann das Bier. Macht Sinn! 🍞",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was durfte laut bayerischem Reinheitsgebot von 1516 ins Bier?",
+    "chips": [
+     "Wasser, Malz, Hopfen, Hefe",
+     "Gerste, Hopfen, Wasser",
+     "Weizen, Hopfen, Wasser",
+     "Gerste, Hefe, Wasser"
+    ],
+    "richtig": "Gerste, Hopfen, Wasser"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hans_Wertinger_Wilhelm_IV_z_Bawarii.jpg/960px-Hans_Wertinger_Wilhelm_IV_z_Bawarii.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Hans_Wertinger_Wilhelm_IV_z_Bawarii.jpg",
+     "text": "Herzog Wilhelm IV. von Bayern, gemalt 1526 von Hans Wertinger (Alte Pinakothek, München)",
+     "credit": "Hans Wertinger (Gemälde) · gemeinfrei"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "Entstehung (Reinheitsgebot) – Deutscher Brauer-Bund",
+     "url": "https://brauer-bund.de/reinheitsgebot/entstehung/"
+    },
+    {
+     "name": "Unser Reinheitsgebot – Fragen und Antworten – Deutscher Brauer-Bund",
+     "url": "https://brauer-bund.de/reinheitsgebot/fragen-und-antworten/"
+    },
+    {
+     "name": "Bier in Bayern. Bayerische Landesausstellung 2016, Kurzkonzept – Haus der Bayerischen Geschichte",
+     "url": "https://archiv.hdbg.de/bier/pdf/Kurzkonzept-Bier-in-Bayern-v2.pdf"
+    },
+    {
+     "name": "500 Jahre Reinheitsgebot: Deutsches Bier – was darf rein und was ist drin – Stiftung Warentest (test.de)",
+     "url": "https://www.test.de/500-Jahre-Reinheitsgebot-Deutsches-Bier-was-darf-rein-und-was-ist-drin-4991639-0/"
+    },
+    {
+     "name": "Hopfen, Malz, Hefe und Wasser: 500 Jahre Bayerisches Reinheitsgebot – evangelisch.de (epd), 22.2.2016",
+     "url": "https://www.evangelisch.de/inhalte/132013/22-02-2016/hopfen-malz-hefe-und-wasser-500-jahre-bayerisches-reinheitsgebot-fuer-bier"
+    },
+    {
+     "name": "Deutsche Brautradition: 500 Jahre Reinheitsgebot – wissen.de, 26.2.2022",
+     "url": "https://www.wissen.de/deutsche-brautradition-500-jahre-reinheitsgebot"
+    },
+    {
+     "name": "500 Jahre Reinheitsgebot – deutschland.de, 20.4.2016",
+     "url": "https://www.deutschland.de/de/topic/leben/lifestyle-kulinarik/500-jahre-reinheitsgebot"
+    },
+    {
+     "name": "Reinheitsgebot (mit englischer Übersetzung des Textes von 1516) – Wikipedia (englisch)",
+     "url": "https://en.wikipedia.org/wiki/Reinheitsgebot"
+    }
+   ],
+   "id": "reinheitsgebot"
+  },
+  {
+   "typ": "fall",
+   "titel": "Sushi",
+   "einstieg": [
+    "Shiga, Japan, im Juli. Am Biwa-See legt man gesalzene Karpfen in gekochten Reis.",
+    "Dann kommt der Deckel drauf. Und man wartet über ein halbes Jahr.",
+    "Das Ergebnis heißt Funazushi. Erwähnt wird es schon vor mehr als 1.000 Jahren. So ähnlich begann die Geschichte des Sushi."
+   ],
+   "frage": "Was machte man beim frühen Sushi mit dem Reis, wenn der Fisch fertig war?",
+   "chips": [
+    "Man aß ihn zum Fisch",
+    "Man braute Sake daraus",
+    "Man verfütterte ihn",
+    "Man warf ihn weg"
+   ],
+   "richtig": "Man warf ihn weg",
+   "hinweise": [
+    "Der Reis war nicht zum Essen da. Er hatte eine Aufgabe.",
+    "Nach Monaten war der Reis zu einem sauren Brei zerfallen. Der Fisch dagegen war haltbar geworden.",
+    "Erst ab dem 15. Jahrhundert verkürzte man die Gärzeit auf ein, zwei Monate. Von da an landete auch der Reis im Mund."
+   ],
+   "aufloesung": [
+    "Man warf ihn weg. Gegessen wurde nur der Fisch. Der Reis war bloß das Mittel zum Gären.",
+    "Sushi war also zuerst eine Methode, Fisch haltbar zu machen. Entstanden wohl in Südchina oder Südostasien, nicht in Japan.",
+    "Im 18. Jahrhundert sorgte zunehmend Essig für die Säure. Anfang des 19. Jahrhunderts musste gar nichts mehr gären.",
+    "In den 1820er-Jahren entstand in Edo, dem heutigen Tokio, Nigiri: von Hand geformt, an Straßenständen verkauft. Fast Food.",
+    "Als Erfinder gilt Hanaya Yohei. Roh war der Fisch damals meist nicht: Man legte ihn in Essig oder Sojasoße ein oder garte ihn."
+   ],
+   "dreh": "Sushi begann als Vorratshaltung, bei der man den Reis wegwarf, und wurde zum Fast Food.",
+   "warum": {
+    "frage": "Warum legte man Fisch überhaupt monatelang in Reis?",
+    "nachfrage": "Was passiert mit frischem Fisch, wenn es keinen Kühlschrank gibt?",
+    "gruende": [
+     "Frischer Fisch verdirbt schnell. Ohne Kühlung brauchte man einen Weg, ihn lange aufzubewahren.",
+     "Der gekochte Reis gärt und wird sauer. Das säuert den gesalzenen Fisch und hält ihn monatelang.",
+     "In schneereichen Gegenden, etwa im Norden von Shiga, musste man Vorräte für den ganzen Winter anlegen."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Beim frühen Sushi aß man nur den Fisch, der Reis wurde weggeworfen.",
+     "falsch": false
+    },
+    {
+     "satz": "Nigiri entstand in den 1820er-Jahren in Osaka und wurde dort an Straßenständen verkauft.",
+     "falsch": true,
+     "korrektur": "Es entstand in Edo, dem heutigen Tokio. In Osaka und Kyoto blieb gepresstes Kastensushi beliebt."
+    },
+    {
+     "satz": "Als Erfinder des Nigiri gilt Hanaya Yohei.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum hat man den Reis weggeworfen? Der ist doch das Beste am Sushi! 😮",
+    "punkte": [
+     {
+      "name": "Der Reis war nur zum Haltbarmachen da",
+      "worte": [
+       "haltbar",
+       "gär",
+       "gegoren",
+       "konserv",
+       "verderb",
+       "aufbewahr",
+       "sauer",
+       "vorrat"
+      ],
+      "nachfrage": "Aber wozu war der Reis dann überhaupt da?"
+     },
+     {
+      "name": "Nach Monaten war er zu Brei zerfallen",
+      "worte": [
+       "brei",
+       "matsch",
+       "zerfallen",
+       "flüssig",
+       "eklig",
+       "monate",
+       "lange"
+      ],
+      "nachfrage": "Warum hat man ihn nicht trotzdem gegessen?"
+     },
+     {
+      "name": "Später kam Essig, und Sushi wurde schnelles Essen",
+      "worte": [
+       "essig",
+       "schnell",
+       "später",
+       "edo",
+       "tokio",
+       "stand",
+       "fast"
+      ],
+      "nachfrage": "Und wieso essen wir den Reis heute doch?"
+     }
+    ],
+    "allesDrin": "War das nicht voll Verschwendung?",
+    "verstanden": "Ah, Sushi war erst Vorratskammer und dann Fast Food. Witzig! 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was passierte beim frühen Sushi mit dem Reis?",
+    "chips": [
+     "Er wurde mitgegessen",
+     "Er wurde weggeworfen",
+     "Er wurde zu Sake",
+     "Er wurde verfüttert"
+    ],
+    "richtig": "Er wurde weggeworfen"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Funazushi_%E9%AE%92%E5%AF%BF%E5%8F%B8_Maibara_City_Shiga_Japan_2022-10-06.jpg/960px-Funazushi_%E9%AE%92%E5%AF%BF%E5%8F%B8_Maibara_City_Shiga_Japan_2022-10-06.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Funazushi_鮒寿司_Maibara_City_Shiga_Japan_2022-10-06.jpg",
+     "text": "Funazushi aus Shiga, eine Narezushi, wie sie bis heute gemacht wird: Karpfen, monatelang in Reis vergoren.",
+     "credit": "ウィキ太郎 (WikiTaro), eigenes Werk, 2022 · CC0"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "Sushi: The History – Terutoshi Hibino (Aichi Shukutoku University, Ehrenvorsitzender des Shimizu Sushi Museums), Kikkoman Food Forum Bd. 38 Nr. 1, Frühjahr 2024",
+     "url": "https://www.kikkoman.com/en/culture/foodforum/digitalbook/pdf/foodforum38-1.pdf"
+    },
+    {
+     "name": "When Sushi Became a New Fast Food in Edo – Nippon.com (Nippon Communications Foundation)",
+     "url": "https://www.nippon.com/en/japan-topics/g00962/"
+    },
+    {
+     "name": "Shiga | Our Regional Cuisines – Japanisches Landwirtschaftsministerium (MAFF)",
+     "url": "https://www.maff.go.jp/e/policies/market/k_ryouri/areastory/1420/index.html"
+    }
+   ],
+   "id": "sushi"
+  },
+  {
+   "typ": "fall",
+   "titel": "Nobelpreis",
+   "einstieg": [
+    "1888. Eine berühmte Geschichte beginnt: Ludvig Nobel, ein reicher Ölunternehmer, stirbt in Cannes.",
+    "Französische Zeitungen halten ihn für seinen Bruder Alfred, den Erfinder des Dynamits. Eine titelt: „Der Händler des Todes ist tot.“",
+    "Alfred liest seinen eigenen Nachruf, erschrickt und stiftet aus Scham die Nobelpreise. So steht es in vielen Büchern."
+   ],
+   "frage": "Was an dieser Geschichte ist gut belegt?",
+   "chips": [
+    "Alles, so wie erzählt",
+    "Verwechslung und Schlagzeile",
+    "Nichts, alles erfunden",
+    "Nur die Verwechslung"
+   ],
+   "richtig": "Nur die Verwechslung",
+   "hinweise": [
+    "Nobel hielt sich wohl nicht für einen Händler des Todes. 1890 schrieb er einer Freundin, seine Fabriken würden den Krieg vielleicht eher beenden als ihre Friedenskongresse.",
+    "Über seine Gründe für die Preise sprach Nobel nie öffentlich. Alles über sein Motiv haben andere später vermutet.",
+    "Dass Zeitungen 1888 die Brüder verwechselten, berichten viele Quellen. Die Zeitung mit der berühmten Schlagzeile sucht man bis heute vergeblich."
+   ],
+   "aufloesung": [
+    "Belegt ist nur die Verwechslung: 1888 meldeten französische Zeitungen Alfreds Tod. Gestorben war sein Bruder Ludvig.",
+    "Die Schlagzeile „Der Händler des Todes ist tot“ haben Historiker bis heute nicht im Original gefunden. Manche halten sie für eine Legende.",
+    "Auch die Scham ist nur Vermutung. Nobel erklärte nie, warum er 1895 in Paris ein Testament unterschrieb, das sein Vermögen größtenteils in Preise steckte.",
+    "Für den Friedenspreis nennt die Nobelstiftung einen anderen Einfluss: seine langjährige Freundin, die Friedensaktivistin Bertha von Suttner. Sie bekam den Preis 1905."
+   ],
+   "dreh": "Die berühmteste Geschichte über eine Zeitungspanne ist selbst halb Panne: Die Verwechslung war echt, die Schlagzeile ist nicht belegt.",
+   "warum": {
+    "frage": "Warum erzählen so viele die Schlagzeilen-Geschichte, obwohl sie nicht belegt ist?",
+    "nachfrage": "Was merkst du dir leichter: „Er las seinen eigenen Nachruf und schämte sich“ oder „Seine Gründe sind unbekannt“?",
+    "gruende": [
+     "Sie ist eine perfekte Geschichte: Ein Mann sieht, wie die Welt über ihn urteilen wird, und ändert sein Leben.",
+     "Ein Kern stimmt: Die Verwechslung von 1888 gab es wirklich. Das macht den Rest glaubwürdig.",
+     "Auch große Nachschlagewerke wie die Encyclopaedia Britannica geben die Schlagzeile weiter. So sieht eine Erzählung bald aus wie ein Fakt."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "1888 starb Alfreds Bruder Ludvig, und Zeitungen verwechselten die beiden.",
+     "falsch": false
+    },
+    {
+     "satz": "Nobel unterschrieb sein letztes Testament 1895 in Paris.",
+     "falsch": false
+    },
+    {
+     "satz": "Den ersten Friedensnobelpreis bekam 1901 Bertha von Suttner.",
+     "falsch": true,
+     "korrektur": "Bertha von Suttner bekam ihn 1905. 1901 ging er unter anderem an Henry Dunant, den Gründer des Roten Kreuzes."
+    }
+   ],
+   "malia": {
+    "frage": "Woher weiß man denn, dass die Schlagzeile nicht stimmt? Vielleicht ist die Zeitung nur verloren gegangen? 🤔",
+    "punkte": [
+     {
+      "name": "niemand hat das Original gefunden",
+      "worte": [
+       "original",
+       "gefunden",
+       "finden",
+       "niemand",
+       "keiner",
+       "archiv",
+       "beweis",
+       "beleg"
+      ],
+      "nachfrage": "Aber woher kommt die Schlagzeile dann? Irgendwer muss sie doch gesehen haben?"
+     },
+     {
+      "name": "nicht gefunden heißt nicht sicher falsch",
+      "worte": [
+       "vielleicht",
+       "möglich",
+       "nicht sicher",
+       "unsicher",
+       "unklar",
+       "kann sein",
+       "weiß man nicht"
+      ],
+      "nachfrage": "Heißt das, die ist ganz sicher erfunden?"
+     },
+     {
+      "name": "Nobel selbst hat nie erklärt, warum",
+      "worte": [
+       "erklärt",
+       "gesagt",
+       "schwieg",
+       "selbst",
+       "grund",
+       "gründe",
+       "motiv"
+      ],
+      "nachfrage": "Und warum schaut man nicht einfach nach, was Nobel selbst gesagt hat?"
+     }
+    ],
+    "allesDrin": "Und wie merke ich bei so einer Geschichte, ob sie stimmt?",
+    "verstanden": "Okay: Die Verwechslung war echt, der fiese Titel ist nicht belegt. Krass, dass der trotzdem überall steht.",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was ist an der Geschichte vom „Händler des Todes“ gut belegt?",
+    "chips": [
+     "Die berühmte Schlagzeile",
+     "Die Verwechslung der Brüder",
+     "Nobels Scham als Motiv",
+     "Nobels eigene Erklärung"
+    ],
+    "richtig": "Die Verwechslung der Brüder"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Alfred_Nobels_will-November_25th%2C_1895.jpg/960px-Alfred_Nobels_will-November_25th%2C_1895.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Alfred_Nobels_will-November_25th,_1895.jpg",
+     "text": "Nobels Testament vom 27. November 1895. Ein Grund für die Preise steht nicht darin.",
+     "credit": "Alfred Nobel (Dokument) · gemeinfrei"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "Alfred Nobel – his life and work – Nils Ringertz, NobelPrize.org (Nobel Prize Outreach)",
+     "url": "https://www.nobelprize.org/alfred-nobel/alfred-nobel-his-life-and-work/"
+    },
+    {
+     "name": "Alfred Nobel's will – NobelPrize.org (Nobel Prize Outreach)",
+     "url": "https://www.nobelprize.org/alfred-nobel/alfred-nobels-will/"
+    },
+    {
+     "name": "Did a Premature Obituary Inspire the Nobel Prize? – Evan Andrews, HISTORY.com",
+     "url": "https://www.history.com/news/did-a-premature-obituary-inspire-the-nobel-prize"
+    },
+    {
+     "name": "Alfred Nobel – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Alfred-Nobel"
+    },
+    {
+     "name": "Alfred Nobel's Obituary Calling him a \"Merchant of Death\" Never Happened & Never Inspired the Nobel Prize – Kathy Joseph, Kathy Loves Physics (Blog, nur als Spur für die Prüfung)",
+     "url": "https://kathylovesphysics.com/the-merchant-of-death/"
+    }
+   ],
+   "id": "nobelpreis"
+  },
+  {
+   "typ": "fall",
+   "titel": "Zwölf Trauben",
+   "einstieg": [
+    "Madrid, 31. Dezember, kurz vor Mitternacht. Tausende stehen auf der Puerta del Sol und schauen auf eine Turmuhr.",
+    "In ganz Spanien halten die Leute jetzt zwölf Weintrauben bereit. Erst vier Vorschläge, dann zwölf Glockenschläge. Bei jedem Schlag: eine Traube.",
+    "Wer alle zwölf rechtzeitig schafft, hat Glück im neuen Jahr. So will es der Brauch."
+   ],
+   "frage": "Wie ist dieser Brauch entstanden?",
+   "chips": [
+    "Uralter Brauch der Weinbauern",
+    "Befehl eines spanischen Königs",
+    "Segen der Kirche zum Jahresende",
+    "Als Spott oder Werbegag"
+   ],
+   "richtig": "Als Spott oder Werbegag",
+   "hinweise": [
+    "Der Brauch ist jünger, als die meisten denken. Die ersten Zeitungsberichte stammen aus dem 19. Jahrhundert.",
+    "Wohlhabende Madrider aßen damals an Silvester Trauben und tranken Champagner, nach französischem Vorbild. Nicht alle fanden das schick.",
+    "Eine zweite Geschichte erzählt von einer riesigen Traubenernte und Bauern, die ihre Ware loswerden mussten."
+   ],
+   "aufloesung": [
+    "Wohl als Spott oder als Werbegag. Vielleicht ein bisschen von beidem; ganz geklärt ist es nicht.",
+    "Die erste schriftliche Erwähnung soll von 1882 stammen. Damals aßen wohlhabende, französisch geprägte Madrider an Silvester Trauben zum Champagner.",
+    "Einfache Leute machten sich darüber lustig: Sie aßen ihre Trauben auf der Puerta del Sol, zu den Glockenschlägen um Mitternacht.",
+    "Die bekanntere Geschichte spielt 1909: Traubenbauern aus Ostspanien sollen so viele Trauben gehabt haben, dass sie sie als „Glückstrauben“ unter die Leute brachten.",
+    "Heute isst man die zwölf Trauben auch in Portugal und in Teilen Lateinamerikas."
+   ],
+   "dreh": "Ein Brauch, der uralt wirkt, ist keine 150 Jahre alt und begann wohl als Spott oder Werbung.",
+   "warum": {
+    "frage": "Warum hat sich ausgerechnet dieser Brauch so schnell verbreitet?",
+    "nachfrage": "Was hilft einem Brauch mehr: ein Platz, auf den alle schauen, oder Leute, die damit Geld verdienen?",
+    "gruende": [
+     "Er war billig und lustig. Trauben kosteten wenig, mitmachen konnte jeder.",
+     "Traubenbauern und Händler hatten etwas davon. Mit dem Namen „Glückstrauben“ ließ sich gut verkaufen.",
+     "Die Puerta del Sol war das Zentrum des Landes. Schon ein Jahrzehnt später schrieben Zeitungen, der Brauch verbreite sich in ganz Spanien."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Man isst die Trauben zu den zwölf Glockenschlägen der Uhr an der Puerta del Sol.",
+     "falsch": false
+    },
+    {
+     "satz": "Eine Erklärung führt den Brauch auf eine riesige Traubenernte im Jahr 1909 zurück.",
+     "falsch": false
+    },
+    {
+     "satz": "Begonnen haben ihn wohlhabende Madrider, die damit die Silvesterfeiern der armen Leute nachahmten.",
+     "falsch": true,
+     "korrektur": "Genau umgekehrt. Die Wohlhabenden aßen nach französischem Vorbild Trauben zum Champagner; einfache Leute machten sich auf der Puerta del Sol darüber lustig."
+    }
+   ],
+   "malia": {
+    "frage": "Warum machen das heute alle, wenn es am Anfang nur ein Witz war? 😄",
+    "punkte": [
+     {
+      "name": "Es war ein Spaß, um die Reichen zu veräppeln",
+      "worte": [
+       "spott",
+       "lustig",
+       "witz",
+       "veräppel",
+       "verarsch",
+       "reich",
+       "champagner",
+       "lach",
+       "nachmach"
+      ],
+      "nachfrage": "Und wie hat das mit den Trauben überhaupt angefangen?"
+     },
+     {
+      "name": "Die Traubenbauern wollten ihre Trauben loswerden",
+      "worte": [
+       "verkauf",
+       "bauer",
+       "ernte",
+       "werb",
+       "geld",
+       "zu viel",
+       "übrig",
+       "händler",
+       "glück"
+      ],
+      "nachfrage": "Hatte da jemand was davon, dass alle Trauben essen?"
+     },
+     {
+      "name": "Viele haben es gesehen und mitgemacht, dann wurde es normal",
+      "worte": [
+       "alle",
+       "mitgemacht",
+       "mitmach",
+       "nachgemacht",
+       "zeitung",
+       "fernseh",
+       "verbreit",
+       "normal",
+       "tradition"
+      ],
+      "nachfrage": "Aber wie wird aus einem Witz was, das ein ganzes Land macht?"
+     }
+    ],
+    "allesDrin": "Schafft man zwölf Trauben so schnell überhaupt, ohne sich zu verschlucken?",
+    "verstanden": "Ahh, wie ein Insider-Witz, den irgendwann alle machen. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Über wen machten sich die Leute lustig, als die zwölf Trauben wohl anfingen?",
+    "chips": [
+     "Über den König",
+     "Über die Kirche",
+     "Über reiche Champagnertrinker",
+     "Über die Weinbauern"
+    ],
+    "richtig": "Über reiche Champagnertrinker"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Miles_de_personas_participan_en_las_%E2%80%9Cpre%C3%BAvas%E2%80%9D_de_la_Puerta_del_Sol_01.jpg/960px-Miles_de_personas_participan_en_las_%E2%80%9Cpre%C3%BAvas%E2%80%9D_de_la_Puerta_del_Sol_01.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Miles_de_personas_participan_en_las_%E2%80%9Cpre%C3%BAvas%E2%80%9D_de_la_Puerta_del_Sol_01.jpg",
+     "text": "Die Puerta del Sol in Madrid bei der Generalprobe einen Tag vor Silvester 2017",
+     "credit": "Diario de Madrid (Stadt Madrid) · CC BY 4.0"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "El curioso origen de la tradición de comer doce uvas de Nochevieja – Mari Carmen Duarte, Viajes National Geographic (España), aktualisiert 22.12.2025",
+     "url": "https://viajes.nationalgeographic.com.es/lifestyle/uvas-nochevieja-historia-y-curiosidades-esta-tradicion_24042"
+    },
+    {
+     "name": "New Year's Eve at Puerta del Sol – esMadrid, offizielle Tourismusseite der Stadt Madrid (Madrid Destino)",
+     "url": "https://www.esmadrid.com/en/whats-on/new-years-eve-party-puerta-sol"
+    },
+    {
+     "name": "Mercamadrid prepara 5.000 toneladas de uvas para dar las campanadas en Nochevieja – Diario de Madrid (Ayuntamiento de Madrid), Pressemitteilung, 29.12.2017",
+     "url": "https://diario.madrid.es/blog/notas-de-prensa/mercamadrid-prepara-5-000-toneladas-de-uvas-para-dar-las-campanadas-en-nochevieja/"
+    },
+    {
+     "name": "How government scrooges in 1882 accidentally created Spain's obsession with gobbling 12 grapes on New Year's Eve – Joshua Parfitt, The Olive Press, 31.12.2022",
+     "url": "https://www.theolivepress.es/spain-news/2022/12/31/how-government-scrooges-in-1882-accidentally-created-spains-obsession-with-gobbling-12-grapes-on-new-years-eve/"
+    }
+   ],
+   "id": "zwoelf-trauben"
+  },
+  {
+   "typ": "fall",
+   "titel": "Samstag frei",
+   "einstieg": [
+    "1. Mai 1956. Der DGB wirbt mit einem Spruch, den bald jeder kennt: „Samstags gehört Vati mir.“",
+    "In der Bundesrepublik arbeitet man damals sechs Tage die Woche. 1955 sind es rund 49 Stunden.",
+    "In Detroit gibt es den freien Samstag da schon seit 30 Jahren. Henry Ford hat ihn 1926 eingeführt: fünf Tage, 40 Stunden, ohne weniger Lohn."
+   ],
+   "frage": "Warum gab Henry Ford seinen Arbeitern den Samstag frei?",
+   "chips": [
+    "Ein Gesetz zwang ihn",
+    "Aus Mitgefühl",
+    "Streiks der Gewerkschaften",
+    "Damit sie mehr kaufen"
+   ],
+   "richtig": "Damit sie mehr kaufen",
+   "hinweise": [
+    "Ford war Geschäftsmann durch und durch. Gefühle, sagte er, haben in der Industrie nichts verloren.",
+    "Seine Rechnung: Die meisten Waren kaufen genau die Leute, die sie herstellen. Also auch seine Arbeiter.",
+    "Er fragte sinngemäß: Was soll einer mit einem Auto, wenn er von früh bis spät in der Fabrik steht?"
+   ],
+   "aufloesung": [
+    "Ford wollte Kunden. Wer mehr Freizeit hat, braucht mehr Kleidung, mehr Essen, mehr Transport, sagte er 1926. Freizeit sei eine „kühle geschäftliche Tatsache“.",
+    "Dazu kam: In fünf Tagen schafften seine Leute mindestens so viel wie in sechs, sagte er. Nach zwei freien Tagen kämen sie frisch zurück.",
+    "In Deutschland erkämpften die Gewerkschaften den freien Samstag, Branche für Branche. Im Steinkohlebergbau kam er 1959, in der Metallindustrie 1967.",
+    "Auch hier rechnete es sich: Der Konsum stieg. Autos für Wochenendausflüge, Heim und Garten, Sportartikel."
+   ],
+   "dreh": "Der freie Samstag war für Ford kein Geschenk, sondern ein Geschäft: Wer frei hat, kauft ein.",
+   "warum": {
+    "frage": "Warum zog ausgerechnet der Spruch „Samstags gehört Vati mir“ so gut?",
+    "nachfrage": "Wen spricht der Satz eigentlich an: nur den Arbeiter oder auch seine Familie?",
+    "gruende": [
+     "Er machte aus Arbeitszeit ein Familienthema. Der Spruch betonte die Rolle des Vaters, ein neues Männerbild der jungen Bundesrepublik.",
+     "Er traf, was viele wollten: In Umfragen zogen Industriearbeiter einen freien Samstag einer kürzeren täglichen Arbeitszeit vor.",
+     "Er passte in die Zeit: Mit dem Wohlstand ging es nicht mehr nur um Lohn, sondern um bessere Lebensbedingungen."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Ford führte 1926 in seinen Fabriken die Fünf-Tage-Woche mit 40 Stunden ein.",
+     "falsch": false
+    },
+    {
+     "satz": "Der DGB warb 1956 mit „Samstags gehört Vati mir“ für den freien Samstag.",
+     "falsch": false
+    },
+    {
+     "satz": "Die westdeutsche Metallindustrie hatte den freien Samstag schon 1956.",
+     "falsch": true,
+     "korrektur": "1956 lief erst die Kampagne. In der Metallindustrie kam der freie Samstag 1967."
+    }
+   ],
+   "malia": {
+    "frage": "Wenn Ford so viel Geld verdienen wollte, warum gibt er dann frei? Dann arbeiten die doch weniger! 🤔",
+    "punkte": [
+     {
+      "name": "mit Freizeit kaufen die Leute mehr",
+      "worte": [
+       "kauf",
+       "konsum",
+       "ausgeb",
+       "kunde",
+       "shopp",
+       "einkauf",
+       "geld"
+      ],
+      "nachfrage": "Aber was hat Ford davon, wenn die Leute frei haben?"
+     },
+     {
+      "name": "zum Beispiel Autos, also Fords eigene Ware",
+      "worte": [
+       "auto",
+       "wagen",
+       "fahr",
+       "ausflug",
+       "ford"
+      ],
+      "nachfrage": "Und was genau sollten die Leute denn kaufen?"
+     },
+     {
+      "name": "in fünf Tagen schafften sie genauso viel",
+      "worte": [
+       "genauso",
+       "gleich viel",
+       "ausgeruht",
+       "erholt",
+       "frisch",
+       "produktiv",
+       "schneller",
+       "besser"
+      ],
+      "nachfrage": "Aber dann hat Ford doch einen Tag weniger Arbeit in der Fabrik, oder?"
+     }
+    ],
+    "allesDrin": "Und warum hat das in Deutschland dann noch so lange gedauert?",
+    "verstanden": "Ah, also: Wer frei hat, geht shoppen. Schlau von Ford. 😄",
+    "halb": "Hm, so halb. Frag mich am Samstag noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was war Henry Fords Hauptargument für den freien Samstag?",
+    "chips": [
+     "Mitgefühl mit den Arbeitern",
+     "Wer Freizeit hat, kauft mehr",
+     "Ein neues Gesetz",
+     "Druck der Gewerkschaften"
+    ],
+    "richtig": "Wer Freizeit hat, kauft mehr"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ford_Motor_Company_change_of_worker_shift.jpg/960px-Ford_Motor_Company_change_of_worker_shift.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ford_Motor_Company_change_of_worker_shift.jpg",
+     "text": "Schichtwechsel um vier Uhr nachmittags im Ford-Werk in Detroit, 1910er-Jahre",
+     "credit": "Detroit Publishing Company · gemeinfrei"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "„Samstags gehört Vati mir“ – Plakat des DGB mit der Forderung zur Einführung der 5-Tage-Woche (1956) – German History in Documents and Images, Deutsches Historisches Institut Washington",
+     "url": "https://germanhistorydocs.org/de/die-besatzungszeit-und-die-entstehung-zweier-staaten-1945-1961/samstags-gehoert-vati-mir-plakat-des-dgb-mit-der-forderung-zur-einfuehrung-der-5-tage-woche-1956"
+    },
+    {
+     "name": "Wirtschaftswunder: „Samstags gehört Vati mir“ – Hildegard Kriwet, Planet Wissen (WDR/SWR)",
+     "url": "https://www.planet-wissen.de/geschichte/deutsche_geschichte/wirtschaftswunder/pwiewissensfrage398.html"
+    },
+    {
+     "name": "125 Jahre IG Metall: Die Geschichte der Arbeitszeit. Wem gehört die Zeit? – IG Metall, 7.9.2016",
+     "url": "https://www.igmetall.de/ueber-uns/kampagnen/mein-leben--meine-zeit/wem-gehoert-die-zeit"
+    },
+    {
+     "name": "Henry Ford: Why I Favor Five Days' Work With Six Days' Pay (Interview von Samuel Crowther, World's Work, 1926) – Wikisource (Abschrift)",
+     "url": "https://en.wikisource.org/wiki/Henry_Ford:_Why_I_Favor_Five_Days%27_Work_With_Six_Days%27_Pay"
+    },
+    {
+     "name": "Ford factory workers get 40-hour week (May 1, 1926) – HISTORY.com Editors",
+     "url": "https://www.history.com/this-day-in-history/ford-factory-workers-get-40-hour-week"
+    },
+    {
+     "name": "Die Gewerkschaften kommen in der jungen Bundesrepublik an – Chaja Boebel, Magazin Mitbestimmung, Hans-Böckler-Stiftung",
+     "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-gewerkschaften-kommen-in-der-jungen-bundesrepublik-an-19150.htm"
+    }
+   ],
+   "id": "samstag-frei"
+  },
+  {
+   "typ": "fall",
+   "titel": "Kakao-Geld",
+   "einstieg": [
+    "Tlaxcala in Mexiko, 1545. Auf dem Markt will jemand einen guten Truthahn kaufen.",
+    "Er zahlt nicht mit Gold. Er zählt etwas ab: 100 Stück.",
+    "Für eine Avocado hätte eins gereicht. Für ein Truthahn-Ei drei."
+   ],
+   "frage": "Womit hat er bezahlt?",
+   "chips": [
+    "Maiskörner",
+    "Muscheln",
+    "Jadeperlen",
+    "Kakaobohnen"
+   ],
+   "richtig": "Kakaobohnen",
+   "hinweise": [
+    "Das Zahlungsmittel wuchs nicht überall. Die Azteken ließen es sich aus Anbaugebieten im Süden als Abgabe liefern.",
+    "Wer reich war, trank sein Geld. Bitter, oft mit Chili, mit viel Schaum.",
+    "Fälscher höhlten die Stücke aus und füllten sie mit Sand. Und Spanier lernten später, das Getränk mit Zucker zu süßen."
+   ],
+   "aufloesung": [
+    "Mit Kakaobohnen. Laut einer Preisliste aus Tlaxcala von 1545 kostete ein guter Truthahn 100 Bohnen.",
+    "Eine reife Avocado oder eine große Tomate: eine Bohne. Ein Truthahn-Ei: drei.",
+    "Wer es sich leisten konnte, trank sein Geld: gemahlene Bohnen mit Wasser, bitter, gewürzt etwa mit Chili oder Vanille, schaumig gegossen.",
+    "Weil die Bohnen so wertvoll waren, gab es Falschgeld: ausgehöhlte Bohnen voller Sand, Fälschungen aus Wachs oder Teig.",
+    "Erst unter den Spaniern kam Rohrzucker hinein. Im 17. Jahrhundert war Schokolade in ganz Europa ein Modegetränk."
+   ],
+   "dreh": "Bei den Azteken wuchs das Geld an Bäumen, und man konnte es trinken.",
+   "warum": {
+    "frage": "Warum taugten ausgerechnet Kakaobohnen als Geld?",
+    "nachfrage": "Was muss ein gutes Geld eigentlich können?",
+    "gruende": [
+     "Sie waren klein, leicht und hielten lange. Man konnte sie gut tragen, zählen und über weite Strecken handeln.",
+     "Sie waren begehrt und knapp. Kakao wuchs nicht überall; die Azteken ließen ihn sich aus Anbaugebieten wie Soconusco als Tribut liefern.",
+     "Sie hatten einen Wert an sich: Man konnte sie ausgeben, den Göttern opfern oder als edles Getränk trinken."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Laut einer Preisliste von 1545 kostete ein guter Truthahn 100 Kakaobohnen.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Azteken süßten ihren Kakao mit Rohrzucker, erst die Spanier würzten ihn mit Chili.",
+     "falsch": true,
+     "korrektur": "Genau umgekehrt. Die Azteken würzten etwa mit Chili, Rohrzucker kam erst unter den Spaniern dazu."
+    },
+    {
+     "satz": "Es gab gefälschte Kakaobohnen, zum Beispiel ausgehöhlt und mit Sand gefüllt.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum hat man mit Bohnen bezahlt? Die kann man doch einfach pflücken! 🤔",
+    "punkte": [
+     {
+      "name": "Kakao wuchs nicht überall und war wertvoll",
+      "worte": [
+       "selten",
+       "wertvoll",
+       "kostbar",
+       "überall",
+       "knapp",
+       "teuer",
+       "süden",
+       "tribut",
+       "wenig"
+      ],
+      "nachfrage": "Aber wenn die jeder pflücken kann, ist doch jeder reich, oder?"
+     },
+     {
+      "name": "Die Bohnen waren klein, leicht und zählbar",
+      "worte": [
+       "klein",
+       "leicht",
+       "zähl",
+       "halt",
+       "tragen",
+       "praktisch"
+      ],
+      "nachfrage": "Warum hat man nicht einfach mit Truthähnen bezahlt?"
+     },
+     {
+      "name": "Alle wollten sie, weil man daraus ein Getränk machte",
+      "worte": [
+       "trink",
+       "getränk",
+       "schaum",
+       "lecker",
+       "reich",
+       "begehrt",
+       "wollten"
+      ],
+      "nachfrage": "Und warum wollte überhaupt jemand Bohnen haben?"
+     }
+    ],
+    "allesDrin": "Haben die dann ihr Taschengeld ausgetrunken? 😄",
+    "verstanden": "Okay, Geld zum Trinken. Will ich auch! 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Womit bezahlte man im alten Mexiko zum Beispiel einen Truthahn?",
+    "chips": [
+     "Mit Maiskörnern",
+     "Mit Kakaobohnen",
+     "Mit Goldmünzen",
+     "Mit Muscheln"
+    ],
+    "richtig": "Mit Kakaobohnen"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mujer_vertiendo_chocolate_-_Codex_Tudela.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Mujer_vertiendo_chocolate_-_Codex_Tudela.jpg",
+     "text": "Eine Frau gießt Kakao aus der Höhe in ein zweites Gefäß, damit er schäumt. Codex Tudela, 16. Jahrhundert.",
+     "credit": "unbekannter Zeichner, Codex Tudela (16. Jh.) · gemeinfrei"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "When Money Grew on Trees / More Than a Drink / Cacahuatl to Chocolate – Ausstellung „Theobroma Cacao: Food of the Gods“, Mann Library, Cornell University",
+     "url": "https://exhibits.library.cornell.edu/chocolate-food-of-the-gods/feature/when-money-grew-on-trees"
+    },
+    {
+     "name": "A Brief History of Chocolate – Amanda Fiegl, Smithsonian Magazine",
+     "url": "https://www.smithsonianmag.com/arts-culture/a-brief-history-of-chocolate-21860917/"
+    },
+    {
+     "name": "Cervantes and Cacao: A Bittersweet Legacy – Goretti González, IE Insights (IE University), 21. Mai 2025",
+     "url": "https://www.ie.edu/insights/articles/cervantes-and-cacao-a-bittersweet-legacy/"
+    },
+    {
+     "name": "Chocolate in Mesoamerica – Mark Cartwright, World History Encyclopedia, 27. Juni 2014",
+     "url": "https://www.worldhistory.org/Chocolate_in_Mesoamerica/"
+    }
+   ],
+   "id": "kakao-geld"
+  },
+  {
+   "typ": "fall",
+   "titel": "Weihnachtsbaum",
+   "einstieg": [
+    "Heute steht er in den USA, in Japan, fast überall auf der Welt: der geschmückte Weihnachtsbaum.",
+    "Der Brauch kommt aus dem deutschen Sprachraum. 1605 beschreibt eine Straßburger Chronik Tannen in den Stuben, behängt mit Papierrosen, Äpfeln und Oblaten.",
+    "Lange blieb er ein deutscher Brauch. Dann ging er plötzlich um die Welt."
+   ],
+   "frage": "Was machte den Weihnachtsbaum zur Weltmode?",
+   "chips": [
+    "Deutsche Auswanderer in Amerika",
+    "Martin Luthers Kerzenbaum",
+    "Coca-Cola-Werbung",
+    "Ein Zeitungsbild der Queen"
+   ],
+   "richtig": "Ein Zeitungsbild der Queen",
+   "hinweise": [
+    "Der Weg zur Weltmode führte nicht direkt von Deutschland in die Welt, sondern über England.",
+    "In London regierte eine Königin, deren Ehemann aus Deutschland stammte.",
+    "Zu Weihnachten 1848 druckte eine Londoner Zeitung ein Familienbild, das sich viele zum Vorbild nahmen."
+   ],
+   "aufloesung": [
+    "Ein Zeitungsbild. Zu Weihnachten 1848 zeigte die Illustrated London News Queen Victoria, Prinz Albert und ihre Kinder um einen geschmückten Baum auf Schloss Windsor.",
+    "Albert war Deutscher und pflegte den Brauch seiner Heimat. Was die Königsfamilie tat, machten bald viele britische Familien nach.",
+    "1850 druckte das US-Magazin Godey's Lady's Book das Bild nach. Ohne Victorias Krone und ohne Alberts Schnurrbart: Aus den Royals wurde eine amerikanische Familie.",
+    "Das Bild erschien in den 1850ern immer wieder. In den 1870ern waren Weihnachtsbäume in den USA beliebt."
+   ],
+   "dreh": "Weltberühmt wurde der deutsche Baum durch ein britisches Königsbild und dessen retuschierte amerikanische Kopie.",
+   "warum": {
+    "frage": "Warum ließ das amerikanische Magazin Krone und Schnurrbart weg?",
+    "nachfrage": "Wem wollten Leserinnen in Amerika 1850 eher nacheifern: einer fremden Königin oder einer Familie wie ihrer eigenen?",
+    "gruende": [
+     "Das Bild sollte amerikanisch wirken, nicht britisch-königlich.",
+     "Eine ganz normale Familie lädt zum Nachmachen ein. Das Bild gab Hausfrauen im ganzen Land den Anstoß, selbst einen Baum aufzustellen.",
+     "Es wurde die 1850er hindurch immer wieder nachgedruckt. So sahen es sehr viele Menschen."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Prinz Albert, der Ehemann von Queen Victoria, war in Deutschland geboren.",
+     "falsch": false
+    },
+    {
+     "satz": "1850 druckte das Godey's Lady's Book das Bild nach und setzte Victoria zusätzlich eine Krone auf.",
+     "falsch": true,
+     "korrektur": "Umgekehrt. Das Magazin nahm Victoria die Krone weg (und Albert den Schnurrbart), damit die Familie amerikanisch wirkte."
+    },
+    {
+     "satz": "Eine Straßburger Chronik beschreibt schon 1605 geschmückte Tannen in den Stuben.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum stellen sich Leute einen Baum ins Wohnzimmer, nur weil eine Königin das gemacht hat? 🤔",
+    "punkte": [
+     {
+      "name": "Die Königsfamilie war ein Vorbild, das man nachmacht",
+      "worte": [
+       "königin",
+       "queen",
+       "könig",
+       "vorbild",
+       "berühmt",
+       "promi",
+       "star",
+       "nachmach",
+       "nachgemacht",
+       "cool",
+       "schick"
+      ],
+      "nachfrage": "Aber warum machen Leute einer Königin was nach?"
+     },
+     {
+      "name": "Das Bild stand in der Zeitung, viele haben es gesehen",
+      "worte": [
+       "zeitung",
+       "bild",
+       "gedruckt",
+       "druck",
+       "gesehen",
+       "sehen",
+       "magazin",
+       "zeichnung"
+      ],
+      "nachfrage": "Und woher wussten so viele Leute überhaupt von dem Baum?"
+     },
+     {
+      "name": "In Amerika wurde das Bild verändert, damit es nach normaler Familie aussieht",
+      "worte": [
+       "amerika",
+       "usa",
+       "krone",
+       "normal",
+       "familie",
+       "weggelassen",
+       "retusch",
+       "verändert",
+       "schnurrbart",
+       "bart"
+      ],
+      "nachfrage": "Und wie kam das dann nach Amerika? Die hatten doch keine Königin!"
+     }
+    ],
+    "allesDrin": "Ist das nicht wie heute bei Influencern?",
+    "verstanden": "Ahh, die Queen war quasi die erste Weihnachts-Influencerin. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Welche Zeitung zeigte 1848 Queen Victoria und Prinz Albert am Weihnachtsbaum?",
+    "chips": [
+     "The Times",
+     "Illustrated London News",
+     "Godey's Lady's Book",
+     "Daily Mail"
+    ],
+    "richtig": "Illustrated London News"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Christmas_tree_at_Windsor_Castle_-_drawn_by_J.L._Williams._LCCN96522234.jpg/960px-Christmas_tree_at_Windsor_Castle_-_drawn_by_J.L._Williams._LCCN96522234.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Christmas_tree_at_Windsor_Castle_-_drawn_by_J.L._Williams._LCCN96522234.jpg",
+     "text": "„Christmas Tree at Windsor Castle“, Holzstich nach einer Zeichnung von J. L. Williams, Illustrated London News, Weihnachten 1848",
+     "credit": "Joseph Lionel Williams (Zeichnung) · gemeinfrei"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "Christmas tree – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/plant/Christmas-tree"
+    },
+    {
+     "name": "How Did the Tradition of Christmas Trees Start? – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/story/how-did-the-tradition-of-christmas-trees-start"
+    },
+    {
+     "name": "Christmas Trees – Christine (Associate Curator of Graphic Arts), Past is Present, Blog der American Antiquarian Society, 2010",
+     "url": "https://pastispresent.org/2010/good-sources/christmas-trees/"
+    },
+    {
+     "name": "Christmas Tree at Windsor Castle, 1848 – #ChristmasCountdown – Special Collections, Newcastle University",
+     "url": "https://blogs.ncl.ac.uk/speccoll/tag/christmas-tree"
+    },
+    {
+     "name": "Geschichte des Weihnachtsbaumes – Koni Häne, waldwissen.net (Redaktion WSL)",
+     "url": "https://www.waldwissen.net/de/lernen-und-vermitteln/forstgeschichte/geschichte-des-weihnachtsbaumes"
+    },
+    {
+     "name": "Den Weihnachtsbaum gibt es seit 500 Jahren – evangelisch.de, 7.12.2021",
+     "url": "https://www.evangelisch.de/inhalte/193970/07-12-2021/den-weihnachtsbaum-gibt-es-seit-500-jahren"
+    }
+   ],
+   "id": "weihnachtsbaum"
+  },
+  {
+   "typ": "fall",
+   "titel": "Champagner",
+   "einstieg": [
+    "Hautvillers in der Champagne, 1668. Ein Benediktinermönch kommt in die Abtei und kümmert sich ab jetzt um Weinberge und Keller.",
+    "Sein Name: Dom Pierre Pérignon. Heute ist ein Spitzen-Champagner nach ihm benannt.",
+    "Die Legende sagt: Er hat die Bläschen in den Champagner gebracht. Und beim ersten Schluck gerufen: „Kommt schnell, ich trinke Sterne!“"
+   ],
+   "frage": "Was wollte Dom Pérignon mit den Bläschen in seinem Wein?",
+   "chips": [
+    "Möglichst viele hineinbekommen",
+    "Sie mit Zucker verstärken",
+    "Sie in dicken Flaschen halten",
+    "Sie loswerden"
+   ],
+   "richtig": "Sie loswerden",
+   "hinweise": [
+    "Zu seiner Zeit galten Bläschen im Wein nicht als Luxus. Eher als Zeichen, dass beim Wein etwas schiefgelaufen war.",
+    "Im Frühjahr gärte der Wein in der Flasche manchmal weiter. Dann flogen Korken, und manche Flaschen platzten im Keller.",
+    "Berühmt war sein Wein schon zu Lebzeiten. Und zwar als stiller Wein, ganz ohne Prickeln."
+   ],
+   "aufloesung": [
+    "Er wollte sie loswerden. Bläschen galten als Weinfehler, und Pérignon versuchte wohl, das Nachgären in der Flasche zu verhindern.",
+    "Bekannt wurde er für etwas anderes: Er mischte Trauben aus verschiedenen Lagen und machte daraus besonders guten stillen Wein.",
+    "Absichtlich prickelnden Wein gab es eher in England. Christopher Merret berichtete 1662 der Royal Society, dass Küfer dort Zucker in den Wein gaben, damit er sprudelt.",
+    "Die Engländer hatten auch das dickere Glas, das den Druck aushielt. Französische Glasmacher übernahmen die Methode erst Anfang des 18. Jahrhunderts.",
+    "Und der Sterne-Satz? Taucht wohl erst im späten 19. Jahrhundert auf, in einer Werbeanzeige. Pérignon war da schon über 150 Jahre tot."
+   ],
+   "dreh": "Der Mönch, der als Erfinder der Champagnerbläschen gilt, wollte sie loswerden.",
+   "warum": {
+    "frage": "Warum galten Bläschen im Wein damals als Fehler?",
+    "nachfrage": "Was passiert mit einer Flasche, in der sich immer mehr Gas staut?",
+    "gruende": [
+     "Die Bläschen kamen ungeplant. Kälte stoppte die Gärung im Herbst, im Frühjahr ging sie in der Flasche weiter.",
+     "Das Gas drückte Korken heraus oder sprengte Flaschen. Das war gefährlich und kostete einen Teil der Ernte.",
+     "Kenner fanden, Prickeln überdecke das Beste an gutem Wein. Und schlechten Wein mache es besser, als er ist."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Christopher Merret beschrieb 1662 vor der Royal Society, wie Zucker Wein zum Prickeln bringt.",
+     "falsch": false
+    },
+    {
+     "satz": "Dom Pérignon kam 1668 in die Abtei Hautvillers und kümmerte sich dort um den Wein.",
+     "falsch": false
+    },
+    {
+     "satz": "Den Satz „Kommt schnell, ich trinke Sterne!“ hat Pérignon 1693 selbst in sein Kellerbuch geschrieben.",
+     "falsch": true,
+     "korrektur": "Dafür gibt es keinen Beleg aus seiner Zeit. Der Satz taucht wohl erst im späten 19. Jahrhundert in einer Werbeanzeige auf."
+    }
+   ],
+   "malia": {
+    "frage": "Warum glauben dann alle, dass der Mönch den Champagner erfunden hat? 🤔",
+    "punkte": [
+     {
+      "name": "Die Geschichte wurde später erfunden, auch für Werbung",
+      "worte": [
+       "werb",
+       "reklame",
+       "marke",
+       "verkauf",
+       "legende",
+       "erfunden",
+       "ausgedacht",
+       "später",
+       "geschicht",
+       "mythos"
+      ],
+      "nachfrage": "Aber wer hat sich das mit den Sternen dann ausgedacht?"
+     },
+     {
+      "name": "Er war wirklich berühmt für sehr guten Wein",
+      "worte": [
+       "gut",
+       "berühmt",
+       "beste",
+       "qualität",
+       "lecker",
+       "misch",
+       "wein"
+      ],
+      "nachfrage": "Und warum ausgerechnet er? Der war doch nur ein Mönch."
+     },
+     {
+      "name": "Die Bläschen kamen eigentlich von woanders",
+      "worte": [
+       "engl",
+       "zucker",
+       "glas",
+       "zufall",
+       "von allein",
+       "gärung",
+       "gärt",
+       "merret"
+      ],
+      "nachfrage": "Und wo kamen die Bläschen dann wirklich her?"
+     }
+    ],
+    "allesDrin": "Ist das nicht gemein, dass er jetzt für was berühmt ist, was er gar nicht wollte?",
+    "verstanden": "Ahh, als würde man für was gelobt, das man eigentlich wegmachen wollte. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wie galten Bläschen im Wein zu Dom Pérignons Zeit?",
+    "chips": [
+     "Als Luxus",
+     "Als Weinfehler",
+     "Als Medizin",
+     "Als Zeichen Gottes"
+    ],
+    "richtig": "Als Weinfehler"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Merret_observations_wine_Dec_1662_f_1.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Merret_observations_wine_Dec_1662_f_1.jpg",
+     "text": "Erste Seite von Merrets Bericht „Some Observations concerning the ordering of Wines“ für die Royal Society, datiert Dezember 1662",
+     "credit": "Christopher Merret · gemeinfrei"
+    }
+   ],
+   "quellen": [
+    {
+     "name": "Champagne: from still to sparkling wine (Fact sheet) – Comité Champagne",
+     "url": "https://www.champagne.fr/system/files/2023-06/Fiches_Histoire_EN.pdf"
+    },
+    {
+     "name": "Dom Pérignon, moine bénédictin de l'abbaye d'Hautvillers – Union des Maisons de Champagne",
+     "url": "https://maisons-champagne.com/fr/encyclopedies/personnalites-du-champagne/hommes-de-dieu/article/dom-perignon-moine-benedictin-de-l-abbaye-d"
+    },
+    {
+     "name": "Origins of Sparkling Wines – Union des Maisons de Champagne",
+     "url": "https://maisons-champagne.com/en/encyclopedias/champagne-guest-book/before-sparkling-champagne/effervescence/article/origins-of-sparkling-wines"
+    },
+    {
+     "name": "Champagne is deeply French – but the English invented the bubbles – Garritt C. Van Dyk (University of Newcastle), The Conversation, 22.8.2023",
+     "url": "https://theconversation.com/champagne-is-deeply-french-but-the-english-invented-the-bubbles-208569"
+    },
+    {
+     "name": "Who put the bubbles in Champagne? – Braden Phillips, National Geographic, 29.12.2022",
+     "url": "https://www.nationalgeographic.com/history/history-magazine/article/origin-champagne-france-bubbles"
+    },
+    {
+     "name": "'Champagne': The Evolution of Bubbly (Interview mit Don und Petie Kladstrup) – NPR Weekend Edition, 31.12.2005",
+     "url": "https://www.npr.org/transcripts/5076232"
+    },
+    {
+     "name": "The Science of Champagne, the Bubbling Wine Created By Accident – Marina Koren, Smithsonian Magazine, 31.7.2013",
+     "url": "https://www.smithsonianmag.com/arts-culture/the-science-of-champagne-the-bubbling-wine-created-by-accident-20961157/"
+    },
+    {
+     "name": "Dom Pérignon (monk) – Wikipedia (englisch)",
+     "url": "https://en.wikipedia.org/wiki/Dom_P%C3%A9rignon_(monk"
+    }
+   ],
+   "id": "champagner"
+  }
  ]
 };

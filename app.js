@@ -3,6 +3,8 @@
 
 const DATA = window.ERSTDENKEN;
 const TOTAL = DATA.tage.length;
+const BONUS = DATA.bonus || [];
+const karteVon = id => DATA.tage.find(t => t.id === id) || BONUS.find(b => b.id === id);
 const params = new URLSearchParams(location.search);
 const TEST = params.has('test');             // ?test → alle Tage offen, eigener Spielstand
 const KEY = TEST ? 'erstdenken.test.v1' : 'erstdenken.v1';
@@ -19,6 +21,11 @@ function load() {
 	catch { return { gespielt: {} }; }
 }
 let state = load();
+state.bonus = state.bonus || {};
+// Ältere Spielstände kennen die Fall-ID noch nicht
+Object.entries(state.gespielt).forEach(([t, r]) => { if (!r.id && DATA.tage[t - 1]) r.id = DATA.tage[t - 1].id; });
+const alleErgebnisse = () => [...Object.values(state.gespielt), ...Object.values(state.bonus)];
+const naechsterBonus = () => BONUS.find(b => !state.bonus[b.id]);
 function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} }
 
 // ---------- Datum und Tag ----------
@@ -68,9 +75,16 @@ const unterKante = () => {
 	const last = chat.lastElementChild;
 	return last ? last.getBoundingClientRect().bottom : 0;
 };
-const sichtbarBis = () => window.innerHeight - (dock.offsetHeight + 40);
-function scrollDown() { pill.classList.toggle('show', unterKante() > sichtbarBis() + 4); }
-function zumEnde() { window.scrollBy({ top: unterKante() - sichtbarBis() + 16, behavior: 'smooth' }); }
+const dockBox = dock.parentElement;
+const sichtbarBis = () => window.innerHeight - (dock.offsetHeight + 34);
+// Antwort-Knöpfe erscheinen nur, wenn die neueste Nachricht zu sehen ist
+function scrollDown() {
+	const unten = unterKante() <= sichtbarBis() + 6;
+	dockBox.classList.toggle('versteckt', !unten);
+	pill.textContent = dock.children.length ? '↓ Antworten' : '↓ Neue Nachricht';
+	pill.classList.toggle('show', !unten);
+}
+function zumEnde() { window.scrollBy({ top: unterKante() - sichtbarBis() + 12, behavior: 'smooth' }); }
 pill.onclick = zumEnde;
 window.addEventListener('scroll', scrollDown, { passive: true });
 window.addEventListener('resize', scrollDown);
@@ -170,6 +184,7 @@ function choose(options, { quiet = [], primary = [] } = {}) {
 			wrap.appendChild(c);
 		});
 		dock.appendChild(wrap);
+		scrollDown();
 	});
 }
 // Freitext; gibt null zurück, wenn übersprungen
@@ -215,7 +230,8 @@ function ask(placeholder, hintText = '', skipLabel = '') {
 			s.onclick = () => { dock.innerHTML = ''; resolve(null); };
 			dock.appendChild(s);
 		}
-		ta.focus({ preventScroll: true });
+		scrollDown();
+		if (!dockBox.classList.contains('versteckt')) ta.focus({ preventScroll: true });
 	});
 }
 // Bilder groß ansehen
@@ -256,27 +272,36 @@ async function bubblesWithImages(list, bilder, ort) {
 }
 
 // ---------- Abruf früherer Fälle ----------
-async function abruf(tag) {
-	const ziele = [tag - 7, tag - 1].filter(t => t >= 1 && DATA.tage[t - 1].typ === 'fall' && state.gespielt[t]);
+// Gefragt wird nach Fällen, die man vor 7 Tagen und gestern gespielt hat – höchstens einmal pro Tag.
+const vorTagen = n => { const d = today(); return iso(new Date(d.getFullYear(), d.getMonth(), d.getDate() - n)); };
+async function abruf(aktuelleId) {
+	if (!TEST && state.abrufAm === iso(today())) return [];
+	const faelle = alleErgebnisse().filter(r => r.typ === 'fall' && r.id && r.id !== aktuelleId);
+	let ziele;
+	if (TEST) ziele = faelle.slice(-2);
+	else ziele = [7, 1].map(n => faelle.filter(r => r.datum === vorTagen(n)).pop()).filter(Boolean);
 	const res = [];
 	if (!ziele.length) return res;
 	await say(ziele.length > 1 ? 'Moin! Erst zwei kurze Fragen von früher. 👋' : 'Moin! Erst eine kurze Frage zu einem früheren Fall. 👋');
-	for (const t of ziele) {
-		const k = DATA.tage[t - 1];
+	for (const z of ziele) {
+		const k = karteVon(z.id);
+		if (!k) continue;
 		await say(k.abruf.frage);
 		const a = await choose(shuffle(k.abruf.chips, k.id + 'abruf'));
 		const ok = a === k.abruf.richtig;
 		await say(ok ? pick(['Sitzt. 👌', 'Genau so.', 'Richtig, gut gemerkt.']) : `Es war: ${k.abruf.richtig}.`);
-		res.push({ fall: k.id, tag: t, richtig: ok });
+		res.push({ fall: k.id, richtig: ok });
 	}
+	state.abrufAm = iso(today());
+	save();
 	return res;
 }
 
 // ---------- Ein Fall ----------
 async function spieleFall(k, tag, zaehlt) {
-	const r = { typ: 'fall', titel: k.titel, hinweise: 0, abrufe: [] };
+	const r = { typ: 'fall', id: k.id, titel: k.titel, hinweise: 0, abrufe: [] };
 
-	if (zaehlt) r.abrufe = await abruf(tag);
+	if (zaehlt) r.abrufe = await abruf(k.id);
 	if (tag === 1 && !r.abrufe.length) {
 		await say('Hallo! Hier ist dein Fall des Tages. 🔍');
 		await say('So geht’s: Ich zeige dir einen Fall. Du rätst zuerst. Hinweise gibt’s, aber sie kosten Punkte. Erst dann löse ich auf. Und jeden Tag lernst du was Neues.');
@@ -284,7 +309,7 @@ async function spieleFall(k, tag, zaehlt) {
 		await say(pick(['Moin! Neuer Fall. 👋', 'Da bist du ja. Neuer Fall.', 'Hallo! Heute wird’s spannend.']));
 	}
 
-	await note('— Fall des Tages —', 800);
+	await note(tag ? '— Fall des Tages —' : '— Bonusfall —', 800);
 	await bubblesWithImages(k.einstieg, k.bilder, 'einstieg');
 	await say(k.frage);
 
@@ -404,6 +429,7 @@ async function spieleFehlerjagd(k, tag, zaehlt) {
 		paintDone();
 		wrap.appendChild(doneBtn);
 		dock.append(wrap, hint);
+		scrollDown();
 	});
 	blasen.forEach(b => b.classList.remove('selectable'));
 
@@ -423,7 +449,7 @@ async function spieleFehlerjagd(k, tag, zaehlt) {
 
 // ---------- Ergebnis ----------
 function shareText(tag, r) {
-	const kopf = `erstdenken · Tag ${tag}/${TOTAL}`;
+	const kopf = tag ? `erstdenken · Tag ${tag}/${TOTAL}` : 'erstdenken · Bonusfall';
 	const link = TEST ? '' : '\n' + location.origin + location.pathname;
 	if (r.typ === 'fehlerjagd') return `${kopf} · Fehlerjagd\n🔍 ${r.gefunden}/3 gefunden · ${r.falschVerdacht} falsch verdächtigt` + link;
 	return [kopf,
@@ -447,7 +473,13 @@ async function abschluss(k, tag, r, zaehlt) {
 	await note('— Ergebnis —', 800);
 	const text = shareText(tag, r);
 	await say(text, 'ki', 'card');
-	if (zaehlt) {
+	if (zaehlt && !tag) {
+		r.datum = iso(today());
+		r.share = text;
+		state.bonus[k.id] = r;
+		save();
+		await say('Gut gemacht. Den merk ich mir und frag dich bald danach.');
+	} else if (zaehlt) {
 		r.datum = iso(today());
 		r.nachgeholt = !TEST && r.datum !== iso(dateOfDay(tag));
 		r.share = text;
@@ -466,9 +498,11 @@ async function nachRunde(k, tag) {
 		const opts = ['Ergebnis teilen'];
 		if (k.quellen && k.quellen.length) opts.push('Quellen');
 		if (offen.length) opts.push('Verpasstes nachholen');
+		if (naechsterBonus()) opts.push('Noch ein Fall');
 		opts.push('Alle Tage');
 		const w = await choose(opts, { quiet: ['Alle Tage'] });
-		if (w === 'Ergebnis teilen') await teilen((state.gespielt[tag] || {}).share || chat.querySelector('.card:last-of-type')?.textContent || '');
+		if (w === 'Noch ein Fall') { goBonus(naechsterBonus().id); return; }
+		if (w === 'Ergebnis teilen') await teilen(((tag ? state.gespielt[tag] : state.bonus[k.id]) || {}).share || [...chat.querySelectorAll('.card')].pop()?.textContent || '');
 		if (w === 'Quellen') await sayLinks('Woher ich das weiß:', k.quellen);
 		if (w === 'Verpasstes nachholen') { go(offen[0]); return; }
 		if (w === 'Alle Tage') openSheet();
@@ -482,6 +516,12 @@ function offeneTage() {
 	for (let t = 1; t <= bis; t++) if (!state.gespielt[t]) out.push(t);
 	return out;
 }
+function goBonus(id) {
+	const p = new URLSearchParams();
+	if (TEST) p.set('test', '');
+	p.set('bonus', id);
+	location.search = p.toString().replace(/=(&|$)/g, '$1');
+}
 function go(tag, extra = '') {
 	const p = new URLSearchParams();
 	if (TEST) p.set('test', '');
@@ -492,7 +532,7 @@ function go(tag, extra = '') {
 
 function statistik() {
 	const g = Object.values(state.gespielt);
-	const faelle = g.filter(r => r.typ === 'fall');
+	const faelle = alleErgebnisse().filter(r => r.typ === 'fall');
 	const abrufe = faelle.flatMap(r => r.abrufe || []);
 	const kal = {};
 	faelle.forEach(r => { kal[r.sicherheit] = kal[r.sicherheit] || [0, 0]; kal[r.sicherheit][1]++; if (r.richtig) kal[r.sicherheit][0]++; });
@@ -526,9 +566,18 @@ function openSheet() {
 		const zustand = r ? (r.nachgeholt ? '✓ nachgeholt' : '✓') : frei ? 'offen' : 'ab ' + dateOfDay(k.tag).toLocaleDateString('de-DE', { day: 'numeric', month: 'numeric' });
 		html += `<button class="day" data-tag="${k.tag}" ${frei ? '' : 'disabled'}><span class="day__nr">Tag ${k.tag}</span><span class="day__title">${titel}</span><span class="day__state">${zustand}</span></button>`;
 	});
+	if (BONUS.length) {
+		const fertig = BONUS.filter(b => state.bonus[b.id]).length;
+		html += `<h2 style="margin-top:32px">Bonusfälle</h2><p>Für Tage, an denen du mehr willst: ${fertig} von ${BONUS.length} gespielt.</p>`;
+		BONUS.forEach((b, i) => {
+			const r = state.bonus[b.id];
+			const frei = r || b === naechsterBonus();
+			html += `<button class="day" data-bonus="${b.id}" ${frei ? '' : 'disabled'}><span class="day__nr">Bonus ${i + 1}</span><span class="day__title">${r ? b.titel : 'Fall'}</span><span class="day__state">${r ? '✓' : frei ? 'als Nächstes' : ''}</span></button>`;
+		});
+	}
 	html += '<p style="margin-top:24px">Dein Spielstand bleibt auf diesem Gerät. <button class="skip" id="closeSheet" style="display:inline;margin:0">Zurück zum Chat</button></p>';
 	sheetInner.innerHTML = html;
-	sheetInner.querySelectorAll('.day:not([disabled])').forEach(b => b.onclick = () => go(+b.dataset.tag));
+	sheetInner.querySelectorAll('.day:not([disabled])').forEach(b => b.onclick = () => b.dataset.bonus ? goBonus(b.dataset.bonus) : go(+b.dataset.tag));
 	document.getElementById('closeSheet').onclick = closeSheet;
 	sheet.classList.add('open');
 	document.getElementById('daysBtn').textContent = 'Chat';
@@ -543,6 +592,20 @@ async function spiele(tag, zaehlt) {
 	if (k.typ === 'fall') await spieleFall(k, tag, zaehlt);
 	else await spieleFehlerjagd(k, tag, zaehlt);
 }
+async function spieleBonus(id) {
+	const k = BONUS.find(b => b.id === id);
+	const nr = BONUS.indexOf(k) + 1;
+	label.textContent = `erstdenken · Bonusfall ${nr} von ${BONUS.length}`;
+	if (state.bonus[id]) {
+		await say('Diesen Bonusfall hast du schon gespielt. ✓');
+		await say(state.bonus[id].share, 'ki', 'card');
+		const w = await choose(['Nochmal spielen (zählt nicht)', 'Alle Tage'], { quiet: ['Alle Tage'] });
+		if (w === 'Alle Tage') { openSheet(); return; }
+		chat.innerHTML = ''; lastLeft = null;
+		return spieleFall(k, null, false);
+	}
+	await spieleFall(k, null, true);
+}
 async function schonGespielt(tag) {
 	const k = DATA.tage[tag - 1];
 	const r = state.gespielt[tag];
@@ -551,12 +614,14 @@ async function schonGespielt(tag) {
 	await say(r.share, 'ki', 'card');
 	const offen = offeneTage();
 	if (offen.length) await say(`Du hast noch ${offen.length === 1 ? 'einen Tag' : offen.length + ' Tage'} offen.`);
-	else if (dayIndex() < TOTAL && !TEST) await say(`Der nächste Fall kommt ${fmt(dateOfDay(dayIndex() + 1))}.`);
+	else if (dayIndex() < TOTAL && !TEST) await say(`Der nächste Fall des Tages kommt ${fmt(dateOfDay(dayIndex() + 1))}.${naechsterBonus() ? ' Lust auf einen Bonusfall?' : ''}`);
 	const opts = [];
 	if (offen.length) opts.push('Verpasstes nachholen');
+	if (naechsterBonus()) opts.push('Noch ein Fall');
 	opts.push('Nochmal spielen (zählt nicht)', 'Alle Tage');
 	const w = await choose(opts, { quiet: ['Alle Tage'] });
 	if (w === 'Verpasstes nachholen') return go(offen[0]);
+	if (w === 'Noch ein Fall') return goBonus(naechsterBonus().id);
 	if (w === 'Alle Tage') { openSheet(); return schonGespielt(tag); }
 	chat.innerHTML = ''; lastLeft = null;
 	await spiele(tag, false);
@@ -581,6 +646,8 @@ async function nachDemEnde() {
 
 (async function main() {
 	const n = dayIndex();
+	const bonusId = params.get('bonus');
+	if (bonusId && BONUS.some(b => b.id === bonusId)) return spieleBonus(bonusId);
 	const wunsch = parseInt(params.get('tag'), 10);
 	if (wunsch >= 1 && wunsch <= offenBis()) {
 		if (state.gespielt[wunsch]) return schonGespielt(wunsch);
