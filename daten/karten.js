@@ -124,6 +124,7 @@ window.ERSTDENKEN = {
      "credit": "Günter Schabowski (Notizen) · CC BY-SA 3.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Dokument „Notizzettel Schabowski“ – LeMO, Stiftung Haus der Geschichte",
@@ -286,6 +287,7 @@ window.ERSTDENKEN = {
      "credit": "Nightflyer (Wikimedia-Nutzer) · CC BY-SA 3.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Ivars Peterson: Rolling with Reuleaux – Science News, 18.09.2003",
@@ -434,6 +436,7 @@ window.ERSTDENKEN = {
      "credit": "Fotograf der Photo Division des britischen Ministry of Information · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Discovery and Development of Penicillin (International Historic Chemical Landmark) – American Chemical Society",
@@ -572,6 +575,7 @@ window.ERSTDENKEN = {
      "credit": "Sylvan N. Goldman, US-Patent 2.196.914 · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "An Industrious Grocer in the 1930s Wanted to Make It Easier for His Customers to Buy More. They Just Needed a Push – Heide Brandes, Smithsonian Magazine, Dezember 2025",
@@ -708,6 +712,7 @@ window.ERSTDENKEN = {
      "credit": "Martin Behaim (Globus) · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Owen Gingerich: Astronomie und Geographie an der Wende zur Neuzeit, Spektrum der Wissenschaft 1/1993 – Spektrum der Wissenschaft",
@@ -858,6 +863,7 @@ window.ERSTDENKEN = {
      "credit": "West Yorkshire Archaeology Advisory Service, Foto: Amy Downes (Portable Antiquities Scheme) · CC BY 2.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Pencil (writing implement) – Encyclopaedia Britannica",
@@ -1053,6 +1059,7 @@ window.ERSTDENKEN = {
      "credit": "unbekannt · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Franz Ferdinand, archduke of Austria-Este – Encyclopaedia Britannica",
@@ -1197,6 +1204,7 @@ window.ERSTDENKEN = {
      "credit": "GeorgDerReisende (Foto 2020) · CC BY-SA 4.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Peter Gleber: Als Mannheim in Baden den (Zeit-)Takt angab. Die Vereinheitlichung der Zeit im deutschen Südwesten, in: Badische Heimat 2/2003, S. 257–262 – Badische Landesbibliothek, Regionalia Open",
@@ -1337,6 +1345,7 @@ window.ERSTDENKEN = {
      "credit": "Jules Verne Times Two (Commons-Nutzer Julesvernex2), 2022 · CC BY-SA 4.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Timeline – Vasamuseet (Statens maritima och transporthistoriska museer), Stockholm",
@@ -1480,6 +1489,7 @@ window.ERSTDENKEN = {
      "credit": "unbekannt (Patentzeichnung) · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "US-Patent 139,121: Improvement in Fastening Pocket-Openings (Jacob W. Davis, Reno; übertragen an sich und Levi Strauss & Company), angemeldet 09.08.1872, erteilt 20.05.1873 – Google Patents",
@@ -1624,6 +1634,7 @@ window.ERSTDENKEN = {
      "credit": "NASA · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Mars Climate Orbiter Mishap Investigation Board, Phase I Report, 10.11.1999 – NASA (Lessons Learned Information System)",
@@ -1757,6 +1768,7 @@ window.ERSTDENKEN = {
      "credit": "unbekannter Zeichner, „Illustrated Times“, 16. Januar 1869 (hochgeladen von Roland45) · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "When the Street Light First Came to London, Disaster Ensued – Lorraine Boissoneault, Smithsonian Magazine",
@@ -1958,6 +1970,7 @@ window.ERSTDENKEN = {
      "credit": "Flickr-Nutzer „Qatari“ (2006) · CC BY 2.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Object of Intrigue: A Passport for Falcons – Ella Morton, Atlas Obscura, 4.8.2015",
@@ -2121,6 +2134,7 @@ window.ERSTDENKEN = {
      "credit": "Frank Fox (eigenes Werk, 2015) · CC BY-SA 4.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "There's Something Fishy About the Ketchup You Put On Your Burgers – Kat Eschner, Smithsonian Magazine",
@@ -2261,6 +2275,7 @@ window.ERSTDENKEN = {
      "credit": "rannṗáirtí anaiṫnid (Wikimedia-Nutzer) · CC BY-SA 3.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Halloween – Encyclopaedia Britannica",
@@ -2406,6 +2421,7 @@ window.ERSTDENKEN = {
      "credit": "Margalob (Wikimedia Commons), Aufnahme von 2015 · CC BY-SA 4.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Post-it Notes – Julia Lavanger, MNopedia, Minnesota Historical Society",
@@ -2551,6 +2567,7 @@ window.ERSTDENKEN = {
      "credit": "Hans Wertinger (Gemälde) · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Entstehung (Reinheitsgebot) – Deutscher Brauer-Bund",
@@ -2708,6 +2725,7 @@ window.ERSTDENKEN = {
      "credit": "ウィキ太郎 (WikiTaro), eigenes Werk, 2022 · CC0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Sushi: The History – Terutoshi Hibino (Aichi Shukutoku University, Ehrenvorsitzender des Shimizu Sushi Museums), Kikkoman Food Forum Bd. 38 Nr. 1, Frühjahr 2024",
@@ -2844,6 +2862,7 @@ window.ERSTDENKEN = {
      "credit": "Alfred Nobel (Dokument) · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Alfred Nobel – his life and work – Nils Ringertz, NobelPrize.org (Nobel Prize Outreach)",
@@ -2994,6 +3013,7 @@ window.ERSTDENKEN = {
      "credit": "Diario de Madrid (Stadt Madrid) · CC BY 4.0"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "El curioso origen de la tradición de comer doce uvas de Nochevieja – Mari Carmen Duarte, Viajes National Geographic (España), aktualisiert 22.12.2025",
@@ -3132,6 +3152,7 @@ window.ERSTDENKEN = {
      "credit": "Detroit Publishing Company · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "„Samstags gehört Vati mir“ – Plakat des DGB mit der Forderung zur Einführung der 5-Tage-Woche (1956) – German History in Documents and Images, Deutsches Historisches Institut Washington",
@@ -3281,6 +3302,7 @@ window.ERSTDENKEN = {
      "credit": "unbekannter Zeichner, Codex Tudela (16. Jh.) · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "When Money Grew on Trees / More Than a Drink / Cacahuatl to Chocolate – Ausstellung „Theobroma Cacao: Food of the Gods“, Mann Library, Cornell University",
@@ -3428,6 +3450,7 @@ window.ERSTDENKEN = {
      "credit": "Joseph Lionel Williams (Zeichnung) · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Christmas tree – Encyclopaedia Britannica",
@@ -3580,6 +3603,7 @@ window.ERSTDENKEN = {
      "credit": "Christopher Merret · gemeinfrei"
     }
    ],
+   "audio": null,
    "quellen": [
     {
      "name": "Champagne: from still to sparkling wine (Fact sheet) – Comité Champagne",
@@ -3615,6 +3639,2358 @@ window.ERSTDENKEN = {
     }
    ],
    "id": "champagner"
+  },
+  {
+   "typ": "fall",
+   "titel": "Sokrates' Methode",
+   "einstieg": [
+    "Athen, um 400 v. Chr. Auf der Agora, dem Marktplatz, redet ein Mann mit jedem, der stehen bleibt. Er heißt Sokrates.",
+    "Ein Freund von ihm war in Delphi und hat das Orakel gefragt: Ist jemand weiser als Sokrates? Antwort: Niemand.",
+    "Sokrates hält sich selbst aber nicht für weise. Er will herausfinden, was das Orakel meint."
+   ],
+   "frage": "Wie geht Sokrates der Sache nach?",
+   "chips": [
+    "Er fragt das Orakel noch mal",
+    "Er schreibt ein Buch darüber",
+    "Er lernt bei berühmten Lehrern",
+    "Er befragt die angeblich Weisen"
+   ],
+   "richtig": "Er befragt die angeblich Weisen",
+   "hinweise": [
+    "Sokrates hat in seinem ganzen Leben kein einziges Buch geschrieben.",
+    "Er wollte das Orakel eigentlich widerlegen. Dafür brauchte er nur einen einzigen Menschen, der weiser ist als er.",
+    "Er ging zu Politikern, Dichtern und Handwerkern. Nicht um ihnen etwas zu erklären."
+   ],
+   "aufloesung": [
+    "Er befragte Leute mit großem Ruf: Politiker, Dichter, Handwerker. Und fragte so lange nach, bis klar war, was sie wirklich wussten.",
+    "Laut Platon: Sie hielten sich für weise und waren es nicht. Die Handwerker konnten ihr Fach, meinten aber, auch große Fragen zu beherrschen.",
+    "Sein Schluss: Er ist nur in einer Kleinigkeit weiser. Er bildet sich nicht ein zu wissen, was er nicht weiß.",
+    "Der berühmte Satz „Ich weiß, dass ich nichts weiß“ steht so nicht bei Platon. Er ist eine spätere Verkürzung.",
+    "399 v. Chr. sprachen ihn 501 Geschworene schuldig, knapp: Laut Platon fehlten 30 Stimmen zum Freispruch. Die Strafe war der Tod durch Gift."
+   ],
+   "dreh": "Der berühmteste Philosoph schrieb kein Wort und gab kaum fertige Antworten. Er stellte Fragen. Das Gegenteil von: Frage eintippen, Antwort übernehmen.",
+   "warum": {
+    "frage": "Warum wurden die Athener so wütend auf einen Mann, der nur Fragen stellte?",
+    "nachfrage": "Wie fühlt es sich an, wenn dich jemand vor Publikum so lange fragt, bis du zugeben musst, dass du es nicht weißt?",
+    "gruende": [
+     "Er blamierte angesehene Leute, oft vor Zuschauern. Junge Leute machten es ihm nach und befragten selbst andere.",
+     "Er galt als Kritiker der Demokratie und war mit Männern bekannt, die 404 v. Chr. kurz eine Gewaltherrschaft errichteten.",
+     "Die Anklage warf ihm vor, die Götter der Stadt nicht anzuerkennen, neue Gottheiten einzuführen und die Jugend zu verderben."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Die Geschichte vom Orakel kennen wir aus Platons „Apologie“, der Verteidigungsrede des Sokrates.",
+     "falsch": false
+    },
+    {
+     "satz": "Sokrates' Gespräche schrieb sein Schüler Aristoteles auf.",
+     "falsch": true,
+     "korrektur": "Es waren vor allem Platon und Xenophon. Aristoteles war Platons Schüler und kannte Sokrates nur aus zweiter Hand."
+    },
+    {
+     "satz": "Sokrates wurde 399 v. Chr. zum Tod verurteilt.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wieso ist der so berühmt, wenn er gar nichts aufgeschrieben hat? 🤔",
+    "punkte": [
+     {
+      "name": "Schüler wie Platon haben über ihn geschrieben",
+      "worte": [
+       "platon",
+       "schüler",
+       "xenophon",
+       "aufgeschrieben",
+       "andere",
+       "freunde",
+       "bücher"
+      ],
+      "nachfrage": "Aber woher weiß man dann überhaupt, was er gesagt hat?"
+     },
+     {
+      "name": "seine Methode: Fragen stellen",
+      "worte": [
+       "frag",
+       "gespräch",
+       "nachgehakt",
+       "löcher",
+       "diskut",
+       "redet",
+       "unterhalten"
+      ],
+      "nachfrage": "Und was hat er so Besonderes gemacht?"
+     },
+     {
+      "name": "er starb für seine Art zu denken",
+      "worte": [
+       "tod",
+       "hingerichtet",
+       "gift",
+       "verurteilt",
+       "gericht",
+       "prozess",
+       "schierling",
+       "starb",
+       "sterben"
+      ],
+      "nachfrage": "Und wie ging das für ihn aus? Fanden die Leute das gut?"
+     }
+    ],
+    "allesDrin": "Heißt das, ich sollte eine KI auch mal zurückfragen statt einfach alles zu glauben?",
+    "verstanden": "Okay: kein Buch, aber Fragen, die keiner vergessen hat. Ziemlich cool eigentlich.",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Worin war Sokrates laut Platons „Apologie“ weiser als die anderen?",
+    "chips": [
+     "Er wusste alles Wichtige",
+     "Er wusste, dass er nichts weiß",
+     "Er bildete sich kein Wissen ein",
+     "Er hatte die meisten Bücher gelesen"
+    ],
+    "richtig": "Er bildete sich kein Wissen ein"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 4,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/The_Death_of_Socrates_MET_DT40.jpg/960px-The_Death_of_Socrates_MET_DT40.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:The_Death_of_Socrates_MET_DT40.jpg",
+     "text": "„Der Tod des Sokrates“, gemalt 1787 von Jacques-Louis David. Sokrates greift nach dem Giftbecher und redet weiter.",
+     "credit": "Jacques-Louis David (Gemälde) · CC0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Platon, Apologie des Sokrates 20e–23c und 36a, engl. Übers. H. N. Fowler – Perseus Digital Library, Tufts University",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0170:text=Apol.:section=21d"
+    },
+    {
+     "name": "Platon, Apology, engl. Übers. Benjamin Jowett – Project Gutenberg",
+     "url": "https://www.gutenberg.org/ebooks/1656"
+    },
+    {
+     "name": "Socrates – Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/socrates/"
+    },
+    {
+     "name": "Socrates – Internet Encyclopedia of Philosophy",
+     "url": "https://iep.utm.edu/socrates/"
+    },
+    {
+     "name": "Socrates – Richard Kraut, Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Socrates"
+    },
+    {
+     "name": "Sokrates über Wissen und Nichtwissen – Kerstin Hilt, Planet Wissen (WDR)",
+     "url": "https://www.planet-wissen.de/geschichte/antike/das_klassische_athen/pwiesokrates100.html"
+    },
+    {
+     "name": "The Death of Socrates (Objekt 31.45) – Metropolitan Museum of Art, Collection API",
+     "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436105"
+    }
+   ],
+   "id": "sokrates-methode"
+  },
+  {
+   "typ": "fall",
+   "titel": "Achilles und die Schildkröte",
+   "einstieg": [
+    "Elea in Süditalien, 5. Jahrhundert v. Chr. Der Philosoph Zenon stellt ein Rätsel auf, über das man bis heute streitet.",
+    "Achilles, der schnellste Läufer der Sagenwelt, gibt einer Schildkröte Vorsprung.",
+    "Bis er dort ist, wo sie war, ist sie ein Stück weiter. Und wieder. Und wieder. Also holt er sie nie ein, sagt Zenon."
+   ],
+   "frage": "Warum holt Achilles die Schildkröte in Wirklichkeit doch ein?",
+   "chips": [
+    "Er macht einfach größere Schritte",
+    "Bewegung ist nur eine Täuschung",
+    "Die Schildkröte wird irgendwann müde",
+    "Unendlich viele Etappen, endliche Zeit"
+   ],
+   "richtig": "Unendlich viele Etappen, endliche Zeit",
+   "hinweise": [
+    "Rechenbeispiel: Achilles läuft 10 Meter pro Sekunde, eine sehr sportliche Schildkröte 5. Sie bekommt 100 Meter Vorsprung.",
+    "Etappe 1 dauert 10 Sekunden, Etappe 2 nur noch 5, Etappe 3 nur 2,5. Jede ist halb so lang wie die davor.",
+    "Rechne zusammen: 10 + 5 + 2,5 + 1,25 + … Kommt diese Summe jemals über 20?"
+   ],
+   "aufloesung": [
+    "Nein. Die Etappen sind unendlich viele, aber sie schrumpfen so schnell, dass sie zusammen genau 20 Sekunden dauern. Danach ist Achilles vorn.",
+    "Dahinter steckt: ½ + ¼ + ⅛ + … ergibt genau 1. Die Summe kommt der 1 immer näher und überschreitet sie nie.",
+    "Eine saubere Theorie solcher unendlichen Summen gab es erst viel später: Newton und Leibniz im 17. Jahrhundert, streng begründet im 19. Jahrhundert mit dem Grenzwert.",
+    "Zenon wollte übrigens gar nicht rechnen. Er wollte zeigen, dass Bewegung eine Täuschung ist, so wie es sein Lehrer Parmenides lehrte."
+   ],
+   "dreh": "Unendlich viele Schritte können in endlicher Zeit fertig sein. Ob das Zenon ganz widerlegt, darüber streiten Philosophen bis heute.",
+   "warum": {
+    "frage": "Warum wirkt Zenons Argument so überzeugend, obwohl jeder sieht, dass Läufer sich überholen?",
+    "nachfrage": "Wie lange brauchst du für unendlich viele Dinge, wenn jedes nur halb so lange dauert wie das davor?",
+    "gruende": [
+     "Jeder einzelne Schritt stimmt: Achilles muss wirklich erst dorthin, wo die Schildkröte gerade war.",
+     "„Unendlich viele“ klingt nach „unendlich lange“. Dass das nicht dasselbe ist, geht gegen das Bauchgefühl.",
+     "Die Mathematik für unendliche Summen war damals noch nicht ausgearbeitet."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Zenon stammte aus Elea in Süditalien.",
+     "falsch": false
+    },
+    {
+     "satz": "½ + ¼ + ⅛ + … ergibt zusammen 2.",
+     "falsch": true,
+     "korrektur": "Die Summe ist 1. Auf 2 käme man erst, wenn man noch eine 1 davorsetzt: 1 + ½ + ¼ + …"
+    },
+    {
+     "satz": "Zenon wollte mit dem Rätsel zeigen, dass Bewegung eine Täuschung ist.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Aber wenn es unendlich viele Schritte sind, wie kann der denn jemals fertig werden? 🤔",
+    "punkte": [
+     {
+      "name": "die Etappen werden immer kürzer",
+      "worte": [
+       "kürzer",
+       "kleiner",
+       "halb",
+       "winzig",
+       "schrumpf",
+       "weniger",
+       "kurz"
+      ],
+      "nachfrage": "Aber jeder Schritt dauert doch ein bisschen. Unendlich mal ein bisschen ist doch unendlich?"
+     },
+     {
+      "name": "zusammen ergeben sie trotzdem eine feste Zeit",
+      "worte": [
+       "zusammen",
+       "summe",
+       "addier",
+       "insgesamt",
+       "plus",
+       "20",
+       "sekunden",
+       "gesamt",
+       "endlich"
+      ],
+      "nachfrage": "Okay, die werden kürzer. Aber wie lange dauert das dann insgesamt?"
+     }
+    ],
+    "allesDrin": "Und warum haben die alten Griechen das nicht einfach ausgerechnet?",
+    "verstanden": "Ahh: unendlich viele Mini-Schritte, aber nur 20 Sekunden. Voll fies, das Rätsel.",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was ergibt ½ + ¼ + ⅛ + … , wenn man unendlich weiterrechnet?",
+    "chips": [
+     "Unendlich",
+     "1",
+     "2",
+     "Das kann niemand sagen"
+    ],
+    "richtig": "1"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Race_between_Achilles_and_the_tortoise.svg/960px-Race_between_Achilles_and_the_tortoise.svg.png",
+     "seite": "https://commons.wikimedia.org/wiki/File:Race_between_Achilles_and_the_tortoise.svg",
+     "text": "Das Rennen als Diagramm: Achilles (lila) mit 10 m/s, Schildkröte (grün) mit 5 m/s und 100 m Vorsprung. Die Etappen schrumpfen, nach 20 Sekunden kreuzen sich die Linien.",
+     "credit": "Mrmw (Wikimedia Commons) · CC0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Zeno's Paradoxes – Nick Huggett, Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/paradox-zeno/"
+    },
+    {
+     "name": "Zeno's Paradoxes – Bradley Dowden, Internet Encyclopedia of Philosophy",
+     "url": "https://iep.utm.edu/zenos-paradoxes/"
+    },
+    {
+     "name": "Aristoteles, Physik VI 9 (239b14–30), engl. Übers. R. P. Hardie und R. K. Gaye – The Internet Classics Archive, MIT",
+     "url": "https://classics.mit.edu/Aristotle/physics.6.vi.html"
+    },
+    {
+     "name": "Archimedes' Quadrature of the Parabola – Mathematical Association of America, Convergence (nur für die Prüfnotiz)",
+     "url": "https://old.maa.org/press/periodicals/convergence/a-translation-of-evangelista-torricellis-quadratura-parabolae-archimedes-quadrature-of-the-parabola"
+    }
+   ],
+   "id": "zenon-achilles"
+  },
+  {
+   "typ": "fall",
+   "titel": "Das Höhlengleichnis",
+   "einstieg": [
+    "Athen, 4. Jahrhundert v. Chr. Platon erzählt in seinem Werk „Politeia“ ein Gleichnis.",
+    "Menschen sitzen seit ihrer Kindheit gefesselt in einer Höhle, ein Feuer im Rücken. Sie sehen nur Schatten an der Wand und halten sie für die Wirklichkeit.",
+    "Einer wird befreit, ans Tageslicht gebracht und sieht die echte Welt. Dann kehrt er zurück und setzt sich wieder auf seinen alten Platz."
+   ],
+   "frage": "Wie reagieren die anderen Gefangenen auf ihn?",
+   "chips": [
+    "Sie folgen ihm begeistert hinaus",
+    "Sie bitten ihn, sie zu befreien",
+    "Sie hören zu, bleiben aber sitzen",
+    "Auslachen, notfalls umbringen"
+   ],
+   "richtig": "Auslachen, notfalls umbringen",
+   "hinweise": [
+    "In der Höhle bekommt Lob, wer die vorbeiziehenden Schatten am besten erkennt und vorhersagt.",
+    "Wer aus der Sonne ins Dunkle kommt, sieht erst einmal fast nichts.",
+    "Platon war Schüler des Sokrates. Den hatten die Athener zum Tod verurteilt, weil er ihnen mit unbequemen Fragen kam."
+   ],
+   "aufloesung": [
+    "Sie lachen ihn aus. Seine Augen sind noch ans Licht gewöhnt. Beim Schattenraten ist er jetzt der Schlechteste.",
+    "Ihr Urteil: Oben hat er sich die Augen verdorben. Da geht man besser gar nicht erst hin.",
+    "Und wer versuchen würde, andere loszubinden und hinaufzuführen, den würden sie töten, wenn sie ihn zu fassen bekämen.",
+    "Platon sagt selbst, worum es geht: um Bildung. Lernen heißt für ihn nicht, Wissen einzufüllen, sondern den Blick umzudrehen, weg von den Schatten."
+   ],
+   "dreh": "Wer mehr gesehen hat, wirkt in der Höhle erst einmal dümmer. Genau deshalb ist Bildung so unbequem.",
+   "warum": {
+    "frage": "Warum wollen die Gefangenen gar nicht befreit werden?",
+    "nachfrage": "Würdest du jemandem glauben, der sagt, alles, was du je gesehen hast, seien nur Schatten?",
+    "gruende": [
+     "Die Schatten sind alles, was sie kennen. Für sie sind sie die Wirklichkeit.",
+     "Der Weg nach oben tut weh: Das Licht blendet, man sieht zuerst schlechter als vorher.",
+     "In der Höhle sind sie Experten, die Lob bekommen. Draußen wären sie Anfänger."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Das Höhlengleichnis steht im siebten Buch von Platons „Politeia“.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Schatten entstehen durch ein Feuer hinter den Gefangenen.",
+     "falsch": false
+    },
+    {
+     "satz": "Der Befreite sieht oben sofort klar und blickt als Erstes in die Sonne.",
+     "falsch": true,
+     "korrektur": "Er ist zuerst geblendet und gewöhnt sich langsam: erst Schatten, dann Spiegelbilder im Wasser, dann die Dinge selbst, ganz zuletzt die Sonne."
+    }
+   ],
+   "malia": {
+    "frage": "Aber warum lachen die den aus? Der hat doch recht! 🤔",
+    "punkte": [
+     {
+      "name": "er sieht im Dunkeln erst mal schlecht",
+      "worte": [
+       "augen",
+       "dunkel",
+       "blind",
+       "geblendet",
+       "sieht nicht",
+       "schlecht",
+       "gewöhn",
+       "licht"
+      ],
+      "nachfrage": "Aber er weiß doch jetzt mehr. Wieso wirkt er dann so verpeilt?"
+     },
+     {
+      "name": "die Schatten sind alles, was sie kennen",
+      "worte": [
+       "schatten",
+       "kennen",
+       "gewohnt",
+       "wirklichkeit",
+       "glauben",
+       "nie gesehen",
+       "wissen nicht"
+      ],
+      "nachfrage": "Wieso glauben die ihm nicht einfach?"
+     },
+     {
+      "name": "Neues ist unbequem und macht Angst",
+      "worte": [
+       "angst",
+       "unbequem",
+       "weh",
+       "schmerz",
+       "wahrhaben",
+       "bequem",
+       "gefährlich",
+       "will nicht"
+      ],
+      "nachfrage": "Und warum wollen die nicht wenigstens mal nachgucken?"
+     }
+    ],
+    "allesDrin": "Ist mein Handy dann auch so eine Höhlenwand?",
+    "verstanden": "Okay: Wer rauskommt, sieht erst mal dumm aus. Fies, aber logisch.",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Worum geht es im Höhlengleichnis laut Platon selbst?",
+    "chips": [
+     "Um Gefängnisse",
+     "Um Bildung",
+     "Um Träume",
+     "Um Höhlenmalerei"
+    ],
+    "richtig": "Um Bildung"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Grot_van_Plato%2C_RP-P-OB-10.544.jpg/960px-Grot_van_Plato%2C_RP-P-OB-10.544.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Grot_van_Plato,_RP-P-OB-10.544.jpg",
+     "text": "„Antrum Platonicum“, Kupferstich von Jan Saenredam, 1604. Er hat Platons Höhle frei ausgeschmückt, ohne Ketten.",
+     "credit": "Jan Saenredam nach Cornelis Cornelisz. van Haarlem · CC0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Platon, Politeia VII 514a–518d, engl. Übers. Benjamin Jowett – Project Gutenberg",
+     "url": "https://www.gutenberg.org/ebooks/1497"
+    },
+    {
+     "name": "Platon, Politeia VII 514a, engl. Übers. Paul Shorey – Perseus Digital Library, Tufts University",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Rep.+7.514a"
+    },
+    {
+     "name": "Plato: The Republic – Antonis Coumoundouros, Internet Encyclopedia of Philosophy",
+     "url": "https://iep.utm.edu/republic/"
+    },
+    {
+     "name": "Socrates – Richard Kraut, Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Socrates"
+    },
+    {
+     "name": "Höhlengleichnis – wissen.de Lexikon",
+     "url": "https://www.wissen.de/lexikon/hoehlengleichnis"
+    }
+   ],
+   "id": "hoehlengleichnis"
+  },
+  {
+   "typ": "fall",
+   "titel": "Das Schiff des Theseus",
+   "einstieg": [
+    "Athen, um 300 v. Chr. Die Stadt bewahrt ein uraltes Schiff mit 30 Rudern auf. Mit ihm soll der Sagenheld Theseus von Kreta heimgekehrt sein.",
+    "Morsche Planken werden nach und nach entfernt und durch neue, feste ersetzt.",
+    "Irgendwann ist womöglich kein einziges altes Brett mehr übrig. Ist es dann noch das Schiff des Theseus?"
+   ],
+   "frage": "Was antworteten die Philosophen der Antike darauf?",
+   "chips": [
+    "Klar dasselbe Schiff",
+    "Klar ein neues Schiff",
+    "Neu, sobald die Hälfte getauscht ist",
+    "Sie waren sich uneinig"
+   ],
+   "richtig": "Sie waren sich uneinig",
+   "hinweise": [
+    "Probier's mit Lego: Du tauschst jeden Tag einen Stein deines Hauses aus. Nach welchem Stein ist es ein neues Haus?",
+    "Kein einzelner Tausch macht das Schiff plötzlich zu einem anderen. Am Ende ist aber kein Holz mehr dasselbe.",
+    "Der Schriftsteller Plutarch nennt das Schiff ein Paradebeispiel für eine „umstrittene“ Frage unter Philosophen."
+   ],
+   "aufloesung": [
+    "Sie waren sich uneinig. Plutarch berichtet: Die einen sagten, es bleibe dasselbe Schiff, die anderen, es sei nicht mehr dasselbe.",
+    "1655 machte Thomas Hobbes es noch schlimmer: Was, wenn jemand die alten Planken aufhebt und daraus wieder ein Schiff baut, in derselben Anordnung?",
+    "Dann hätte jedes der beiden Schiffe gute Gründe, das Original zu sein. Beide zugleich können es nicht sein. Hobbes nannte das absurd.",
+    "Eine Antwort, die alle überzeugt, gibt es bis heute nicht. Philosophen haben dafür ganze Theorien darüber entwickelt, was „dasselbe“ heißt."
+   ],
+   "dreh": "Du bist auch so ein Schiff: Täglich ersetzt dein Körper rund 330 Milliarden Zellen. Doch viele Nervenzellen deiner Großhirnrinde sind so alt wie du.",
+   "warum": {
+    "frage": "Warum ist so eine einfache Frage so schwer zu beantworten?",
+    "nachfrage": "Was macht dich zu dir: dein Material, deine Form oder deine Geschichte?",
+    "gruende": [
+     "Zwei gute Gründe ziehen in verschiedene Richtungen: Das Schiff war nie weg, aber kein Brett ist mehr dasselbe.",
+     "Es gibt keine klare Grenze. Ein Brett macht keinen Unterschied, alle zusammen aber schon.",
+     "„Dasselbe“ kann Verschiedenes meinen: dasselbe Material oder dasselbe Ding mit derselben Geschichte."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Die älteste bekannte Erzählung vom Schiff des Theseus stammt von Plutarch.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Idee mit dem zweiten Schiff aus den alten Planken stammt von Thomas Hobbes.",
+     "falsch": false
+    },
+    {
+     "satz": "Der menschliche Körper tauscht alle sieben Jahre sämtliche Zellen aus.",
+     "falsch": true,
+     "korrektur": "Das ist ein Mythos. Viele Zellen werden laufend ersetzt, aber Nervenzellen der Großhirnrinde und der Kern der Augenlinse bleiben ein Leben lang."
+    }
+   ],
+   "malia": {
+    "frage": "Heißt das, ich bin gar nicht mehr dieselbe wie als Baby? 🤔",
+    "punkte": [
+     {
+      "name": "viele Zellen werden ausgetauscht",
+      "worte": [
+       "zelle",
+       "ausgetauscht",
+       "erneuert",
+       "ersetzt",
+       "neu",
+       "tausch"
+      ],
+      "nachfrage": "Aber was hat ein Schiff denn mit mir zu tun?"
+     },
+     {
+      "name": "manches bleibt ein Leben lang",
+      "worte": [
+       "nerven",
+       "gehirn",
+       "hirn",
+       "linse",
+       "auge",
+       "bleib",
+       "so alt wie",
+       "ganzes leben"
+      ],
+      "nachfrage": "Also ist an mir gar nichts mehr vom Baby übrig?"
+     },
+     {
+      "name": "es gibt keine eindeutige Antwort",
+      "worte": [
+       "kommt drauf an",
+       "streit",
+       "uneinig",
+       "keine antwort",
+       "unklar",
+       "philosoph",
+       "weiß man nicht",
+       "niemand"
+      ],
+      "nachfrage": "Und wer hat jetzt recht?"
+     }
+    ],
+    "allesDrin": "Und wenn ich mich total verändere, also im Kopf, bin ich dann noch ich?",
+    "verstanden": "Okay: halb neu, halb alt und trotzdem ich. Glaub ich. 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wer erfand die Variante, in der aus den alten Planken ein zweites Schiff gebaut wird?",
+    "chips": [
+     "Platon",
+     "Plutarch",
+     "Thomas Hobbes",
+     "Aristoteles"
+    ],
+    "richtig": "Thomas Hobbes"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Francois_Vase_%28detail%29%2C_Theseus_at_Delos_and_Centauromachy.jpg/960px-Francois_Vase_%28detail%29%2C_Theseus_at_Delos_and_Centauromachy.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Francois_Vase_(detail),_Theseus_at_Delos_and_Centauromachy.jpg",
+     "text": "Ein Ruderschiff aus der Theseus-Sage, gemalt um 570 v. Chr. auf der François-Vase (Florenz, Archäologisches Nationalmuseum).",
+     "credit": "Kleitias (Vasenmaler) · CC BY-SA 4.0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Plutarch, Theseus 23,1, engl. Übers. Bernadotte Perrin – Lexundria (Loeb-Text)",
+     "url": "https://lexundria.com/plut_thes/23/prr"
+    },
+    {
+     "name": "Ship of Theseus – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/ship-of-Theseus-philosophy"
+    },
+    {
+     "name": "Thomas Hobbes – Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/hobbes/"
+    },
+    {
+     "name": "Identity Over Time – Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/identity-time/"
+    },
+    {
+     "name": "Spalding, Bhardwaj, Buchholz, Druid, Frisén: Retrospective birth dating of cells in humans – Cell 122 (2005), S. 133–143",
+     "url": "https://europepmc.org/article/MED/16009139"
+    },
+    {
+     "name": "Lynnerup u. a.: Radiocarbon Dating of the Human Eye Lens Crystallines Reveal Proteins without Carbon Turnover throughout Life – PLoS ONE 3 (2008), e1529",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2211393/"
+    },
+    {
+     "name": "Sender, Milo: The distribution of cellular turnover in the human body – Nature Medicine 27 (2021), S. 45–48",
+     "url": "https://europepmc.org/article/MED/33432173"
+    },
+    {
+     "name": "Our Bodies Replace Billions of Cells Every Day – Mark Fischetti, Jen Christiansen, Scientific American (1.4.2021)",
+     "url": "https://www.scientificamerican.com/article/our-bodies-replace-billions-of-cells-every-day/"
+    },
+    {
+     "name": "François Vase – Mark Cartwright, World History Encyclopedia",
+     "url": "https://www.worldhistory.org/Francois_Vase/"
+    }
+   ],
+   "id": "schiff-des-theseus"
+  },
+  {
+   "typ": "fall",
+   "titel": "Eratosthenes",
+   "einstieg": [
+    "Ägypten, vor gut 2.200 Jahren. Eratosthenes leitet die berühmte Bibliothek von Alexandria.",
+    "Man nannte ihn spöttisch „Beta“: in allem gut, nirgends der Allerbeste.",
+    "Trotzdem bestimmt er als Erster nachvollziehbar, wie groß die ganze Erde ist. Ohne Satellit, ohne Weltreise."
+   ],
+   "frage": "Was brauchte er dafür?",
+   "chips": [
+    "Eine Reise um die Erde",
+    "Den Erdschatten am Mond",
+    "Den Blick von einem Berg",
+    "Mittagsschatten und eine Strecke"
+   ],
+   "richtig": "Mittagsschatten und eine Strecke",
+   "hinweise": [
+    "Er musste Ägypten dafür nicht verlassen. Er brauchte nur zwei Orte, die genau nord-südlich voneinander liegen sollten.",
+    "Im südlichen Syene warf ein senkrechter Zeiger am Mittag des längsten Tages keinen Schatten. In Alexandria zur selben Zeit schon.",
+    "Der Schatten in Alexandria entsprach einem Fünfzigstel eines Kreises. Und die Entfernung zwischen beiden Städten galt als bekannt."
+   ],
+   "aufloesung": [
+    "Ein Mittagsschatten und eine Entfernung. Den Rest erledigte Geometrie.",
+    "Zur Sommersonnenwende stand die Sonne mittags senkrecht über Syene, heute Assuan. Erzählt wird von einem Brunnen, in den das Licht bis aufs Wasser fiel.",
+    "Im rund 800 km entfernten Alexandria, weiter im Norden, warf der Zeiger einer Sonnenuhr zur selben Zeit einen Schatten: ein Fünfzigstel Kreis, gut 7 Grad.",
+    "Weil die Sonnenstrahlen fast parallel ankommen, ist dann auch der Weg Syene–Alexandria ein Fünfzigstel des Erdumfangs. 5.000 Stadien mal 50 ergibt 250.000 Stadien.",
+    "Wie genau, ist umstritten: Niemand weiß sicher, wie lang sein Stadion war. Je nach Annahme lag er knapp 1 bis etwa 17 Prozent daneben."
+   ],
+   "dreh": "Mit einem Schatten, einer Strecke und Nachdenken maß er die ganze Erde, ohne Ägypten zu verlassen.",
+   "warum": {
+    "frage": "Warum reicht ein einziger Schattenwinkel, um die ganze Erde auszurechnen?",
+    "nachfrage": "Wie sähen die Schatten in beiden Städten aus, wenn die Erde flach wäre?",
+    "gruende": [
+     "Die Sonne ist so weit weg, dass ihre Strahlen praktisch parallel ankommen. Auf einer flachen Erde wären die Schatten überall gleich.",
+     "Auf einer Kugel neigt sich der Boden. Der Schattenwinkel in Alexandria ist genau der Winkel zwischen beiden Städten, vom Erdmittelpunkt aus gesehen.",
+     "Ist dieser Winkel ein Fünfzigstel des Kreises, ist auch die Strecke ein Fünfzigstel des Umfangs. Man muss nur mal 50 rechnen."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Eratosthenes leitete die Bibliothek von Alexandria.",
+     "falsch": false
+    },
+    {
+     "satz": "Sein Ergebnis für den Erdumfang: 250.000 Stadien.",
+     "falsch": false
+    },
+    {
+     "satz": "Der Schatten in Alexandria entsprach einem Zehntel eines Kreises.",
+     "falsch": true,
+     "korrektur": "Es war ein Fünfzigstel, gut 7 Grad. Darum rechnete er die Strecke mal 50."
+    }
+   ],
+   "malia": {
+    "frage": "Wie kann man denn die ganze Erde messen, ohne einmal rumzulaufen? 🤔",
+    "punkte": [
+     {
+      "name": "der Schatten ist in den zwei Städten verschieden",
+      "worte": [
+       "schatten",
+       "sonne",
+       "winkel",
+       "schräg",
+       "senkrecht",
+       "stab",
+       "stock",
+       "brunnen",
+       "zeiger"
+      ],
+      "nachfrage": "Aber woher wusste er, wie krumm die Erde ist?"
+     },
+     {
+      "name": "die Entfernung zwischen den Städten",
+      "worte": [
+       "entfernung",
+       "strecke",
+       "abstand",
+       "stadien",
+       "kilometer",
+       "weg",
+       "distanz",
+       "weit"
+      ],
+      "nachfrage": "Und woher kommen dann die Kilometer?"
+     },
+     {
+      "name": "vom Stück aufs Ganze hochrechnen",
+      "worte": [
+       "kugel",
+       "rund",
+       "fünfzig",
+       "50",
+       "teil",
+       "mal",
+       "hochrechn",
+       "kreis",
+       "umfang",
+       "ganze"
+      ],
+      "nachfrage": "Okay, aber wie wird aus einem kleinen Stück die ganze Erde?"
+     }
+    ],
+    "allesDrin": "Und wenn er die Länge vom Stadion gar nicht genau kannte, war dann alles falsch?",
+    "verstanden": "Krass. Ein Schatten, eine Strecke, mal 50, und zack: ganze Erde. 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Womit bestimmte Eratosthenes den Umfang der Erde?",
+    "chips": [
+     "Mondfinsternis und Erdschatten",
+     "Mittagsschatten und Entfernung",
+     "Sterne und Seefahrt",
+     "Reise um die Welt"
+    ],
+    "richtig": "Mittagsschatten und Entfernung"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 3,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Eratosthenes_measure_of_Earth_circumference_DE.svg/960px-Eratosthenes_measure_of_Earth_circumference_DE.svg.png",
+     "seite": "https://commons.wikimedia.org/wiki/File:Eratosthenes_measure_of_Earth_circumference_DE.svg",
+     "text": "Parallele Sonnenstrahlen, ein Schattenwinkel von einem Fünfzigstel Kreis, 5.000 Stadien: So kam Eratosthenes auf 250.000 Stadien.",
+     "credit": "MikeRun (deutsche Fassung) nach einer Grafik von cmglee, David Monniaux und jimht · CC BY-SA 4.0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Eratosthenes – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Eratosthenes"
+    },
+    {
+     "name": "Eratosthenes' method – An Etymological Dictionary of Astronomy and Astrophysics, M. Heydari-Malayeri, Observatoire de Paris",
+     "url": "https://dictionary.obspm.fr/terms/eratosthenes-method/"
+    },
+    {
+     "name": "Eratosthenes of Cyrene – J. J. O'Connor, E. F. Robertson, MacTutor History of Mathematics, University of St Andrews",
+     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/"
+    },
+    {
+     "name": "Strabo, Geography XVII.1.48 (Loeb-Übersetzung 1932, gemeinfrei) – LacusCurtius, Bill Thayer, University of Chicago",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/17A3*.html"
+    },
+    {
+     "name": "Cleomedes: how big is the earth? (Kleomedes' Bericht in der Übersetzung von T. L. Heath) – Roger Pearse (Blog, als Textzeuge)",
+     "url": "https://roger-pearse.com/weblog/2017/04/15/cleomedes-how-big-is-the-earth"
+    }
+   ],
+   "id": "eratosthenes"
+  },
+  {
+   "typ": "fall",
+   "titel": "Ockhams Rasiermesser",
+   "einstieg": [
+    "England, frühes 14. Jahrhundert. Der Franziskaner Wilhelm von Ockham denkt darüber nach, was man annehmen darf.",
+    "Heute trägt ein berühmtes Denkwerkzeug seinen Namen: Ockhams Rasiermesser.",
+    "Probier es aus. Dein Fahrradschlüssel ist weg. Erklärung A: Er steckt in der anderen Jacke.",
+    "Erklärung B: Jemand ist eingebrochen, hat nur den Schlüssel genommen und hinter sich wieder abgeschlossen."
+   ],
+   "frage": "Was rät dir das Rasiermesser?",
+   "chips": [
+    "Die einfache stimmt garantiert",
+    "Die spannendere ist wahrscheinlicher",
+    "Keine glauben, nichts ist bewiesen",
+    "Erst die mit weniger Annahmen"
+   ],
+   "richtig": "Erst die mit weniger Annahmen",
+   "hinweise": [
+    "Ockham ging es nicht um Garantien. Es ging ihm darum, was man ohne guten Grund lieber nicht annehmen sollte.",
+    "„Rasiermesser“ heißt es, weil es Überflüssiges abschneidet: alles, was man für eine Erklärung gar nicht braucht.",
+    "Einer seiner echten Sätze lautet sinngemäß: Nie soll man eine Vielheit annehmen, ohne dass es nötig ist."
+   ],
+   "aufloesung": [
+    "Das Rasiermesser rät: Nimm nicht mehr an, als du brauchst. Also erst die Jacke durchsuchen, nicht gleich den Einbrecher.",
+    "Es sagt nicht, dass das Einfache immer stimmt. Gibt es gute Gründe für mehr, etwa Einbruchsspuren, darf die Erklärung wachsen.",
+    "Ockham nannte selbst solche Gründe: Vernunft, Erfahrung und, als Theologe, die Heilige Schrift.",
+    "Und der berühmte Satz „Man soll die Dinge nicht über das Nötige hinaus vermehren“? Der steht nirgends in Ockhams Texten.",
+    "Eine Fassung davon taucht erst 1639 auf, fast 300 Jahre nach Ockhams Tod: bei John Punch, einem Gelehrten aus Cork, als „allgemeiner Grundsatz“ der Scholastiker."
+   ],
+   "dreh": "Das Rasiermesser schneidet Überflüssiges weg, und ausgerechnet sein berühmtester Satz stammt gar nicht von Ockham.",
+   "warum": {
+    "frage": "Warum soll man mit der Erklärung mit weniger Annahmen anfangen, wenn sie doch falsch sein kann?",
+    "nachfrage": "Wie viele Dinge müssen bei Erklärung B alle gleichzeitig stimmen?",
+    "gruende": [
+     "Jede zusätzliche Annahme ist eine weitere Stelle, an der man sich irren kann.",
+     "Annahmen ohne Grund lassen sich beliebig erfinden: Einbrecher, Geist, Kobold. Das Rasiermesser verlangt für jede einen Grund.",
+     "Es ist eine Arbeitsregel, kein Naturgesetz: Sie sagt, womit man anfängt. Ob es stimmt, zeigen erst Belege."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Wilhelm von Ockham war ein Franziskaner aus England.",
+     "falsch": false
+    },
+    {
+     "satz": "Der Satz „Man soll die Dinge nicht über das Nötige hinaus vermehren“ steht in Ockhams Schriften.",
+     "falsch": true,
+     "korrektur": "Dort steht er nirgends. Eine Fassung taucht erst 1639 bei John Punch auf. Ockham schrieb Ähnliches, etwa: Nie soll man eine Vielheit ohne Notwendigkeit annehmen."
+    },
+    {
+     "satz": "Das Rasiermesser rät, Annahmen nicht ohne Grund zu vermehren.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Aber manchmal ist doch die komplizierte Erklärung richtig. Warum soll ich dann die einfache nehmen? 🤔",
+    "punkte": [
+     {
+      "name": "man fängt mit ihr an, sie ist nicht sicher wahr",
+      "worte": [
+       "anfang",
+       "anfangen",
+       "zuerst",
+       "erst",
+       "prüf",
+       "nicht immer",
+       "nicht sicher",
+       "garantie",
+       "wahrscheinlich"
+      ],
+      "nachfrage": "Heißt das, die einfache stimmt dann immer?"
+     },
+     {
+      "name": "für mehr Annahmen braucht man einen Grund",
+      "worte": [
+       "grund",
+       "beweis",
+       "spur",
+       "beleg",
+       "hinweis",
+       "nötig",
+       "brauch"
+      ],
+      "nachfrage": "Und wann darf ich doch an den Einbrecher glauben?"
+     },
+     {
+      "name": "weniger Annahmen heißt weniger Stellen für Fehler",
+      "worte": [
+       "weniger",
+       "annahme",
+       "fehler",
+       "schief",
+       "irren",
+       "irrtum",
+       "falsch"
+      ],
+      "nachfrage": "Aber warum ist weniger überhaupt besser?"
+     }
+    ],
+    "allesDrin": "Und warum heißt das Ding ausgerechnet Rasiermesser?",
+    "verstanden": "Okay: erst die Jacke checken, dann den Einbrecher. Und den berühmten Satz hat Ockham gar nicht gesagt. Witzig. 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was rät Ockhams Rasiermesser?",
+    "chips": [
+     "Die einfachste Erklärung stimmt immer",
+     "Annahmen nicht ohne Grund vermehren",
+     "Der spannendsten Erklärung folgen",
+     "Nichts glauben ohne Beweis"
+    ],
+    "richtig": "Annahmen nicht ohne Grund vermehren"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/William_of_Ockham_-_Logica_1341.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:William_of_Ockham_-_Logica_1341.jpg",
+     "text": "Randzeichnung von 1341 in einer Handschrift seiner Logik. Daneben steht „frater Occham iste“: dieser Bruder Ockham.",
+     "credit": "unbekannter Zeichner · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "William of Ockham (Abschnitt 4.1 „Ockham's Razor“) – Paul Vincent Spade, Claude Panaccio, Jenny Pelletier, Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/ockham/"
+    },
+    {
+     "name": "Occam's razor – Brian Duignan, Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Occams-razor"
+    },
+    {
+     "name": "The Myth of Occam's Razor – William M. Thorburn, Mind 27 (1918), S. 345–353, Volltext gemeinfrei auf Wikisource",
+     "url": "https://en.wikisource.org/wiki/The_Myth_of_Occam%27s_Razor"
+    },
+    {
+     "name": "Simplicity – Alan Baker, Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/simplicity/"
+    }
+   ],
+   "id": "ockhams-rasiermesser"
+  },
+  {
+   "typ": "fall",
+   "titel": "Gefangenendilemma",
+   "einstieg": [
+    "Zwei Verdächtige, zwei getrennte Zellen. Absprechen können sie sich nicht.",
+    "Jeder bekommt dasselbe Angebot: Gestehst du und der andere schweigt, kommst du sofort frei. Er bekommt 20 Jahre.",
+    "Schweigen beide, sitzen beide nur ein paar Monate. Gestehen beide, bekommt jeder 15 Jahre.",
+    "Beide denken nur an sich. Und beide rechnen kühl."
+   ],
+   "frage": "Was tun die beiden?",
+   "chips": [
+    "Beide schweigen",
+    "Einer gesteht, einer schweigt",
+    "Das kann man nicht vorhersagen",
+    "Beide gestehen"
+   ],
+   "richtig": "Beide gestehen",
+   "hinweise": [
+    "Du weißt nicht, was der andere tut. Geh einfach beide Fälle einzeln durch.",
+    "Schweigt der andere, bringt dir Gestehen die Freiheit statt ein paar Monate.",
+    "Gesteht der andere, bringt dir Gestehen 15 statt 20 Jahre."
+   ],
+   "aufloesung": [
+    "Beide gestehen. Egal, was der andere tut: Für jeden einzeln ist Gestehen besser.",
+    "Ergebnis: je 15 Jahre. Hätten beide geschwiegen, wären es nur ein paar Monate gewesen. Kühles Rechnen macht hier beide ärmer.",
+    "Das Spiel dachten sich 1950 Merrill Flood und Melvin Dresher bei der RAND Corporation aus. Die Geschichte mit den Gefangenen erfand Albert Tucker dazu.",
+    "Um 1980 ließ der Politikwissenschaftler Robert Axelrod Computerprogramme das Spiel immer wieder gegeneinander spielen. Es gewann das einfachste: „Tit for Tat“ von Anatol Rapoport.",
+    "„Wie du mir, so ich dir“: erst kooperieren, dann den letzten Zug des anderen nachmachen. Es siegte, obwohl es nie mehr Punkte holte als sein Gegner."
+   ],
+   "dreh": "Wer einmal und nur für sich rechnet, landet schlechter. Wer sich immer wieder begegnet, fährt mit Freundlichkeit plus Konsequenz am besten.",
+   "warum": {
+    "frage": "Warum gewinnt „Wie du mir, so ich dir“, wenn man immer wieder spielt?",
+    "nachfrage": "Was ändert sich, wenn ihr euch morgen wieder gegenübersteht?",
+    "gruende": [
+     "Es ist freundlich: Es verrät nie als Erstes. Im ersten Turnier belegten die acht freundlichen Programme die ersten acht Plätze.",
+     "Es wehrt sich: Wer verrät, wird in der nächsten Runde selbst verraten. Ausnutzen lohnt sich kaum.",
+     "Es verzeiht und ist leicht zu durchschauen: Wer wieder kooperiert, bekommt sofort Kooperation zurück."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Flood und Dresher entwickelten das Spiel 1950 bei der RAND Corporation.",
+     "falsch": false
+    },
+    {
+     "satz": "Für jeden Einzelnen ist Gestehen besser, egal was der andere tut.",
+     "falsch": false
+    },
+    {
+     "satz": "Tit for Tat gewann Axelrods Turnier, weil es seine Duelle mit mehr Punkten beendete als der Gegner.",
+     "falsch": true,
+     "korrektur": "Es holte nie mehr Punkte als sein jeweiliger Gegner. Es gewann insgesamt, weil es den anderen Zusammenarbeit entlockte."
+    }
+   ],
+   "malia": {
+    "frage": "Wenn beide zusammen besser dran wären, warum schweigen die dann nicht einfach? 🤔",
+    "punkte": [
+     {
+      "name": "sie können sich nicht absprechen und nicht vertrauen",
+      "worte": [
+       "absprech",
+       "reden",
+       "vertrau",
+       "wissen nicht",
+       "weiß nicht",
+       "getrennt",
+       "zelle",
+       "unsicher"
+      ],
+      "nachfrage": "Warum reden die nicht einfach vorher miteinander?"
+     },
+     {
+      "name": "Verraten lohnt sich für jeden einzeln",
+      "worte": [
+       "verrat",
+       "gesteh",
+       "selbst",
+       "eigen",
+       "egal",
+       "besser für",
+       "frei",
+       "risiko"
+      ],
+      "nachfrage": "Aber wenn der andere schweigt, könnte ich doch auch schweigen?"
+     },
+     {
+      "name": "wenn man öfter spielt, ändert sich alles",
+      "worte": [
+       "wieder",
+       "nochmal",
+       "öfter",
+       "wiederhol",
+       "runde",
+       "rache",
+       "zurück",
+       "nächste mal",
+       "tit for tat",
+       "wie du mir"
+      ],
+      "nachfrage": "Und gibt es irgendwas, wo Schweigen doch klug ist?"
+     }
+    ],
+    "allesDrin": "Ist das bei Freunden in echt auch so?",
+    "verstanden": "Okay: Einmal spielen macht beide ärmer. Öfter spielen macht nett, aber nicht doof. 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Welche Strategie gewann Axelrods Computerturnier zum Gefangenendilemma?",
+    "chips": [
+     "Immer verraten",
+     "Immer kooperieren",
+     "Wie du mir, so ich dir",
+     "Zufällig entscheiden"
+    ],
+    "richtig": "Wie du mir, so ich dir"
+   },
+   "bilder": [],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Prisoner's Dilemma – Steven Kuhn, Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/prisoner-dilemma/"
+    },
+    {
+     "name": "Prisoner's dilemma – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/prisoners-dilemma"
+    },
+    {
+     "name": "Launching „The Evolution of Cooperation“ – Robert Axelrod, Journal of Theoretical Biology 299 (2012), S. 21–24, PDF auf seiner Seite der University of Michigan",
+     "url": "https://public.websites.umich.edu/~axe/Axelrod%20Launching%20%20JTB%20299%2012%202012.pdf"
+    },
+    {
+     "name": "Overview of past tournaments – Dokumentation der Axelrod-Python-Bibliothek (nur Beleg für Rapoport als Einsender)",
+     "url": "https://axelrod.readthedocs.io/en/latest/discussion/overview_of_past_tournaments.html"
+    }
+   ],
+   "id": "gefangenendilemma"
+  },
+  {
+   "typ": "fall",
+   "titel": "Diogenes",
+   "einstieg": [
+    "Griechenland, 4. Jahrhundert v. Chr. Der Philosoph Diogenes aus Sinope besitzt fast nichts. Mit Absicht.",
+    "In Athen erzählt man sich: Er lief am helllichten Tag mit einer brennenden Lampe herum und sagte: „Ich suche einen Menschen.“",
+    "In Korinth steht eines Tages Alexander vor ihm, der junge König der Makedonen. Er sagt: Wünsch dir, was du willst."
+   ],
+   "frage": "Was wünscht sich Diogenes?",
+   "chips": [
+    "Gold für ein Leben ohne Not",
+    "Ein richtiges Haus",
+    "Freiheit für die Griechen",
+    "Dass Alexander zur Seite geht"
+   ],
+   "richtig": "Dass Alexander zur Seite geht",
+   "hinweise": [
+    "Als er ein Kind aus den hohlen Händen trinken sah, warf er seinen eigenen Becher weg.",
+    "Er wollte zeigen, dass man fürs Glück fast nichts braucht. Auch keinen König.",
+    "Als Alexander kam, lag Diogenes gerade in der Sonne. Alexander stellte sich vor ihn hin."
+   ],
+   "aufloesung": [
+    "„Geh mir ein wenig aus der Sonne.“ So erzählt es Plutarch. Bei Diogenes Laertios heißt es knapper: „Geh mir aus dem Licht.“",
+    "Beide schrieben Jahrhunderte später. Ob die Szene so stattfand, weiß niemand. Sie gilt als Anekdote mit Botschaft.",
+    "Die Botschaft: Wer nichts braucht, dem kann auch ein König nichts geben. Alexander soll gesagt haben: Wäre ich nicht Alexander, wäre ich Diogenes.",
+    "Und die „Tonne“? Griechisch heißt sie pithos: ein großer Vorratskrug, meist aus Ton. Als ein Junge ihn zerbrach, bekam Diogenes einen neuen."
+   ],
+   "dreh": "Vom mächtigsten Mann seiner Zeit wollte er nur Sonnenlicht. Und seine berühmte „Tonne“ war ein zerbrechlicher Tonkrug.",
+   "warum": {
+    "frage": "Warum lebte Diogenes freiwillig so arm?",
+    "nachfrage": "Was kann man einem Menschen wegnehmen, der nichts besitzt?",
+    "gruende": [
+     "Er hielt Selbstgenügsamkeit für den Schlüssel zum Glück: alles in sich selbst haben, was man braucht.",
+     "Er trainierte Härte: Im Sommer wälzte er sich in heißem Sand, im Winter umarmte er Statuen voller Schnee.",
+     "Er wollte zeigen, wie viele Regeln und Wünsche überflüssig sind, und die Leute zu einem einfachen, natürlichen Leben zurückrufen."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Diogenes stammte aus Sinope.",
+     "falsch": false
+    },
+    {
+     "satz": "Diogenes wohnte in einem Holzfass, wie man es für Wein benutzte.",
+     "falsch": true,
+     "korrektur": "Es war ein pithos, ein großer Vorratskrug, in der Regel aus Ton. Darum konnte ein Junge ihn zerbrechen."
+    },
+    {
+     "satz": "Am helllichten Tag suchte er mit einer Lampe nach einem Menschen.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum will der lieber Sonne als Gold? Mit Gold kann man sich doch alles kaufen! 🤔",
+    "punkte": [
+     {
+      "name": "er braucht fast nichts, um glücklich zu sein",
+      "worte": [
+       "nichts",
+       "wenig",
+       "brauch",
+       "besitz",
+       "glück",
+       "zufrieden",
+       "einfach",
+       "genug"
+      ],
+      "nachfrage": "Aber wollte der denn gar nichts haben?"
+     },
+     {
+      "name": "Besitz macht abhängig und unfrei",
+      "worte": [
+       "abhängig",
+       "frei",
+       "sorge",
+       "verlier",
+       "klau",
+       "wegnehm",
+       "ballast",
+       "angst"
+      ],
+      "nachfrage": "Was ist denn so schlimm an Gold?"
+     },
+     {
+      "name": "er will zeigen, dass ein König ihm nichts geben kann",
+      "worte": [
+       "könig",
+       "alexander",
+       "zeig",
+       "provo",
+       "frech",
+       "macht",
+       "beeindruck",
+       "mächtig"
+      ],
+      "nachfrage": "Und warum sagt man so was Freches zu einem König?"
+     }
+    ],
+    "allesDrin": "Und wohnte der echt in einer Tonne?",
+    "verstanden": "Haha, der wollte nur Sonne. Und die Tonne war ein Riesenkrug aus Ton. Merk ich mir! 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Worum bat Diogenes Alexander den Großen der Überlieferung nach?",
+    "chips": [
+     "Um Gold",
+     "Um ein Haus",
+     "Aus der Sonne zu gehen",
+     "Um Freiheit für Athen"
+    ],
+    "richtig": "Aus der Sonne zu gehen"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 3,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_Diogenes_-_Walters_37131.jpg/960px-Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_Diogenes_-_Walters_37131.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_Diogenes_-_Walters_37131.jpg",
+     "text": "So malte Jean-Léon Gérôme 1860 Diogenes: in der Öffnung eines riesigen Tonkrugs, mit Lampe und Hunden.",
+     "credit": "Jean-Léon Gérôme · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Diogenes Laertius, Lives of Eminent Philosophers, Buch 6, Kap. 2 (Übers. R. D. Hicks) – Perseus Digital Library, Tufts University",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=6:chapter=2"
+    },
+    {
+     "name": "Plutarch, Alexander 14 (griechischer Text) – Perseus Digital Library, Tufts University",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0129:chapter=14"
+    },
+    {
+     "name": "Diogenes of Sinope – Julie Piering, Internet Encyclopedia of Philosophy",
+     "url": "https://iep.utm.edu/diogenes-of-sinope/"
+    },
+    {
+     "name": "Diogenes – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Diogenes-Greek-philosopher"
+    },
+    {
+     "name": "πίθος – Liddell-Scott-Jones, Greek-English Lexicon – Perseus Digital Library",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=pi/qos"
+    },
+    {
+     "name": "Juvenal, Satire 14, Verse 308–311 (lateinischer Text) – The Latin Library",
+     "url": "https://www.thelatinlibrary.com/juvenal/14.shtml"
+    }
+   ],
+   "id": "diogenes"
+  },
+  {
+   "typ": "fall",
+   "titel": "Antikythera",
+   "einstieg": [
+    "Ägäis, Frühjahr 1900. Schwammtaucher stoßen vor der kleinen griechischen Insel Antikythera auf ein antikes Schiffswrack.",
+    "Sie holen Bronzestatuen herauf. Und 1901 auch einen unscheinbaren Klumpen aus korrodierter Bronze, mit Resten eines Holzkastens.",
+    "1902, im Museum in Athen, schaut sich jemand den Klumpen genauer an. Darin steckt ein Zahnrad."
+   ],
+   "frage": "Wofür war das Gerät gebaut?",
+   "chips": [
+    "Zur Navigation auf See",
+    "Als Uhr für die Tageszeit",
+    "Als Spielzeug für reiche Römer",
+    "Um den Himmel vorauszuberechnen"
+   ],
+   "richtig": "Um den Himmel vorauszuberechnen",
+   "hinweise": [
+    "Auf den Bruchstücken stehen Tausende winzige griechische Buchstaben. Darunter Monatsnamen und Tierkreiszeichen.",
+    "An der Seite saß eine Kurbel. Drehte man sie, wanderten Zeiger über Zifferblätter vorne und hinten.",
+    "Ein Zifferblatt hinten ist eine Spirale aus 223 Mondmonaten. Neben manchen Monaten steht ein kleines Zeichen."
+   ],
+   "aufloesung": [
+    "Der Klumpen war ein Rechengerät für den Himmel. Kurbel drehen, und die Zeiger zeigten, wo Sonne und Mond stehen und wie der Mond gerade aussieht.",
+    "Die Spirale mit den 223 Monaten sagte Sonnen- und Mondfinsternisse voraus. Ein kleines Zifferblatt zeigte sogar den Vier-Jahres-Takt der Olympischen Spiele.",
+    "Gebaut wohl gegen Ende des 2. Jahrhunderts v. Chr. Erhalten sind 82 Bruchstücke mit 30 Zahnrädern aus Bronze. Wahrscheinlich zeigte es auch die fünf damals bekannten Planeten.",
+    "Vieles sah man erst 2005: Forscher durchleuchteten die Bruchstücke mit Röntgen-Computertomografie und lasen dabei viel mehr von den Inschriften.",
+    "Offen ist bis heute: Wer hat es gebaut, wo, und wann genau?"
+   ],
+   "dreh": "Ein analoger Computer aus der Antike. Und aus mindestens tausend Jahren danach kennt man kein technisch komplexeres Gerät.",
+   "warum": {
+    "frage": "Wozu brauchte jemand vor über 2.000 Jahren einen Rechner für den Himmel?",
+    "nachfrage": "Was hätte ein Bauer oder ein Priester davon, zu wissen, wann der Mond wo steht?",
+    "gruende": [
+     "Kalender waren wichtig: für die Arbeit auf dem Feld und für die Termine religiöser Feste.",
+     "Finsternisse und Planetenbewegungen galten oft als Vorzeichen. Es war wertvoll, sie im Voraus zu kennen.",
+     "Die Regelmäßigkeit des Himmels faszinierte. In einer unsicheren, gewaltsamen Welt waren die ruhigen Kreisläufe auch philosophisch anziehend."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Taucher holten den Mechanismus erst 2005 aus dem Wrack vor Antikythera.",
+     "falsch": true,
+     "korrektur": "Geborgen wurde er schon 1901. 2005 wurden die Bruchstücke im Museum mit Röntgen-CT durchleuchtet."
+    },
+    {
+     "satz": "Eine Spirale auf der Rückseite sagte Sonnen- und Mondfinsternisse voraus.",
+     "falsch": false
+    },
+    {
+     "satz": "Ein kleines Zifferblatt zeigte den Vier-Jahres-Takt der Olympischen Spiele.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wie kann ein Haufen Zahnräder wissen, wann der Mond sich vor die Sonne schiebt? 🤔",
+    "punkte": [
+     {
+      "name": "Am Himmel wiederholt sich alles in festen Takten",
+      "worte": [
+       "wiederhol",
+       "regelmäßig",
+       "takt",
+       "zyklus",
+       "kreislauf",
+       "immer gleich",
+       "muster",
+       "rhythmus"
+      ],
+      "nachfrage": "Aber woher weiß man überhaupt, dass eine Finsternis wiederkommt?"
+     },
+     {
+      "name": "Die Zahnräder sind passend gezählt und bauen diese Takte nach",
+      "worte": [
+       "zähne",
+       "zahnr",
+       "zahn",
+       "dreh",
+       "kurbel",
+       "übersetz",
+       "verhältnis",
+       "nachgebaut",
+       "nachgemacht"
+      ],
+      "nachfrage": "Und was haben die Zahnräder damit zu tun?"
+     },
+     {
+      "name": "Das Wissen kam aus langen Beobachtungen, auch der Babylonier",
+      "worte": [
+       "beobacht",
+       "babylon",
+       "aufgeschrieben",
+       "jahrhundert",
+       "rechn",
+       "astronom",
+       "sterndeut",
+       "gezählt"
+      ],
+      "nachfrage": "Und wer hat den Griechen das alles beigebracht?"
+     }
+    ],
+    "allesDrin": "Und warum hat danach so lange keiner mehr so was gebaut?",
+    "verstanden": "Ahh, wie eine Spieluhr, nur für den Himmel! 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was zeigte ein kleines Zifferblatt des Antikythera-Mechanismus außer Himmelsdaten an?",
+    "chips": [
+     "Die Gezeiten",
+     "Die Olympischen Spiele",
+     "Die Uhrzeit",
+     "Die Windrichtung"
+    ],
+    "richtig": "Die Olympischen Spiele"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg/960px-NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg",
+     "text": "Das größte erhaltene Bruchstück, heute im Archäologischen Nationalmuseum Athen. Mittendrin ein Zahnrad.",
+     "credit": "Marsyas (Commons-Nutzer), 2005 · CC BY 2.5"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Tony Freeth u. a.: Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism, Nature 444, 587–591 (2006) – Nature",
+     "url": "https://www.nature.com/articles/nature05357"
+    },
+    {
+     "name": "Tony Freeth, Alexander Jones, John M. Steele, Yanis Bitsakis: Calendars with Olympiad display and eclipse prediction on the Antikythera Mechanism, Nature 454, 614–617 (2008) – Nature",
+     "url": "https://www.nature.com/articles/nature07130"
+    },
+    {
+     "name": "Tony Freeth u. a.: A Model of the Cosmos in the ancient Greek Antikythera Mechanism, Scientific Reports 11, 5821 (2021) – Nature Portfolio (frei zugänglich)",
+     "url": "https://www.nature.com/articles/s41598-021-84310-w"
+    },
+    {
+     "name": "Der Mechanismus von Antikythera – Deutsches Patent- und Markenamt, Reihe „Computer-Pioniere“",
+     "url": "https://dpma.de/dpma/veroeffentlichungen/meilensteine/computer-pioniere/antikytera-mechanismus/index.html"
+    },
+    {
+     "name": "Owen Jarus: World's first computer, the Antikythera Mechanism, 'started up' in 178 B.C., scientists claim, 2022 – Live Science",
+     "url": "https://www.livescience.com/antikythera-mechanism-start-date-found"
+    }
+   ],
+   "id": "antikythera"
+  },
+  {
+   "typ": "fall",
+   "titel": "Göbekli Tepe",
+   "einstieg": [
+    "Südosttürkei, nahe der Stadt Şanlıurfa. Auf einem Hügel stehen Steinpfeiler in Form eines großen T, bis zu 5,5 Meter hoch.",
+    "In den Kalkstein gemeißelt: Löwen, Keiler, Schlangen, Skorpione, Raubvögel. Manche Pfeiler haben Arme und Gürtel, wie Menschen.",
+    "Gebaut vor rund 11.500 Jahren. Also rund 7.000 Jahre vor Stonehenge und den Pyramiden von Gizeh."
+   ],
+   "frage": "Wer hat diese Anlage gebaut?",
+   "chips": [
+    "Die ersten Bauern",
+    "Frühe Viehzüchter",
+    "Eine frühe Stadtgesellschaft",
+    "Jäger und Sammler"
+   ],
+   "richtig": "Jäger und Sammler",
+   "hinweise": [
+    "Töpfe aus gebranntem Ton gab es noch nicht. Die Fachleute nennen die Zeit deshalb „vorkeramische Jungsteinzeit“.",
+    "Auf den Pfeilern sind nur wilde Tiere zu sehen. Spuren von gezüchtetem Getreide oder Haustieren fanden die Forscher keine.",
+    "Alles, was die Menschen hier zum Leben brauchten, fanden sie in der Natur ringsum. Gesät und gezüchtet hat niemand."
+   ],
+   "aufloesung": [
+    "Jäger und Sammler. Menschen ohne Äcker, ohne Haustiere und ohne Töpfe lösten die Pfeiler aus dem Fels, mit Werkzeugen aus Stein und Knochen.",
+    "Bis dahin galt: Erst kommt der Ackerbau, dann die Vorräte, dann die großen Bauten. Göbekli Tepe stellt diese Reihenfolge auf den Kopf.",
+    "Klaus Schmidt vom Deutschen Archäologischen Institut grub ab 1995. Er vermutete sogar: Die Großbaustelle brachte die Menschen dazu, sesshaft zu werden und Ackerbau zu treiben.",
+    "Neuere Grabungen zeigen: Hier standen auch Wohnhäuser, mit Feuerstellen und einer Zisterne. Ob der Bau den Ackerbau ausgelöst hat, ist heute umstritten.",
+    "Seit 2018 ist Göbekli Tepe UNESCO-Welterbe. Wofür die Pfeilerkreise genau dienten, weiß bis heute niemand sicher."
+   ],
+   "dreh": "Erst kamen die Monumente, dann die Bauern. Nicht umgekehrt.",
+   "warum": {
+    "frage": "Warum hat man Jägern und Sammlern so einen Bau lange nicht zugetraut?",
+    "nachfrage": "Wer versorgt die Leute, die monatelang Steine schlagen, statt zu jagen?",
+    "gruende": [
+     "Die gängige Lehre war: Erst Ackerbau bringt Nahrung im Überschuss. Erst dann können sich Menschen auf ein Handwerk spezialisieren.",
+     "Für so eine Großbaustelle braucht es Organisation. Die nötigen festen Strukturen traute man nur sesshaften Bauern zu.",
+     "Jäger und Sammler galten als ständig unterwegs. Riesige Bauten aus Stein passten nicht ins Bild."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Die Pfeilerkreise entstanden vor rund 11.500 Jahren, lange vor Stonehenge.",
+     "falsch": false
+    },
+    {
+     "satz": "Ab 1995 grub dort der Archäologe Heinrich Schliemann.",
+     "falsch": true,
+     "korrektur": "Es war Klaus Schmidt vom Deutschen Archäologischen Institut. Schliemann lebte im 19. Jahrhundert."
+    },
+    {
+     "satz": "Auf den Pfeilern sind vor allem wilde Tiere zu sehen.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wieso ist das so wichtig, wer das gebaut hat? Gebaut ist doch gebaut. 🤔",
+    "punkte": [
+     {
+      "name": "Man dachte, erst kommt der Ackerbau",
+      "worte": [
+       "acker",
+       "bauer",
+       "landwirt",
+       "feld",
+       "säen",
+       "anbau",
+       "zuerst",
+       "vorher",
+       "reihenfolge",
+       "getreide"
+      ],
+      "nachfrage": "Und was hatten die Forscher vorher gedacht?"
+     },
+     {
+      "name": "Gebaut haben es Jäger und Sammler",
+      "worte": [
+       "jäger",
+       "sammler",
+       "jagd",
+       "gejagt",
+       "wild",
+       "natur",
+       "gesammelt"
+      ],
+      "nachfrage": "Wer hat es denn jetzt gebaut?"
+     },
+     {
+      "name": "Vielleicht hat das Bauen die Menschen sesshaft gemacht (nur vermutet)",
+      "worte": [
+       "sesshaft",
+       "bleiben",
+       "wohnen",
+       "dorf",
+       "häuser",
+       "siedl",
+       "vielleicht",
+       "vermut",
+       "theorie"
+      ],
+      "nachfrage": "Und was hat das damit zu tun, dass Menschen irgendwann Bauern wurden?"
+     }
+    ],
+    "allesDrin": "Und wozu haben die das überhaupt gebaut?",
+    "verstanden": "Ahh, erst das Riesending bauen, dann überlegen, wie man alle satt kriegt. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was kannten die Erbauer von Göbekli Tepe noch nicht?",
+    "chips": [
+     "Werkzeuge aus Stein",
+     "Ackerbau und Haustiere",
+     "Bilder von Tieren",
+     "Das Feuer"
+    ],
+    "richtig": "Ackerbau und Haustiere"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/G%C3%B6bekli_Tepe_Pilar_Arm_and_Fox.JPG/960px-G%C3%B6bekli_Tepe_Pilar_Arm_and_Fox.JPG",
+     "seite": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe_Pilar_Arm_and_Fox.JPG",
+     "text": "Ein T-Pfeiler vom Göbekli Tepe, von der Seite. Gemeißelt: ein Arm und ein Fuchs.",
+     "credit": "Guérin Nicolas (Commons-Nutzer), 2011 · CC BY-SA 3.0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Göbekli Tepe (Welterbe-Eintrag 1572, mit „Brief synthesis“) – UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1572/"
+    },
+    {
+     "name": "Göbekli Tepe: Fieldwork and Research (Projektseite, Leitung Lee Clare) – Deutsches Archäologisches Institut",
+     "url": "https://www.dainst.org/en/research/projects/goebekli-tepe/1934"
+    },
+    {
+     "name": "Dagmar Schediwy: Göbekli Tepe – Das Dorf, in dem Jäger und Sammler wohnten, 25.12.2023 – Spektrum der Wissenschaft",
+     "url": "https://www.spektrum.de/news/goebekli-tepe-das-dorf-in-dem-jaeger-und-sammler-wohnten/2159868"
+    }
+   ],
+   "id": "goebekli-tepe"
+  },
+  {
+   "typ": "fall",
+   "titel": "Hängende Gärten",
+   "einstieg": [
+    "Babylon, im heutigen Irak. Hier sollen sie gestanden haben: die Hängenden Gärten, eines der sieben Weltwunder der Antike.",
+    "Antike Autoren beschreiben Bäume auf gewölbten Terrassen, so hoch wie die Stadtmauer. Bewässert mit Wasser aus dem Fluss.",
+    "Gebaut angeblich von König Nebukadnezar II. Für seine Frau, die die grünen Berge ihrer Heimat vermisste."
+   ],
+   "frage": "Was haben Archäologen in Babylon von den Gärten gefunden?",
+   "chips": [
+    "Die Grundmauern der Terrassen",
+    "Reste der Wasserpumpen",
+    "Wurzeln der alten Bäume",
+    "Nichts Sicheres"
+   ],
+   "richtig": "Nichts Sicheres",
+   "hinweise": [
+    "Alle erhaltenen Beschreibungen der Gärten sind auf Griechisch oder Latein geschrieben. Die meisten Autoren lebten Jahrhunderte nach Nebukadnezar.",
+    "Aus Babylon selbst kennt man Tausende Tontafeln in Keilschrift, sogar eine Liste der Bauwerke der Stadt. Die Gärten kommen darin nicht vor.",
+    "Ab 1899 grub der Deutsche Robert Koldewey 18 Jahre lang in Babylon. Er fand Stadtmauer, Tempel und Ischtar-Tor. Für die Gärten blieben ihm nur ein paar Gewölbe mit Brunnen."
+   ],
+   "aufloesung": [
+    "Nichts Sicheres. Koldeweys Gewölbe könnten zum Unterbau gehört haben. Beweisen lässt sich das nicht, und andere Spuren der Gärten fand man in Babylon nie.",
+    "Die Oxford-Forscherin Stephanie Dalley vermutet: Die Gärten standen gar nicht in Babylon, sondern in Ninive, der Hauptstadt Assyriens. Gebaut von König Sanherib, rund ein Jahrhundert vor Nebukadnezar.",
+    "Sanheribs eigene Inschriften beschreiben einen Garten wie eine Berglandschaft, mit Terrassen und Säulengängen. Das Wasser kam über Kanäle und ein Aquädukt aus rund 80 Kilometern Entfernung.",
+    "Griechische Autoren verwechselten Babylon und Assyrien öfter. Andere Fachleute halten die Gärten dagegen für eine Übertreibung griechischer Schriftsteller. Oder für ganz erfunden."
+   ],
+   "dreh": "Das berühmte Weltwunder von Babylon stand vielleicht gar nicht in Babylon. Ob es die Gärten überhaupt gab, weiß niemand sicher.",
+   "warum": {
+    "frage": "Warum glauben Menschen seit über 2.000 Jahren an Gärten, die nie jemand gefunden hat?",
+    "nachfrage": "Wie viele der antiken Autoren hatten die Gärten wohl mit eigenen Augen gesehen?",
+    "gruende": [
+     "Mehrere antike Autoren beschreiben sie ausführlich, mit Terrassen und Bewässerung. Das klingt nach Augenzeugen. Vieles geht aber wohl auf wenige ältere Texte zurück, die heute verloren sind.",
+     "Die Gärten stehen auf der Liste der sieben Weltwunder. Was auf so einer Liste steht, wird immer weitererzählt.",
+     "Fehlende Funde beweisen wenig: Babylon ist riesig, und der Euphrat hat seinen Lauf verändert. Mögliche Reste könnten heute unter Wasser liegen."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Alle erhaltenen Beschreibungen der Gärten sind auf Griechisch oder Latein geschrieben.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Keilschrifttafeln aus Babylon beschreiben die Gärten ausführlich.",
+     "falsch": true,
+     "korrektur": "In den Tausenden Keilschrifttafeln aus Babylon kommen die Gärten gar nicht vor, nicht einmal in der Liste der Bauwerke der Stadt."
+    },
+    {
+     "satz": "Stephanie Dalley vermutet die Gärten in Ninive, gebaut vom assyrischen König Sanherib.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wie kann man denn ein Weltwunder verlieren? Das ist doch riesig! 🤔",
+    "punkte": [
+     {
+      "name": "Nur spätere Griechen und Römer schrieben darüber",
+      "worte": [
+       "griech",
+       "römer",
+       "später",
+       "autor",
+       "erzähl",
+       "abgeschrieben",
+       "gehört",
+       "hörensagen",
+       "geschichten"
+      ],
+      "nachfrage": "Aber woher wissen wir dann überhaupt von den Gärten?"
+     },
+     {
+      "name": "In Babylon selbst fehlt jede sichere Spur",
+      "worte": [
+       "keilschrift",
+       "tafel",
+       "ausgrab",
+       "spur",
+       "gefunden",
+       "nichts",
+       "ruine",
+       "beweis",
+       "archäolog"
+      ],
+      "nachfrage": "Und hat in Babylon keiner nachgegraben?"
+     },
+     {
+      "name": "Vielleicht standen sie woanders oder sind erfunden",
+      "worte": [
+       "ninive",
+       "verwechs",
+       "assyr",
+       "sanherib",
+       "woanders",
+       "andere stadt",
+       "erfunden",
+       "übertrieb",
+       "ausgedacht"
+      ],
+      "nachfrage": "Und wo sind sie dann hin?"
+     }
+    ],
+    "allesDrin": "Und gab es sie jetzt oder nicht?",
+    "verstanden": "Ahh, wie Stille Post, nur 2.000 Jahre lang! 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "In welcher Stadt vermutet die Forscherin Stephanie Dalley die Hängenden Gärten?",
+    "chips": [
+     "Ur",
+     "Persepolis",
+     "Ninive",
+     "Jerusalem"
+    ],
+    "richtig": "Ninive"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Heemskerck-hanginggardens.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Heemskerck-hanginggardens.jpg",
+     "text": "So stellte sich der niederländische Maler Maarten van Heemskerck im 16. Jahrhundert die Hängenden Gärten vor.",
+     "credit": "Maarten van Heemskerck (1498–1574) · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Hanging Gardens of Babylon – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Hanging-Gardens-of-Babylon"
+    },
+    {
+     "name": "Robert Koldewey – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Robert-Koldewey"
+    },
+    {
+     "name": "Jona Lendering: Babylon, Hanging Gardens – Livius.org",
+     "url": "https://www.livius.org/articles/place/babylon/babylon-hanging-gardens/"
+    },
+    {
+     "name": "A 2,500-Year-Old Mystery: The Hanging Gardens World Wonder (mit Laurie Pearce, UC Berkeley, und Stephanie Dalley, Oxford) – Discover Magazine",
+     "url": "https://www.discovermagazine.com/a-2-500-year-old-mystery-the-hanging-gardens-world-wonder-44071"
+    },
+    {
+     "name": "New Thoughts on an Ancient World Wonder, 07.05.2013 – Archaeology Magazine (Archaeological Institute of America)",
+     "url": "https://archaeology.org/news/2013/05/07/130507-hanging-garden-ninevah-assyrian/"
+    }
+   ],
+   "id": "haengende-gaerten"
+  },
+  {
+   "typ": "fall",
+   "titel": "Voynich-Manuskript",
+   "einstieg": [
+    "1912. Der Buchhändler Wilfrid Voynich kauft in einem Jesuitenkolleg bei Rom ein altes, handgeschriebenes Buch.",
+    "Rund 240 Seiten. Pflanzen, die niemand sicher bestimmen kann. Badende Frauen. Kreise voller Sterne.",
+    "Dazwischen Zeile um Zeile in einer Schrift, die es nirgends sonst gibt."
+   ],
+   "frage": "Was steht in dem Buch?",
+   "chips": [
+    "Geheime Rezepte für Heilpflanzen",
+    "Alchemie in Geheimschrift",
+    "Sinnloses Kauderwelsch",
+    "Weiß bis heute niemand"
+   ],
+   "richtig": "Weiß bis heute niemand",
+   "hinweise": [
+    "Schon Kaiser Rudolf II. kaufte das Buch, für 600 Golddukaten. Er hielt es für das Werk eines berühmten englischen Gelehrten. Belegt ist das nicht.",
+    "William und Elizebeth Friedman knackten in beiden Weltkriegen Geheimnachrichten. An diesem Buch versuchten sie sich auch.",
+    "Immer wieder verkündet jemand den Durchbruch: Hebräisch, Latein in Kurzschrift, eine romanische Mischsprache. Jedes Mal widersprechen die Fachleute."
+   ],
+   "aufloesung": [
+    "Weiß bis heute niemand. Die Schrift ist nicht entziffert. Unklar ist sogar, ob dahinter eine echte Sprache steckt, ein Code oder sinnlose Zeichen.",
+    "Sicher ist das Alter: 2009 datierte ein Team der University of Arizona das Pergament mit der Radiokarbonmethode auf 1404 bis 1438.",
+    "Ein moderner Schwindel ist es also kaum. 1666 schickte ein Gelehrter das Buch an den Jesuiten Athanasius Kircher. Sein Brief liegt bis heute bei.",
+    "Codeknacker, Statistik, Computer, maschinelles Lernen: Alles wurde versucht. Eine anerkannte Lösung gibt es bisher nicht.",
+    "Heute liegt das Buch in der Beinecke Library der Universität Yale, als „MS 408“. Alle Seiten kann man online ansehen."
+   ],
+   "dreh": "Das „rätselhafteste Buch der Welt“ ist echt und rund 600 Jahre alt. Trotzdem kann es bis heute niemand lesen.",
+   "warum": {
+    "frage": "Warum lässt sich diese Schrift nicht knacken, obwohl so viele kluge Leute und Computer es versuchen?",
+    "nachfrage": "Woran würdest du merken, dass deine Übersetzung stimmt?",
+    "gruende": [
+     "Es gibt keinen zweiten Text in dieser Schrift. Nichts zum Vergleichen, kein Schlüssel.",
+     "Man weiß nicht, was man vor sich hat: eine Sprache, einen Code oder sinnlose Zeichenketten. Studien kommen zu gegensätzlichen Ergebnissen.",
+     "Wer das Buch schrieb und woher es kommt, ist unbekannt. Deshalb lässt sich keine „Lösung“ an anderen Quellen überprüfen."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Wilfrid Voynich kaufte das Manuskript im Jahr 1912.",
+     "falsch": false
+    },
+    {
+     "satz": "2009 wurde das Pergament des Buches auf die Jahre 1604 bis 1638 datiert.",
+     "falsch": true,
+     "korrektur": "auf 1404 bis 1438, also ins frühe 15. Jahrhundert."
+    },
+    {
+     "satz": "Heute liegt das Buch in der Beinecke Library der Universität Yale.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wieso kann das nicht mal ein Computer lesen? Die können doch alles! 🤔",
+    "punkte": [
+     {
+      "name": "Es gibt nichts zum Vergleichen",
+      "worte": [
+       "vergleich",
+       "schlüssel",
+       "kein anderes",
+       "keinen anderen",
+       "sonst nirgends",
+       "einzig",
+       "wörterbuch",
+       "übersetz"
+      ],
+      "nachfrage": "Aber bei den Hieroglyphen hat man es doch auch geschafft?"
+     },
+     {
+      "name": "Keiner weiß, ob es überhaupt eine Sprache ist",
+      "worte": [
+       "sprache",
+       "code",
+       "geheim",
+       "sinnlos",
+       "quatsch",
+       "unsinn",
+       "verschlüssel",
+       "ausgedacht",
+       "zufall"
+      ],
+      "nachfrage": "Vielleicht hat der Schreiber sich das alles nur ausgedacht?"
+     },
+     {
+      "name": "Computer finden Muster, aber ob eine Lösung stimmt, kann keiner prüfen",
+      "worte": [
+       "muster",
+       "prüf",
+       "beweis",
+       "stimmt",
+       "widerleg",
+       "raten",
+       "test",
+       "überprüf"
+      ],
+      "nachfrage": "Und wenn einer sagt, er hat's gelöst? Woher weiß man, dass er schummelt?"
+     }
+    ],
+    "allesDrin": "Glaubst du, das kriegt irgendwann jemand raus?",
+    "verstanden": "Ahh, wie ein Rätsel ohne Lösungsseite hinten im Heft! 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wie hat man herausgefunden, wie alt das Voynich-Manuskript ist?",
+    "chips": [
+     "Ein Datum im Text",
+     "Radiokarbon-Datierung des Pergaments",
+     "Vergleich der Handschrift",
+     "Eine alte Kaufquittung"
+    ],
+    "richtig": "Radiokarbon-Datierung des Pergaments"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Voynich_Manuscript_%2832%29.jpg/960px-Voynich_Manuscript_%2832%29.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(32).jpg",
+     "text": "Eine Seite aus dem Manuskript: Zeichnung und Text in der unbekannten Schrift.",
+     "credit": "unbekannt · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "The Beinecke Cipher (Voynich) Manuscript – Beinecke Rare Book & Manuscript Library, Yale University",
+     "url": "https://beinecke.library.yale.edu/beinecke/collections/beinecke-cipher-voynich-manuscript"
+    },
+    {
+     "name": "Mysterious Voynich manuscript dates back to the 15th century, 11.02.2011 (nach einer Mitteilung der University of Arizona) – Medievalists.net",
+     "url": "https://www.medievalists.net/2011/02/mysterious-voynich-manuscript-dates-back-to-the-15th-century/"
+    },
+    {
+     "name": "Jennifer Welsh: Mystery Book Gives Up a Secret, 14.02.2011 – Live Science",
+     "url": "https://www.livescience.com/12838-mystery-book-secret-110211-html.html"
+    },
+    {
+     "name": "Jillian Foley: The strange quest to crack the Voynich code, 12.02.2020 – Undark (hier über Salon)",
+     "url": "https://www.salon.com/2020/02/16/the-strange-quest-to-crack-the-voynich-code_partner/"
+    },
+    {
+     "name": "Amy Rule: Ciphers – Lost Languages and Unreadable Technologies, 2014 – Arizona State Museum, University of Arizona",
+     "url": "https://statemuseum.arizona.edu/online-exhibit/curators-choice/ciphers"
+    }
+   ],
+   "id": "voynich"
+  },
+  {
+   "typ": "fall",
+   "titel": "Tunguska",
+   "einstieg": [
+    "30. Juni 1908. Sibirien, Wald so weit das Auge reicht, nahe dem Fluss Steinige Tunguska.",
+    "Ein Feuerball zieht über den Himmel. Ein Bauer, rund 65 Kilometer entfernt, sieht den Himmel „in zwei Teile gespalten“. Dann wirft ihn eine Druckwelle um.",
+    "Danach liegt der Wald auf rund 2.000 Quadratkilometern flach. Das ist mehr als doppelt so groß wie Berlin."
+   ],
+   "frage": "Was hat den Wald umgeworfen?",
+   "chips": [
+    "Ein Meteorit schlug ein",
+    "Ein Vulkanausbruch",
+    "Explodierendes Erdgas",
+    "Eine Explosion hoch in der Luft"
+   ],
+   "richtig": "Eine Explosion hoch in der Luft",
+   "hinweise": [
+    "Erst 1927 kommt die erste Forschungsexpedition, geleitet von Leonid Kulik. Er sucht nach einem großen Krater und nach Meteoritenstücken.",
+    "Er findet keinen Krater. Bis heute hat niemand einen eindeutigen Krater oder Bruchstücke gefunden.",
+    "Die umgeknickten Stämme zeigen alle von einer Mitte weg. Ausgerechnet in dieser Mitte stehen noch tote Bäume aufrecht, ohne Äste, wie Telegrafenmasten."
+   ],
+   "aufloesung": [
+    "Es war eine Explosion hoch in der Luft. Ein Brocken aus dem All, wohl ein Stein-Asteroid von etwa 50 bis 80 Metern, zerbarst mehrere Kilometer über dem Wald.",
+    "Die dichter werdende Luft presste ihn zusammen, bis er zerplatzte. Übrig blieb vor allem eine riesige Druckwelle.",
+    "Die traf in der Mitte senkrecht von oben: Äste brachen ab, die Stämme blieben stehen. Weiter außen kam sie schräg und warf Millionen Bäume um.",
+    "Es ist die größte Explosion aus dem All, die Menschen in neuerer Zeit erlebt haben. Ob es ein Asteroid oder doch ein Kometenstück war, wird noch diskutiert."
+   ],
+   "dreh": "Der größte bekannte Treffer aus dem All hat keinen Krater hinterlassen. Der Brocken kam nie am Boden an.",
+   "warum": {
+    "frage": "Warum gibt es keinen Krater, obwohl etwas so Großes aus dem All kam?",
+    "nachfrage": "Was passiert, wenn du mit voller Wucht flach auf Wasser springst, statt hineinzutauchen?",
+    "gruende": [
+     "Der Brocken raste mit vielen Kilometern pro Sekunde in die Atmosphäre. Die Luft vor ihm wurde immer dichter und wirkte wie eine Wand.",
+     "Der Druck presste ihn zusammen, bis er zerbrach. Die Bruchstücke wurden heiß und gaben ihre Energie fast auf einmal ab, mehrere Kilometer über dem Boden.",
+     "Am Boden kam deshalb nur die Druckwelle an, kein großer Gesteinsbrocken. Ohne Brocken kein Krater, und auch kaum Stücke zum Finden."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Leonid Kulik fand 1927 in der Mitte des Gebiets einen großen Krater.",
+     "falsch": true,
+     "korrektur": "Kulik fand keinen Krater, nur Sumpf und tote, aufrecht stehende Bäume. Bis heute ist kein Krater sicher nachgewiesen."
+    },
+    {
+     "satz": "Die erste wissenschaftliche Expedition erreichte das Gebiet erst Jahre nach der Explosion.",
+     "falsch": false
+    },
+    {
+     "satz": "Direkt unter der Explosion blieben Baumstämme stehen, verloren aber ihre Äste.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wenn da was aus dem Weltall runtergekracht ist, wo ist denn dann das Loch? 🤔",
+    "punkte": [
+     {
+      "name": "Der Brocken explodierte in der Luft",
+      "worte": [
+       "luft",
+       "himmel",
+       "oben",
+       "explod",
+       "zerplatz",
+       "zerbr",
+       "kilometer",
+       "höhe",
+       "bevor"
+      ],
+      "nachfrage": "Aber wo ist der Stein denn dann hin?"
+     },
+     {
+      "name": "Nur die Druckwelle kam unten an",
+      "worte": [
+       "druckwelle",
+       "druck",
+       "welle",
+       "wind",
+       "umgew",
+       "umgeknickt",
+       "bäume",
+       "wald"
+      ],
+      "nachfrage": "Und wer hat dann die ganzen Bäume umgeworfen?"
+     },
+     {
+      "name": "Deshalb kein Krater und keine Stücke",
+      "worte": [
+       "kein krater",
+       "kein loch",
+       "nie unten",
+       "nicht am boden",
+       "keine stücke",
+       "keine reste",
+       "nichts gefunden",
+       "verdampf"
+      ],
+      "nachfrage": "Und warum hat man nicht wenigstens ein paar Steinchen gefunden?"
+     }
+    ],
+    "allesDrin": "Und kann so was heute wieder passieren?",
+    "verstanden": "Ahh, der ist quasi in der Luft geplatzt wie ein Böller! Krass. 💥",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Warum hinterließ das Tunguska-Ereignis von 1908 keinen Krater?",
+    "chips": [
+     "Er ist zugewachsen",
+     "Der Brocken explodierte in der Luft",
+     "Der Brocken versank im Sumpf",
+     "Es war ein Erdbeben"
+    ],
+    "richtig": "Der Brocken explodierte in der Luft"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tunguska_Ereignis-1.jpg/960px-Tunguska_Ereignis-1.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Tunguska_Ereignis-1.jpg",
+     "text": "Umgeknickte Bäume im Tunguska-Gebiet, fotografiert im Mai 1929, 21 Jahre nach der Explosion.",
+     "credit": "Leonid Kulik (Expedition 1929) · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Tunguska Revisited: 111-Year-Old Mystery Impact Inspires New, More Optimistic Asteroid Predictions – NASA",
+     "url": "https://www.nasa.gov/solar-system/tunguska-revisited-111-year-old-mystery-impact-inspires-new-more-optimistic-asteroid-predictions/"
+    },
+    {
+     "name": "A Cosmic Explosion Over Siberia (Image of the Day, Juli 2024) – NASA Earth Observatory",
+     "url": "https://science.nasa.gov/earth/earth-observatory/a-cosmic-explosion-over-siberia-154488"
+    },
+    {
+     "name": "Asteroid Day: eight other key dates in asteroid history – ESA",
+     "url": "https://www.esa.int/Space_Safety/Planetary_Defence/Asteroid_Day_eight_other_key_dates_in_asteroid_history"
+    },
+    {
+     "name": "The Tunguska Mystery – 100 Years Later – Luca Gasperini, Enrico Bonatti, Giuseppe Longo, Scientific American (2008)",
+     "url": "https://www.scientificamerican.com/article/the-tunguska-mystery-100-years-later/"
+    },
+    {
+     "name": "Sandia supercomputers offer new explanation of Tunguska disaster – Sandia National Laboratories, Lab News (2008)",
+     "url": "https://www.sandia.gov/labnews/2008/01/04/080104-2/"
+    },
+    {
+     "name": "Tunguska event – Wikipedia (englisch)",
+     "url": "https://en.wikipedia.org/wiki/Tunguska_event"
+    }
+   ],
+   "id": "tunguska"
+  },
+  {
+   "typ": "fall",
+   "titel": "Das Wow!-Signal",
+   "einstieg": [
+    "15. August 1977, spätabends in Ohio, USA. Das Radioteleskop „Big Ear“ der Ohio State University sucht im All nach Signalen von Außerirdischen.",
+    "Ein Computer druckt die Messwerte als lange Kolonnen aus Ziffern und Buchstaben.",
+    "Tage später geht der Astronom Jerry Ehman die Ausdrucke durch. Bei „6EQUJ5“ stutzt er, kringelt die Zeichen rot ein und schreibt daneben: „Wow!“"
+   ],
+   "frage": "Woher kam das Signal?",
+   "chips": [
+    "Von einem Satelliten",
+    "Von Außerirdischen",
+    "Ein Fehler im Teleskop",
+    "Weiß bis heute niemand"
+   ],
+   "richtig": "Weiß bis heute niemand",
+   "hinweise": [
+    "„6EQUJ5“ ist keine Botschaft. Jedes Zeichen steht für die Stärke des Signals in einem Messabschnitt. Je weiter hinten im Alphabet, desto stärker.",
+    "Es kam genau bei 1420 Megahertz, der Frequenz von Wasserstoff. Dort darf auf der Erde niemand senden, und kein bekannter Satellit war im Blickfeld.",
+    "Dieselbe Stelle am Himmel wurde danach immer wieder abgehört, wochenlang und später über Jahrzehnte. Das Signal kam nie wieder."
+   ],
+   "aufloesung": [
+    "Weiß bis heute niemand. Das Signal dauerte etwa 72 Sekunden und kam aus Richtung des Sternbilds Schütze. Dann war es weg, für immer.",
+    "72 Sekunden, weil Big Ear sich nicht drehte. Die Erde drehte sich und schob den Blick des Teleskops über diese Stelle am Himmel.",
+    "Der Höchstwert „U“ heißt: rund 30-mal so stark wie das normale Hintergrundrauschen.",
+    "Ehman hielt Außerirdische für möglich, nannte die Herkunft aber eine offene Frage. Seit 2024 gibt es eine neue Idee: Eine kalte Wasserstoffwolke könnte kurz grell aufgeleuchtet haben. Bewiesen ist das nicht."
+   ],
+   "dreh": "Das berühmteste mögliche Alien-Signal heißt nach einem Wort, das jemand mit Rotstift an den Rand schrieb. Und es ist bis heute ungeklärt.",
+   "warum": {
+    "frage": "Warum dachten so viele sofort an Außerirdische?",
+    "nachfrage": "Wenn du Fremden eine Nachricht schicken willst, die deine Sprache nicht kennen: Welchen Kanal würdest du wählen, damit sie ihn sicher finden?",
+    "gruende": [
+     "Wasserstoff ist das häufigste Element im All. Forschende vermuteten, dass andere Zivilisationen genau auf dieser Frequenz funken oder lauschen würden.",
+     "Das Signal war sehr schmal, also auf eine ganz bestimmte Frequenz begrenzt. So etwas kennt man vor allem von Sendern.",
+     "Die üblichen Störquellen schienen ausgeschlossen: Auf dieser Frequenz ist Senden verboten, und kein bekannter Satellit war im Blickfeld."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Jerry Ehman hörte das Signal live im Kopfhörer und rief „Wow!“.",
+     "falsch": true,
+     "korrektur": "Er fand es erst Tage später auf einem Computerausdruck und schrieb „Wow!“ mit Rotstift an den Rand."
+    },
+    {
+     "satz": "Das Signal wurde später nie wieder empfangen.",
+     "falsch": false
+    },
+    {
+     "satz": "„6EQUJ5“ beschreibt, wie stark das Signal in aufeinanderfolgenden Messabschnitten war.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wieso weiß man nicht, wo das herkommt? Man kann doch einfach nochmal hingucken! 🤔",
+    "punkte": [
+     {
+      "name": "Es kam nur einmal und nie wieder",
+      "worte": [
+       "einmal",
+       "nie wieder",
+       "nicht wieder",
+       "wiederholt",
+       "nochmal",
+       "72",
+       "sekunden",
+       "weg",
+       "verschwunden"
+      ],
+      "nachfrage": "Und warum gucken die dann nicht einfach nochmal an dieselbe Stelle?"
+     },
+     {
+      "name": "Störungen von der Erde wurden ausgeschlossen",
+      "worte": [
+       "satellit",
+       "erde",
+       "sender",
+       "verboten",
+       "störung",
+       "flugzeug",
+       "ausgeschlossen",
+       "frequenz"
+      ],
+      "nachfrage": "Kann das nicht einfach ein Handy oder ein Satellit gewesen sein?"
+     },
+     {
+      "name": "Es gibt nur Vermutungen",
+      "worte": [
+       "vermut",
+       "idee",
+       "theorie",
+       "wolke",
+       "wasserstoff",
+       "alien",
+       "außerird",
+       "keiner weiß",
+       "niemand weiß",
+       "unklar"
+      ],
+      "nachfrage": "Und was glauben die Forscher jetzt, was es war?"
+     }
+    ],
+    "allesDrin": "Und wenn es doch Aliens waren, warum haben die nur einmal angerufen?",
+    "verstanden": "Ahh, wie ein Anruf mit unterdrückter Nummer, der nie wieder klingelt. 📞",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Woher hat das Wow!-Signal seinen Namen?",
+    "chips": [
+     "Vom Teleskop „Wow“",
+     "Von einer Randnotiz",
+     "Von einer Zeitungsschlagzeile",
+     "Vom Klang im Lautsprecher"
+    ],
+    "richtig": "Von einer Randnotiz"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Wow_signal.jpg/960px-Wow_signal.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Wow_signal.jpg",
+     "text": "Der Computerausdruck mit Ehmans roter Markierung. Gescannt von einer Farbkopie, Jahre nach 1977.",
+     "credit": "Big Ear Radio Observatory und North American AstroPhysical Observatory (NAAPO) · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "The Big Ear Wow! Signal: What We Know and Don't Know About It After 30 Years – Jerry R. Ehman, Big Ear Radio Observatory",
+     "url": "http://www.bigear.org/Wow30th/wow30th.htm"
+    },
+    {
+     "name": "The Wow! Signal Might Not Have Been Aliens – But a Weird Cosmic Outburst – Scientific American (2024)",
+     "url": "https://www.scientificamerican.com/article/the-wow-signal-seti-mystery-might-at-last-be-solved/"
+    },
+    {
+     "name": "Arecibo Wow! I: An Astrophysical Explanation for the Wow! Signal – Abel Méndez, Kevin Ortiz Ceballos, Jorge I. Zuluaga, arXiv-Vorabveröffentlichung (2024)",
+     "url": "https://arxiv.org/abs/2408.08513"
+    },
+    {
+     "name": "Arecibo Wow! II: Revised Properties of the Wow! Signal from Archival Ohio SETI Data – Abel Méndez u. a., arXiv-Vorabveröffentlichung (2025)",
+     "url": "https://arxiv.org/abs/2508.10657"
+    }
+   ],
+   "id": "wow-signal"
+  },
+  {
+   "typ": "fall",
+   "titel": "Linear A",
+   "einstieg": [
+    "Kreta, vor etwa 3.500 Jahren. Die Minoer ritzen Zeichen in Tontafeln. Heute heißt diese Schrift Linear A.",
+    "Später übernehmen Griechen vom Festland die Zeichen und machen daraus ihre eigene Schrift: Linear B.",
+    "1952 wird Linear B geknackt. Viele Zeichen sehen in beiden Schriften gleich aus."
+   ],
+   "frage": "Was kann man heute mit Linear A anfangen?",
+   "chips": [
+    "Alles lesen und verstehen",
+    "Nichts, die Zeichen sind fremd",
+    "Sie lesen, es ist Griechisch",
+    "Aussprechen, aber nicht verstehen"
+   ],
+   "richtig": "Aussprechen, aber nicht verstehen",
+   "hinweise": [
+    "Eine Schrift entziffern heißt zweierlei: wissen, wie die Zeichen klingen, und wissen, was die Wörter bedeuten.",
+    "Linear B entpuppte sich als frühes Griechisch. Weil viele Zeichen aus Linear A stammen, kann man deren Lautwerte übertragen.",
+    "Liest man Linear A so laut vor, kommen Wörter heraus, die zu keiner bekannten Sprache passen. Und es gibt keinen zweisprachigen Text, keinen „Stein von Rosette“."
+   ],
+   "aufloesung": [
+    "Man kann Linear A ungefähr aussprechen, aber nicht verstehen. Die Sprache der Minoer ist bis heute unbekannt.",
+    "Linear A wurde auf Kreta etwa 1800 bis 1450 v. Chr. geschrieben. Erhalten sind rund 1.400 Inschriften, die meisten auf Tontafeln.",
+    "Linear B knackte 1952 Michael Ventris. Er war kein Sprachprofessor, sondern Architekt. Als Schüler hatte er Funde aus Knossos gesehen und kam nie davon los.",
+    "Er baute auf der Arbeit der US-Forscherin Alice Kober auf. Zuerst tippte er auf eine Sprache wie Etruskisch. Heraus kam: Griechisch."
+   ],
+   "dreh": "Ein Architekt knackte Linear B. Die ältere Schrift, aus der sie entstand, kann bis heute niemand verstehen.",
+   "warum": {
+    "frage": "Warum klappte bei Linear B, was bei Linear A bis heute scheitert?",
+    "nachfrage": "Stell dir vor, du kannst einen finnischen Text laut vorlesen, sprichst aber kein Finnisch. Weißt du dann, was drinsteht?",
+    "gruende": [
+     "Hinter Linear B steckte eine bekannte Sprache: Griechisch. Als Ventris die Laute hatte, erkannte er Wörter wieder.",
+     "Die Sprache der Minoer scheint mit keiner bekannten Sprache verwandt, weder mit den indogermanischen noch mit den semitischen Nachbarsprachen.",
+     "Es gibt wenig Text, meist kurze Einträge, und keine zweisprachige Inschrift, mit der man vergleichen könnte."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Michael Ventris war von Beruf Architekt.",
+     "falsch": false
+    },
+    {
+     "satz": "Linear B entpuppte sich als frühe Form der minoischen Sprache.",
+     "falsch": true,
+     "korrektur": "Linear B schreibt frühes Griechisch. Die Sprache hinter Linear A, das Minoische, versteht bis heute niemand."
+    },
+    {
+     "satz": "Linear B ist aus der älteren Schrift Linear A entstanden.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wenn man die Buchstaben vorlesen kann, wieso versteht man es dann nicht? 🤔",
+    "punkte": [
+     {
+      "name": "Die Sprache dahinter ist unbekannt",
+      "worte": [
+       "sprache",
+       "unbekannt",
+       "kennt keiner",
+       "kennt niemand",
+       "minoisch",
+       "fremd",
+       "bedeut"
+      ],
+      "nachfrage": "Aber wenn ich's vorlesen kann, ist es doch fast geschafft, oder?"
+     },
+     {
+      "name": "Bei Linear B war es Griechisch, das kannte man schon",
+      "worte": [
+       "griech",
+       "linear b",
+       "ventris",
+       "kannte",
+       "bekannt"
+      ],
+      "nachfrage": "Und warum hat es dann bei der anderen Schrift geklappt?"
+     },
+     {
+      "name": "Es fehlt ein Vergleichstext, und es gibt nur wenig",
+      "worte": [
+       "rosette",
+       "übersetz",
+       "zweisprach",
+       "vergleich",
+       "schlüssel",
+       "wenig",
+       "kurz"
+      ],
+      "nachfrage": "Gibt's denn kein Wörterbuch oder so was?"
+     }
+    ],
+    "allesDrin": "Und wenn man jetzt noch mehr Tafeln findet?",
+    "verstanden": "Ahh, wie wenn ich Japanisch in Lautschrift vorlese und null verstehe. 😄",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Welchen Beruf hatte Michael Ventris, der 1952 Linear B entzifferte?",
+    "chips": [
+     "Archäologe",
+     "Architekt",
+     "Sprachprofessor",
+     "Codeknacker im Krieg"
+    ],
+    "richtig": "Architekt"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Minoan_Linear_A%2C_Crete%2C_AMH%2C_145099.jpg/960px-Minoan_Linear_A%2C_Crete%2C_AMH%2C_145099.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Minoan_Linear_A,_Crete,_AMH,_145099.jpg",
+     "text": "Eine Tontafel in Linear A aus Hagia Triada auf Kreta, heute im Archäologischen Museum Heraklion.",
+     "credit": "Zde (Wikimedia-Nutzer) · CC BY-SA 4.0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Cracking the code: the decipherment of Linear B 60 years on – University of Cambridge",
+     "url": "https://www.cam.ac.uk/research/news/cracking-the-code-the-decipherment-of-linear-b-60-years-on"
+    },
+    {
+     "name": "Michael Ventris – Mycenaean Epigraphy Group, Faculty of Classics, University of Cambridge",
+     "url": "https://www.classics.cam.ac.uk/research/projects/mycep/decipherment/ventris"
+    },
+    {
+     "name": "Linear A Phonology (Kapitel 3, Zusammenfassung) – Brent Davis, in: The Undeciphered Aegean Scripts, Cambridge University Press 2026",
+     "url": "https://www.cambridge.org/core/books/abs/undeciphered-aegean-scripts/linear-a-phonology/3FA5DE6DAB40A8FCDA798BA2F7F4D1FE"
+    },
+    {
+     "name": "‘Rosetta Stone’ of the internet could help researchers finally solve puzzle of ancient Minoan language – Pressemitteilung St John's College Cambridge, hier über Popular Archaeology (2021)",
+     "url": "https://popular-archaeology.com/article/rosetta-stone-of-the-internet-could-help-researchers-finally-solve-puzzle-of-ancient-minoan-language"
+    },
+    {
+     "name": "SigLA – The Signs of Linear A: a palaeographical database – Ester Salgarella, Simon Castellan",
+     "url": "https://sigla.phis.me/about.html"
+    },
+    {
+     "name": "Codebreakers and Groundbreakers (Ausstellung 2017/18) – Fitzwilliam Museum, Cambridge",
+     "url": "https://www.fitzmuseum.cam.ac.uk/visit-us/exhibitions/codebreakers-and-groundbreakers"
+    }
+   ],
+   "id": "linear-a"
+  },
+  {
+   "typ": "fall",
+   "titel": "Nazca-Bilder",
+   "einstieg": [
+    "Peru, eine Wüstenebene bei Nazca. Im Boden liegen riesige Bilder: Vögel, ein Affe, eine Spinne, ein Wal.",
+    "Angelegt vor rund 2.000 Jahren, wiederentdeckt in den 1920ern. Seitdem suchen Forschende die Ebene nach weiteren Bildern ab.",
+    "In fast 100 Jahren fanden sie 430 Figuren. Dann kamen in nur sechs Monaten 303 neue dazu."
+   ],
+   "frage": "Wie hat man so viele neue Figuren so schnell gefunden?",
+   "chips": [
+    "Ein Sturm legte sie frei",
+    "Mit Wärmebildern aus dem All",
+    "Durch Hinweise von Einheimischen",
+    "Eine KI durchsuchte Luftbilder"
+   ],
+   "richtig": "Eine KI durchsuchte Luftbilder",
+   "hinweise": [
+    "Die meisten neuen Figuren sind klein, im Schnitt nur etwa 9 Meter. Nach 2.000 Jahren Wind und Wetter sind sie kaum noch zu erkennen.",
+    "Bis dahin mussten Fachleute hochauflösende Luftbilder von über 600 Quadratkilometern mit bloßem Auge absuchen. Viel zu langsam.",
+    "Mit im Team: Forschende des Computerkonzerns IBM. Erst kamen Zehntausende Verdachtsstellen heraus, dann liefen Archäologen die besten davon zu Fuß ab."
+   ],
+   "aufloesung": [
+    "Eine KI. Forschende der Universität Yamagata in Japan, von IBM und vom Deutschen Zentrum für Luft- und Raumfahrt trainierten sie auf Luftbilder der ganzen Ebene.",
+    "Die KI meldete über 47.000 Verdachtsstellen. Fachleute sortierten nach, ein Team prüfte von 2022 bis 2023 vor Ort. Ergebnis: 303 neue Figuren, veröffentlicht 2024.",
+    "Gemacht sind die Bilder einfach: Die Menschen räumten die dunklen Steine an der Oberfläche beiseite. Darunter kam hellerer Boden zum Vorschein.",
+    "Die kleinen Bilder zeigen meist Menschen und Haustiere wie Lamas. Sie liegen nahe an alten Pfaden, gut sichtbar für Leute, die vorbeigingen.",
+    "Die großen Bilder, im Schnitt 90 Meter, zeigen meist wilde Tiere und liegen an den langen Linien. Wohl für Rituale der Gemeinschaft. Ganz sicher ist das nicht."
+   ],
+   "dreh": "Wir finden immer noch neue Nazca-Bilder, jetzt mit KI. Warum die Menschen sie anlegten, weiß bis heute niemand sicher.",
+   "warum": {
+    "frage": "Warum brauchte man für die Suche überhaupt eine KI?",
+    "nachfrage": "Wie lange bräuchtest du, um auf Tausenden Fotos ein verblasstes Bild von der Größe eines Klassenzimmers zu finden?",
+    "gruende": [
+     "Die kleinen Bilder sind nach 2.000 Jahren stark verblasst. Auf Luftbildern heben sie sich kaum vom Boden ab.",
+     "Das Gebiet ist riesig, über 600 Quadratkilometer. Alles mit bloßem Auge abzusuchen, ist kaum zu schaffen.",
+     "Die KI schlägt nur Verdachtsstellen vor, Menschen prüfen nach. Zusammen fand das Team neue Figuren rund 16-mal schneller als vorher."
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Alle Nazca-Bilder kann man nur aus dem Flugzeug erkennen.",
+     "falsch": true,
+     "korrektur": "Die vielen kleinen Bilder liegen nahe an alten Pfaden. Sie waren wohl dafür gemacht, im Vorbeigehen gesehen zu werden."
+    },
+    {
+     "satz": "Die Bilder entstanden, indem man Steine an der Oberfläche beiseiteräumte.",
+     "falsch": false
+    },
+    {
+     "satz": "Die KI fand die Figuren nicht allein: Archäologen prüften die Stellen zu Fuß.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wenn eine KI die Bilder finden kann, warum sagt sie dann nicht einfach, wofür die gemacht wurden? 🤔",
+    "punkte": [
+     {
+      "name": "Die KI erkennt nur Muster auf Fotos",
+      "worte": [
+       "muster",
+       "foto",
+       "luftbild",
+       "bild",
+       "erkennt",
+       "sucht",
+       "findet",
+       "verdacht",
+       "form"
+      ],
+      "nachfrage": "Aber die KI ist doch schlau. Was macht die denn genau?"
+     },
+     {
+      "name": "Die Bedeutung kann man nur aus Lage und Motiv erschließen",
+      "worte": [
+       "pfad",
+       "weg",
+       "lage",
+       "liegt",
+       "linie",
+       "motiv",
+       "tiere",
+       "menschen",
+       "lama",
+       "ritual"
+      ],
+      "nachfrage": "Und woher wissen die Forscher dann überhaupt irgendwas über den Zweck?"
+     },
+     {
+      "name": "Sicher weiß es bis heute niemand",
+      "worte": [
+       "niemand",
+       "keiner",
+       "weiß nicht",
+       "unklar",
+       "sicher",
+       "vermut",
+       "rätsel",
+       "umstritten"
+      ],
+      "nachfrage": "Also weiß man es jetzt, oder nicht?"
+     }
+    ],
+    "allesDrin": "Und gibt es da noch mehr Bilder, die keiner gefunden hat?",
+    "verstanden": "Ahh, die KI ist wie eine Lupe, aber denken müssen die Forscher selbst. 🔍",
+    "halb": "Hm, so halb. Ich frag morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wie entstanden die Nazca-Bilder?",
+    "chips": [
+     "Mit weißer Farbe gemalt",
+     "Steine wurden beiseitegeräumt",
+     "In den Fels gemeißelt",
+     "Mit Feuer eingebrannt"
+    ],
+    "richtig": "Steine wurden beiseitegeräumt"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_52.JPG/960px-L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_52.JPG",
+     "seite": "https://commons.wikimedia.org/wiki/File:L%C3%ADneas_de_Nazca,_Nazca,_Per%C3%BA,_2015-07-29,_DD_52.JPG",
+     "text": "Der „Kolibri“, eines der bekanntesten Nazca-Bilder, aus dem Flugzeug fotografiert (2015).",
+     "credit": "Diego Delso (delso.photo) · CC BY-SA 4.0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "AI-accelerated Nazca survey nearly doubles the number of known figurative geoglyphs and sheds light on their purpose – Masato Sakai u. a., PNAS 121 (2024), Open Access",
+     "url": "https://www.pnas.org/doi/10.1073/pnas.2407652121"
+    },
+    {
+     "name": "AI-Accelerated Nazca Survey Nearly Doubles the Number of Known Figurative Geoglyphs and Sheds Light on Their Purpose (Pressemitteilung, 24.09.2024) – Yamagata University",
+     "url": "https://www.yamagata-u.ac.jp/en/information/info/20240924"
+    },
+    {
+     "name": "Accelerated discovery of Nasca geoglyphs by AI (09.10.2024) – Deutsches Zentrum für Luft- und Raumfahrt (DLR), Earth Observation Center",
+     "url": "https://www.dlr.de/en/eoc/latest/news/2024/accelerated-discovery-nasca-geoglyphs-by-ai"
+    }
+   ],
+   "id": "nazca"
   }
  ]
 };

@@ -25,7 +25,9 @@ state.bonus = state.bonus || {};
 // Ältere Spielstände kennen die Fall-ID noch nicht
 Object.entries(state.gespielt).forEach(([t, r]) => { if (!r.id && DATA.tage[t - 1]) r.id = DATA.tage[t - 1].id; });
 const alleErgebnisse = () => [...Object.values(state.gespielt), ...Object.values(state.bonus)];
-const naechsterBonus = () => BONUS.find(b => !state.bonus[b.id]);
+const offeneBonus = () => BONUS.filter(b => !state.bonus[b.id]);
+// Zufallsfall: ein noch nicht gespielter Bonusfall, zufällig ausgewählt
+const naechsterBonus = () => { const o = offeneBonus(); return o.length ? o[Math.floor(Math.random() * o.length)] : null; };
 function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} }
 
 // ---------- Datum und Tag ----------
@@ -55,7 +57,7 @@ themeBtn.onclick = () => {
 
 // ---------- Chat-Bausteine ----------
 let hurry = false;                           // Tippen in den Chat überspringt Wartezeiten
-chat.addEventListener('click', e => { if (!e.target.closest('a, .selectable, .single-image img')) hurry = true; });
+chat.addEventListener('click', e => { if (!e.target.closest('a, .selectable, .single-image img, .audio-msg')) hurry = true; });
 function wait(ms) {
 	return new Promise(r => {
 		const t0 = Date.now();
@@ -264,11 +266,49 @@ function shuffle(arr, seed) {
 	for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
 	return a;
 }
-async function bubblesWithImages(list, bilder, ort) {
+async function bubblesWithImages(list, bilder, ort, audio) {
 	for (let i = 0; i < list.length; i++) {
 		await say(list[i]);
 		for (const img of bilder.filter(b => b.ort === ort && b.nach === i)) await photo(img);
+		if (audio && audio.ort === ort && audio.nach === i) await ton(audio);
 	}
+}
+// Original-Ton als Sprachnachricht
+let aktuellerTon = null;
+const fmtZeit = s => isFinite(s) ? `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}` : '';
+async function ton(a) {
+	const f = document.createElement('figure');
+	f.className = 'audio-msg';
+	f.innerHTML = '<div class="audio-msg__bubble"><button class="audio-msg__play" aria-label="Abspielen">▶</button><div class="audio-msg__bar"><span></span></div><span class="audio-msg__time"></span></div><figcaption><span class="audio-msg__text"></span><span class="credit"><a target="_blank" rel="noopener"></a></span></figcaption>';
+	const el = new Audio();
+	el.preload = 'none';
+	el.src = a.src;
+	const btn = f.querySelector('.audio-msg__play');
+	const fill = f.querySelector('.audio-msg__bar span');
+	const time = f.querySelector('.audio-msg__time');
+	time.textContent = a.laenge || '';
+	f.querySelector('.audio-msg__text').textContent = '🔊 Original-Ton: ' + a.text;
+	const link = f.querySelector('.credit a');
+	link.href = a.seite || a.src;
+	link.textContent = a.credit;
+	btn.onclick = e => {
+		e.stopPropagation();
+		if (el.paused) {
+			if (aktuellerTon && aktuellerTon !== el) aktuellerTon.pause();
+			aktuellerTon = el;
+			el.play().catch(() => { time.textContent = 'geht hier nicht'; });
+		} else el.pause();
+	};
+	el.onplay = () => { btn.textContent = '❚❚'; btn.setAttribute('aria-label', 'Pause'); };
+	el.onpause = el.onended = () => { btn.textContent = '▶'; btn.setAttribute('aria-label', 'Abspielen'); };
+	el.ontimeupdate = () => {
+		fill.style.width = (el.duration ? el.currentTime / el.duration * 100 : 0) + '%';
+		time.textContent = fmtZeit(el.duration - el.currentTime) || a.laenge;
+	};
+	chat.appendChild(f);
+	reveal(f);
+	scrollDown();
+	await wait(600);
 }
 
 // ---------- Abruf früherer Fälle ----------
@@ -309,8 +349,8 @@ async function spieleFall(k, tag, zaehlt) {
 		await say(pick(['Moin! Neuer Fall. 👋', 'Da bist du ja. Neuer Fall.', 'Hallo! Heute wird’s spannend.']));
 	}
 
-	await note(tag ? '— Fall des Tages —' : '— Bonusfall —', 800);
-	await bubblesWithImages(k.einstieg, k.bilder, 'einstieg');
+	await note(tag ? '— Fall des Tages —' : '— Zufallsfall —', 800);
+	await bubblesWithImages(k.einstieg, k.bilder, 'einstieg', k.audio);
 	await say(k.frage);
 
 	const optionen = shuffle(k.chips, k.id);
@@ -341,7 +381,7 @@ async function spieleFall(k, tag, zaehlt) {
 		await say(`Nicht ganz. Richtig ist: „${k.richtig}“.`);
 		if (r.sicherheit === 90) await say('Du warst dir 90 % sicher. Gute Nachricht: Genau solche Irrtümer merkt sich das Gehirn am besten.');
 	}
-	await bubblesWithImages(k.aufloesung, k.bilder, 'aufloesung');
+	await bubblesWithImages(k.aufloesung, k.bilder, 'aufloesung', k.audio);
 	await say('Der Dreh: ' + k.dreh);
 
 	// Warum?
@@ -449,7 +489,7 @@ async function spieleFehlerjagd(k, tag, zaehlt) {
 
 // ---------- Ergebnis ----------
 function shareText(tag, r) {
-	const kopf = tag ? `erstdenken · Tag ${tag}/${TOTAL}` : 'erstdenken · Bonusfall';
+	const kopf = tag ? `erstdenken · Tag ${tag}/${TOTAL}` : 'erstdenken · Zufallsfall';
 	const link = TEST ? '' : '\n' + location.origin + location.pathname;
 	if (r.typ === 'fehlerjagd') return `${kopf} · Fehlerjagd\n🔍 ${r.gefunden}/3 gefunden · ${r.falschVerdacht} falsch verdächtigt` + link;
 	return [kopf,
@@ -478,7 +518,7 @@ async function abschluss(k, tag, r, zaehlt) {
 		r.share = text;
 		state.bonus[k.id] = r;
 		save();
-		await say('Gut gemacht. Den merk ich mir und frag dich bald danach.');
+		await say('Gut gemacht. Den merk ich mir und frag dich bald danach.' + (offeneBonus().length ? ` Noch ${offeneBonus().length} Zufallsfälle im Topf.` : ''));
 	} else if (zaehlt) {
 		r.datum = iso(today());
 		r.nachgeholt = !TEST && r.datum !== iso(dateOfDay(tag));
@@ -498,10 +538,10 @@ async function nachRunde(k, tag) {
 		const opts = ['Ergebnis teilen'];
 		if (k.quellen && k.quellen.length) opts.push('Quellen');
 		if (offen.length) opts.push('Verpasstes nachholen');
-		if (naechsterBonus()) opts.push('Noch ein Fall');
+		if (naechsterBonus()) opts.push('Zufallsfall 🎲');
 		opts.push('Alle Tage');
 		const w = await choose(opts, { quiet: ['Alle Tage'] });
-		if (w === 'Noch ein Fall') { goBonus(naechsterBonus().id); return; }
+		if (w === 'Zufallsfall 🎲') { goBonus(naechsterBonus().id); return; }
 		if (w === 'Ergebnis teilen') await teilen(((tag ? state.gespielt[tag] : state.bonus[k.id]) || {}).share || [...chat.querySelectorAll('.card')].pop()?.textContent || '');
 		if (w === 'Quellen') await sayLinks('Woher ich das weiß:', k.quellen);
 		if (w === 'Verpasstes nachholen') { go(offen[0]); return; }
@@ -568,17 +608,19 @@ function openSheet() {
 	});
 	if (BONUS.length) {
 		const fertig = BONUS.filter(b => state.bonus[b.id]).length;
-		html += `<h2 style="margin-top:32px">Bonusfälle</h2><p>Für Tage, an denen du mehr willst: ${fertig} von ${BONUS.length} gespielt.</p>`;
-		BONUS.forEach((b, i) => {
+		html += `<h2 style="margin-top:32px">Zufallsfälle</h2><p>Für Tage, an denen du mehr willst: ${fertig} von ${BONUS.length} gespielt.</p>`;
+		if (offeneBonus().length) html += '<button class="chip primary" id="zufallBtn" style="margin:0 0 12px">Zufallsfall 🎲</button>';
+		BONUS.forEach(b => {
 			const r = state.bonus[b.id];
-			const frei = r || b === naechsterBonus();
-			html += `<button class="day" data-bonus="${b.id}" ${frei ? '' : 'disabled'}><span class="day__nr">Bonus ${i + 1}</span><span class="day__title">${r ? b.titel : 'Fall'}</span><span class="day__state">${r ? '✓' : frei ? 'als Nächstes' : ''}</span></button>`;
+			html += `<button class="day" data-bonus="${b.id}"><span class="day__nr">${r ? '✓' : '○'}</span><span class="day__title">${r ? b.titel : 'Unbekannter Fall'}</span><span class="day__state">${r ? '' : 'offen'}</span></button>`;
 		});
 	}
 	html += '<p style="margin-top:24px">Dein Spielstand bleibt auf diesem Gerät. <button class="skip" id="closeSheet" style="display:inline;margin:0">Zurück zum Chat</button></p>';
 	sheetInner.innerHTML = html;
 	sheetInner.querySelectorAll('.day:not([disabled])').forEach(b => b.onclick = () => b.dataset.bonus ? goBonus(b.dataset.bonus) : go(+b.dataset.tag));
 	document.getElementById('closeSheet').onclick = closeSheet;
+	const zb = document.getElementById('zufallBtn');
+	if (zb) zb.onclick = () => goBonus(naechsterBonus().id);
 	sheet.classList.add('open');
 	document.getElementById('daysBtn').textContent = 'Chat';
 }
@@ -595,9 +637,9 @@ async function spiele(tag, zaehlt) {
 async function spieleBonus(id) {
 	const k = BONUS.find(b => b.id === id);
 	const nr = BONUS.indexOf(k) + 1;
-	label.textContent = `erstdenken · Bonusfall ${nr} von ${BONUS.length}`;
+	label.textContent = `erstdenken · Zufallsfall`;
 	if (state.bonus[id]) {
-		await say('Diesen Bonusfall hast du schon gespielt. ✓');
+		await say('Diesen Fall hast du schon gespielt. ✓');
 		await say(state.bonus[id].share, 'ki', 'card');
 		const w = await choose(['Nochmal spielen (zählt nicht)', 'Alle Tage'], { quiet: ['Alle Tage'] });
 		if (w === 'Alle Tage') { openSheet(); return; }
@@ -614,14 +656,14 @@ async function schonGespielt(tag) {
 	await say(r.share, 'ki', 'card');
 	const offen = offeneTage();
 	if (offen.length) await say(`Du hast noch ${offen.length === 1 ? 'einen Tag' : offen.length + ' Tage'} offen.`);
-	else if (dayIndex() < TOTAL && !TEST) await say(`Der nächste Fall des Tages kommt ${fmt(dateOfDay(dayIndex() + 1))}.${naechsterBonus() ? ' Lust auf einen Bonusfall?' : ''}`);
+	else if (dayIndex() < TOTAL && !TEST) await say(`Der nächste Fall des Tages kommt ${fmt(dateOfDay(dayIndex() + 1))}.${offeneBonus().length ? ' Lust auf einen Zufallsfall?' : ''}`);
 	const opts = [];
 	if (offen.length) opts.push('Verpasstes nachholen');
-	if (naechsterBonus()) opts.push('Noch ein Fall');
+	if (naechsterBonus()) opts.push('Zufallsfall 🎲');
 	opts.push('Nochmal spielen (zählt nicht)', 'Alle Tage');
 	const w = await choose(opts, { quiet: ['Alle Tage'] });
 	if (w === 'Verpasstes nachholen') return go(offen[0]);
-	if (w === 'Noch ein Fall') return goBonus(naechsterBonus().id);
+	if (w === 'Zufallsfall 🎲') return goBonus(naechsterBonus().id);
 	if (w === 'Alle Tage') { openSheet(); return schonGespielt(tag); }
 	chat.innerHTML = ''; lastLeft = null;
 	await spiele(tag, false);

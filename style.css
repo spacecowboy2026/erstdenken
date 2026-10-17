@@ -423,3 +423,24 @@ margin-top: 40px;
 /* Antwort-Knöpfe nur zeigen, wenn man unten am Chat ist */
 .dock { transition: opacity .2s ease, transform .2s ease; }
 .dock.versteckt { opacity: 0; transform: translateY(16px); pointer-events: none; }
+
+/* Original-Ton wie eine Sprachnachricht */
+.audio-msg { margin: 0; padding: 4px 0 10px; width: 78%; opacity: 0; transform: translateY(6px); transition: opacity .5s ease, transform .5s ease; }
+.audio-msg__bubble {
+	display: flex; align-items: center; gap: 10px;
+	background: var(--bg-secondary);
+	border-radius: 24px; border-top-left-radius: 0;
+	padding: 10px 16px 10px 10px;
+}
+.audio-msg__play {
+	flex: none; width: 34px; height: 34px; border-radius: 34px; border: none;
+	background: var(--bubble-right); color: var(--bubble-right-text);
+	font-size: 13px; cursor: pointer;
+}
+.audio-msg__bar { flex: 1; height: 4px; border-radius: 4px; background: var(--border); overflow: hidden; }
+.audio-msg__bar span { display: block; height: 100%; width: 0; background: var(--bubble-right); }
+.audio-msg__time { font-size: 13px; color: var(--text-secondary); font-variant-numeric: tabular-nums; min-width: 32px; text-align: right; }
+.audio-msg figcaption { margin-top: 6px; font-size: var(--font-size-small); color: var(--text-secondary); padding-left: 4px; }
+.audio-msg figcaption .credit { display: block; font-size: 11px; margin-top: 2px; }
+.audio-msg figcaption .credit a { color: inherit; text-decoration: underline; text-decoration-color: var(--border); }
+.audio-msg.visible { opacity: 1; transform: none; }
