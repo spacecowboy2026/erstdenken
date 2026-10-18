@@ -10449,6 +10449,352 @@ window.ERSTDENKEN = {
     }
    ],
    "id": "stanford-prison"
+  },
+  {
+   "typ": "fall",
+   "titel": "Mikrowelle",
+   "einstieg": [
+    "USA, 1945. Der Zweite Weltkrieg ist gerade vorbei.",
+    "Ein Ingenieur der Firma Raytheon bemerkt im Labor etwas Seltsames.",
+    "Am 8. Oktober 1945 meldet er ein Patent an. Titel: „Verfahren zur Behandlung von Lebensmitteln“. Daraus wird die Mikrowelle."
+   ],
+   "frage": "Woher stammte die Technik der Mikrowelle?",
+   "chips": [
+    "Aus einer Großküche",
+    "Aus der Raumfahrt",
+    "Aus der Atomforschung",
+    "Aus der Radartechnik"
+   ],
+   "richtig": "Aus der Radartechnik",
+   "hinweise": [
+    "Der Erfinder Percy Spencer war kein Koch. Er ging mit 12 von der Schule ab und lernte Funktechnik bei der Marine.",
+    "Seine Firma baute im Krieg in großen Mengen Röhren für das Militär, für Ortungsgeräte. Raketen ins All oder Atome spielten dabei keine Rolle.",
+    "Er stand neben so einer laufenden Röhre, einem Magnetron. Da schmolz der Schokoriegel in seiner Tasche."
+   ],
+   "aufloesung": [
+    "Aus der Radartechnik. Raytheon baute Magnetrons, die Röhren, mit denen Militär-Radar arbeitete.",
+    "1945 schmolz in Spencers Tasche ein Schokoriegel, als er nah an einem laufenden Magnetron stand.",
+    "Er wurde neugierig: Er hielt Maiskörner davor, sie poppten. Ein Ei garte so schnell, dass es platzte.",
+    "1947 kam die erste „Radarange“: etwa 1,80 Meter hoch, rund 340 Kilo schwer, um 3.000 Dollar teuer. Gedacht für Restaurants, Züge und Schiffe.",
+    "Kleine Geräte für die Küche zu Hause gab es erst ab 1967."
+   ],
+   "dreh": "Das Küchengerät stammt aus der Kriegstechnik, entdeckt durch einen geschmolzenen Schokoriegel.",
+   "warum": {
+    "frage": "Ein geschmolzener Schokoriegel, und daraus wird ein Küchengerät. Wie konnte das klappen?",
+    "nachfrage": "Was hat Spencer gemacht, nachdem der Riegel geschmolzen war? Hat er es einfach abgehakt?",
+    "gruende": [
+     {
+      "text": "Die Technik war schon da: Raytheon baute im Krieg massenhaft Magnetrons für Radar.",
+      "worte": [
+       "magnetron",
+       "röhre",
+       "radar",
+       "krieg",
+       "militär",
+       "raytheon",
+       "schon da",
+       "massen"
+      ]
+     },
+     {
+      "text": "Spencer war neugierig und probierte es gezielt aus: Maiskörner poppten, ein Ei platzte.",
+      "worte": [
+       "neugier",
+       "ausprobier",
+       "popcorn",
+       "mais",
+       "test",
+       "experiment",
+       "platzte",
+       "versuch"
+      ]
+     },
+     {
+      "text": "Er meldete ein Patent an, die Firma baute die Radarange: erst groß und teuer, für Restaurants, Züge und Schiffe.",
+      "worte": [
+       "patent",
+       "radarange",
+       "restaurant",
+       "schiff",
+       "züge",
+       "firma",
+       "verkauf",
+       "gebaut"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Spencer bemerkte den Effekt, weil ein Schokoriegel in seiner Tasche schmolz.",
+     "falsch": false
+    },
+    {
+     "satz": "Die erste Radarange von 1947 passte schon auf eine normale Küchenarbeitsplatte.",
+     "falsch": true,
+     "korrektur": "Sie war etwa 1,80 Meter hoch und rund 340 Kilo schwer. Kleine Geräte für zu Hause kamen erst 1967."
+    },
+    {
+     "satz": "Spencer testete den Effekt auch mit Maiskörnern.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wieso hat ausgerechnet einer vom Militär die Mikrowelle erfunden? Der wollte doch gar nicht kochen! 😄",
+    "punkte": [
+     {
+      "name": "die Röhre war für Radar gebaut",
+      "worte": [
+       "radar",
+       "röhre",
+       "magnetron",
+       "militär",
+       "krieg",
+       "raytheon"
+      ],
+      "nachfrage": "Und was war das überhaupt für ein Ding, neben dem er stand?"
+     },
+     {
+      "name": "der Schokoriegel schmolz zufällig",
+      "worte": [
+       "schoko",
+       "riegel",
+       "tasche",
+       "geschmolzen",
+       "zufall",
+       "versehen"
+      ],
+      "nachfrage": "Aber wie hat er gemerkt, dass das Ding etwas heiß macht?"
+     },
+     {
+      "name": "er hat es mit Popcorn und Ei ausprobiert",
+      "worte": [
+       "popcorn",
+       "mais",
+       "ausprobier",
+       "test",
+       "experiment",
+       "neugier"
+      ],
+      "nachfrage": "Und dann? Einfach ‚komisch‘ gesagt und weitergemacht?"
+     }
+    ],
+    "allesDrin": "Und warum war die erste Mikrowelle dann so riesig?",
+    "verstanden": "Popcorn aus dem Radar. Das erzähl ich morgen allen. 🍿",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was bemerkte Percy Spencer 1945 neben einem Magnetron?",
+    "chips": [
+     "Seine Brille beschlug",
+     "Ein Schokoriegel schmolz",
+     "Ein Glas zersprang",
+     "Seine Uhr blieb stehen"
+    ],
+    "richtig": "Ein Schokoriegel schmolz"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 3,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/NS_Savannah_microwave_oven_MD8.jpg/960px-NS_Savannah_microwave_oven_MD8.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:NS_Savannah_microwave_oven_MD8.jpg",
+     "text": "Ein frühes Mikrowellengerät von Raytheon, fotografiert an Bord des Schiffs NS Savannah in Baltimore.",
+     "credit": "Acroterion · CC BY-SA 4.0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Percy Spencer – Lemelson-MIT Program, Massachusetts Institute of Technology",
+     "url": "https://lemelson.mit.edu/resources/percy-spencer"
+    },
+    {
+     "name": "Melted Chocolate to Microwave – MIT Technology Review (1999)",
+     "url": "https://www.technologyreview.com/1999/01/01/236818/melted-chocolate-to-microwave/"
+    },
+    {
+     "name": "US-Patent 2,495,429 „Method of treating foodstuffs“, Percy L. Spencer / Raytheon Manufacturing Co. – Google Patents",
+     "url": "https://patents.google.com/patent/US2495429A/en"
+    }
+   ],
+   "id": "mikrowelle"
+  },
+  {
+   "typ": "fall",
+   "titel": "Röntgens Strahlen",
+   "einstieg": [
+    "Würzburg, 8. November 1895, spät am Abend.",
+    "Der Physiker Wilhelm Conrad Röntgen arbeitet mit einer Glasröhre, durch die Strom fließt. Er hat sie dicht in schwarzen Karton gehüllt, der Raum ist dunkel.",
+    "Trotzdem leuchtet ein Schirm auf, bis zu zwei Meter entfernt. Etwas Unsichtbares dringt durch die Pappe.",
+    "Er nennt es X-Strahlen. Bald sieht man damit Knochen durch die Haut. Eine Entdeckung, mit der man reich werden könnte."
+   ],
+   "frage": "Was machte Röntgen mit seiner Entdeckung?",
+   "chips": [
+    "Er ließ sie patentieren",
+    "Er verkaufte sie an eine Firma",
+    "Er hielt sie fürs Militär geheim",
+    "Er gab sie frei für alle"
+   ],
+   "richtig": "Er gab sie frei für alle",
+   "hinweise": [
+    "Geheim blieb nichts: Schon am 28. Dezember 1895 erschien sein Bericht über „eine neue Art von Strahlen“. Jeder konnte ihn lesen.",
+    "Geld brauchte er nicht: Er war durch eine Erbschaft schon Millionär. Das Preisgeld vom ersten Physik-Nobelpreis 1901 schenkte er der Universität Würzburg.",
+    "Ein Patent auf die Erzeugung der Strahlen hat er nie angemeldet. Er fand, die Nutzung solle der Forschung und allen Menschen offenstehen."
+   ],
+   "aufloesung": [
+    "Er gab sie frei für alle. Ein Patent meldete Röntgen nicht an.",
+    "Laut Deutschem Patent- und Markenamt begründete er das so: Die Nutzung für Forschung und Menschheit solle frei sein. Er konnte es sich leisten, er hatte geerbt.",
+    "Rund sechs Wochen arbeitete er fast Tag und Nacht im Labor. Im Dezember 1895 entstand das Bild der Hand seiner Frau Bertha, mit Ring.",
+    "Am 28. Dezember 1895 erschien sein Bericht. 1901 bekam er den ersten Nobelpreis für Physik und schenkte das Preisgeld der Universität Würzburg."
+   ],
+   "dreh": "Ein unbekannter Strahl, gesehen durch Pappe, und Röntgen schenkte die Entdeckung der Welt.",
+   "warum": {
+    "frage": "Die Röhre war dicht in schwarzen Karton gehüllt. Wie konnte Röntgen daraus schließen, dass da eine neue, unsichtbare Strahlung war?",
+    "nachfrage": "Und warum war es wichtig, dass der Raum dunkel war?",
+    "gruende": [
+     {
+      "text": "Der schwarze Karton hielt das Licht der Röhre zurück. Was durchkam, konnte kein normales Licht sein.",
+      "worte": [
+       "karton",
+       "pappe",
+       "abgedeckt",
+       "verhüllt",
+       "kein licht",
+       "schwarz",
+       "umhüllt",
+       "eingepackt"
+      ]
+     },
+     {
+      "text": "Der Raum war dunkel. Das Leuchten konnte also von keiner anderen Lampe kommen.",
+      "worte": [
+       "dunkel",
+       "finster",
+       "keine lampe",
+       "andere lichtquelle",
+       "abgedunkelt",
+       "nacht",
+       "raum"
+      ]
+     },
+     {
+      "text": "Der Schirm leuchtete trotzdem, sogar bis zu zwei Meter entfernt. Etwas Unsichtbares musste durch die Pappe dringen.",
+      "worte": [
+       "schirm",
+       "leucht",
+       "zwei meter",
+       "entfernt",
+       "unsichtbar",
+       "durchdring",
+       "durch die pappe",
+       "glüh"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Röntgen entdeckte die Strahlen 1895 in Würzburg.",
+     "falsch": false
+    },
+    {
+     "satz": "Röntgen ließ seine Entdeckung patentieren und wurde dadurch Millionär.",
+     "falsch": true,
+     "korrektur": "Er meldete kein Patent an. Millionär war er schon vorher, durch eine Erbschaft."
+    },
+    {
+     "satz": "Er bekam 1901 den ersten Nobelpreis für Physik.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum hat der Röntgen kein Geld mit seinen Strahlen gemacht? Der hätte doch reich werden können! 🤑",
+    "punkte": [
+     {
+      "name": "er wollte, dass alle die Strahlen nutzen dürfen",
+      "worte": [
+       "frei",
+       "alle",
+       "menschheit",
+       "forschung",
+       "teilen",
+       "jeder",
+       "kein patent",
+       "nutzen"
+      ],
+      "nachfrage": "Aber was hatte er denn davon, die Strahlen einfach herzugeben?"
+     },
+     {
+      "name": "er hatte schon genug Geld geerbt",
+      "worte": [
+       "geerbt",
+       "erbschaft",
+       "reich",
+       "millionär",
+       "genug geld",
+       "vermögen"
+      ],
+      "nachfrage": "Und wovon hat er dann gelebt?"
+     },
+     {
+      "name": "er verschenkte sogar das Nobelpreisgeld",
+      "worte": [
+       "nobelpreis",
+       "preisgeld",
+       "universität",
+       "würzburg",
+       "gespendet",
+       "geschenkt",
+       "verschenkt"
+      ],
+      "nachfrage": "Hat er wenigstens den Preis für sich behalten?"
+     }
+    ],
+    "allesDrin": "Und wenn er ein Patent gehabt hätte, gäb's dann heute weniger Röntgengeräte?",
+    "verstanden": "Voll nett von dem. Unsichtbare Strahlen und dann einfach verschenkt. 😊",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Warum verdiente Röntgen nichts an seinen X-Strahlen?",
+    "chips": [
+     "Er meldete kein Patent an",
+     "Ein Kollege war schneller",
+     "Der Kaiser verbot es",
+     "Die Strahlen galten als nutzlos"
+    ],
+    "richtig": "Er meldete kein Patent an"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg/960px-First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg",
+     "text": "„Hand mit Ringen“: eines der ersten Röntgenbilder, die Hand von Anna Bertha Röntgen, Dezember 1895.",
+     "credit": "Wilhelm Conrad Röntgen · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Röntgen's X-rays (Erfindungen, die Geschichte machten) – Deutsches Patent- und Markenamt",
+     "url": "https://dpma.de/english/our_office/publications/milestones/inventionsthatmadehistory/roentgensx-rays/index.html"
+    },
+    {
+     "name": "Wilhelm Conrad Röntgen – Biographical – NobelPrize.org",
+     "url": "https://www.nobelprize.org/prizes/physics/1901/rontgen/biographical/"
+    },
+    {
+     "name": "Wilhelm Conrad Röntgen – Facts – NobelPrize.org",
+     "url": "https://www.nobelprize.org/prizes/physics/1901/rontgen/facts/"
+    },
+    {
+     "name": "Röntgen vor 125 Jahren: entdeckt – zufällig? – Ärzte Zeitung",
+     "url": "https://www.aerztezeitung.de/Panorama/Roentgen-vor-125-Jahren-entdeckt-zufaellig-414362.html"
+    }
+   ],
+   "id": "roentgen"
   }
  ]
 };
