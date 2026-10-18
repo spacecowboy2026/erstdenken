@@ -9023,6 +9023,1253 @@ window.ERSTDENKEN = {
     }
    ],
    "id": "tutanchamun"
+  },
+  {
+   "typ": "fall",
+   "titel": "Cholera in Soho",
+   "einstieg": [
+    "London, Ende August 1854. Im Viertel Soho bricht die Cholera aus.",
+    "In zehn Tagen sterben rund 500 Menschen.",
+    "Die meisten Ärzte sind sicher: Schuld ist schlechte, faulige Luft. Man nennt das Miasma.",
+    "Der Arzt John Snow glaubt das nicht. Er geht von Haus zu Haus und fragt nach."
+   ],
+   "frage": "Woher kam die Krankheit?",
+   "chips": [
+    "Fauliger Dunst in der Luft",
+    "Verdorbenes Fleisch vom Markt",
+    "Ratten und ihre Flöhe",
+    "Eine verseuchte Wasserpumpe"
+   ],
+   "richtig": "Eine verseuchte Wasserpumpe",
+   "hinweise": [
+    "Eine Frau starb weit weg im Stadtteil Hampstead, fern vom Dunst in Soho. Sie hatte sich am 31. August etwas aus der Broad Street bringen lassen.",
+    "Snow trägt jeden Toten als kleinen Strich in einen Stadtplan ein. Die Striche ballen sich um eine Stelle in der Broad Street, an der sich die Nachbarn täglich etwas holen.",
+    "Fast verschont bleiben: über 70 Arbeiter einer Brauerei, die Bier bekamen, und ein Armenhaus mit eigenem Brunnen. Luft und Ratten machen an keiner Hauswand halt."
+   ],
+   "aufloesung": [
+    "Eine verseuchte Wasserpumpe in der Broad Street.",
+    "Snows Karte zeigte: Die Toten häuften sich um die Pumpe. Wer anderes Wasser trank, wie die Brauer und das Armenhaus, blieb fast verschont.",
+    "Am 7. September legte er die Funde den Gemeindevorstehern vor. Am 8. September wurde der Griff der Pumpe abmontiert.",
+    "Später fand man heraus: Der Brunnen war durch Abwasser verschmutzt.",
+    "Die Fachwelt blieb trotzdem lange beim Miasma. Den Cholera-Erreger fand Robert Koch erst 1883, ein Vierteljahrhundert nach Snows Tod."
+   ],
+   "dreh": "Eine Karte und ein Pumpengriff: Daten schlugen die herrschende Lehre, Jahrzehnte bevor jemand den Erreger kannte.",
+   "warum": {
+    "frage": "Damals konnte niemand den Erreger sehen. Wie konnte Snow trotzdem zeigen, dass die Pumpe schuld war?",
+    "nachfrage": "Und was verraten die Leute, die fast verschont blieben, oder die Frau, die weit weg trotzdem starb?",
+    "gruende": [
+     {
+      "text": "Er trug jeden Toten in einen Stadtplan ein. Die Toten häuften sich um die Pumpe in der Broad Street.",
+      "worte": [
+       "karte",
+       "stadtplan",
+       "eingetragen",
+       "eingezeichnet",
+       "häuf",
+       "ballen",
+       "striche",
+       "markiert"
+      ]
+     },
+     {
+      "text": "Wer anderes Wasser hatte, blieb fast verschont: die Brauerei-Arbeiter mit ihrem Bier, das Armenhaus mit eigenem Brunnen.",
+      "worte": [
+       "brauerei",
+       "bier",
+       "armenhaus",
+       "eigenen brunnen",
+       "verschont",
+       "ausnahme",
+       "anderes wasser",
+       "arbeiter"
+      ]
+     },
+     {
+      "text": "Eine Frau weit weg in Hampstead starb, nachdem sie sich etwas aus der Broad Street hatte bringen lassen.",
+      "worte": [
+       "hampstead",
+       "weit weg",
+       "frau",
+       "bringen lassen",
+       "geholt",
+       "entfernt",
+       "außerhalb",
+       "anderen stadtteil"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "John Snow entdeckte den Cholera-Erreger unter dem Mikroskop im Pumpenwasser.",
+     "falsch": true,
+     "korrektur": "Den Erreger fand erst Robert Koch 1883. Snow kam ohne ihn aus: mit Stadtplan und Befragungen."
+    },
+    {
+     "satz": "Die meisten Ärzte hielten damals schlechte Luft für die Ursache.",
+     "falsch": false
+    },
+    {
+     "satz": "Der Griff der Pumpe wurde am 8. September 1854 abmontiert.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wie kann man denn mit einem Stadtplan rausfinden, wo eine Krankheit herkommt? 🤔",
+    "punkte": [
+     {
+      "name": "die Toten auf der Karte häufen sich an der Pumpe",
+      "worte": [
+       "karte",
+       "stadtplan",
+       "pumpe",
+       "eingezeichnet",
+       "häuf",
+       "punkte",
+       "striche",
+       "rundherum"
+      ],
+      "nachfrage": "Aber woher wusste er überhaupt, dass es um die Pumpe ging?"
+     },
+     {
+      "name": "wer anderes Wasser trank, blieb gesund",
+      "worte": [
+       "brauerei",
+       "bier",
+       "armenhaus",
+       "brunnen",
+       "verschont",
+       "gesund",
+       "anderes wasser"
+      ],
+      "nachfrage": "Vielleicht wohnten die Leute da einfach dicht beieinander? Wie konnte er sicher sein?"
+     },
+     {
+      "name": "danach wurde der Pumpengriff abgebaut",
+      "worte": [
+       "griff",
+       "schwengel",
+       "abmontiert",
+       "abgebaut",
+       "entfernt",
+       "stillgelegt",
+       "zugemacht",
+       "abgeschraubt"
+      ],
+      "nachfrage": "Und was hat er dann gemacht, damit keiner mehr krank wird?"
+     }
+    ],
+    "allesDrin": "Und warum haben ihm die anderen Ärzte dann trotzdem nicht geglaubt?",
+    "verstanden": "Krass. Ein Detektiv mit Stadtplan. 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was wurde 1854 auf John Snows Rat in der Broad Street entfernt?",
+    "chips": [
+     "Ein Abwasserrohr",
+     "Der Griff einer Wasserpumpe",
+     "Ein Marktstand",
+     "Ein Misthaufen"
+    ],
+    "richtig": "Der Griff einer Wasserpumpe"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/960px-Snow-cholera-map-1.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg",
+     "text": "Snows Karte von Soho: Jeder schwarze Balken ist ein Toter. Die Balken ballen sich um die Pumpe in der Broad Street.",
+     "credit": "John Snow · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Broad Street Pump Outbreak – UCLA Fielding School of Public Health, Department of Epidemiology (mit Auszügen aus Snows Buch von 1855)",
+     "url": "https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_a.html"
+    },
+    {
+     "name": "John Snow: Cholera & the Broad Street pump – London Museum",
+     "url": "https://www.londonmuseum.org.uk/collections/london-stories/john-snow-cholera-broad-street-pump/"
+    },
+    {
+     "name": "Scientist of the Day: John Snow – Linda Hall Library",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/john-snow"
+    },
+    {
+     "name": "The long view: John Snow and the pump handle of public health – Gavi, VaccinesWork",
+     "url": "https://www.gavi.org/vaccineswork/long-view-john-snow-and-pump-handle-public-health"
+    },
+    {
+     "name": "Robert Koch – Biographical – NobelPrize.org",
+     "url": "https://www.nobelprize.org/prizes/medicine/1905/koch/biographical/"
+    }
+   ],
+   "id": "john-snow-cholera"
+  },
+  {
+   "typ": "fall",
+   "titel": "Semmelweis",
+   "einstieg": [
+    "Wien, 1847. Das Allgemeine Krankenhaus hat zwei Geburtsstationen.",
+    "Auf Station 1 sterben etwa dreimal so viele Mütter am Kindbettfieber wie auf Station 2.",
+    "Der junge Arzt Ignaz Semmelweis will wissen, warum."
+   ],
+   "frage": "Was machte Station 1 so tödlich?",
+   "chips": [
+    "Schlechte Luft in den Sälen",
+    "Angst vor den Ärzten",
+    "Überfüllte Säle",
+    "Die Hände der Ärzte"
+   ],
+   "richtig": "Die Hände der Ärzte",
+   "hinweise": [
+    "Beide Stationen lagen im selben Krankenhaus und hatten dieselbe Lüftung. Als die Zahlen später sanken, schob der Chef das auf eine neue Lüftung. Die hatten aber beide Stationen.",
+    "Der wichtigste Unterschied: Auf Station 1 arbeiteten Ärzte und Medizinstudenten, die auch Leichen sezierten. Auf Station 2 lernten Hebammen.",
+    "Im März 1847 schnitt sich ein befreundeter Gerichtsmediziner beim Sezieren in den Finger. Er starb mit denselben Anzeichen wie die Mütter."
+   ],
+   "aufloesung": [
+    "Es waren die Hände der Ärzte und Studenten. Sie kamen von den Leichen direkt zu den Gebärenden.",
+    "Semmelweis vermutete: Etwas von den Leichen gelangt über die Hände in die Frauen. Ab Mai 1847 mussten alle die Hände in Chlorkalk-Lösung waschen.",
+    "Die Sterblichkeit fiel auf etwa 1 bis 2 Prozent. 1848 lag Station 1 sogar knapp unter der Hebammen-Station.",
+    "Viele Kollegen lehnten ihn trotzdem ab. Sein Vertrag in Wien wurde 1849 nicht verlängert.",
+    "1865 wurde er in eine Anstalt bei Wien gebracht. Dort starb er nach kurzer Zeit an einer Blutvergiftung."
+   ],
+   "dreh": "Die Ärzte selbst trugen den Tod an ihren Händen, ohne es zu ahnen.",
+   "warum": {
+    "frage": "Keiner konnte damals Keime sehen. Wie kam Semmelweis trotzdem darauf, dass ausgerechnet die Ärzte die Mütter krank machten?",
+    "nachfrage": "Und wie hat er seine Vermutung am Ende überprüft?",
+    "gruende": [
+     {
+      "text": "Er verglich zwei Stationen im selben Haus: Bei den Ärzten starben etwa dreimal so viele Mütter wie bei den Hebammen.",
+      "worte": [
+       "vergleich",
+       "zwei stationen",
+       "hebamm",
+       "dreimal",
+       "unterschied",
+       "station 2",
+       "mehr gestorben"
+      ]
+     },
+     {
+      "text": "Die Ärzte und Studenten sezierten Leichen, die Hebammen nicht. Ein Kollege starb nach einem Schnitt beim Sezieren mit denselben Anzeichen wie die Mütter.",
+      "worte": [
+       "leiche",
+       "sezier",
+       "schnitt",
+       "kollege",
+       "finger",
+       "gleichen anzeichen",
+       "symptom",
+       "gerichtsmedizin"
+      ]
+     },
+     {
+      "text": "Als alle die Hände in Chlorkalk wuschen, fiel die Sterblichkeit auf etwa 1 bis 2 Prozent.",
+      "worte": [
+       "hände",
+       "wasch",
+       "chlor",
+       "kalk",
+       "gesunken",
+       "weniger",
+       "prozent",
+       "desinfiz"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Auf der Station der Ärzte starben deutlich mehr Mütter als auf der Station der Hebammen.",
+     "falsch": false
+    },
+    {
+     "satz": "Semmelweis ließ die Hände mit Chlorkalk-Lösung waschen.",
+     "falsch": false
+    },
+    {
+     "satz": "Seine Kollegen übernahmen die Methode sofort, und Wien verlängerte seinen Vertrag.",
+     "falsch": true,
+     "korrektur": "Viele Kollegen lehnten ihn ab. Sein Vertrag in Wien wurde 1849 nicht verlängert."
+    }
+   ],
+   "malia": {
+    "frage": "Wieso haben ausgerechnet die Ärzte die Mamas krank gemacht? Die sollen doch helfen! 😟",
+    "punkte": [
+     {
+      "name": "sie kamen direkt von den Leichen",
+      "worte": [
+       "leiche",
+       "tote",
+       "sezier",
+       "obdukt",
+       "aufgeschnitten",
+       "sektion"
+      ],
+      "nachfrage": "Aber woher hatten die Ärzte das denn?"
+     },
+     {
+      "name": "an den Händen klebte etwas davon",
+      "worte": [
+       "hände",
+       "dreck",
+       "schmutz",
+       "keime",
+       "ungewaschen",
+       "kleben",
+       "finger",
+       "übertragen"
+      ],
+      "nachfrage": "Und wie kam das dann von den Ärzten zu den Mamas?"
+     },
+     {
+      "name": "nach dem Händewaschen starben viel weniger",
+      "worte": [
+       "chlor",
+       "kalk",
+       "wasch",
+       "weniger",
+       "gesunken",
+       "desinfiz",
+       "sauber"
+      ],
+      "nachfrage": "Und woher wusste er, dass er recht hatte?"
+     }
+    ],
+    "allesDrin": "Und warum wollten die anderen Ärzte dann nicht einfach Hände waschen?",
+    "verstanden": "Uff. Händewaschen rettet Leben. Ich mach das jetzt immer. 😅",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Womit ließ Semmelweis 1847 die Hände waschen?",
+    "chips": [
+     "Kernseife",
+     "Chlorkalk-Lösung",
+     "Alkohol",
+     "Essigwasser"
+    ],
+    "richtig": "Chlorkalk-Lösung"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Ignaz_Semmelweis_1860.jpg/960px-Ignaz_Semmelweis_1860.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ignaz_Semmelweis_1860.jpg",
+     "text": "Ignaz Semmelweis, hier um 1860.",
+     "credit": "nach einem Stich von Jenő Doby · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Ignaz Philipp Semmelweis: Retter der Mütter – Deutsches Ärzteblatt",
+     "url": "https://www.aerzteblatt.de/archiv/81908/Ignaz-Philipp-Semmelweis-Retter-der-Muetter"
+    },
+    {
+     "name": "Semmelweis, Ignaz (Neue Deutsche Biographie und Allgemeine Deutsche Biographie) – Deutsche Biographie, Historische Kommission bei der Bayerischen Akademie der Wissenschaften",
+     "url": "https://www.deutsche-biographie.de/sfz80024.html"
+    },
+    {
+     "name": "Ignaz Semmelweis: The Saviour of Mothers – Museum of Health Care at Kingston",
+     "url": "https://www.museumofhealthcare.ca/blog/ignaz-semmelweis-the-saviour-of-mothers"
+    }
+   ],
+   "id": "semmelweis"
+  },
+  {
+   "typ": "fall",
+   "titel": "Ehrliche Scheinpillen",
+   "einstieg": [
+    "Boston, 2009. Eine Studie an der Harvard Medical School.",
+    "80 Menschen mit Reizdarm machen mit: Bauchschmerzen und ein Darm, der nicht macht, was er soll.",
+    "Die eine Hälfte bekommt Pillen. Auf der Flasche steht: „placebo pills“. Man sagt offen: kein Wirkstoff drin, wie Zuckerpillen.",
+    "Die andere Hälfte bekommt gar nichts. Drei Wochen lang."
+   ],
+   "frage": "Was passierte mit der Pillen-Gruppe?",
+   "chips": [
+    "Kein Unterschied zu gar nichts",
+    "Vor allem Nebenwirkungen",
+    "Nur wer echte Medizin vermutete",
+    "Mehr spürten Linderung"
+   ],
+   "richtig": "Mehr spürten Linderung",
+   "hinweise": [
+    "Nebenwirkungen meldeten am Ende nur fünf Leute aus der Pillen-Gruppe, zum Beispiel Erkältungen.",
+    "Gefragt, was in den Pillen sei, schrieben viele: Zucker, Mehl oder „nichts“. Sie hatten verstanden, dass nichts Wirksames drin war.",
+    "Nach drei Wochen kam der Fragebogen: „Reicht die Linderung?“ Hier lagen die beiden Gruppen weit auseinander, obwohl keine etwas Wirksames bekam."
+   ],
+   "aufloesung": [
+    "Mehr spürten Linderung: 59 Prozent der Pillen-Gruppe meldeten ausreichende Linderung, ohne Pillen nur 35 Prozent.",
+    "Vorher hatte man 15 Minuten erklärt: Placebos können stark wirken, der Körper reagiert wie Pawlows Hund auf die Glocke. Wichtig sei, die Pillen treu zu nehmen, zweimal täglich zwei.",
+    "Gemessen wurde, was die Menschen selbst spürten. In einer Asthma-Studie 2011 fühlten sich Patienten mit Schein-Inhalator ähnlich besser wie mit echtem. Die Lunge verbesserte aber nur das echte Mittel.",
+    "Die Forscher nennen Grenzen: kleine Studie, nur drei Wochen. Studienleiter Ted Kaptchuk sagt: Scheinbehandlung lässt keine Tumoren schrumpfen."
+   ],
+   "dreh": "Ein Placebo kann helfen, sogar wenn man weiß, dass es eins ist. Aber vor allem bei dem, was man selbst spürt.",
+   "warum": {
+    "frage": "Alle wussten: In den Pillen ist nichts. Was hat dazu beigetragen, dass sich trotzdem mehr Leute besser fühlten?",
+    "nachfrage": "Und was genau wurde am Ende gemessen: Blutwerte oder etwas anderes?",
+    "gruende": [
+     {
+      "text": "Die Erwartung: Man erklärte ihnen vorher, Placebos könnten stark wirken, der Körper reagiere wie Pawlows Hund auf die Glocke.",
+      "worte": [
+       "erwart",
+       "erklärt",
+       "pawlow",
+       "glaub",
+       "überzeug",
+       "eingestimmt",
+       "hoffnung",
+       "vorher gesagt"
+      ]
+     },
+     {
+      "text": "Das Ritual: eine echte Medikamentenflasche, zweimal täglich zwei Pillen, treu eingenommen.",
+      "worte": [
+       "ritual",
+       "flasche",
+       "regelmäßig",
+       "zweimal",
+       "täglich",
+       "einnehm",
+       "schluck",
+       "gewohnheit"
+      ]
+     },
+     {
+      "text": "Gemessen wurde, was die Leute selbst spürten, per Fragebogen. Bei messbaren Werten wie der Lunge half nur echte Medizin.",
+      "worte": [
+       "selbst",
+       "spürt",
+       "gefühl",
+       "fragebogen",
+       "empfind",
+       "eingeschätzt",
+       "lunge",
+       "messbar"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "An der Studie nahmen 80 Menschen mit Reizdarm teil.",
+     "falsch": false
+    },
+    {
+     "satz": "Laut den Forschern können Placebos auch Tumoren schrumpfen lassen.",
+     "falsch": true,
+     "korrektur": "Studienleiter Ted Kaptchuk sagt ausdrücklich: Scheinbehandlung lässt keine Tumoren schrumpfen. Placebos wirken vor allem auf das, was man selbst spürt."
+    },
+    {
+     "satz": "Auf der Pillenflasche stand offen „placebo pills“.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Wie kann eine Zuckerpille helfen, wenn man weiß, dass nur Zucker drin ist? Das ist doch Quatsch! 🤨",
+    "punkte": [
+     {
+      "name": "man hat ihnen erklärt, dass es wirken kann",
+      "worte": [
+       "erklärt",
+       "erwart",
+       "glaub",
+       "pawlow",
+       "gesagt",
+       "kopf",
+       "gehirn"
+      ],
+      "nachfrage": "Aber wenn ich weiß, dass da nix drin ist, wieso soll mein Körper dann was machen?"
+     },
+     {
+      "name": "das Pillenschlucken jeden Tag ist ein Ritual",
+      "worte": [
+       "ritual",
+       "jeden tag",
+       "täglich",
+       "schluck",
+       "einnehm",
+       "flasche",
+       "regelmäßig"
+      ],
+      "nachfrage": "Macht es denn einen Unterschied, ob ich die Pille wirklich jeden Tag schlucke?"
+     },
+     {
+      "name": "es hilft beim Spüren, heilt aber keine Krankheit wie Krebs",
+      "worte": [
+       "spür",
+       "gefühl",
+       "schmerz",
+       "tumor",
+       "krebs",
+       "heilt nicht",
+       "grenze",
+       "lunge"
+      ],
+      "nachfrage": "Heißt das, Zuckerpillen können alles heilen?"
+     }
+    ],
+    "allesDrin": "Und warum gibt der Arzt dann nicht allen einfach Zuckerpillen?",
+    "verstanden": "Okay: Der Kopf kann mithelfen. Aber zaubern kann er nicht. 🙂",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Was sagten die Forscher den Reizdarm-Patienten über ihre Pillen?",
+    "chips": [
+     "Ein neues Medikament",
+     "Ein Pflanzenmittel",
+     "Wirkstofffreie Scheinpillen",
+     "Gar nichts"
+    ],
+    "richtig": "Wirkstofffreie Scheinpillen"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 3,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ted_Kaptchuk_in_NCCIH_interview.png/960px-Ted_Kaptchuk_in_NCCIH_interview.png",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ted_Kaptchuk_in_NCCIH_interview.png",
+     "text": "Ted Kaptchuk von der Harvard Medical School, Erstautor der Studie, in einem Interview des US-Gesundheitsinstituts NCCIH über Placebos.",
+     "credit": "National Center for Complementary and Integrative Health (NCCIH), Standbild aus einem Interview-Video · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Kaptchuk TJ et al.: Placebos without Deception: A Randomized Controlled Trial in Irritable Bowel Syndrome – PLOS ONE 5(12): e15591, 2010",
+     "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0015591"
+    },
+    {
+     "name": "The Placebo Phenomenon – Harvard Magazine, Januar/Februar 2013",
+     "url": "https://www.harvardmagazine.com/2013/01/the-placebo-phenomenon"
+    },
+    {
+     "name": "A placebo can work even when you know it's a placebo – Harvard Health Publishing, Harvard Medical School (2016)",
+     "url": "https://www.health.harvard.edu/blog/placebo-can-work-even-know-placebo-201607079926"
+    },
+    {
+     "name": "Spille L et al.: Open-label placebos – a systematic review and meta-analysis of experimental studies with non-clinical samples – Scientific Reports 13, 2023 (Abstract über Europe PMC)",
+     "url": "https://europepmc.org/article/PMC/PMC9985604"
+    }
+   ],
+   "id": "placebo"
+  },
+  {
+   "typ": "fall",
+   "titel": "Kluger Hans",
+   "einstieg": [
+    "Berlin, 1904. In einem Hinterhof steht ein Hengst namens Hans. Er rechnet.",
+    "„Wie viel ist 2/5 plus 1/2?“ Hans klopft mit dem Vorderhuf: neunmal, dann zehnmal. Neun Zehntel. Richtig.",
+    "Sein Besitzer Wilhelm von Osten war früher Mathelehrer. Er ist überzeugt: Hans denkt.",
+    "Im September 1904 prüfen 13 Fachleute, darunter ein Zoodirektor und ein Zirkusdirektor. Ergebnis: kein Trick zu finden."
+   ],
+   "frage": "Wie kam Hans auf die richtigen Antworten?",
+   "chips": [
+    "Er konnte wirklich rechnen",
+    "Geheime Zeichen vom Besitzer",
+    "Er lernte Antworten auswendig",
+    "Er las die Fragenden"
+   ],
+   "richtig": "Er las die Fragenden",
+   "hinweise": [
+    "Hans antwortete auch, wenn von Osten gar nicht da war. Fremde bekamen ebenfalls richtige Antworten. Ein Trick des Besitzers scheidet also aus.",
+    "Der Psychologe Oskar Pfungst zeigte Hans Zahlenkarten. Kannte der Fragende die Zahl, lag Hans zu 98 Prozent richtig. Kannte sie niemand im Raum: 8 Prozent.",
+    "Dann bekam Hans große Scheuklappen. Sah er den Fragenden nicht, traf er nur 2 von 35 Mal. Sah er ihn, lag er fast immer richtig."
+   ],
+   "aufloesung": [
+    "Hans las die Menschen. Wer fragte, beugte sich unbewusst leicht vor. Das hieß für Hans: anfangen zu klopfen.",
+    "War die richtige Zahl erreicht, ruckte der Kopf des Fragenden winzig nach oben, manchmal nur Bruchteile eines Millimeters. Hans hörte auf.",
+    "Niemand schummelte. Die Fragenden merkten die eigene Bewegung nicht. Pfungst spielte später selbst „Hans“ und las so 25 Testpersonen.",
+    "Heute heißt das „Kluger-Hans-Effekt“: Ein Test misst etwas anderes als gedacht.",
+    "2019 entlarvte ein Forschungsteam eine KI, die Pferdefotos erkannte. Sie achtete vor allem auf einen Copyright-Vermerk in der Bildecke, kaum aufs Pferd."
+   ],
+   "dreh": "Hans konnte nicht rechnen. Aber er las Menschen besser, als sie sich selbst kannten.",
+   "warum": {
+    "frage": "13 Fachleute schauen genau hin und finden keinen Trick. Wie konnte ein Pferd sie alle täuschen, obwohl niemand schummelte?",
+    "nachfrage": "Und warum hat nicht einmal von Osten selbst gemerkt, dass er Hans die Antwort verrät?",
+    "gruende": [
+     {
+      "text": "Die Zeichen waren winzig: ein leichtes Vorbeugen, ein Kopfruck von manchmal nur Bruchteilen eines Millimeters.",
+      "worte": [
+       "winzig",
+       "klein",
+       "millimeter",
+       "kopf",
+       "beweg",
+       "ruck",
+       "nicken",
+       "vorbeug"
+      ]
+     },
+     {
+      "text": "Die Fragenden gaben die Zeichen unbewusst. Sie wussten selbst nichts davon und waren deshalb ehrlich überzeugt.",
+      "worte": [
+       "unbewusst",
+       "merkten",
+       "gemerkt",
+       "wussten",
+       "ehrlich",
+       "versehen",
+       "absicht",
+       "selbst nicht"
+      ]
+     },
+     {
+      "text": "Weil auch Fremde richtige Antworten bekamen, sah es nach echtem Können aus statt nach einem Trick des Besitzers.",
+      "worte": [
+       "fremde",
+       "andere",
+       "besitzer",
+       "osten",
+       "abwesend",
+       "trick",
+       "jeder",
+       "egal wer"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Hans gab seine Antworten, indem er mit dem Huf klopfte.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Kommission vom September 1904 fand keinen Trick.",
+     "falsch": false
+    },
+    {
+     "satz": "Mit Scheuklappen, die den Fragenden verdeckten, rechnete Hans weiter fast immer richtig.",
+     "falsch": true,
+     "korrektur": "Sah er den Fragenden nicht, lag er nur 2 von 35 Mal richtig, also bei 6 Prozent."
+    }
+   ],
+   "malia": {
+    "frage": "Wie kann ein Pferd richtig antworten, wenn es gar nicht rechnen kann? 🐴",
+    "punkte": [
+     {
+      "name": "die winzige Kopfbewegung als Stopp-Zeichen",
+      "worte": [
+       "kopf",
+       "beweg",
+       "nick",
+       "ruck",
+       "zeichen",
+       "signal",
+       "stopp",
+       "aufhör"
+      ],
+      "nachfrage": "Aber woher wusste Hans denn, wann er aufhören muss?"
+     },
+     {
+      "name": "die Menschen merkten selbst nichts davon",
+      "worte": [
+       "unbewusst",
+       "merkten",
+       "gemerkt",
+       "wussten",
+       "aus versehen",
+       "ohne es",
+       "selbst nicht"
+      ],
+      "nachfrage": "Dann haben die Leute doch geschummelt, oder?"
+     },
+     {
+      "name": "ohne Sicht oder ohne Wissen klappte es nicht",
+      "worte": [
+       "scheuklapp",
+       "sehen",
+       "sah",
+       "blick",
+       "wusste keiner",
+       "niemand",
+       "falsch",
+       "kannte"
+      ],
+      "nachfrage": "Und wie hat man rausgefunden, dass er nicht rechnen kann?"
+     }
+    ],
+    "allesDrin": "Kann mein Hund das auch? Der guckt mich immer so an.",
+    "verstanden": "Okay, Hans war kein Mathe-Genie, sondern ein Menschen-Leser. Auch cool! 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wer fand heraus, wie der Kluge Hans wirklich auf seine Antworten kam?",
+    "chips": [
+     "Wilhelm von Osten",
+     "Oskar Pfungst",
+     "Carl Stumpf",
+     "Carl Georg Schillings"
+    ],
+    "richtig": "Oskar Pfungst"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 1,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/CleverHans.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:CleverHans.jpg",
+     "text": "Berlin 1904: Hans wird Zuschauern vorgeführt.",
+     "credit": "unbekannt · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Clever Hans (The Horse of Mr. von Osten) – Oskar Pfungst, englische Ausgabe 1911 mit Einleitung von Carl Stumpf und dem Kommissionsbericht vom 12. September 1904, Project Gutenberg",
+     "url": "https://www.gutenberg.org/ebooks/33936"
+    },
+    {
+     "name": "Clever Hans – Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Clever-Hans"
+    },
+    {
+     "name": "Unmasking Clever Hans predictors and assessing what machines really learn – Lapuschkin u. a., Nature Communications 10, 1096 (2019)",
+     "url": "https://doi.org/10.1038/s41467-019-08987-4"
+    }
+   ],
+   "id": "kluger-hans"
+  },
+  {
+   "typ": "fall",
+   "titel": "Marshmallow-Test",
+   "einstieg": [
+    "Stanford, ab 1968. Ein Kindergarten auf dem Uni-Campus. Vor einem Kind liegt ein Marshmallow.",
+    "Die Regel: Iss ihn jetzt. Oder warte, bis die Forscherin zurückkommt. Dann gibt es zwei.",
+    "Jahre später heißt es: Wer als Vierjähriger länger wartete, war als Jugendlicher besser in der Schule.",
+    "Die Geschichte wird weltberühmt: Willenskraft mit vier sagt Erfolg voraus.",
+    "2018 prüfen Forscher das noch einmal. Mit über 900 Kindern aus den ganzen USA."
+   ],
+   "frage": "Was kommt 2018 heraus?",
+   "chips": [
+    "Alles bestätigt, sogar stärker",
+    "Gar kein Zusammenhang mehr",
+    "Wer wartet, schneidet schlechter ab",
+    "Nur noch ein kleiner Rest"
+   ],
+   "richtig": "Nur noch ein kleiner Rest",
+   "hinweise": [
+    "Ein Zusammenhang war 2018 noch da: Wer mit vier länger wartete, hatte mit 15 im Schnitt etwas bessere Schulleistungen.",
+    "Aber schon ohne weitere Rechnung war der Zusammenhang nur halb so groß wie in den alten Stanford-Studien.",
+    "Dann rechneten die Forscher Familie, frühe Fähigkeiten und das Zuhause heraus. Der Zusammenhang schrumpfte noch einmal um zwei Drittel."
+   ],
+   "aufloesung": [
+    "Übrig blieb nur ein kleiner Rest. So das Ergebnis von Tyler Watts, Greg Duncan und Haonan Quan, 2018 in Psychological Science.",
+    "Sie werteten 918 Kinder aus. Im Fokus: 552 Kinder, deren Mütter keinen Uni-Abschluss hatten.",
+    "Die alten Nachfolgestudien stützten sich auf nur 35 bis 89 Kinder aus dem Umfeld der Stanford University.",
+    "2012 in Rochester: Hatte die Versuchsleiterin vorher ein Versprechen gebrochen, warteten Kinder im Schnitt 3 Minuten. Hielt sie Wort: 12 Minuten.",
+    "Wer erlebt, dass Versprechen platzen, isst eben lieber gleich. Das ist nicht schwach, sondern vernünftig."
+   ],
+   "dreh": "Der Test misst nicht nur Willenskraft. Er misst auch, wie verlässlich die Welt eines Kindes bisher war.",
+   "warum": {
+    "frage": "„Willenskraft mit vier sagt Erfolg voraus“: Wie konnte von dieser berühmten Geschichte so wenig übrig bleiben?",
+    "nachfrage": "Und was hat das Versprechen der Versuchsleiterin mit Willenskraft zu tun?",
+    "gruende": [
+     {
+      "text": "Familie und Zuhause erklären viel: Rechnet man sie heraus, schrumpft der Zusammenhang um zwei Drittel.",
+      "worte": [
+       "famili",
+       "zuhause",
+       "eltern",
+       "herkunft",
+       "mutter",
+       "umfeld",
+       "herausgerechnet",
+       "hintergrund"
+      ]
+     },
+     {
+      "text": "Die alten Nachfolgestudien hatten nur wenige Kinder, alle aus dem Umfeld der Stanford University.",
+      "worte": [
+       "wenige",
+       "klein",
+       "stanford",
+       "stichprobe",
+       "nachfolge",
+       "campus",
+       "ausgewählt",
+       "uni"
+      ]
+     },
+     {
+      "text": "Warten hängt auch von Vertrauen ab: Wer erlebt, dass Versprechen gebrochen werden, wartet kürzer.",
+      "worte": [
+       "vertrau",
+       "versprech",
+       "gebrochen",
+       "verlass",
+       "zuverläss",
+       "lohnt",
+       "glaub",
+       "enttäusch"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Die ersten Marshmallow-Versuche liefen in einem Kindergarten der Stanford University.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Studie von 2018 schaute vor allem auf Kinder, deren Mütter keinen Uni-Abschluss hatten.",
+     "falsch": false
+    },
+    {
+     "satz": "Im Versuch von 2012 warteten die Kinder länger, wenn die Versuchsleiterin vorher ein Versprechen gebrochen hatte.",
+     "falsch": true,
+     "korrektur": "Andersherum. Nach gebrochenem Versprechen warteten sie im Schnitt etwa 3 Minuten, sonst etwa 12."
+    }
+   ],
+   "malia": {
+    "frage": "Also ist Warten-Können gar nicht so wichtig? Und warum hat man das vorher anders gedacht? 🍬",
+    "punkte": [
+     {
+      "name": "Familie und Zuhause erklären viel",
+      "worte": [
+       "famili",
+       "zuhause",
+       "eltern",
+       "mutter",
+       "herkunft",
+       "geld",
+       "umfeld"
+      ],
+      "nachfrage": "Aber wieso sind die Warte-Kinder dann trotzdem ein bisschen besser in der Schule?"
+     },
+     {
+      "name": "die alte Studie hatte nur wenige Stanford-Kinder",
+      "worte": [
+       "wenige",
+       "stanford",
+       "uni",
+       "klein",
+       "ausgewählt",
+       "reich",
+       "campus"
+      ],
+      "nachfrage": "Und warum kam bei den ersten Versuchen so viel mehr raus?"
+     },
+     {
+      "name": "Warten hat mit Vertrauen zu tun",
+      "worte": [
+       "vertrau",
+       "versprech",
+       "gebrochen",
+       "verlass",
+       "lohnt",
+       "glaub",
+       "enttäusch"
+      ],
+      "nachfrage": "Ich würde den Marshmallow sofort essen. Bin ich jetzt einfach ungeduldig?"
+     }
+    ],
+    "allesDrin": "Darf ich jetzt beim Nachtisch sagen, ich mach nur ein Experiment?",
+    "verstanden": "Okay: Wer warten soll, muss erst mal glauben, dass es sich lohnt. 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wie lange warteten Kinder 2012 im Schnitt, wenn die Versuchsleiterin vorher ein Versprechen gebrochen hatte?",
+    "chips": [
+     "Etwa 3 Minuten",
+     "Etwa 12 Minuten",
+     "Etwa 15 Minuten",
+     "Gar nicht"
+    ],
+    "richtig": "Etwa 3 Minuten"
+   },
+   "bilder": [],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes – Tyler W. Watts, Greg J. Duncan, Haonan Quan, Psychological Science 29 (2018), 1159–1177",
+     "url": "https://doi.org/10.1177/0956797618761661"
+    },
+    {
+     "name": "Rational snacking: Young children's decision-making on the marshmallow task is moderated by beliefs about environmental reliability – Celeste Kidd, Holly Palmeri, Richard N. Aslin, Cognition 126 (2013), online 2012",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23063236/"
+    },
+    {
+     "name": "The marshmallow study revisited – University of Rochester, Pressemitteilung vom 11.10.2012",
+     "url": "https://rochester.edu/news/email.php?refno=4622"
+    },
+    {
+     "name": "Nearly 40 years later, Bing study still going – Bing Nursery School, Stanford University",
+     "url": "https://bingschool.stanford.edu/news/nearly-40-years-later-bing-study-still-going"
+    },
+    {
+     "name": "Delay of gratification in children – Walter Mischel, Yuichi Shoda, Monica L. Rodriguez, Science 244 (1989), 933–938",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/2658056/"
+    },
+    {
+     "name": "Is the marshmallow test still valid? – LMU München, Pressemitteilung zu Falk, Kosse, Pinger (2020)",
+     "url": "https://www.lmu.de/en/about-lmu/structure/central-university-administration/communications-and-media-relations/press-room/press-release/is-the-marshmallow-test-still-valid.html"
+    }
+   ],
+   "id": "marshmallow-test"
+  },
+  {
+   "typ": "fall",
+   "titel": "Milgram-Experiment",
+   "einstieg": [
+    "Yale University, 1961. 40 Männer aus New Haven melden sich auf eine Anzeige. Angeblich geht es um Gedächtnis und Lernen.",
+    "Jeder wird „Lehrer“. Im Nebenraum sitzt ein „Schüler“. Bei jedem Fehler soll der Lehrer ihm einen Stromstoß geben.",
+    "Das Gerät hat 30 Schalter, von 15 bis 450 Volt. Die letzten tragen die Aufschrift „Gefahr“ und „XXX“.",
+    "Zögert jemand, sagt der Versuchsleiter im grauen Kittel ruhig: „Bitte fahren Sie fort.“"
+   ],
+   "frage": "Wie viele der 40 Männer drücken bis zum letzten Schalter, 450 Volt?",
+   "chips": [
+    "Keiner",
+    "Einer oder zwei",
+    "Etwa jeder Dritte",
+    "Fast zwei Drittel"
+   ],
+   "richtig": "Fast zwei Drittel",
+   "hinweise": [
+    "Vorher fragte Milgram 14 Psychologie-Studenten in Yale. Sie tippten im Schnitt auf gut 1 von 100. Sie lagen weit daneben, und zwar nach unten.",
+    "Kein einziger Mann hörte vor 300 Volt auf. Wer abbrach, tat es zwischen 300 und 375 Volt. Die Abbrecher waren in der Minderheit.",
+    "Genau 14 Männer brachen ab. Rechne: 40 minus 14."
+   ],
+   "aufloesung": [
+    "26 von 40 Männern gingen bis 450 Volt. Das sind 65 Prozent.",
+    "Die Stromstöße waren nicht echt. Der „Schüler“ war ein eingeweihter Darsteller. Bei 300 Volt hämmerte er gegen die Wand, danach schwieg er.",
+    "Viele Lehrer schwitzten, zitterten, lachten nervös. Sie quälten nicht gern. Sie gehorchten trotzdem.",
+    "In weiteren Varianten änderte Milgram die Lage. Gab der Versuchsleiter seine Befehle nur per Telefon, ging nur noch etwa jeder Fünfte bis zum Ende.",
+    "Weigerten sich zwei andere „Lehrer“ vor den Augen des Teilnehmers, machten nur noch 4 von 40 bis zum Schluss weiter.",
+    "Und Milgrams eigene Akten zeigen: Nur knapp die Hälfte zweifelte gar nicht an der Echtheit der Stromstöße. Wer zweifelte, drückte im Schnitt weiter."
+   ],
+   "dreh": "Nicht böse Menschen waren das Problem. Die Lage entschied: Wer gibt die Befehle, und sagt jemand Nein?",
+   "warum": {
+    "frage": "Fast zwei Drittel ganz normaler Männer drückten bis 450 Volt. Wie konnte es so weit kommen?",
+    "nachfrage": "Und warum machten fast alle Schluss, sobald zwei andere sich geweigert hatten?",
+    "gruende": [
+     {
+      "text": "Der Versuchsleiter stand direkt daneben und drängte mit festen Sätzen. Kamen die Befehle nur per Telefon, gehorchten viel weniger.",
+      "worte": [
+       "versuchsleiter",
+       "autorität",
+       "befehl",
+       "kittel",
+       "drängt",
+       "daneben",
+       "telefon",
+       "anwesend"
+      ]
+     },
+     {
+      "text": "Jeder Lehrer war allein. Niemand machte vor, dass man Nein sagen darf. Mit zwei Verweigerern daneben hörten fast alle auf.",
+      "worte": [
+       "allein",
+       "niemand",
+       "nein sagen",
+       "verweiger",
+       "vorbild",
+       "andere",
+       "mitmach",
+       "widerspr"
+      ]
+     },
+     {
+      "text": "Manche zweifelten, ob die Stromstöße echt waren. Wer zweifelte, drückte im Schnitt weiter.",
+      "worte": [
+       "zweifel",
+       "echt",
+       "glaubten",
+       "fake",
+       "gespielt",
+       "schauspiel",
+       "nicht ernst",
+       "misstrau"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Der „Schüler“ war ein eingeweihter Darsteller, die Stromstöße waren nicht echt.",
+     "falsch": false
+    },
+    {
+     "satz": "Als zwei andere „Lehrer“ sich weigerten, machten nur noch 4 von 40 bis zum Ende weiter.",
+     "falsch": false
+    },
+    {
+     "satz": "Die vorher befragten Yale-Studenten hatten getippt, gut die Hälfte würde bis 450 Volt gehen.",
+     "falsch": true,
+     "korrektur": "Sie tippten im Schnitt auf 1,2 Prozent, also gut 1 von 100."
+    }
+   ],
+   "malia": {
+    "frage": "Warum haben die nicht einfach aufgehört, als der an die Wand gehämmert hat? Die waren doch nicht festgebunden! 😳",
+    "punkte": [
+     {
+      "name": "der Versuchsleiter drängte direkt daneben",
+      "worte": [
+       "versuchsleiter",
+       "chef",
+       "befehl",
+       "kittel",
+       "gesagt",
+       "drängt",
+       "autorität",
+       "weitermachen"
+      ],
+      "nachfrage": "Aber wer hat denen denn gesagt, dass sie weitermachen sollen?"
+     },
+     {
+      "name": "keiner hat vorgemacht, dass man Nein sagen darf",
+      "worte": [
+       "allein",
+       "keiner",
+       "niemand",
+       "nein",
+       "andere",
+       "verweiger",
+       "aufgehört",
+       "mutig"
+      ],
+      "nachfrage": "Und wenn da noch jemand gewesen wäre, der Stopp sagt?"
+     },
+     {
+      "name": "manche glaubten nicht, dass es echt war",
+      "worte": [
+       "zweifel",
+       "echt",
+       "glaubten",
+       "fake",
+       "gespielt",
+       "schauspiel",
+       "nicht ernst"
+      ],
+      "nachfrage": "Haben die wirklich geglaubt, dass das echter Strom war?"
+     }
+    ],
+    "allesDrin": "Würde ich auch weitermachen? Ich hoffe nicht.",
+    "verstanden": "Okay: Allein und mit Chef daneben ist Nein sagen voll schwer. Merk ich mir. 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Wie viele von 40 Männern gingen in Milgrams erstem veröffentlichten Versuch bis 450 Volt?",
+    "chips": [
+     "2",
+     "14",
+     "26",
+     "40"
+    ],
+    "richtig": "26"
+   },
+   "bilder": [
+    {
+     "ort": "einstieg",
+     "nach": 0,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Milgram_Experiment_advertising.png",
+     "seite": "https://commons.wikimedia.org/wiki/File:Milgram_Experiment_advertising.png",
+     "text": "Mit dieser Zeitungsanzeige suchte Milgram im Juni 1961 in New Haven Teilnehmer.",
+     "credit": "unbekannt (Anzeige im New Haven Register, 18.6.1961) · gemeinfrei"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Behavioral Study of Obedience – Stanley Milgram, Journal of Abnormal and Social Psychology 67 (1963), 371–378",
+     "url": "https://www.psy.miami.edu/_assets/pdf/rpo-articles/milgram-1963.pdf"
+    },
+    {
+     "name": "Liberating Effects of Group Pressure – Stanley Milgram, Journal of Personality and Social Psychology 1 (1965), 127–134",
+     "url": "https://users.sussex.ac.uk/~grahamh/RM1web/Classic%20papers/Milgram1965.pdf"
+    },
+    {
+     "name": "Credibility and Incredulity in Milgram's Obedience Experiments: A Reanalysis of an Unpublished Test – Gina Perry, Augustine Brannigan, Richard A. Wanner, Henderikus Stam, Social Psychology Quarterly (2019)",
+     "url": "https://doi.org/10.1177/0190272519861952"
+    },
+    {
+     "name": "Milgram Shock Experiment – Saul McLeod, Simply Psychology",
+     "url": "https://www.simplypsychology.org/milgram.html"
+    }
+   ],
+   "id": "milgram-experiment"
+  },
+  {
+   "typ": "fall",
+   "titel": "Dunning-Kruger",
+   "einstieg": [
+    "Cornell University, USA. Die Psychologen Justin Kruger und David Dunning testen Studierende.",
+    "Die einen bewerten Witze, Profi-Comedians liefern die Musterlösung. Andere lösen Logik- oder Grammatikaufgaben.",
+    "Danach die Frage: Wie gut warst du im Vergleich? Platz 0 bis 100, Platz 50 ist genau die Mitte.",
+    "1999 erscheint die Studie. Später wird sie zu einem der bekanntesten Begriffe im Netz."
+   ],
+   "frage": "Wo sahen sich die Schlechtesten selbst?",
+   "chips": [
+    "Ganz unten, sie ahnten es",
+    "Knapp unter der Mitte",
+    "Ganz oben, vor den Besten",
+    "Über der Mitte"
+   ],
+   "richtig": "Über der Mitte",
+   "hinweise": [
+    "Ganz ahnungslos waren sie nicht: In allen vier Teilstudien schätzten sich die Besten höher ein als die Schlechtesten sich selbst.",
+    "Die Schlechtesten lagen im Schnitt auf Platz 12 von 100. Ihre eigene Schätzung lag rund 50 Plätze höher.",
+    "Platz 50 ist die Mitte. Zähl die rund 50 Plätze zu den 12 dazu."
+   ],
+   "aufloesung": [
+    "Über der Mitte. Im Schnitt sahen sie sich auf Platz 62. Tatsächlich lagen sie auf Platz 12.",
+    "Fast alle schätzten sich zu gut ein: Im Schnitt sahen sich die Teilnehmer auf Platz 66. Nur die Besten unterschätzten sich leicht.",
+    "Kruger und Dunning erklärten: Wer etwas nicht kann, erkennt auch die eigenen Fehler nicht. Nach einem kurzen Logik-Training schätzten sich die Schwachen realistischer ein.",
+    "Aber: Wer ganz unten liegt, kann sich kaum noch unterschätzen. Fehler gehen dann fast nur nach oben. Spätere Forscher zeigten sogar mit Zufallszahlen ein ähnliches Muster.",
+    "Und die berühmte Kurve mit dem „Gipfel der Ahnungslosen“? Kommt in der Studie gar nicht vor.",
+    "Deshalb fragt dich dieses Spiel nach jeder Antwort, wie sicher du bist. Mit der Zeit siehst du, ob dein Gefühl zu deinen Treffern passt."
+   ],
+   "dreh": "Die Schwächsten hielten sich nicht für die Besten, nur für überdurchschnittlich. Und wie viel davon echte Psychologie ist, wird bis heute gestritten.",
+   "warum": {
+    "frage": "Platz 12, geschätzt Platz 62. Wie konnten sich ausgerechnet die Schwächsten so stark überschätzen?",
+    "nachfrage": "Und warum ist es fast unmöglich, dass sich jemand auf Platz 12 zu schlecht einschätzt?",
+    "gruende": [
+     {
+      "text": "Um Fehler zu erkennen, braucht man genau das Wissen, das ihnen fehlte. Nach einem Training schätzten sie sich besser ein.",
+      "worte": [
+       "fehler",
+       "erkenn",
+       "wissen",
+       "merken",
+       "training",
+       "gelernt",
+       "beurteil",
+       "einschätz"
+      ]
+     },
+     {
+      "text": "Fast alle halten sich für besser als der Durchschnitt: Im Schnitt sahen sich alle auf Platz 66.",
+      "worte": [
+       "alle",
+       "jeder",
+       "durchschnitt",
+       "besser als",
+       "mitte",
+       "überschätz",
+       "66",
+       "selbstbild"
+      ]
+     },
+     {
+      "text": "Wer ganz unten liegt, kann sich nur nach oben verschätzen. Das erzeugt schon mit Zufallszahlen ein ähnliches Bild.",
+      "worte": [
+       "unten",
+       "nach oben",
+       "statistik",
+       "zufall",
+       "rechn",
+       "unterschätz",
+       "richtung",
+       "platz 12"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "In einer Teilstudie bewerteten Studierende Witze; die Musterlösung kam von Profi-Comedians.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Besten schätzten sich in der Studie leicht zu schlecht ein.",
+     "falsch": false
+    },
+    {
+     "satz": "Die Kurve mit dem „Gipfel der Ahnungslosen“ stammt aus der ersten Abbildung der Studie von 1999.",
+     "falsch": true,
+     "korrektur": "Diese Kurve kommt in der Studie nicht vor. Die Abbildungen zeigen Selbsteinschätzung und echte Leistung, aufgeteilt in vier Leistungsgruppen."
+    }
+   ],
+   "malia": {
+    "frage": "Wieso merken die denn nicht, dass sie schlecht sind? Das sieht man doch an den Fehlern! 🤨",
+    "punkte": [
+     {
+      "name": "ohne Wissen erkennt man die eigenen Fehler nicht",
+      "worte": [
+       "fehler",
+       "erkenn",
+       "wissen",
+       "merken",
+       "verstehen",
+       "können",
+       "training"
+      ],
+      "nachfrage": "Aber wenn ich eine Aufgabe falsch hab, merk ich das doch?"
+     },
+     {
+      "name": "fast jeder hält sich für besser als die Mitte",
+      "worte": [
+       "alle",
+       "jeder",
+       "durchschnitt",
+       "besser als",
+       "mitte",
+       "überschätz",
+       "normal"
+      ],
+      "nachfrage": "Und die anderen, die waren ehrlicher mit sich?"
+     },
+     {
+      "name": "ganz unten kann man sich nur nach oben verschätzen",
+      "worte": [
+       "unten",
+       "nach oben",
+       "statistik",
+       "zufall",
+       "rechn",
+       "tiefer geht"
+      ],
+      "nachfrage": "Ist das dann wirklich Psychologie oder nur Mathe?"
+     }
+    ],
+    "allesDrin": "Und woher weiß ich, ob ich mich gerade selbst überschätze?",
+    "verstanden": "Okay: Nicht ‚Doofe halten sich für Genies‘, sondern ‚alle schätzen sich zu gut, die Schwachen am meisten‘. 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Auf welchem Platz von 100 sahen sich die Schwächsten in der Dunning-Kruger-Studie im Schnitt?",
+    "chips": [
+     "Platz 12",
+     "Platz 35",
+     "Platz 62",
+     "Platz 95"
+    ],
+    "richtig": "Platz 62"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 4,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dunning%E2%80%93Kruger_Effect_01.svg/960px-Dunning%E2%80%93Kruger_Effect_01.svg.png",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dunning%E2%80%93Kruger_Effect_01.svg",
+     "text": "Die bekannte Netz-Kurve. Auf Commons trägt sie selbst den Hinweis: umstrittenes Diagramm ohne wissenschaftliche Grundlage.",
+     "credit": "忍者猫 (Wikimedia-Nutzer) · CC0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments – Justin Kruger, David Dunning, Journal of Personality and Social Psychology 77 (1999), 1121–1134",
+     "url": "https://doi.org/10.1037/0022-3514.77.6.1121"
+    },
+    {
+     "name": "The Dunning-Kruger Effect Is Probably Not Real – Jonathan Jarry, McGill Office for Science and Society, 17.12.2020",
+     "url": "https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real"
+    },
+    {
+     "name": "The Dunning-Kruger effect is (mostly) a statistical artefact: Valid approaches to testing the hypothesis with individual differences data – Gilles E. Gignac, Marcin Zajenkowski, Intelligence 80 (2020)",
+     "url": "https://doi.org/10.1016/j.intell.2020.101449"
+    },
+    {
+     "name": "Dunning–Kruger Effect 01.svg – Wikimedia Commons, Dateiseite mit Hinweis „Disputed diagram“",
+     "url": "https://commons.wikimedia.org/wiki/File:Dunning%E2%80%93Kruger_Effect_01.svg"
+    }
+   ],
+   "id": "dunning-kruger"
   }
  ]
 };
