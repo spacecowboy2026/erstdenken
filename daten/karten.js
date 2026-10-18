@@ -10270,6 +10270,185 @@ window.ERSTDENKEN = {
     }
    ],
    "id": "dunning-kruger"
+  },
+  {
+   "typ": "fall",
+   "titel": "Stanford-Gefängnis",
+   "einstieg": [
+    "Stanford, 15. August 1971. Im Keller eines Uni-Gebäudes ist ein Gefängnis aufgebaut.",
+    "24 Studenten machen mit, für 15 Dollar am Tag. Per Zufall werden sie Wärter oder Gefangene.",
+    "Geplant sind bis zu zwei Wochen. Nach sechs Tagen wird abgebrochen: Die Wärter schikanieren die Gefangenen.",
+    "Jahrzehntelang steht in Lehrbüchern: Die Rolle allein macht normale Menschen grausam."
+   ],
+   "frage": "Woher wussten die Wärter, wie hart sie sein sollten?",
+   "chips": [
+    "Ganz von selbst, durch die Rolle",
+    "Sie waren vorher schon gewalttätig",
+    "Aus ihrer Wärter-Ausbildung",
+    "Vom Forscherteam selbst"
+   ],
+   "richtig": "Vom Forscherteam selbst",
+   "hinweise": [
+    "Ausgesucht wurden Studenten, die in allen Tests als normal galten. Ausgebildete Wärter war keiner. Zwei Chips fallen damit weg.",
+    "Zimbardo war nicht nur Beobachter: Er spielte selbst den Gefängnischef. Und am Tag vor dem Start erfuhren die Wärter, was die Studie untersuchen sollte.",
+    "Auf einer Archivaufnahme sagt der „Gefängnisdirektor“ aus Zimbardos Team einem Wärter, jeder Wärter müsse ein „tough guard“ sein. Der antwortet: „I'm not too tough.“"
+   ],
+   "aufloesung": [
+    "Vom Forscherteam selbst. Laut den Stanford-Archiven bekamen die Wärter genaue Vorgaben, wie sie die Gefangenen behandeln sollten.",
+    "Das zeigte der Forscher Thibault Le Texier 2018/2019. Er wertete die Archive aus und befragte 15 der Teilnehmer.",
+    "Den Direktor spielte David Jaffe aus Zimbardos Team. Viele Regeln stammten aus einem Studenten-Versuch drei Monate zuvor.",
+    "2002 bauten zwei britische Psychologen für die BBC ein ähnliches Gefängnis, ohne den Wärtern Vorgaben zu machen. Dort wurden die Wärter nicht automatisch hart.",
+    "Zimbardo wies die Kritik zurück. Seine Hauptaussage ändere sie nicht."
+   ],
+   "dreh": "Das berühmteste Experiment über die Macht der Rolle zeigt vor allem die Macht der Versuchsleiter.",
+   "warum": {
+    "frage": "In Stanford wurden die Wärter hart, im BBC-Gefängnis 2002 nicht. Was hat dazu beigetragen, dass es in Stanford so kam?",
+    "nachfrage": "Und warum hat ein Wärter, der eigentlich nicht hart sein wollte, trotzdem mitgemacht?",
+    "gruende": [
+     {
+      "text": "Das Team drängte die Wärter ausdrücklich, hart zu sein, und gab ihnen genaue Vorgaben.",
+      "worte": [
+       "gedrängt",
+       "vorgaben",
+       "anweis",
+       "tough",
+       "hart sein",
+       "gesagt",
+       "aufgefordert",
+       "jaffe"
+      ]
+     },
+     {
+      "text": "Die Wärter wussten vorher, was die Studie zeigen sollte, und wollten es den Forschern recht machen.",
+      "worte": [
+       "wussten",
+       "ziel",
+       "erwart",
+       "recht machen",
+       "helfen",
+       "gefallen",
+       "studie zeigen",
+       "vorher erfahren"
+      ]
+     },
+     {
+      "text": "Zimbardo war nicht neutral: Er spielte selbst den Gefängnischef und war Teil des Spiels.",
+      "worte": [
+       "zimbardo",
+       "chef",
+       "superintendent",
+       "mitgespielt",
+       "neutral",
+       "selbst",
+       "leiter",
+       "rolle"
+      ]
+     }
+    ]
+   },
+   "pruef": [
+    {
+     "satz": "Geplant waren bis zu zwei Wochen, abgebrochen wurde nach sechs Tagen.",
+     "falsch": false
+    },
+    {
+     "satz": "Zimbardo beobachtete nur von außen und griff nie ins Geschehen ein.",
+     "falsch": true,
+     "korrektur": "Er spielte selbst den Gefängnischef („Superintendent“)."
+    },
+    {
+     "satz": "2002 gab es mit der BBC eine ähnliche Gefängnisstudie ohne Vorgaben für die Wärter.",
+     "falsch": false
+    }
+   ],
+   "malia": {
+    "frage": "Warum waren die Wärter denn so gemein, wenn das ganz normale Studenten waren? 😠",
+    "punkte": [
+     {
+      "name": "die Forscher haben sie dazu gedrängt",
+      "worte": [
+       "forscher",
+       "gedrängt",
+       "gesagt",
+       "anweis",
+       "vorgaben",
+       "tough",
+       "hart sein",
+       "befohlen"
+      ],
+      "nachfrage": "Aber wer hat denen denn gesagt, dass sie streng sein sollen?"
+     },
+     {
+      "name": "sie wussten, was rauskommen sollte",
+      "worte": [
+       "wussten",
+       "ziel",
+       "erwart",
+       "recht machen",
+       "helfen",
+       "gefallen",
+       "rauskommen"
+      ],
+      "nachfrage": "Wussten die Wärter eigentlich, worum es bei dem Versuch ging?"
+     },
+     {
+      "name": "der Chef war selbst der Forscher",
+      "worte": [
+       "zimbardo",
+       "chef",
+       "superintendent",
+       "mitgespielt",
+       "selbst",
+       "leiter",
+       "direktor"
+      ],
+      "nachfrage": "Und was hat Zimbardo die ganze Zeit gemacht?"
+     }
+    ],
+    "allesDrin": "Dann ist das ja eher ein Theaterstück als ein Experiment, oder?",
+    "verstanden": "Okay: Die waren nicht von selbst gemein, die hatten Regie. 😄",
+    "halb": "Hm, so halb. Frag mich morgen noch mal. 🙂"
+   },
+   "abruf": {
+    "frage": "Nach wie vielen Tagen wurde das Stanford-Gefängnis-Experiment abgebrochen?",
+    "chips": [
+     "Nach 2 Tagen",
+     "Nach 6 Tagen",
+     "Nach 10 Tagen",
+     "Nach 14 Tagen"
+    ],
+    "richtig": "Nach 6 Tagen"
+   },
+   "bilder": [
+    {
+     "ort": "aufloesung",
+     "nach": 2,
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/SPE1971-prisoners_meet_with_Zimbardo_as_superintendent.jpg",
+     "seite": "https://commons.wikimedia.org/wiki/File:SPE1971-prisoners_meet_with_Zimbardo_as_superintendent.jpg",
+     "text": "Gefangene treffen Zimbardo in seiner Rolle als Gefängnischef, 1971.",
+     "credit": "Philip Zimbardo (prisonexp.org) · CC BY-SA 4.0"
+    }
+   ],
+   "audio": null,
+   "quellen": [
+    {
+     "name": "Debunking the Stanford Prison Experiment – Thibault Le Texier, American Psychologist 74 (2019), 823–839",
+     "url": "https://doi.org/10.1037/amp0000401"
+    },
+    {
+     "name": "The Menace Within – Stanford Magazine (Juli/August 2011)",
+     "url": "https://stanfordmag.org/contents/the-menace-within"
+    },
+    {
+     "name": "At the center of „Veneer Theory“: Are people fundamentally good or evil? – NPR, Throughline, 31.01.2023 (Transkript mit Archivaufnahme von David Jaffe)",
+     "url": "https://www.npr.org/transcripts/1152739773"
+    },
+    {
+     "name": "Philip G. Zimbardo: Response to recent criticisms of the Stanford Prison Experiment (23.06.2018) – prisonexp.org",
+     "url": "https://www.prisonexp.org/s/Zimbardo2018-06-23.pdf"
+    }
+   ],
+   "id": "stanford-prison"
   }
  ]
 };
