@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<title>erstdenken ♪ Musik · Knack den Fall selbst</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+	<meta name="description" content="Knifflige Fälle rund um Musik, die du selbst knackst: Musikgeschichte, einfache Theorie, Songwriting, Studio und Musikbusiness. 5 Minuten pro Fall.">
+	<meta property="og:title" content="erstdenken ♪ Musik · Knack den Fall selbst">
+	<meta property="og:description" content="Für alle, die Musik machen: kurze Fälle aus Musikgeschichte, Theorie, Songwriting, Studio und Musikbusiness, die du selbst löst. 5 Minuten, kein Vorwissen nötig.">
+	<meta property="og:type" content="website">
+	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+	<link rel="stylesheet" href="../style.css?v=abb86bc2">
+	<script>
+		// Hell/Dunkel vor dem ersten Zeichnen setzen, damit nichts flackert
+		try { const t = localStorage.getItem('erstdenken.theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
+	</script>
+</head>
+<body>
+
+<header class="topbar">
+	<div class="topbar__label" id="label">erstdenken ♪</div>
+	<div class="topbar__actions">
+		<button class="round-btn" id="helpBtn" aria-label="So funktioniert’s">?</button>
+		<button class="round-btn" id="daysBtn" aria-label="Meine Fälle">Fälle</button>
+		<button class="round-btn" id="themeBtn" aria-label="Hell oder dunkel">☾</button>
+	</div>
+</header>
+
+<main class="container">
+	<div class="chat" id="chat"></div>
+</main>
+
+<button class="new-pill" id="newPill" type="button">↓ Neue Nachricht</button>
+
+<div class="dock"><div class="dock__inner" id="dock"></div></div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Bild groß">
+	<button class="lightbox__close" type="button" aria-label="Schließen">✕</button>
+	<p></p>
+</div>
+
+<section class="sheet" id="sheet" aria-label="Alle Tage">
+	<div class="sheet__inner" id="sheetInner"></div>
+</section>
+
+<script src="../daten/musik.js?v=abb86bc2"></script>
+<script src="../app.js?v=abb86bc2"></script>
+</body>
+</html>

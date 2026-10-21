@@ -6,7 +6,13 @@ const FAELLE = window.ERSTDENKEN.faelle;
 const karteVon = id => FAELLE.find(k => k.id === id);
 const params = new URLSearchParams(location.search);
 const TEST = params.has('test');             // ?test → eigener Spielstand zum Ausprobieren
-const KEY = TEST ? 'erstdenken.test.v2' : 'erstdenken.v2';
+// Themen-Ausgaben (seit 22.10.2026: /musik) nutzen dieselbe Logik mit eigenen Fällen und eigenem Spielstand
+const MUSIK = window.ERSTDENKEN.thema === 'musik';
+const KEY = MUSIK ? (TEST ? 'erstdenken.musik.test.v2' : 'erstdenken.musik.v2') : (TEST ? 'erstdenken.test.v2' : 'erstdenken.v2');
+const NAME = MUSIK ? 'erstdenken ♪' : 'erstdenken';
+const THEMEN = MUSIK
+	? 'rund um Musik: Geschichte, einfache Theorie, Songwriting, Studio und Musikbusiness'
+	: 'aus Geschichte, Alltag, Wissenschaft oder Philosophie';
 
 const chat = document.getElementById('chat');
 const dock = document.getElementById('dock');
@@ -20,6 +26,7 @@ function load() {
 	try {
 		const s = JSON.parse(localStorage.getItem(KEY));
 		if (s) return s;
+		if (MUSIK) return leer();
 		return uebernehmeAlt(JSON.parse(localStorage.getItem(TEST ? 'erstdenken.test.v1' : 'erstdenken.v1')));
 	} catch { return leer(); }
 }
@@ -60,7 +67,7 @@ function gesamtPunkte() {
 	return gespielteListe().reduce((s, r) => s + (r.punkte || 0) + (r.abrufe || []).filter(a => a.richtig).length, 0)
 		+ state.fehlerjagden.reduce((s, f) => s + (f.gefunden || 0), 0);
 }
-function zeigePunkte() { label.textContent = `erstdenken · ${gesamtPunkte()} Punkte`; }
+function zeigePunkte() { label.textContent = `${NAME} · ${gesamtPunkte()} Punkte`; }
 const offeneFaelle = () => FAELLE.filter(k => !state.gespielt[k.id]);
 const zufallsFall = () => { const o = offeneFaelle(); return o.length ? o[Math.floor(Math.random() * o.length)] : null; };
 
@@ -310,7 +317,7 @@ async function ton(a) {
 	const fill = f.querySelector('.audio-msg__bar span');
 	const time = f.querySelector('.audio-msg__time');
 	time.textContent = a.laenge || '';
-	f.querySelector('.audio-msg__text').textContent = '🔊 Original-Ton: ' + a.text;
+	f.querySelector('.audio-msg__text').textContent = `🔊 ${a.art || 'Original-Ton'}: ${a.text}`;
 	const link = f.querySelector('.credit a');
 	link.href = a.seite || a.src;
 	link.textContent = a.credit;
@@ -339,9 +346,9 @@ async function ton(a) {
 async function intro() {
 	await say('Hallo! 👋 Kurz erklärt, worum es hier geht:');
 	await say('KI beantwortet uns heute fast jede Frage. Praktisch. Aber wer nur noch fragt, verlernt das Selbst-Denken.');
-	await say('Hier ist es umgekehrt: Ich gebe dir einen kniffligen Fall aus Geschichte, Alltag, Wissenschaft oder Philosophie. Und du knackst ihn selbst.');
+	await say(`Hier ist es umgekehrt: Ich gebe dir einen kniffligen Fall ${THEMEN}. Und du knackst ihn selbst.`);
 	await say('Das Schöne daran: Was man selbst herausfindet, vergisst man kaum. Genau dafür ist jeder Schritt hier gebaut.');
-	await say('Ein Fall dauert etwa 5 Minuten. Du brauchst kein Vorwissen.');
+	await say(MUSIK ? 'Ein Fall dauert etwa 5 Minuten. Du brauchst kein Vorwissen. Wenn du selbst Musik machst, wirst du aber einiges wiedererkennen. 🎸' : 'Ein Fall dauert etwa 5 Minuten. Du brauchst kein Vorwissen.');
 	let w = await choose(['Los geht’s', 'Wie läuft ein Fall ab?'], { quiet: ['Wie läuft ein Fall ab?'] });
 	if (w !== 'Los geht’s') {
 		await say('So läuft ein Fall ab:');
@@ -570,7 +577,7 @@ async function spieleFehlerjagd(karten) {
 // ---------- Ergebnis und Teilen ----------
 function shareText(r) {
 	const link = TEST ? '' : '\n' + location.origin + location.pathname;
-	return ['erstdenken · Fall gelöst',
+	return [`${NAME} · Fall gelöst`,
 		`Hinweise ${'●'.repeat(r.hinweise)}${'○'.repeat(3 - r.hinweise)}`,
 		`${r.richtig ? '✓ richtig' : '✗ daneben'} · ${r.sicherheit} % sicher`,
 		`${r.fehlerGefunden ? '✓' : '✗'} KI-Fehler`,
@@ -620,10 +627,11 @@ function statistik() {
 	};
 }
 const HILFE = `<h2>So funktioniert’s</h2>
-<p><b>Worum geht’s?</b> KI nimmt uns viel Denken ab. Hier trainierst du es wieder: Du knackst kurze Fälle aus Geschichte, Alltag, Wissenschaft und Philosophie selbst, statt dir die Antwort sagen zu lassen.</p>
+<p><b>Worum geht’s?</b> KI nimmt uns viel Denken ab. Hier trainierst du es wieder: Du knackst kurze Fälle ${MUSIK ? 'rund um Musik (Geschichte, einfache Theorie, Songwriting, Studio, Musikbusiness)' : 'aus Geschichte, Alltag, Wissenschaft und Philosophie'} selbst, statt dir die Antwort sagen zu lassen.</p>
 <p><b>Warum bleibt das hängen?</b> Erst raten, dann die Auflösung; selbst begründen; es jemandem erklären; Tage später noch einmal erinnern. Das sind die Dinge, die laut Lernforschung am besten wirken. Jeder Fall nutzt sie alle.</p>
 <p><b>Punkte:</b> Lösung ohne Hinweis 3, mit jedem Hinweis einer weniger. Je 1 Punkt fürs Warum, für den gefundenen KI-Fehler und wenn Malia es verstanden hat. Spätere Erinnerungsfragen und Fehlerjagden bringen Extrapunkte.</p>
-<p><b>Dein Spielstand</b> bleibt auf diesem Gerät. Es gibt kein Konto und keine Werbung.</p>`;
+<p><b>Dein Spielstand</b> bleibt auf diesem Gerät. Es gibt kein Konto und keine Werbung.</p>`
+	+ (MUSIK ? '<p><b>Mehr Fälle:</b> Neben Musik gibt es Fälle aus Geschichte, Alltag, Wissenschaft und Philosophie: <a href="../">erstdenken</a>. Dort zählt ein eigener Spielstand.</p>' : '');
 function openSheet(nurHilfe = false) {
 	let html = '';
 	if (!nurHilfe) {
