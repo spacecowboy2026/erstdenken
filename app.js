@@ -109,9 +109,18 @@ const unterKante = () => {
 };
 const dockBox = dock.parentElement;
 const sichtbarBis = () => window.innerHeight - (dock.offsetHeight + 34);
-// Antwort-Knöpfe erscheinen nur, wenn die neueste Nachricht zu sehen ist
+// Antwort-Knöpfe erscheinen nur, wenn die neueste Nachricht zu sehen ist.
+// Der Freiraum unter dem Chat wächst mit der Knopf-Leiste, sonst kann man bei vielen
+// Knöpfen auf schmalen Handys nie weit genug scrollen (Fehler vom 22.10.2026).
+const container = chat.parentElement;
+function platzUnten() {
+	const noetig = Math.max(260, dock.offsetHeight + 90);
+	if (container.style.paddingBottom !== noetig + 'px') container.style.paddingBottom = noetig + 'px';
+}
+const ganzUnten = () => window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 8;
 function scrollDown() {
-	const unten = unterKante() <= sichtbarBis() + 6;
+	platzUnten();
+	const unten = unterKante() <= sichtbarBis() + 6 || ganzUnten();
 	dockBox.classList.toggle('versteckt', !unten);
 	pill.textContent = dock.children.length ? '↓ Antworten' : '↓ Neue Nachricht';
 	pill.classList.toggle('show', !unten);
@@ -120,6 +129,7 @@ function zumEnde() { window.scrollBy({ top: unterKante() - sichtbarBis() + 12, b
 pill.onclick = zumEnde;
 window.addEventListener('scroll', scrollDown, { passive: true });
 window.addEventListener('resize', scrollDown);
+if (window.ResizeObserver) new ResizeObserver(scrollDown).observe(dock);
 function reveal(el) { void el.offsetWidth; el.classList.add('visible'); }
 function avatar(who) {
 	const p = people[who];
